@@ -12,6 +12,10 @@
     <!-- endbuild -->
     <!-- build:css(.tmp) styles/main.css -->
     <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/home.css">
+    <link rel="stylesheet" href="styles/project.css">
     <!-- endbuild -->
   </head>
   <body ng-app="angularSiteApp">
@@ -20,42 +24,59 @@
     <![endif]-->
 
     <!-- Add your site or application content here -->
-    <div class="header">
-      <div class="navbar navbar-default" role="navigation">
+    <header>
+      <div class="container">
+        <div class="logo">
+          <img src="img/mh.png" alt="Logo" />
+        </div>
+        <div class="burger">
+          <span></span>
+          <span></span>
+        </div>
+        <div class="nav">
+          <ul>
+            <li><a href="#/" class="active">Home</a></li>
+            <li><a href="#/about">About</a></li>
+            <li><a href="#/work">Work</a></li>
+            <li><a href="#/contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <div ng-view="" autoscroll="true"></div>
+
+
+    <footer>
+      <div class="footer-one">
         <div class="container">
-          <div class="navbar-header">
-
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#js-navbar-collapse">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-
-            <a class="navbar-brand" href="#/">angularSite</a>
-          </div>
-
-          <div class="collapse navbar-collapse" id="js-navbar-collapse">
-
-            <ul class="nav navbar-nav">
-              <li class="active"><a href="#/">Home</a></li>
-              <li><a ng-href="#/about">About</a></li>
-              <li><a ng-href="#/">Contact</a></li>
-            </ul>
+          <div class="row">
+            <div class="col-md-6">
+              <h5>Max Humberstone Design</h5>
+              <p>London, UK</p>
+              <a href="mailto:maxhumberstonedesigns@gmail.com" class="email">maxhumberstonedesigns@gmail.com</a>
+            </div>
+            <div class="col-md-6">
+              <div class="links right">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Work</a>
+                <a href="#">Contact</a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-
-    <div class="container">
-    <div ng-view=""></div>
-    </div>
-
-    <div class="footer">
-      <div class="container">
-        <p><span class="glyphicon glyphicon-heart"></span> from the Yeoman team</p>
+      <div class="footer-two">
+        <div class="container">
+          <div class="row">
+            <div class="copywright col-xs-12">
+              <p>©2016, Max Humberstone Design. All Rights Reserved</p>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
+    </footer>
 
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
@@ -85,8 +106,11 @@
 
         <!-- build:js({.tmp,app}) scripts/scripts.js -->
         <script src="scripts/app.js"></script>
+        <script src="scripts/script.js"></script>
+        <script src="scripts/services.js"></script>
         <script src="scripts/controllers/main.js"></script>
         <script src="scripts/controllers/about.js"></script>
+        <script src="scripts/controllers/project.js"></script>
         <!-- endbuild -->
 </body>
 </html>

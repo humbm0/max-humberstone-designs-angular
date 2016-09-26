@@ -8,10 +8,10 @@
  * Controller of the angularSiteApp
  */
 angular.module('angularSiteApp')
-  .controller('MainCtrl', function () {
-    this.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
+  .controller('MainCtrl', function ($scope, Projects) {
+
+    Projects.all().then(function(data){
+      $scope.projects = data.data.projects
+    });
+
   });

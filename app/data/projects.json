@@ -1,0 +1,388 @@
+{
+  "projects": [
+    {
+      "handle": "o2-connect",
+      "title": "O2 Connect",
+      "featured": true,
+      "hero":
+        {
+          "src": "o2-connect/hero-project1.jpg",
+          "alt": "o2-connect hero image"
+        },
+      "heading": "O2 Connect Headline that Summarises the Project  and How it Benefits the Client",
+      "subheading": "Subtitle that describes the project more specifically",
+      "client": "O2",
+      "challenge": "One or two concise sentences describing the major challenges of the project.",
+      "outcome": "One or two concise sentense decribing what we delivered. Use language that suggests quality, not just a list of design items.",
+      "image1":
+        {
+          "src": "o2-connect/severn-trent1.png",
+          "alt": "app home page"
+        },
+      "approach": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at. Vestibulum tincidunt quis neque vitae tempor. Praesent in nunc a urna venenatis placerat. Nullam fringilla tellus odio. Pellentesque at libero facilisis, blandit ex bibendum, pharetra purus. Sed quis mi a diam sollicitudin aliquet a vel velit. Integer eget eleifend quam. Aliquam sodales ligula dui, imperdiet vestibulum orci euismod ut.",
+      "image2":
+        {
+          "src": "o2-connect/severn-trent1.png",
+          "alt": "app home page"
+        },
+      "image3":
+        {
+          "src": "o2-connect/severn-trent1.png",
+          "alt": "app home page"
+        },
+      "section2":
+        {
+          "title": "Section title",
+          "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at. Vestibulum tincidunt quis neque vitae tempor. Praesent in nunc a urna venenatis placerat. Nullam fringilla tellus odio. Pellentesque at libero facilisis, blandit ex bibendum, pharetra purus. Sed quis mi a diam sollicitudin aliquet a vel velit. Integer eget eleifend quam. Aliquam sodales ligula dui, imperdiet vestibulum orci euismod ut."
+        },
+      "grid_images":[
+        {
+          "image1":
+            {
+              "src": "",
+              "alt": "",
+              "description": ""
+            },
+          "image2":
+            {
+              "src": "",
+              "alt": "",
+              "description": ""
+            },
+          "quote":
+            {
+              "src": "",
+              "alt": "",
+              "description": ""
+            },
+          "image3":
+            {
+              "src": "",
+              "alt": "",
+              "description": ""
+            }
+        }
+      ]
+    },
+    {
+      "handle": "svern-trent-water",
+      "title": "Severn Trent Water",
+      "featured": true,
+      "hero":
+        {
+          "src": "o2-connect/hero-project1.jpg",
+          "alt": "o2-connect hero image"
+        },
+      "heading": "Severn Trent Water Headline that Summarises the Project  and How it Benefits the Client",
+      "subheading": "Subtitle that describes the project more specifically",
+      "client": "Severn Trent Water",
+      "challenge": "One or two concise sentences describing the major challenges of the project.",
+      "outcome": "One or two concise sentense decribing what we delivered. Use language that suggests quality, not just a list of design items.",
+      "image1":
+        {
+          "src": "o2-connect/severn-trent1.png",
+          "alt": "app home page"
+        },
+      "approach": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at. Vestibulum tincidunt quis neque vitae tempor. Praesent in nunc a urna venenatis placerat. Nullam fringilla tellus odio. Pellentesque at libero facilisis, blandit ex bibendum, pharetra purus. Sed quis mi a diam sollicitudin aliquet a vel velit. Integer eget eleifend quam. Aliquam sodales ligula dui, imperdiet vestibulum orci euismod ut.",
+      "image2":
+        {
+          "src": "o2-connect/severn-trent1.png",
+          "alt": "app home page"
+        },
+      "image3":
+        {
+          "src": "o2-connect/severn-trent1.png",
+          "alt": "app home page"
+        },
+      "section2":
+        {
+          "title": "Section title",
+          "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at. Vestibulum tincidunt quis neque vitae tempor. Praesent in nunc a urna venenatis placerat. Nullam fringilla tellus odio. Pellentesque at libero facilisis, blandit ex bibendum, pharetra purus. Sed quis mi a diam sollicitudin aliquet a vel velit. Integer eget eleifend quam. Aliquam sodales ligula dui, imperdiet vestibulum orci euismod ut."
+        },
+      "grid_images":[
+        {
+          "image1":
+            {
+              "src": "",
+              "alt": "",
+              "description": ""
+            },
+          "image2":
+            {
+              "src": "",
+              "alt": "",
+              "description": ""
+            },
+          "quote":
+            {
+              "src": "",
+              "alt": "",
+              "description": ""
+            },
+          "image3":
+            {
+              "src": "",
+              "alt": "",
+              "description": ""
+            }
+        }
+      ]
+    },
+    {
+      "handle": "e-track",
+      "title": "E Track",
+      "featured": false,
+      "hero":
+        {
+          "src": "o2-connect/hero-project1.jpg",
+          "alt": "o2-connect hero image"
+        },
+      "heading": " E Track Headline that Summarises the Project  and How it Benefits the Client",
+      "subheading": "Subtitle that describes the project more specifically",
+      "client": "British Airways",
+      "challenge": "One or two concise sentences describing the major challenges of the project.",
+      "outcome": "One or two concise sentense decribing what we delivered. Use language that suggests quality, not just a list of design items.",
+      "image1":
+        {
+          "src": "o2-connect/severn-trent1.png",
+          "alt": "app home page"
+        },
+      "approach": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at. Vestibulum tincidunt quis neque vitae tempor. Praesent in nunc a urna venenatis placerat. Nullam fringilla tellus odio. Pellentesque at libero facilisis, blandit ex bibendum, pharetra purus. Sed quis mi a diam sollicitudin aliquet a vel velit. Integer eget eleifend quam. Aliquam sodales ligula dui, imperdiet vestibulum orci euismod ut.",
+      "image2":
+        {
+          "src": "o2-connect/severn-trent1.png",
+          "alt": "app home page"
+        },
+      "image3":
+        {
+          "src": "o2-connect/severn-trent1.png",
+          "alt": "app home page"
+        },
+      "section2":
+        {
+          "title": "Section title",
+          "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at. Vestibulum tincidunt quis neque vitae tempor. Praesent in nunc a urna venenatis placerat. Nullam fringilla tellus odio. Pellentesque at libero facilisis, blandit ex bibendum, pharetra purus. Sed quis mi a diam sollicitudin aliquet a vel velit. Integer eget eleifend quam. Aliquam sodales ligula dui, imperdiet vestibulum orci euismod ut."
+        },
+      "grid_images":[
+        {
+          "image1":
+            {
+              "src": "",
+              "alt": "",
+              "description": ""
+            },
+          "image2":
+            {
+              "src": "",
+              "alt": "",
+              "description": ""
+            },
+          "quote":
+            {
+              "src": "",
+              "alt": "",
+              "description": ""
+            },
+          "image3":
+            {
+              "src": "",
+              "alt": "",
+              "description": ""
+            }
+        }
+      ]
+    },
+    {
+      "handle": "humberstones-jewellers",
+      "title": "Humberstones Jewellers",
+      "featured": false,
+      "hero":
+        {
+          "src": "o2-connect/hero-project1.jpg",
+          "alt": "o2-connect hero image"
+        },
+      "heading": "Humberstones Jewellers Headline that Summarises the Project  and How it Benefits the Client",
+      "subheading": "Subtitle that describes the project more specifically",
+      "client": "Humberstones Jewellers",
+      "challenge": "One or two concise sentences describing the major challenges of the project.",
+      "outcome": "One or two concise sentense decribing what we delivered. Use language that suggests quality, not just a list of design items.",
+      "image1":
+        {
+          "src": "o2-connect/severn-trent1.png",
+          "alt": "app home page"
+        },
+      "approach": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at. Vestibulum tincidunt quis neque vitae tempor. Praesent in nunc a urna venenatis placerat. Nullam fringilla tellus odio. Pellentesque at libero facilisis, blandit ex bibendum, pharetra purus. Sed quis mi a diam sollicitudin aliquet a vel velit. Integer eget eleifend quam. Aliquam sodales ligula dui, imperdiet vestibulum orci euismod ut.",
+      "image2":
+        {
+          "src": "o2-connect/severn-trent1.png",
+          "alt": "app home page"
+        },
+      "image3":
+        {
+          "src": "o2-connect/severn-trent1.png",
+          "alt": "app home page"
+        },
+      "section2":
+        {
+          "title": "Section title",
+          "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at. Vestibulum tincidunt quis neque vitae tempor. Praesent in nunc a urna venenatis placerat. Nullam fringilla tellus odio. Pellentesque at libero facilisis, blandit ex bibendum, pharetra purus. Sed quis mi a diam sollicitudin aliquet a vel velit. Integer eget eleifend quam. Aliquam sodales ligula dui, imperdiet vestibulum orci euismod ut."
+        },
+      "grid_images":[
+        {
+          "image1":
+            {
+              "src": "",
+              "alt": "",
+              "description": ""
+            },
+          "image2":
+            {
+              "src": "",
+              "alt": "",
+              "description": ""
+            },
+          "quote":
+            {
+              "src": "",
+              "alt": "",
+              "description": ""
+            },
+          "image3":
+            {
+              "src": "",
+              "alt": "",
+              "description": ""
+            }
+        }
+      ]
+    },
+    {
+      "handle": "yak",
+      "title": "Yak",
+      "featured": false,
+      "hero":
+        {
+          "src": "o2-connect/hero-project1.jpg",
+          "alt": "o2-connect hero image"
+        },
+      "heading": "Yak Headline that Summarises the Project  and How it Benefits the Client",
+      "subheading": "Subtitle that describes the project more specifically",
+      "client": "University Brief",
+      "challenge": "One or two concise sentences describing the major challenges of the project.",
+      "outcome": "One or two concise sentense decribing what we delivered. Use language that suggests quality, not just a list of design items.",
+      "image1":
+        {
+          "src": "o2-connect/severn-trent1.png",
+          "alt": "app home page"
+        },
+      "approach": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at. Vestibulum tincidunt quis neque vitae tempor. Praesent in nunc a urna venenatis placerat. Nullam fringilla tellus odio. Pellentesque at libero facilisis, blandit ex bibendum, pharetra purus. Sed quis mi a diam sollicitudin aliquet a vel velit. Integer eget eleifend quam. Aliquam sodales ligula dui, imperdiet vestibulum orci euismod ut.",
+      "image2":
+        {
+          "src": "o2-connect/severn-trent1.png",
+          "alt": "app home page"
+        },
+      "image3":
+        {
+          "src": "o2-connect/severn-trent1.png",
+          "alt": "app home page"
+        },
+      "section2":
+        {
+          "title": "Section title",
+          "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at. Vestibulum tincidunt quis neque vitae tempor. Praesent in nunc a urna venenatis placerat. Nullam fringilla tellus odio. Pellentesque at libero facilisis, blandit ex bibendum, pharetra purus. Sed quis mi a diam sollicitudin aliquet a vel velit. Integer eget eleifend quam. Aliquam sodales ligula dui, imperdiet vestibulum orci euismod ut."
+        },
+      "grid_images":[
+        {
+          "image1":
+            {
+              "src": "",
+              "alt": "",
+              "description": ""
+            },
+          "image2":
+            {
+              "src": "",
+              "alt": "",
+              "description": ""
+            },
+          "quote":
+            {
+              "src": "",
+              "alt": "",
+              "description": ""
+            },
+          "image3":
+            {
+              "src": "",
+              "alt": "",
+              "description": ""
+            }
+        }
+      ]
+    },
+    {
+      "handle": "feals",
+      "title": "Feals",
+      "featured": false,
+      "hero":
+        {
+          "src": "o2-connect/hero-project1.jpg",
+          "alt": "o2-connect hero image"
+        },
+      "heading": "Feals Headline that Summarises the Project  and How it Benefits the Client",
+      "subheading": "Subtitle that describes the project more specifically",
+      "client": "Global Design Jam Competition",
+      "challenge": "One or two concise sentences describing the major challenges of the project.",
+      "outcome": "One or two concise sentense decribing what we delivered. Use language that suggests quality, not just a list of design items.",
+      "image1":
+        {
+          "src": "o2-connect/severn-trent1.png",
+          "alt": "app home page"
+        },
+      "approach": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at. Vestibulum tincidunt quis neque vitae tempor. Praesent in nunc a urna venenatis placerat. Nullam fringilla tellus odio. Pellentesque at libero facilisis, blandit ex bibendum, pharetra purus. Sed quis mi a diam sollicitudin aliquet a vel velit. Integer eget eleifend quam. Aliquam sodales ligula dui, imperdiet vestibulum orci euismod ut.",
+      "image2":
+        {
+          "src": "o2-connect/severn-trent1.png",
+          "alt": "app home page"
+        },
+      "image3":
+        {
+          "src": "o2-connect/severn-trent1.png",
+          "alt": "app home page"
+        },
+      "section2":
+        {
+          "title": "Section title",
+          "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at. Vestibulum tincidunt quis neque vitae tempor. Praesent in nunc a urna venenatis placerat. Nullam fringilla tellus odio. Pellentesque at libero facilisis, blandit ex bibendum, pharetra purus. Sed quis mi a diam sollicitudin aliquet a vel velit. Integer eget eleifend quam. Aliquam sodales ligula dui, imperdiet vestibulum orci euismod ut."
+        },
+      "grid_images":[
+        {
+          "image1":
+            {
+              "src": "",
+              "alt": "",
+              "description": ""
+            },
+          "image2":
+            {
+              "src": "",
+              "alt": "",
+              "description": ""
+            },
+          "quote":
+            {
+              "src": "",
+              "alt": "",
+              "description": ""
+            },
+          "image3":
+            {
+              "src": "",
+              "alt": "",
+              "description": ""
+            }
+        }
+      ]
+    }
+  ]
+}
