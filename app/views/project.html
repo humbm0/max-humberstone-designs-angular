@@ -1,4 +1,4 @@
-<div class="full-width-header parallax" style="background-image: url('../img/{{ project.hero.src }}')">
+<div class="full-width-header parallax {{ project.textColour }}"  style="background-image: url('../img/{{ project.hero.src }}')">
   <div class="container">
     <div class="row">
       <div class="col-md-10">
@@ -11,7 +11,7 @@
         <div class="col-md-4">
           <h4>Client</h4>
           <p>{{ project.client }}</p>
-          <a href="#">Visit site</a>
+          <a ng-if="project.link" href="#">Visit site</a>
         </div>
         <div class="col-md-4">
           <h4>Challenge</h4>
@@ -27,76 +27,119 @@
 </div>
 
 
-<div class="full-width-bg light-grey-bg">
-  <div class="one-col-img">
+<div class="page-content">
+
+  <div class="container mobile-three-row">
+    <div class="row">
+      <div class="three-col-row">
+        <div class="col-md-4">
+          <h4>Client</h4>
+          <p>{{ project.client }}</p>
+          <a ng-if="project.link" href="#">Visit site</a>
+        </div>
+        <div class="col-md-4">
+          <h4>Challenge</h4>
+          <p>{{ project.challenge }}</p>
+        </div>
+        <div class="col-md-4">
+          <h4>Outcome</h4>
+          <p>{{ project.outcome }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div ng-if="project.section1" class="two-col-title-text">
     <div class="container">
       <div class="row">
-        <img src="../img/{{ project.image1.src }}" alt="{{ project.image1.alt }}" />
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="two-col-title-text">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-3 col-md-offset-1">
-        <h3>The Approach</h3>
-      </div>
-      <div class="col-md-7">
-        <p>{{ project.approach }}</p>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="two-col-img">
-  <div class="row">
-    <div class="col-sm-6 tile">
-      <img src="../img/{{ project.image2.src }}" alt="{{ project.image2.alt }}" />
-    </div>
-    <div class="col-sm-6 tile">
-      <img src="../img/{{ project.image3.src }}" alt="{{ project.image3.alt }}" />
-    </div>
-  </div>
-</div>
-
-<div class="two-col-title-text">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-3 col-md-offset-1">
-        <h3>{{ project.section2.title }}</h3>
-      </div>
-      <div class="col-md-7">
-        <p>{{ project.section2.content }}</p>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="masonary-grid">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-6">
-        <div class="tile" style="height: 545px;">
-
+        <div class="col-md-3 col-md-offset-1">
+          <h3>{{ project.section1.title}}</h3>
         </div>
-      </div>
-      <div class="col-md-6">
-        <div class="tile" style="height: 402px;">
-
+        <div class="col-md-7">
+          <p>{{ project.section1.content }}</p>
         </div>
       </div>
     </div>
-    <div class="col-md-6">
-      <div class="quote" style="height: 310px;">
+  </div>
 
-      </div>
-    </div>
-    <div class="col-md-6">
-      <div class="tile" style="height: 435px;">
 
+  <div ng-if="project.image1" class="full-width-bg light-grey-bg">
+    <div class="one-col-img">
+      <div class="container">
+        <div class="row">
+          <img src="../img/{{ project.image1.src }}" alt="{{ project.image1.alt }}" />
+        </div>
       </div>
     </div>
   </div>
-</div>
+
+  <div ng-if="project.section2" class="two-col-title-text">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3 col-md-offset-1">
+          <h3>{{ project.section2.title }}</h3>
+        </div>
+        <div class="col-md-7">
+          <p>{{ project.section2.content }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="two-col-img">
+    <div class="row">
+      <div class="col-sm-6 tile">
+        <img src="../img/{{ project.image2.src }}" alt="{{ project.image2.alt }}" />
+      </div>
+      <div class="col-sm-6 tile">
+        <img src="../img/{{ project.image3.src }}" alt="{{ project.image3.alt }}" />
+      </div>
+    </div>
+  </div>
+
+  <div ng-if="project.section3" class="two-col-title-text">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3 col-md-offset-1">
+          <h3>{{ project.section3.title }}</h3>
+        </div>
+        <div class="col-md-7">
+          <p>{{ project.section3.content }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- <div class="masonary-grid">
+    <div class="container">
+      <div class="grid">
+        <div class="grid-item {{ image.size }}" ng-repeat="image in project.grid_images">
+          <div class="image {{ image.size }}">
+            <img src="../img/{{ image.src }}" alt="{{ image.alt }}" />
+          </div>
+          <p class="description">{{ image.description }}</p>
+        </div>
+      </div>
+    </div>
+  </div> -->
+  <div class="masonry-grid">
+    <div class="container">
+      <div masonry load-images="false">
+        <div class="masonry-brick {{ image.size }}" ng-repeat="image in project.grid_images">
+          <div class="image {{ image.size }}">
+            <img src="../img/{{ image.src }}" alt="{{ image.alt }}" />
+          </div>
+          <p class="description">{{ image.description }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+  <div ng-if="project.showcase" class="full-width-image">
+    <div ng-repeat="image in project.showcase" class="image" style="background-image: url('../img/{{ image.src }}')"></div>
+  </div>

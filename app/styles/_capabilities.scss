@@ -1,0 +1,56 @@
+.page-content2{
+  margin-top: 150px;
+}
+
+.orange-text{
+  color: $orange;
+}
+
+.hero2{
+  .image,
+  .col-md-7,
+  .col-md-5{
+    height: 650px;
+    padding: 0;
+  }
+  .col-md-5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  &.orange{
+    .text{
+      color: #fff !important;
+    }
+    .col-md-5{
+      background-color: $orange;
+    }
+    p{
+      color: #fff;
+    }
+  }
+  &.right .col-md-5{
+    float: right;
+  }
+  &.dark{
+    background-color: $offBlack;
+    color: #fff !important;
+  }
+  p{
+    color: #ABAEB4;
+  }
+  h2{
+    padding-bottom: 15px;
+    border-bottom: 1px solid #e1e1e1;
+    margin-bottom: 30px;
+    display: inline-block;
+  }
+}
+
+@media (max-width: $tablet-size) {
+  .hero2{
+    &.right .col-md-5{
+      float: none;
+    }
+  }
+}

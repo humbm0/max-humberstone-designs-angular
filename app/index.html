@@ -12,10 +12,6 @@
     <!-- endbuild -->
     <!-- build:css(.tmp) styles/main.css -->
     <link rel="stylesheet" href="styles/main.css">
-    <link rel="stylesheet" href="styles/header.css">
-    <link rel="stylesheet" href="styles/footer.css">
-    <link rel="stylesheet" href="styles/home.css">
-    <link rel="stylesheet" href="styles/project.css">
     <!-- endbuild -->
   </head>
   <body ng-app="angularSiteApp">
@@ -36,15 +32,16 @@
         <div class="nav">
           <ul>
             <li><a href="#/" class="active">Home</a></li>
-            <li><a href="#/about">About</a></li>
+            <li><a href="#/capabilities">Capabilities</a></li>
             <li><a href="#/work">Work</a></li>
+            <li><a href="#/about">About</a></li>
             <li><a href="#/contact">Contact</a></li>
           </ul>
         </div>
       </div>
     </header>
 
-    <div ng-view="" autoscroll="true"></div>
+    <div ng-view=""  class="page"></div>
 
 
     <footer>
@@ -58,10 +55,11 @@
             </div>
             <div class="col-md-6">
               <div class="links right">
-                <a href="#">Home</a>
-                <a href="#">About</a>
-                <a href="#">Work</a>
-                <a href="#">Contact</a>
+                <a href="#/">Home</a>
+                <a href="#/about">About</a>
+                <a href="#/capabilities">Capabilities</a>
+                <a href="#/work">Work</a>
+                <a href="#/contact">Contact</a>
               </div>
             </div>
           </div>
@@ -90,10 +88,15 @@
        ga('send', 'pageview');
     </script>
 
+    <!-- <script src="bower_components/jquery/dist/jquery.min.js"></script> -->
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> -->
+    <!-- <script src="https://unpkg.com/scrollreveal@3.3.2/dist/scrollreveal.min.js"></script> -->
+
     <!-- build:js(.) scripts/vendor.js -->
     <!-- bower:js -->
     <script src="bower_components/jquery/dist/jquery.js"></script>
     <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/jquery-bridget/jquery-bridget.js"></script>
     <script src="bower_components/bootstrap-sass-official/assets/javascripts/bootstrap.js"></script>
     <script src="bower_components/angular-animate/angular-animate.js"></script>
     <script src="bower_components/angular-cookies/angular-cookies.js"></script>
@@ -101,16 +104,27 @@
     <script src="bower_components/angular-route/angular-route.js"></script>
     <script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
     <script src="bower_components/angular-touch/angular-touch.js"></script>
+    <script src="bower_components/get-size/get-size.js"></script>
+    <script src="bower_components/ev-emitter/ev-emitter.js"></script>
+    <script src="bower_components/desandro-matches-selector/matches-selector.js"></script>
+    <script src="bower_components/fizzy-ui-utils/utils.js"></script>
+    <script src="bower_components/outlayer/item.js"></script>
+    <script src="bower_components/outlayer/outlayer.js"></script>
+    <script src="bower_components/masonry/masonry.js"></script>
+    <script src="bower_components/imagesloaded/imagesloaded.js"></script>
+    <script src="bower_components/angular-masonry/angular-masonry.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
 
-        <!-- build:js({.tmp,app}) scripts/scripts.js -->
-        <script src="scripts/app.js"></script>
-        <script src="scripts/script.js"></script>
-        <script src="scripts/services.js"></script>
-        <script src="scripts/controllers/main.js"></script>
-        <script src="scripts/controllers/about.js"></script>
-        <script src="scripts/controllers/project.js"></script>
-        <!-- endbuild -->
+    <!-- build:js({.tmp,app}) scripts/scripts.js -->
+    <script src="scripts/app.js"></script>
+    <script src="scripts/services.js"></script>
+    <script src="scripts/controllers/main.js"></script>
+    <script src="scripts/controllers/about.js"></script>
+    <script src="scripts/controllers/project.js"></script>
+    <script src="scripts/script.js"></script>
+    <script src="scripts/controllers/capabilities.js"></script>
+    <script src="scripts/controllers/contact.js"></script>
+    <!-- endbuild -->
 </body>
 </html>

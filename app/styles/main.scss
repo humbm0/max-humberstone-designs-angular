@@ -5,15 +5,12 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/boots
 
 @import 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700';
 
-@import "home";
-@import "project";
-
-
-$font-family: 'Source Sans Pro', sans-serif;
-$text-color: #212121;
-$dark-grey: #4a4a4a;
-$primary-color: #4A90E2;
-
+@import "_variables";
+@import "_footer";
+@import "_home";
+@import "_project";
+@import "_header";
+@import "_capabilities";
 
 body{
   font-family: $font-family;
@@ -53,7 +50,7 @@ a{
   text-transform: uppercase;
   border-bottom: 2px solid #DBDBDB;
   cursor: pointer;
-  transition: all 0.4s ease;
+  transition: all 0.4s $cubic-bezier;
     &:hover{
     text-decoration: none;
     color: $primary-color;
@@ -69,6 +66,7 @@ img{
 }
 .black{
   font-weight: 600;
+  color: #fff;
 }
 .primary-btn{
   background: $text-color;
@@ -82,7 +80,7 @@ img{
   margin: auto;
   margin-top: 30px;
   margin-bottom: 40px;
-  transition: all 0.4s ease;
+  transition: all 0.4s $cubic-bezier;
   border: 2px solid $text-color;
   &:hover{
     background: #fff;
@@ -185,4 +183,93 @@ body {
   .jumbotron {
     border-bottom: 0;
   }
+}
+
+
+
+/* ANIMATIONS
+============================================================================= */
+
+/* entering animations --------------------------------------- */
+/* scale up */
+@keyframes scaleUp {
+	from 		{ opacity: 0.3; transform: scale(0.8); }
+}
+@-moz-keyframes scaleUp {
+	from 		{ opacity: 0.3; -moz-transform: scale(0.8); }
+}
+@-webkit-keyframes scaleUp {
+	from 		{ opacity: 0.3; -webkit-transform: scale(0.8); }
+}
+/* scale down */
+@keyframes scaleDown {
+	to 		{ opacity: 0.3; transform: scale(0.8); }
+}
+@-moz-keyframes scaleDown {
+	to 		{ opacity: 0.3; -moz-transform: scale(0.8); }
+}
+@-webkit-keyframes scaleDown {
+	to 		{ opacity: 0.3; -webkit-transform: scale(0.8); }
+}
+
+
+/* page specific animations ------------------------ */
+
+.page.ng-enter{
+  transition: all 0.5s $easing_in 1s;
+  opacity: 0;
+  transform: translateY(40px);
+}
+.page.ng-enter.ng-enter-active{
+  opacity: 1;
+  transform: translateY(0);
+}
+.page.ng-leave{
+  transition: all 0.5s $easing_out;
+  opacity: 1;
+  transform: translateY(0);
+}
+.page.ng-leave.ng-leave-active{
+  opacity: 0;
+  transform: translateY(40px);
+}
+
+/* home -------------------------- */
+.page-home.ng-enter{
+  transition: all 0.6s $easing_in;
+  opacity: 0;
+  transform: translateY(40px);
+}
+.page-home.ng-enter.ng-enter-active{
+  opacity: 1;
+  transform: translateY(0);
+}
+.page-home.ng-leave{
+  transition: all 0.6s $easing_out;
+  opacity: 1;
+  transform: translateY(0);
+}
+.page-home.ng-leave.ng-leave-active{
+  opacity: 0;
+  transform: translateY(40px);
+}
+
+/* about ------------------------ */
+.page-project.ng-enter{
+  transition: all 0.6s $easing_in;
+  opacity: 0;
+  transform: translateY(40px);
+}
+.page-project.ng-enter.ng-enter-active{
+  opacity: 1;
+  transform: translateY(0);
+}
+.page-project.ng-leave{
+  transition: all 0.6s $easing_out;
+  opacity: 1;
+  transform: translateY(0);
+}
+.page-project.ng-leave.ng-leave-active{
+  opacity: 0;
+  transform: translateY(40px);
 }

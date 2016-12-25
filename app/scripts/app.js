@@ -16,8 +16,15 @@ angular
     'ngRoute',
     'ngSanitize',
     'ngTouch',
-    'angularSiteApp.services'
+    'angularSiteApp.services',
+    'wu.masonry'
   ])
+  .run(function ($rootScope) {
+                $rootScope.$on('$locationChangeSuccess', function (event) {
+            jQuery("html, body").delay(700).animate({ scrollTop: 0 }, 80);
+        });
+
+  })
   .config(function ($routeProvider) {
     $routeProvider
       .when('/', {
@@ -34,6 +41,16 @@ angular
         templateUrl: 'views/project.html',
         controller: 'ProjectCtrl',
         controllerAs: 'project'
+      })
+      .when('/capabilities', {
+        templateUrl: 'views/capabilities.html',
+        controller: 'CapabilitiesCtrl',
+        controllerAs: 'capabilities'
+      })
+      .when('/contact', {
+        templateUrl: 'views/contact.html',
+        controller: 'ContactCtrl',
+        controllerAs: 'contact'
       })
       .otherwise({
         redirectTo: '/'
