@@ -2,7 +2,7 @@
   height: calc(80vh - 100px);
   width: 100%;
   margin-top: 100px;
-  background-image: url(../img/hero-6.jpg);
+  background-image: url(../images/hero-6.jpg);
   position: relative;
   z-index: -1;
   display: flex;
@@ -19,7 +19,7 @@
   .img{
     height: calc(100vh - 100px);
     overflow: hidden;
-    background-image: url(../img/hero-bw.jpg);
+    background-image: url(../images/hero-bw.jpg);
     background-size: cover;
     background-position: center;
   }

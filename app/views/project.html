@@ -1,4 +1,4 @@
-<div class="full-width-header parallax {{ project.textColour }}"  style="background-image: url('../img/{{ project.hero.src }}')">
+<div class="full-width-header parallax {{ project.textColour }}"  style="background-image: url('../images/{{ project.hero.src }}')">
   <div class="container">
     <div class="row">
       <div class="col-md-10">
@@ -67,7 +67,7 @@
     <div class="one-col-img">
       <div class="container">
         <div class="row">
-          <img src="../img/{{ project.image1.src }}" alt="{{ project.image1.alt }}" />
+          <img src="../images/{{ project.image1.src }}" alt="{{ project.image1.alt }}" />
         </div>
       </div>
     </div>
@@ -89,10 +89,10 @@
   <div class="two-col-img">
     <div class="row">
       <div class="col-sm-6 tile">
-        <img src="../img/{{ project.image2.src }}" alt="{{ project.image2.alt }}" />
+        <img src="../images/{{ project.image2.src }}" alt="{{ project.image2.alt }}" />
       </div>
       <div class="col-sm-6 tile">
-        <img src="../img/{{ project.image3.src }}" alt="{{ project.image3.alt }}" />
+        <img src="../images/{{ project.image3.src }}" alt="{{ project.image3.alt }}" />
       </div>
     </div>
   </div>
@@ -127,7 +127,7 @@
       <div masonry load-images="false">
         <div class="masonry-brick {{ image.size }}" ng-repeat="image in project.grid_images">
           <div class="image {{ image.size }}">
-            <img src="../img/{{ image.src }}" alt="{{ image.alt }}" />
+            <img src="../images/{{ image.src }}" alt="{{ image.alt }}" />
           </div>
           <p class="description">{{ image.description }}</p>
         </div>
@@ -141,5 +141,5 @@
 
 
   <div ng-if="project.showcase" class="full-width-image">
-    <div ng-repeat="image in project.showcase" class="image" style="background-image: url('../img/{{ image.src }}')"></div>
+    <div ng-repeat="image in project.showcase" class="image" style="background-image: url('../images/{{ image.src }}')"></div>
   </div>
