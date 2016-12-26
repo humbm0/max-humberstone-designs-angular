@@ -1,0 +1,820 @@
+{
+  "projects": [
+    {
+      "handle": "severn-trent",
+      "title": "Severn Trent Water",
+      "featured": true,
+      "hero":
+        {
+          "src": "severn-trent/thumb.jpg",
+          "alt": "severn trent hero image"
+        },
+      "textColour": "white",
+      "heading": "A new and improved experience to ambulatory oxygen therapy.",
+      "subheading": "Redesign of an oxygen concentrator for people who require ambulatory oxygen therapy.",
+      "client": "Severn Trent Water",
+      "challenge": "Encourage oxygen therapy patients to exercise and main an active lifestyle.",
+      "outcome": "A small, lightweight oxgen concenrator that monitors users oxygen saturation and regulates flow rate accordingly maintain a healthy bloody oxygen level.",
+      "section1":
+        {
+          "title": "The Problem",
+          "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at. Vestibulum tincidunt quis neque vitae tempor. Praesent in nunc a urna venenatis placerat. Nullam fringilla tellus odio. Pellentesque at libero facilisis, blandit ex bibendum, pharetra purus. Sed quis mi a diam sollicitudin aliquet a vel velit. Integer eget eleifend quam. Aliquam sodales ligula dui, imperdiet vestibulum orci euismod ut."
+        },
+      "section2":
+        {
+          "title": "The Approach",
+          "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at. Vestibulum tincidunt quis neque vitae tempor. Praesent in nunc a urna venenatis placerat. Nullam fringilla tellus odio. Pellentesque at libero facilisis, blandit ex bibendum, pharetra purus. Sed quis mi a diam sollicitudin aliquet a vel velit. Integer eget eleifend quam. Aliquam sodales ligula dui, imperdiet vestibulum orci euismod ut."
+        },
+      "approach": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at. Vestibulum tincidunt quis neque vitae tempor. Praesent in nunc a urna venenatis placerat. Nullam fringilla tellus odio. Pellentesque at libero facilisis, blandit ex bibendum, pharetra purus. Sed quis mi a diam sollicitudin aliquet a vel velit. Integer eget eleifend quam. Aliquam sodales ligula dui, imperdiet vestibulum orci euismod ut.",
+      "image2":
+        {
+          "src": "squair/interview.jpg",
+          "alt": "Interview with users"
+        },
+      "image3":
+        {
+          "src": "squair/interview2.jpg",
+          "alt": "Interview with users"
+        },
+      "section3":
+        {
+          "title": "Section title",
+          "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at. Vestibulum tincidunt quis neque vitae tempor. Praesent in nunc a urna venenatis placerat. Nullam fringilla tellus odio. Pellentesque at libero facilisis, blandit ex bibendum, pharetra purus. Sed quis mi a diam sollicitudin aliquet a vel velit. Integer eget eleifend quam. Aliquam sodales ligula dui, imperdiet vestibulum orci euismod ut."
+        },
+      "grid_images":[
+            {
+              "size": "small",
+              "src": "squair/sketch1.jpg",
+              "alt": "",
+              "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at."
+            },
+            {
+              "size": "large",
+              "src": "squair/sketch2.jpg",
+              "alt": "",
+              "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at."
+            },
+            {
+              "size": "small",
+              "src": "squair/sketch3.jpg",
+              "alt": "",
+              "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at."
+            },
+            {
+              "size": "medium",
+              "src": "squair/sketch1.jpg",
+              "alt": "",
+              "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at."
+            }
+          ],
+          "showcase":[
+              {
+                "src": "squair/cover.jpg",
+                "alt": ""
+              },
+              {
+                "src": "squair/cover2.jpg",
+                "alt": ""
+              },
+              {
+                "src": "squair/led_display.jpg",
+                "alt": ""
+              },
+              {
+                "src": "squair/batteries_stack.jpg",
+                "alt": ""
+              },
+              {
+                "src": "squair/batteries_charging.jpg",
+                "alt": ""
+              },
+              {
+                "src": "squair/warning.jpg",
+                "alt": ""
+              },
+              {
+                "src": "squair/wearable.jpg",
+                "alt": ""
+              },
+              {
+                "src": "squair/wearable2.jpg",
+                "alt": ""
+              }
+          ]
+    },
+    {
+      "handle": "squair",
+      "title": "SQUAIR",
+      "featured": true,
+      "hero":
+        {
+          "src": "squair/thumb.jpg",
+          "alt": "squair hero image"
+        },
+      "textColour": "dark",
+      "heading": "A new and improved experience to ambulatory oxygen therapy.",
+      "subheading": "Redesign of an oxygen concentrator for people who require ambulatory oxygen therapy.",
+      "client": "University Major Design Project",
+      "challenge": "Encourage oxygen therapy patients to exercise and main an active lifestyle.",
+      "outcome": "A small, lightweight oxgen concenrator that monitors users oxygen saturation and regulates flow rate accordingly maintain a healthy bloody oxygen level.",
+      "section1":
+        {
+          "title": "The Problem",
+          "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at. Vestibulum tincidunt quis neque vitae tempor. Praesent in nunc a urna venenatis placerat. Nullam fringilla tellus odio. Pellentesque at libero facilisis, blandit ex bibendum, pharetra purus. Sed quis mi a diam sollicitudin aliquet a vel velit. Integer eget eleifend quam. Aliquam sodales ligula dui, imperdiet vestibulum orci euismod ut."
+        },
+      "section2":
+        {
+          "title": "The Approach",
+          "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at. Vestibulum tincidunt quis neque vitae tempor. Praesent in nunc a urna venenatis placerat. Nullam fringilla tellus odio. Pellentesque at libero facilisis, blandit ex bibendum, pharetra purus. Sed quis mi a diam sollicitudin aliquet a vel velit. Integer eget eleifend quam. Aliquam sodales ligula dui, imperdiet vestibulum orci euismod ut."
+        },
+      "approach": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at. Vestibulum tincidunt quis neque vitae tempor. Praesent in nunc a urna venenatis placerat. Nullam fringilla tellus odio. Pellentesque at libero facilisis, blandit ex bibendum, pharetra purus. Sed quis mi a diam sollicitudin aliquet a vel velit. Integer eget eleifend quam. Aliquam sodales ligula dui, imperdiet vestibulum orci euismod ut.",
+      "image2":
+        {
+          "src": "squair/interview.jpg",
+          "alt": "Interview with users"
+        },
+      "image3":
+        {
+          "src": "squair/interview2.jpg",
+          "alt": "Interview with users"
+        },
+      "section3":
+        {
+          "title": "Section title",
+          "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at. Vestibulum tincidunt quis neque vitae tempor. Praesent in nunc a urna venenatis placerat. Nullam fringilla tellus odio. Pellentesque at libero facilisis, blandit ex bibendum, pharetra purus. Sed quis mi a diam sollicitudin aliquet a vel velit. Integer eget eleifend quam. Aliquam sodales ligula dui, imperdiet vestibulum orci euismod ut."
+        },
+      "grid_images":[
+            {
+              "size": "small",
+              "src": "squair/sketch1.jpg",
+              "alt": "",
+              "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at."
+            },
+            {
+              "size": "large",
+              "src": "squair/sketch2.jpg",
+              "alt": "",
+              "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at."
+            },
+            {
+              "size": "small",
+              "src": "squair/sketch3.jpg",
+              "alt": "",
+              "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at."
+            },
+            {
+              "size": "medium",
+              "src": "squair/sketch1.jpg",
+              "alt": "",
+              "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at."
+            }
+          ],
+          "showcase":[
+              {
+                "src": "squair/cover.jpg",
+                "alt": ""
+              },
+              {
+                "src": "squair/cover2.jpg",
+                "alt": ""
+              },
+              {
+                "src": "squair/led_display.jpg",
+                "alt": ""
+              },
+              {
+                "src": "squair/batteries_stack.jpg",
+                "alt": ""
+              },
+              {
+                "src": "squair/batteries_charging.jpg",
+                "alt": ""
+              },
+              {
+                "src": "squair/warning.jpg",
+                "alt": ""
+              },
+              {
+                "src": "squair/wearable.jpg",
+                "alt": ""
+              },
+              {
+                "src": "squair/wearable2.jpg",
+                "alt": ""
+              }
+          ]
+    },
+    {
+      "handle": "etrack",
+      "title": "E-track",
+      "featured": false,
+      "hero":
+        {
+          "src": "e-track/thumb.jpg",
+          "alt": "severn trent hero image"
+        },
+      "textColour": "white",
+      "heading": "A new and improved experience to ambulatory oxygen therapy.",
+      "subheading": "Redesign of an oxygen concentrator for people who require ambulatory oxygen therapy.",
+      "client": "Severn Trent Water",
+      "challenge": "Encourage oxygen therapy patients to exercise and main an active lifestyle.",
+      "outcome": "A small, lightweight oxgen concenrator that monitors users oxygen saturation and regulates flow rate accordingly maintain a healthy bloody oxygen level.",
+      "section1":
+        {
+          "title": "The Problem",
+          "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at. Vestibulum tincidunt quis neque vitae tempor. Praesent in nunc a urna venenatis placerat. Nullam fringilla tellus odio. Pellentesque at libero facilisis, blandit ex bibendum, pharetra purus. Sed quis mi a diam sollicitudin aliquet a vel velit. Integer eget eleifend quam. Aliquam sodales ligula dui, imperdiet vestibulum orci euismod ut."
+        },
+      "section2":
+        {
+          "title": "The Approach",
+          "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at. Vestibulum tincidunt quis neque vitae tempor. Praesent in nunc a urna venenatis placerat. Nullam fringilla tellus odio. Pellentesque at libero facilisis, blandit ex bibendum, pharetra purus. Sed quis mi a diam sollicitudin aliquet a vel velit. Integer eget eleifend quam. Aliquam sodales ligula dui, imperdiet vestibulum orci euismod ut."
+        },
+      "approach": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at. Vestibulum tincidunt quis neque vitae tempor. Praesent in nunc a urna venenatis placerat. Nullam fringilla tellus odio. Pellentesque at libero facilisis, blandit ex bibendum, pharetra purus. Sed quis mi a diam sollicitudin aliquet a vel velit. Integer eget eleifend quam. Aliquam sodales ligula dui, imperdiet vestibulum orci euismod ut.",
+      "image2":
+        {
+          "src": "squair/interview.jpg",
+          "alt": "Interview with users"
+        },
+      "image3":
+        {
+          "src": "squair/interview2.jpg",
+          "alt": "Interview with users"
+        },
+      "section3":
+        {
+          "title": "Section title",
+          "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at. Vestibulum tincidunt quis neque vitae tempor. Praesent in nunc a urna venenatis placerat. Nullam fringilla tellus odio. Pellentesque at libero facilisis, blandit ex bibendum, pharetra purus. Sed quis mi a diam sollicitudin aliquet a vel velit. Integer eget eleifend quam. Aliquam sodales ligula dui, imperdiet vestibulum orci euismod ut."
+        },
+      "grid_images":[
+            {
+              "size": "small",
+              "src": "squair/sketch1.jpg",
+              "alt": "",
+              "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at."
+            },
+            {
+              "size": "large",
+              "src": "squair/sketch2.jpg",
+              "alt": "",
+              "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at."
+            },
+            {
+              "size": "small",
+              "src": "squair/sketch3.jpg",
+              "alt": "",
+              "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at."
+            },
+            {
+              "size": "medium",
+              "src": "squair/sketch1.jpg",
+              "alt": "",
+              "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at."
+            }
+          ],
+          "showcase":[
+              {
+                "src": "squair/cover.jpg",
+                "alt": ""
+              },
+              {
+                "src": "squair/cover2.jpg",
+                "alt": ""
+              },
+              {
+                "src": "squair/led_display.jpg",
+                "alt": ""
+              },
+              {
+                "src": "squair/batteries_stack.jpg",
+                "alt": ""
+              },
+              {
+                "src": "squair/batteries_charging.jpg",
+                "alt": ""
+              },
+              {
+                "src": "squair/warning.jpg",
+                "alt": ""
+              },
+              {
+                "src": "squair/wearable.jpg",
+                "alt": ""
+              },
+              {
+                "src": "squair/wearable2.jpg",
+                "alt": ""
+              }
+          ]
+    },
+    {
+      "handle": "humberstones-jewellers",
+      "title": "Humberstones Jewellers",
+      "featured": false,
+      "hero":
+        {
+          "src": "humberstones/thumb.jpg",
+          "alt": "humberstones hero image"
+        },
+      "textColour": "white",
+      "heading": "A new and improved experience to ambulatory oxygen therapy.",
+      "subheading": "Redesign of an oxygen concentrator for people who require ambulatory oxygen therapy.",
+      "client": "Severn Trent Water",
+      "challenge": "Encourage oxygen therapy patients to exercise and main an active lifestyle.",
+      "outcome": "A small, lightweight oxgen concenrator that monitors users oxygen saturation and regulates flow rate accordingly maintain a healthy bloody oxygen level.",
+      "section1":
+        {
+          "title": "The Problem",
+          "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at. Vestibulum tincidunt quis neque vitae tempor. Praesent in nunc a urna venenatis placerat. Nullam fringilla tellus odio. Pellentesque at libero facilisis, blandit ex bibendum, pharetra purus. Sed quis mi a diam sollicitudin aliquet a vel velit. Integer eget eleifend quam. Aliquam sodales ligula dui, imperdiet vestibulum orci euismod ut."
+        },
+      "section2":
+        {
+          "title": "The Approach",
+          "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at. Vestibulum tincidunt quis neque vitae tempor. Praesent in nunc a urna venenatis placerat. Nullam fringilla tellus odio. Pellentesque at libero facilisis, blandit ex bibendum, pharetra purus. Sed quis mi a diam sollicitudin aliquet a vel velit. Integer eget eleifend quam. Aliquam sodales ligula dui, imperdiet vestibulum orci euismod ut."
+        },
+      "approach": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at. Vestibulum tincidunt quis neque vitae tempor. Praesent in nunc a urna venenatis placerat. Nullam fringilla tellus odio. Pellentesque at libero facilisis, blandit ex bibendum, pharetra purus. Sed quis mi a diam sollicitudin aliquet a vel velit. Integer eget eleifend quam. Aliquam sodales ligula dui, imperdiet vestibulum orci euismod ut.",
+      "image2":
+        {
+          "src": "squair/interview.jpg",
+          "alt": "Interview with users"
+        },
+      "image3":
+        {
+          "src": "squair/interview2.jpg",
+          "alt": "Interview with users"
+        },
+      "section3":
+        {
+          "title": "Section title",
+          "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at. Vestibulum tincidunt quis neque vitae tempor. Praesent in nunc a urna venenatis placerat. Nullam fringilla tellus odio. Pellentesque at libero facilisis, blandit ex bibendum, pharetra purus. Sed quis mi a diam sollicitudin aliquet a vel velit. Integer eget eleifend quam. Aliquam sodales ligula dui, imperdiet vestibulum orci euismod ut."
+        },
+      "grid_images":[
+            {
+              "size": "small",
+              "src": "squair/sketch1.jpg",
+              "alt": "",
+              "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at."
+            },
+            {
+              "size": "large",
+              "src": "squair/sketch2.jpg",
+              "alt": "",
+              "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at."
+            },
+            {
+              "size": "small",
+              "src": "squair/sketch3.jpg",
+              "alt": "",
+              "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at."
+            },
+            {
+              "size": "medium",
+              "src": "squair/sketch1.jpg",
+              "alt": "",
+              "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at."
+            }
+          ],
+          "showcase":[
+              {
+                "src": "squair/cover.jpg",
+                "alt": ""
+              },
+              {
+                "src": "squair/cover2.jpg",
+                "alt": ""
+              },
+              {
+                "src": "squair/led_display.jpg",
+                "alt": ""
+              },
+              {
+                "src": "squair/batteries_stack.jpg",
+                "alt": ""
+              },
+              {
+                "src": "squair/batteries_charging.jpg",
+                "alt": ""
+              },
+              {
+                "src": "squair/warning.jpg",
+                "alt": ""
+              },
+              {
+                "src": "squair/wearable.jpg",
+                "alt": ""
+              },
+              {
+                "src": "squair/wearable2.jpg",
+                "alt": ""
+              }
+          ]
+    },
+    {
+      "handle": "yak",
+      "title": "Yak",
+      "featured": false,
+      "hero":
+        {
+          "src": "yak/thumb.jpg",
+          "alt": "yak hero image"
+        },
+      "textColour": "white",
+      "heading": "A new and improved experience to ambulatory oxygen therapy.",
+      "subheading": "Redesign of an oxygen concentrator for people who require ambulatory oxygen therapy.",
+      "client": "Severn Trent Water",
+      "challenge": "Encourage oxygen therapy patients to exercise and main an active lifestyle.",
+      "outcome": "A small, lightweight oxgen concenrator that monitors users oxygen saturation and regulates flow rate accordingly maintain a healthy bloody oxygen level.",
+      "section1":
+        {
+          "title": "The Problem",
+          "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at. Vestibulum tincidunt quis neque vitae tempor. Praesent in nunc a urna venenatis placerat. Nullam fringilla tellus odio. Pellentesque at libero facilisis, blandit ex bibendum, pharetra purus. Sed quis mi a diam sollicitudin aliquet a vel velit. Integer eget eleifend quam. Aliquam sodales ligula dui, imperdiet vestibulum orci euismod ut."
+        },
+      "section2":
+        {
+          "title": "The Approach",
+          "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at. Vestibulum tincidunt quis neque vitae tempor. Praesent in nunc a urna venenatis placerat. Nullam fringilla tellus odio. Pellentesque at libero facilisis, blandit ex bibendum, pharetra purus. Sed quis mi a diam sollicitudin aliquet a vel velit. Integer eget eleifend quam. Aliquam sodales ligula dui, imperdiet vestibulum orci euismod ut."
+        },
+      "approach": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at. Vestibulum tincidunt quis neque vitae tempor. Praesent in nunc a urna venenatis placerat. Nullam fringilla tellus odio. Pellentesque at libero facilisis, blandit ex bibendum, pharetra purus. Sed quis mi a diam sollicitudin aliquet a vel velit. Integer eget eleifend quam. Aliquam sodales ligula dui, imperdiet vestibulum orci euismod ut.",
+      "image2":
+        {
+          "src": "squair/interview.jpg",
+          "alt": "Interview with users"
+        },
+      "image3":
+        {
+          "src": "squair/interview2.jpg",
+          "alt": "Interview with users"
+        },
+      "section3":
+        {
+          "title": "Section title",
+          "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at. Vestibulum tincidunt quis neque vitae tempor. Praesent in nunc a urna venenatis placerat. Nullam fringilla tellus odio. Pellentesque at libero facilisis, blandit ex bibendum, pharetra purus. Sed quis mi a diam sollicitudin aliquet a vel velit. Integer eget eleifend quam. Aliquam sodales ligula dui, imperdiet vestibulum orci euismod ut."
+        },
+      "grid_images":[
+            {
+              "size": "small",
+              "src": "squair/sketch1.jpg",
+              "alt": "",
+              "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at."
+            },
+            {
+              "size": "large",
+              "src": "squair/sketch2.jpg",
+              "alt": "",
+              "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at."
+            },
+            {
+              "size": "small",
+              "src": "squair/sketch3.jpg",
+              "alt": "",
+              "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at."
+            },
+            {
+              "size": "medium",
+              "src": "squair/sketch1.jpg",
+              "alt": "",
+              "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at."
+            }
+          ],
+          "showcase":[
+              {
+                "src": "squair/cover.jpg",
+                "alt": ""
+              },
+              {
+                "src": "squair/cover2.jpg",
+                "alt": ""
+              },
+              {
+                "src": "squair/led_display.jpg",
+                "alt": ""
+              },
+              {
+                "src": "squair/batteries_stack.jpg",
+                "alt": ""
+              },
+              {
+                "src": "squair/batteries_charging.jpg",
+                "alt": ""
+              },
+              {
+                "src": "squair/warning.jpg",
+                "alt": ""
+              },
+              {
+                "src": "squair/wearable.jpg",
+                "alt": ""
+              },
+              {
+                "src": "squair/wearable2.jpg",
+                "alt": ""
+              }
+          ]
+    },
+    {
+      "handle": "feals",
+      "title": "Feals",
+      "featured": false,
+      "hero":
+        {
+          "src": "feals/thumb.jpg",
+          "alt": "feals hero image"
+        },
+      "textColour": "white",
+      "heading": "A new and improved experience to ambulatory oxygen therapy.",
+      "subheading": "Redesign of an oxygen concentrator for people who require ambulatory oxygen therapy.",
+      "client": "Severn Trent Water",
+      "challenge": "Encourage oxygen therapy patients to exercise and main an active lifestyle.",
+      "outcome": "A small, lightweight oxgen concenrator that monitors users oxygen saturation and regulates flow rate accordingly maintain a healthy bloody oxygen level.",
+      "section1":
+        {
+          "title": "The Problem",
+          "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at. Vestibulum tincidunt quis neque vitae tempor. Praesent in nunc a urna venenatis placerat. Nullam fringilla tellus odio. Pellentesque at libero facilisis, blandit ex bibendum, pharetra purus. Sed quis mi a diam sollicitudin aliquet a vel velit. Integer eget eleifend quam. Aliquam sodales ligula dui, imperdiet vestibulum orci euismod ut."
+        },
+      "section2":
+        {
+          "title": "The Approach",
+          "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at. Vestibulum tincidunt quis neque vitae tempor. Praesent in nunc a urna venenatis placerat. Nullam fringilla tellus odio. Pellentesque at libero facilisis, blandit ex bibendum, pharetra purus. Sed quis mi a diam sollicitudin aliquet a vel velit. Integer eget eleifend quam. Aliquam sodales ligula dui, imperdiet vestibulum orci euismod ut."
+        },
+      "approach": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at. Vestibulum tincidunt quis neque vitae tempor. Praesent in nunc a urna venenatis placerat. Nullam fringilla tellus odio. Pellentesque at libero facilisis, blandit ex bibendum, pharetra purus. Sed quis mi a diam sollicitudin aliquet a vel velit. Integer eget eleifend quam. Aliquam sodales ligula dui, imperdiet vestibulum orci euismod ut.",
+      "image2":
+        {
+          "src": "squair/interview.jpg",
+          "alt": "Interview with users"
+        },
+      "image3":
+        {
+          "src": "squair/interview2.jpg",
+          "alt": "Interview with users"
+        },
+      "section3":
+        {
+          "title": "Section title",
+          "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at. Vestibulum tincidunt quis neque vitae tempor. Praesent in nunc a urna venenatis placerat. Nullam fringilla tellus odio. Pellentesque at libero facilisis, blandit ex bibendum, pharetra purus. Sed quis mi a diam sollicitudin aliquet a vel velit. Integer eget eleifend quam. Aliquam sodales ligula dui, imperdiet vestibulum orci euismod ut."
+        },
+      "grid_images":[
+            {
+              "size": "small",
+              "src": "squair/sketch1.jpg",
+              "alt": "",
+              "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at."
+            },
+            {
+              "size": "large",
+              "src": "squair/sketch2.jpg",
+              "alt": "",
+              "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at."
+            },
+            {
+              "size": "small",
+              "src": "squair/sketch3.jpg",
+              "alt": "",
+              "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at."
+            },
+            {
+              "size": "medium",
+              "src": "squair/sketch1.jpg",
+              "alt": "",
+              "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at."
+            }
+          ],
+          "showcase":[
+              {
+                "src": "squair/cover.jpg",
+                "alt": ""
+              },
+              {
+                "src": "squair/cover2.jpg",
+                "alt": ""
+              },
+              {
+                "src": "squair/led_display.jpg",
+                "alt": ""
+              },
+              {
+                "src": "squair/batteries_stack.jpg",
+                "alt": ""
+              },
+              {
+                "src": "squair/batteries_charging.jpg",
+                "alt": ""
+              },
+              {
+                "src": "squair/warning.jpg",
+                "alt": ""
+              },
+              {
+                "src": "squair/wearable.jpg",
+                "alt": ""
+              },
+              {
+                "src": "squair/wearable2.jpg",
+                "alt": ""
+              }
+          ]
+    },
+    {
+      "handle": "lds-degree-show",
+      "title": "LDS Degree Show",
+      "featured": false,
+      "hero":
+        {
+          "src": "lds-degree-show/thumb.jpg",
+          "alt": "LDS Degree Show hero image"
+        },
+      "textColour": "white",
+      "heading": "A new and improved experience to ambulatory oxygen therapy.",
+      "subheading": "Redesign of an oxygen concentrator for people who require ambulatory oxygen therapy.",
+      "client": "Severn Trent Water",
+      "challenge": "Encourage oxygen therapy patients to exercise and main an active lifestyle.",
+      "outcome": "A small, lightweight oxgen concenrator that monitors users oxygen saturation and regulates flow rate accordingly maintain a healthy bloody oxygen level.",
+      "section1":
+        {
+          "title": "The Problem",
+          "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at. Vestibulum tincidunt quis neque vitae tempor. Praesent in nunc a urna venenatis placerat. Nullam fringilla tellus odio. Pellentesque at libero facilisis, blandit ex bibendum, pharetra purus. Sed quis mi a diam sollicitudin aliquet a vel velit. Integer eget eleifend quam. Aliquam sodales ligula dui, imperdiet vestibulum orci euismod ut."
+        },
+      "section2":
+        {
+          "title": "The Approach",
+          "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at. Vestibulum tincidunt quis neque vitae tempor. Praesent in nunc a urna venenatis placerat. Nullam fringilla tellus odio. Pellentesque at libero facilisis, blandit ex bibendum, pharetra purus. Sed quis mi a diam sollicitudin aliquet a vel velit. Integer eget eleifend quam. Aliquam sodales ligula dui, imperdiet vestibulum orci euismod ut."
+        },
+      "approach": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at. Vestibulum tincidunt quis neque vitae tempor. Praesent in nunc a urna venenatis placerat. Nullam fringilla tellus odio. Pellentesque at libero facilisis, blandit ex bibendum, pharetra purus. Sed quis mi a diam sollicitudin aliquet a vel velit. Integer eget eleifend quam. Aliquam sodales ligula dui, imperdiet vestibulum orci euismod ut.",
+      "image2":
+        {
+          "src": "squair/interview.jpg",
+          "alt": "Interview with users"
+        },
+      "image3":
+        {
+          "src": "squair/interview2.jpg",
+          "alt": "Interview with users"
+        },
+      "section3":
+        {
+          "title": "Section title",
+          "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at. Vestibulum tincidunt quis neque vitae tempor. Praesent in nunc a urna venenatis placerat. Nullam fringilla tellus odio. Pellentesque at libero facilisis, blandit ex bibendum, pharetra purus. Sed quis mi a diam sollicitudin aliquet a vel velit. Integer eget eleifend quam. Aliquam sodales ligula dui, imperdiet vestibulum orci euismod ut."
+        },
+      "grid_images":[
+            {
+              "size": "small",
+              "src": "squair/sketch1.jpg",
+              "alt": "",
+              "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at."
+            },
+            {
+              "size": "large",
+              "src": "squair/sketch2.jpg",
+              "alt": "",
+              "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at."
+            },
+            {
+              "size": "small",
+              "src": "squair/sketch3.jpg",
+              "alt": "",
+              "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at."
+            },
+            {
+              "size": "medium",
+              "src": "squair/sketch1.jpg",
+              "alt": "",
+              "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at."
+            }
+          ],
+          "showcase":[
+              {
+                "src": "squair/cover.jpg",
+                "alt": ""
+              },
+              {
+                "src": "squair/cover2.jpg",
+                "alt": ""
+              },
+              {
+                "src": "squair/led_display.jpg",
+                "alt": ""
+              },
+              {
+                "src": "squair/batteries_stack.jpg",
+                "alt": ""
+              },
+              {
+                "src": "squair/batteries_charging.jpg",
+                "alt": ""
+              },
+              {
+                "src": "squair/warning.jpg",
+                "alt": ""
+              },
+              {
+                "src": "squair/wearable.jpg",
+                "alt": ""
+              },
+              {
+                "src": "squair/wearable2.jpg",
+                "alt": ""
+              }
+          ]
+    },
+    {
+      "handle": "severn-trent-priority",
+      "title": "Severn Trent Priority Services",
+      "featured": false,
+      "hero":
+        {
+          "src": "severn-trent-priority/thumb.jpg",
+          "alt": "severn trent hero image"
+        },
+      "textColour": "white",
+      "heading": "A new and improved experience to ambulatory oxygen therapy.",
+      "subheading": "Redesign of an oxygen concentrator for people who require ambulatory oxygen therapy.",
+      "client": "Severn Trent Water",
+      "challenge": "Encourage oxygen therapy patients to exercise and main an active lifestyle.",
+      "outcome": "A small, lightweight oxgen concenrator that monitors users oxygen saturation and regulates flow rate accordingly maintain a healthy bloody oxygen level.",
+      "section1":
+        {
+          "title": "The Problem",
+          "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at. Vestibulum tincidunt quis neque vitae tempor. Praesent in nunc a urna venenatis placerat. Nullam fringilla tellus odio. Pellentesque at libero facilisis, blandit ex bibendum, pharetra purus. Sed quis mi a diam sollicitudin aliquet a vel velit. Integer eget eleifend quam. Aliquam sodales ligula dui, imperdiet vestibulum orci euismod ut."
+        },
+      "section2":
+        {
+          "title": "The Approach",
+          "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at. Vestibulum tincidunt quis neque vitae tempor. Praesent in nunc a urna venenatis placerat. Nullam fringilla tellus odio. Pellentesque at libero facilisis, blandit ex bibendum, pharetra purus. Sed quis mi a diam sollicitudin aliquet a vel velit. Integer eget eleifend quam. Aliquam sodales ligula dui, imperdiet vestibulum orci euismod ut."
+        },
+      "approach": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at. Vestibulum tincidunt quis neque vitae tempor. Praesent in nunc a urna venenatis placerat. Nullam fringilla tellus odio. Pellentesque at libero facilisis, blandit ex bibendum, pharetra purus. Sed quis mi a diam sollicitudin aliquet a vel velit. Integer eget eleifend quam. Aliquam sodales ligula dui, imperdiet vestibulum orci euismod ut.",
+      "image2":
+        {
+          "src": "squair/interview.jpg",
+          "alt": "Interview with users"
+        },
+      "image3":
+        {
+          "src": "squair/interview2.jpg",
+          "alt": "Interview with users"
+        },
+      "section3":
+        {
+          "title": "Section title",
+          "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at. Vestibulum tincidunt quis neque vitae tempor. Praesent in nunc a urna venenatis placerat. Nullam fringilla tellus odio. Pellentesque at libero facilisis, blandit ex bibendum, pharetra purus. Sed quis mi a diam sollicitudin aliquet a vel velit. Integer eget eleifend quam. Aliquam sodales ligula dui, imperdiet vestibulum orci euismod ut."
+        },
+      "grid_images":[
+            {
+              "size": "small",
+              "src": "squair/sketch1.jpg",
+              "alt": "",
+              "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at."
+            },
+            {
+              "size": "large",
+              "src": "squair/sketch2.jpg",
+              "alt": "",
+              "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at."
+            },
+            {
+              "size": "small",
+              "src": "squair/sketch3.jpg",
+              "alt": "",
+              "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at."
+            },
+            {
+              "size": "medium",
+              "src": "squair/sketch1.jpg",
+              "alt": "",
+              "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at."
+            }
+          ],
+          "showcase":[
+              {
+                "src": "squair/cover.jpg",
+                "alt": ""
+              },
+              {
+                "src": "squair/cover2.jpg",
+                "alt": ""
+              },
+              {
+                "src": "squair/led_display.jpg",
+                "alt": ""
+              },
+              {
+                "src": "squair/batteries_stack.jpg",
+                "alt": ""
+              },
+              {
+                "src": "squair/batteries_charging.jpg",
+                "alt": ""
+              },
+              {
+                "src": "squair/warning.jpg",
+                "alt": ""
+              },
+              {
+                "src": "squair/wearable.jpg",
+                "alt": ""
+              },
+              {
+                "src": "squair/wearable2.jpg",
+                "alt": ""
+              }
+          ]
+    }
+  ]
+}
