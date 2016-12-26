@@ -46,13 +46,13 @@
   <div class="row">
     <a href="#/projects/{{project.handle}}" ng-repeat="project in projects | limitTo:quantity">
       <div ng-if="project.featured" class="col-md-6 tile feature">
-        <div class="img" style="background-image: url('images/{{ project.hero.src }}')"></div>
+        <div class="img" style="background-image: url('../images/{{ project.hero.src }}')"></div>
         <div class="content">
           <h2>{{ project.title }}</h2>
         </div>
       </div>
       <div ng-if="!project.featured" class="col-md-3 tile">
-        <div class="img" style="background-image: url('images/{{ project.hero.src }}')"></div>
+        <div class="img" style="background-image: url('../images/{{ project.hero.src }}')"></div>
         <div class="content">
           <h2>{{ project.title }}</h2>
         </div>
