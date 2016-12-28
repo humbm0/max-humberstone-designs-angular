@@ -15,7 +15,9 @@
     "ngAnimate": "*",
     "angular-masonry": "^0.16.0",
     "outlayer": "^2.1.0",
-    "get-size": "^2.0.2"
+    "get-size": "^2.0.2",
+    "scrollreveal": "^3.3.2",
+    "isotope": "^3.0.1"
   },
   "devDependencies": {
     "angular-mocks": "^1.4.0"
@@ -35,6 +37,10 @@
         "item.js",
         "outlayer.js"
       ]
+    },
+    "isotope": {
+      "main": "dist/isotope.pkgd.min.js",
+      "dependencies": null
     }
   }
 }

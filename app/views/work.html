@@ -1,0 +1,27 @@
+<div class="page-content2">
+
+  <div class="filter-bar">
+    <div class="container">
+      <ul>
+        <li data-filter="*" class="selected">All work</li>
+        <li data-filter="product">Product</li>
+        <li data-filter="digital">Digital</li>
+        <li data-filter="development">Development</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="project-gallery reveal">
+    <div class="row">
+      <a href="#/projects/{{project.handle}}" ng-repeat="project in projects | limitTo:quantity" class="project {{ project.type }}">
+        <div class="col-md-6 tile feature {{ project.type }}">
+          <div class="img" style="background-image: url('images/{{ project.hero.src }}')"></div>
+          <div class="content">
+            <h2>{{ project.title }}</h2>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+
+</div>

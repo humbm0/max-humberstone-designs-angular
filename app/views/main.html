@@ -5,7 +5,7 @@
   </div> -->
   <div class="container">
     <div class="row">
-      <div class="content col-md-8">
+      <div class="content col-md-8 reveal">
           <h4>HELLO,</h4>
           <h4>MY NAME IS MAX HUMBERSTONE</h4>
           <h1>I love crafting beautiful, smart and inspired work.</h1>
@@ -17,7 +17,7 @@
 
 <div class="one-col-callout bg-image connect-customers">
   <div class="container">
-    <div class="col-md-8 col-md-offset-2">
+    <div class="col-md-8 col-md-offset-2 reveal">
       <h1>I connect businesses to customers</h1>
       <p>Applying empathy to every design decision I ensure the solution meets your customer needs and exceeds expectation. </p>
       <a href="#">Browse my services</a>
@@ -25,7 +25,7 @@
   </div>
 </div>
 
-<div class="two-col-img-text">
+<div class="two-col-img-text reveal">
   <div class="container">
     <div class="row">
       <div class="col-md-6 column">
@@ -42,16 +42,16 @@
   </div>
 </div>
 
-<div class="project-gallery">
+<div class="project-gallery reveal">
   <div class="row">
     <a href="#/projects/{{project.handle}}" ng-repeat="project in projects | limitTo:quantity">
-      <div ng-if="project.featured" class="col-md-6 tile feature">
+      <div ng-if="project.featured" class="col-md-6 tile feature ">
         <div class="img" style="background-image: url('images/{{ project.hero.src }}')"></div>
         <div class="content">
           <h2>{{ project.title }}</h2>
         </div>
       </div>
-      <div ng-if="!project.featured" class="col-md-3 tile">
+      <div ng-if="!project.featured" class="col-md-3 tile ">
         <div class="img" style="background-image: url('images/{{ project.hero.src }}')"></div>
         <div class="content">
           <h2>{{ project.title }}</h2>
@@ -64,7 +64,7 @@
   </div>
 </div>
 
-<div class="two-col-img-text">
+<div class="two-col-img-text reveal">
   <div class="container">
     <div class="row">
       <div class="col-md-6 column right experience pull-right">
@@ -83,7 +83,7 @@
 
 <div class="one-col-callout light-grey-bg">
   <div class="container">
-    <div class="col-md-8 col-md-offset-2">
+    <div class="col-md-8 col-md-offset-2 reveal">
       <h1>Get in touch</h1>
       <p>Got a project in mind? I’m always interested in new projects, send me a message.</p>
       <button type="button" class="primary-btn">Get in touch</button>

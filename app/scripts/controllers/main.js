@@ -17,5 +17,4 @@ angular.module('angularSiteApp')
       $scope.quantity = 6;
     });
 
-
   });

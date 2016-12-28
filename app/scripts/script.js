@@ -40,23 +40,81 @@ $( document ).ready(function() {
       }
     });
 
-    //scroll animations
-    // window.sr = ScrollReveal();
-    //
-    // console.log("scroll animations");
-    //
-    // var settings = {
-    //   delay    : 800,
-    //   distance : '30px',
-    //   easing   : 'ease',
-    //   scale    : 1,
-    //   opacity  : 0
-    // };
-    //
-    // sr.reveal('.connect-customers h1', settings);
-    // sr.reveal('.connect-customers p', settings);
-    // sr.reveal('.two-col-img-text h2', settings);
-    // sr.reveal('.two-col-img-text p', settings);
+});
+
+$( window ).load(function() {
+
+  //scroll animations
+  window.sr = ScrollReveal();
+
+  console.log("scroll animations");
+
+  var settings = {
+    viewFactor: .8,
+    distance : '20%',
+    easing   : 'ease',
+    scale    : 1,
+    opacity  : 0,
+    duration : 800
+  };
+
+  var settings2 = {
+    viewFactor: .8,
+    distance : '20%',
+    easing   : 'ease',
+    scale    : 1,
+    opacity  : 0,
+    duration : 800,
+    delay    : 1500
+  };
+
+  var settings3 = {
+    viewFactor: .8,
+    distance : '20%',
+    easing   : 'ease',
+    scale    : 1,
+    opacity  : 0,
+    duration : 800,
+    delay    : 2000
+  };
+
+  var settings4 = {
+    viewFactor: .8,
+    distance : '20%',
+    easing   : 'ease',
+    scale    : 1,
+    opacity  : 0,
+    duration : 800,
+    delay    : 500
+  };
+
+  var settings5 = {
+    viewFactor: .8,
+    distance : '20%',
+    easing   : 'ease',
+    scale    : 1,
+    opacity  : 0,
+    duration : 800,
+    delay    : 1000
+  };
+
+  var settings6 = {
+    viewFactor: .8,
+    distance : '20%',
+    easing   : 'ease',
+    scale    : 1,
+    opacity  : 0,
+    duration : 800,
+    delay    : 2500
+  };
+
+
+  sr.reveal('.reveal', settings);
+  sr.reveal('.load-reveal', settings2);
+  sr.reveal('.load-reveal2', settings3);
+  sr.reveal('.load-reveal3', settings6);
+  sr.reveal('.second-reveal', settings4);
+  sr.reveal('.third-reveal', settings5);
 
 
 });

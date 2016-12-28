@@ -1,0 +1,42 @@
+.filter-bar{
+  background-color: #f4f4f4;
+  li{
+    display: inline-block;
+    padding: 30px;
+    &:first-child{
+      padding-left: 0;
+    }
+  }
+  ul{
+    margin: 0;
+    padding: 0;
+  }
+  li{
+    cursor: pointer;
+    text-transform: uppercase;
+    color: #000;
+    font-size: 14px;
+    font-weight: 600;
+    opacity: 0.5;
+    letter-spacing: 4px;
+    transition: all 0.4s ease;
+    border: none;
+    &.selected{
+      opacity: 1;
+    }
+    &:hover{
+      opacity: 1;
+      color: #000;
+    }
+  }
+}
+
+/**** Isotope filtering ****/
+.isotope-item {
+  z-index: 2;
+  // position: relative !important;
+}
+.isotope-hidden.isotope-item {
+  pointer-events: none;
+  z-index: 1;
+}
