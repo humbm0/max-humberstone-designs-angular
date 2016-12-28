@@ -4,6 +4,7 @@
       "handle": "severn-trent",
       "title": "Severn Trent Water",
       "featured": true,
+      "type": "digital",
       "hero":
         {
           "src": "severn-trent/thumb.jpg",
@@ -106,6 +107,7 @@
       "handle": "squair",
       "title": "SQUAIR",
       "featured": true,
+      "type": "digital",
       "hero":
         {
           "src": "squair/thumb.jpg",
@@ -208,6 +210,7 @@
       "handle": "etrack",
       "title": "E-track",
       "featured": false,
+      "type": "digital",
       "hero":
         {
           "src": "e-track/thumb.jpg",
@@ -310,6 +313,7 @@
       "handle": "humberstones-jewellers",
       "title": "Humberstones Jewellers",
       "featured": false,
+      "type": "digital",
       "hero":
         {
           "src": "humberstones/thumb.jpg",
@@ -412,6 +416,7 @@
       "handle": "yak",
       "title": "Yak",
       "featured": false,
+      "type": "digital",
       "hero":
         {
           "src": "yak/thumb.jpg",
@@ -514,6 +519,7 @@
       "handle": "feals",
       "title": "Feals",
       "featured": false,
+      "type": "digital",
       "hero":
         {
           "src": "feals/thumb.jpg",
@@ -616,6 +622,7 @@
       "handle": "lds-degree-show",
       "title": "LDS Degree Show",
       "featured": false,
+      "type": "digital",
       "hero":
         {
           "src": "lds-degree-show/thumb.jpg",
@@ -718,6 +725,7 @@
       "handle": "severn-trent-priority",
       "title": "Severn Trent Priority Services",
       "featured": false,
+      "type": "digital",
       "hero":
         {
           "src": "severn-trent-priority/thumb.jpg",
