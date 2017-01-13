@@ -109,12 +109,12 @@ $( window ).load(function() {
   };
 
 
-  sr.reveal('.reveal', settings);
-  sr.reveal('.load-reveal', settings2);
-  sr.reveal('.load-reveal2', settings3);
-  sr.reveal('.load-reveal3', settings6);
-  sr.reveal('.second-reveal', settings4);
-  sr.reveal('.third-reveal', settings5);
+  // sr.reveal('.reveal', settings);
+  // sr.reveal('.load-reveal', settings2);
+  // sr.reveal('.load-reveal2', settings3);
+  // sr.reveal('.load-reveal3', settings6);
+  // sr.reveal('.second-reveal', settings4);
+  // sr.reveal('.third-reveal', settings5);
 
 
 });
