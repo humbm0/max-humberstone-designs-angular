@@ -13,14 +13,16 @@
 
   <div class="project-gallery reveal">
     <div class="row">
-      <a href="#/projects/{{project.handle}}" ng-repeat="project in projects | limitTo:quantity" class="project {{ project.type }}">
-        <div class="col-md-6 tile feature {{ project.type }}">
-          <div class="img" style="background-image: url('images/{{ project.hero.src }}')"></div>
-          <div class="content">
-            <h2>{{ project.title }}</h2>
+      <div infinite-scroll='loadMore()' infinite-scroll-distance='2'>
+        <a href="#/projects/{{project.handle}}" ng-repeat="project in projects" class="project {{ project.type }} fade-in">
+          <div class="col-md-6 tile feature {{ project.type }}">
+            <div class="img" style="background-image: url('images/{{ project.hero.src }}')"></div>
+            <div class="content">
+              <h2>{{ project.title }}</h2>
+            </div>
           </div>
-        </div>
-      </a>
+        </a>
+      </div>
     </div>
   </div>
 

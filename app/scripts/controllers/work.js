@@ -12,8 +12,24 @@ angular.module('angularSiteApp')
 
     Projects.all().then(function(data){
       $scope.projects = data.data.projects
-      $scope.quantity = 6;
+      // $scope.quantity = 6;
+
+      // $scope.projects = data.data.projects.slice(0, 5);
     });
+
+    // $scope.loadMore = function () {
+    //     console.log("loadmore");
+    //     $scope.projects = data.data.projects.slice(0, $scope.projects.length + 5);
+    // }
+
+
+
+    // $scope.loadMore = function() {
+    //   var last = $scope.projects[$scope.projects.length - 1];
+    //   for(var i = 1; i <= 8; i++) {
+    //     $scope.projects.push(last + i);
+    //   }
+    // };
 
     // $( window ).load(function() {
     //   // cache container

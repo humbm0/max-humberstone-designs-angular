@@ -8,9 +8,14 @@ $( document ).ready(function() {
 
   function parallax(){
     var scrolled = $(window).scrollTop();
-    $('.parallax').css('top',-(scrolled*-0.0245)+'rem');
-    $('.parallax .content').css('top',-(scrolled*-0.0245)+'rem');
-    $('.parallax div').css('opacity',1-(scrolled*0.00175));
+    if ($(window).width() < 420) {
+      $('.parallax').css('top',-(scrolled*-0.0245)+'rem');
+      $('.parallax .content').css('top',-(scrolled*-0.0245)+'rem');
+    }else{
+      $('.parallax').css('top',-(scrolled*-0.0245)+'rem');
+      $('.parallax .content').css('top',-(scrolled*-0.0245)+'rem');
+      $('.parallax div').css('opacity',1-(scrolled*0.00075));
+    }
   }
 
 
@@ -42,71 +47,71 @@ $( document ).ready(function() {
 
 });
 
-$( window ).load(function() {
-
-  //scroll animations
-  window.sr = ScrollReveal();
-
-  console.log("scroll animations");
-
-  var settings = {
-    viewFactor: .8,
-    distance : '20%',
-    easing   : 'ease',
-    scale    : 1,
-    opacity  : 0,
-    duration : 800
-  };
-
-  var settings2 = {
-    viewFactor: .8,
-    distance : '20%',
-    easing   : 'ease',
-    scale    : 1,
-    opacity  : 0,
-    duration : 800,
-    delay    : 1500
-  };
-
-  var settings3 = {
-    viewFactor: .8,
-    distance : '20%',
-    easing   : 'ease',
-    scale    : 1,
-    opacity  : 0,
-    duration : 800,
-    delay    : 2000
-  };
-
-  var settings4 = {
-    viewFactor: .8,
-    distance : '20%',
-    easing   : 'ease',
-    scale    : 1,
-    opacity  : 0,
-    duration : 800,
-    delay    : 500
-  };
-
-  var settings5 = {
-    viewFactor: .8,
-    distance : '20%',
-    easing   : 'ease',
-    scale    : 1,
-    opacity  : 0,
-    duration : 800,
-    delay    : 1000
-  };
-
-  var settings6 = {
-    viewFactor: .8,
-    distance : '20%',
-    easing   : 'ease',
-    scale    : 1,
-    opacity  : 0,
-    duration : 800,
-    delay    : 2500
-  };
+// $( window ).load(function() {
+//
+//   //scroll animations
+//   window.sr = ScrollReveal();
+//
+//   console.log("scroll animations");
+//
+//   var settings = {
+//     viewFactor: .8,
+//     distance : '20%',
+//     easing   : 'ease',
+//     scale    : 1,
+//     opacity  : 0,
+//     duration : 800
+//   };
+//
+//   var settings2 = {
+//     viewFactor: .8,
+//     distance : '20%',
+//     easing   : 'ease',
+//     scale    : 1,
+//     opacity  : 0,
+//     duration : 800,
+//     delay    : 1500
+//   };
+//
+//   var settings3 = {
+//     viewFactor: .8,
+//     distance : '20%',
+//     easing   : 'ease',
+//     scale    : 1,
+//     opacity  : 0,
+//     duration : 800,
+//     delay    : 2000
+//   };
+//
+//   var settings4 = {
+//     viewFactor: .8,
+//     distance : '20%',
+//     easing   : 'ease',
+//     scale    : 1,
+//     opacity  : 0,
+//     duration : 800,
+//     delay    : 500
+//   };
+//
+//   var settings5 = {
+//     viewFactor: .8,
+//     distance : '20%',
+//     easing   : 'ease',
+//     scale    : 1,
+//     opacity  : 0,
+//     duration : 800,
+//     delay    : 1000
+//   };
+//
+//   var settings6 = {
+//     viewFactor: .8,
+//     distance : '20%',
+//     easing   : 'ease',
+//     scale    : 1,
+//     opacity  : 0,
+//     duration : 800,
+//     delay    : 2500
+//   };
 
 
   // sr.reveal('.reveal', settings);
@@ -117,4 +122,4 @@ $( window ).load(function() {
   // sr.reveal('.third-reveal', settings5);
 
 
-});
+// });

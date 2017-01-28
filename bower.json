@@ -17,7 +17,8 @@
     "outlayer": "^2.1.0",
     "get-size": "^2.0.2",
     "scrollreveal": "^3.3.2",
-    "isotope": "^3.0.1"
+    "isotope": "^3.0.1",
+    "aquarelle": "*"
   },
   "devDependencies": {
     "angular-mocks": "^1.4.0"

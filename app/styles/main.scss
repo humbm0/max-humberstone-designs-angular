@@ -16,7 +16,7 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/boots
 body{
   font-family: $font-family;
   color: $text-color;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 14px;
   letter-spacing: 0.17em;
   line-height: 29px;
@@ -67,7 +67,6 @@ img{
 }
 .black{
   font-weight: 600;
-  color: #fff;
 }
 .primary-btn{
   background: $text-color;

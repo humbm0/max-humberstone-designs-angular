@@ -41,6 +41,7 @@ module.exports = function(config) {
       'bower_components/angular-masonry/angular-masonry.js',
       'bower_components/scrollreveal/dist/scrollreveal.js',
       'bower_components/isotope/dist/isotope.pkgd.min.js',
+      'bower_components/aquarelle/aquarelle.js',
       'bower_components/angular-mocks/angular-mocks.js',
       // endbower
       'app/scripts/**/*.js',

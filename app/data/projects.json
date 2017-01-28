@@ -1,19 +1,122 @@
 {
   "projects": [
     {
-      "handle": "snow",
-      "title": "Snow",
+      "handle": "ovambo",
+      "title": "OVAMBO",
       "featured": true,
       "type": "product",
       "hero":
         {
-          "src": "snow/thumb.jpg",
-          "alt": "Snow hero image"
+          "src": "ovambo/thumb.png",
+          "alt": "OVAMBO hero image"
         },
-      "textColour": "white",
-      "heading": "A new and improved experience to ambulatory oxygen therapy.",
+      "textColour": "black",
+      "heading": "Defining mental wellbeing for the future workplace.",
       "subheading": "Redesign of an oxygen concentrator for people who require ambulatory oxygen therapy.",
       "client": "Severn Trent Water",
+      "challenge": "Encourage oxygen therapy patients to exercise and main an active lifestyle.",
+      "outcome": "A small, lightweight oxgen concenrator that monitors users oxygen saturation and regulates flow rate accordingly maintain a healthy bloody oxygen level.",
+      "section1":
+        {
+          "title": "The Problem",
+          "content": "Absenteeism and presenteeism (reduced performance and productivity due to ill health while at work) are major areas of concern to employers in the UK. Currently in the UK, the average office worker takes 6.5 days of absence. Taken cumulatively across the UK working population, this amounts to 190 million working days for absence and approximately £8.4 billion lost annually. Remarkably, the cost of presenteeism to UK employers is estimated at £15 billion per year, significantly more than absenteeism. Over a third of employers have highlighted stress-related absence to be on the rise. In the workplace, 41% of private sector employees state that they are experiencing stress because they are under excessive pressure at work. Mental health issues such as anxiety and depression are among the top 5 reasons employees are absent from work. The expected growth in technology related jobs is expected to rise by "
+        },
+      "section2":
+        {
+          "title": "The Approach",
+          "content": "To identify the main causes of workplace stress by interviewing a range of employees from a large technology company. "
+        },
+      "approach": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at. Vestibulum tincidunt quis neque vitae tempor. Praesent in nunc a urna venenatis placerat. Nullam fringilla tellus odio. Pellentesque at libero facilisis, blandit ex bibendum, pharetra purus. Sed quis mi a diam sollicitudin aliquet a vel velit. Integer eget eleifend quam. Aliquam sodales ligula dui, imperdiet vestibulum orci euismod ut.",
+      "image2":
+        {
+          "src": "squair/interview.jpg",
+          "alt": "Interview with users"
+        },
+      "image3":
+        {
+          "src": "squair/interview2.jpg",
+          "alt": "Interview with users"
+        },
+      "section3":
+        {
+          "title": "Section title",
+          "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at. Vestibulum tincidunt quis neque vitae tempor. Praesent in nunc a urna venenatis placerat. Nullam fringilla tellus odio. Pellentesque at libero facilisis, blandit ex bibendum, pharetra purus. Sed quis mi a diam sollicitudin aliquet a vel velit. Integer eget eleifend quam. Aliquam sodales ligula dui, imperdiet vestibulum orci euismod ut."
+        },
+      "grid_images":[
+            {
+              "size": "sm",
+              "src": "squair/sketch1.jpg",
+              "alt": "",
+              "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at."
+            },
+            {
+              "size": "large",
+              "src": "squair/sketch2.jpg",
+              "alt": "",
+              "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at."
+            },
+            {
+              "size": "sm",
+              "src": "squair/sketch3.jpg",
+              "alt": "",
+              "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at."
+            },
+            {
+              "size": "med",
+              "src": "squair/sketch1.jpg",
+              "alt": "",
+              "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at."
+            }
+          ],
+          "showcase":[
+              {
+                "src": "squair/cover.jpg",
+                "alt": ""
+              },
+              {
+                "src": "squair/cover2.jpg",
+                "alt": ""
+              },
+              {
+                "src": "squair/led_display.jpg",
+                "alt": ""
+              },
+              {
+                "src": "squair/batteries_stack.jpg",
+                "alt": ""
+              },
+              {
+                "src": "squair/batteries_charging.jpg",
+                "alt": ""
+              },
+              {
+                "src": "squair/warning.jpg",
+                "alt": ""
+              },
+              {
+                "src": "squair/wearable.jpg",
+                "alt": ""
+              },
+              {
+                "src": "squair/wearable2.jpg",
+                "alt": ""
+              }
+          ]
+    },
+    {
+      "handle": "squair",
+      "title": "SQUAIR",
+      "featured": true,
+      "type": "digital",
+      "hero":
+        {
+          "src": "squair/thumb.jpg",
+          "alt": "squair hero image"
+        },
+      "textColour": "dark",
+      "heading": "A new and improved experience to ambulatory oxygen therapy.",
+      "subheading": "Redesign of an oxygen concentrator for people who require ambulatory oxygen therapy.",
+      "client": "University Major Design Project",
       "challenge": "Encourage oxygen therapy patients to exercise and main an active lifestyle.",
       "outcome": "A small, lightweight oxgen concenrator that monitors users oxygen saturation and regulates flow rate accordingly maintain a healthy bloody oxygen level.",
       "section1":
@@ -104,19 +207,19 @@
           ]
     },
     {
-      "handle": "squair",
-      "title": "SQUAIR",
-      "featured": true,
-      "type": "digital",
+      "handle": "snow",
+      "title": "Snow",
+      "featured": false,
+      "type": "product",
       "hero":
         {
-          "src": "squair/thumb.jpg",
-          "alt": "squair hero image"
+          "src": "snow/thumb.jpg",
+          "alt": "Snow hero image"
         },
-      "textColour": "dark",
+      "textColour": "white",
       "heading": "A new and improved experience to ambulatory oxygen therapy.",
       "subheading": "Redesign of an oxygen concentrator for people who require ambulatory oxygen therapy.",
-      "client": "University Major Design Project",
+      "client": "Severn Trent Water",
       "challenge": "Encourage oxygen therapy patients to exercise and main an active lifestyle.",
       "outcome": "A small, lightweight oxgen concenrator that monitors users oxygen saturation and regulates flow rate accordingly maintain a healthy bloody oxygen level.",
       "section1":
