@@ -111,6 +111,7 @@
 }
 
 .showcase-carousel{
+  overflow: hidden;
   .slide{
     height: calc(100vh - 100px);
   }

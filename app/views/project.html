@@ -174,12 +174,12 @@
   <div class="project-gallery related-projects">
     <h2>Related Projects</h2>
     <div class="row">
-      <a href="#/projects/{{project.handle}}" ng-repeat="project in relatedProjects | limitTo: 2">
+      <a href="#/projects/{{project.project.handle}}" ng-repeat="project in relatedProjects | orderBy:'order' | limitTo: 2">
         <div  class="col-md-6 tile feature ">
-          <div class="img" style="background-image: url('images/{{ project.hero.src }}')"></div>
+          <div class="img" style="background-image: url('images/{{ project.project.hero.src }}')"></div>
           <div class="content">
-            <h2>{{ project.title }}</h2>
-            <p>{{ project.type }}</p>
+            <h2>{{ project.project.title }}</h2>
+            <p>{{ project.project.type }}</p>
           </div>
         </div>
       </a>
