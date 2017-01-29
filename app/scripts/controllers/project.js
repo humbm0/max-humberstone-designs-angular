@@ -8,25 +8,25 @@
  * Controller of the angularSiteApp
  */
 angular.module('angularSiteApp')
-  .controller('ProjectCtrl', function ($scope, Projects, $routeParams, $filter) {
+  .controller('ProjectCtrl', function ($scope, Projects, $routeParams, $filter, $timeout) {
 
     $scope.pageClass = 'page-project';
 
     Projects.all().then(function(data){
-      var projects = data.data.projects
+      var projects = data.data.projects;
       $scope.project = $filter('filter')(projects, {handle: $routeParams.projectId})[0];
-      console.log(projects);
-      console.log($routeParams.projectId);
+      $scope.relatedProjects = $filter('filter')(projects, {type: $scope.project.type});
       console.log($scope.project);
-      console.log($scope.project.showcase);
-    }).then(function(){
+      console.log($scope.relatedProjects);
+    });
 
-      // $('.grid').masonry({
-      //   itemSelector: '.grid-item',
-      //   columnWidth: '.grid-sizer',
-      //   percentPosition: true
-      // });
-
+    $timeout(function() {
+      $('.showcase-carousel').slick({
+        dots: true,
+        infinite: false,
+        autoplay: true,
+        autoplaySpeed: 6000
+      });
     });
 
   });

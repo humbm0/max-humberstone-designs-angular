@@ -14,11 +14,6 @@
   }
   .three-col-row{
     margin: 160px 0;
-    h4{
-      text-transform: uppercase;
-      font-size: 14px;
-      opacity: 0.3;
-    }
     p{
       font-size: 14px;
       opacity: 1;
@@ -41,7 +36,6 @@
   h4{
     text-transform: uppercase;
     font-size: 14px;
-    opacity: 0.7;
   }
   p{
     font-size: 14px;
@@ -70,6 +64,9 @@
 .two-col-title-text{
   margin-top: 100px;
   margin-bottom: 100px;
+  h2{
+    margin-bottom: 20px;
+  }
 }
 
 .two-col-img{
@@ -110,6 +107,30 @@
   }
   .half-height{
     height: 70vh;
+  }
+}
+
+.showcase-carousel{
+  .slide{
+    height: calc(100vh - 100px);
+  }
+  .slick-dots{
+    // transform: translateY(-50px) !important;
+    bottom: 5%;
+  }
+}
+.slick-dotted.slick-slider{
+  margin-bottom: 0 !important;
+}
+
+.related-projects{
+  margin-bottom: 0;
+  text-align: center;
+  h2{
+    margin-bottom: 60px;
+  }
+  .thumb{
+    height: 300px;
   }
 }
 

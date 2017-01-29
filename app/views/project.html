@@ -56,10 +56,9 @@
   <div ng-if="project.section1" class="two-col-title-text">
     <div class="container">
       <div class="row">
-        <div class="col-md-3 col-md-offset-1">
-          <h3>{{ project.section1.title}}</h3>
-        </div>
-        <div class="col-md-7">
+        <div class="col-md-8">
+          <h4>{{ project.section1.title}}</h4>
+          <h2>{{ project.section2.heading }}</h3>
           <p>{{ project.section1.content }}</p>
         </div>
       </div>
@@ -67,23 +66,17 @@
   </div>
 
 
-  <div ng-if="project.image1" class="full-width-bg light-grey-bg">
-    <div class="one-col-img">
-      <div class="container">
-        <div class="row">
-          <img src="../images/{{ project.image1.src }}" alt="{{ project.image1.alt }}" />
-        </div>
-      </div>
-    </div>
+  <div class="full-width-image">
+    <div class="image half-height" style="background-image: url('../images/{{ project.image1.src }}')"></div>
   </div>
+
 
   <div ng-if="project.section2" class="two-col-title-text">
     <div class="container">
       <div class="row">
-        <div class="col-md-3 col-md-offset-1">
-          <h3>{{ project.section2.title }}</h3>
-        </div>
-        <div class="col-md-7">
+        <div class="col-md-8">
+          <h4>{{ project.section2.title}}</h4>
+          <h2>{{ project.section2.heading }}</h3>
           <p>{{ project.section2.content }}</p>
         </div>
       </div>
@@ -104,10 +97,9 @@
   <div ng-if="project.section3" class="two-col-title-text">
     <div class="container">
       <div class="row">
-        <div class="col-md-3 col-md-offset-1">
-          <h3>{{ project.section3.title }}</h3>
-        </div>
-        <div class="col-md-7">
+        <div class="col-md-8">
+          <h4>{{ project.section3.title}}</h4>
+          <h2>{{ project.section3.heading }}</h3>
           <p>{{ project.section3.content }}</p>
         </div>
       </div>
@@ -140,10 +132,61 @@
   </div>
 
 
-
-
-
-
-  <div ng-if="project.showcase" class="full-width-image">
-    <div ng-repeat="image in project.showcase" class="image" style="background-image: url('../images/{{ image.src }}')"></div>
+  <div ng-if="project.section4" class="two-col-title-text">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3 col-md-offset-1">
+          <h3>{{ project.section4.title }}</h3>
+        </div>
+        <div class="col-md-7">
+          <p>{{ project.section4.content }}</p>
+        </div>
+      </div>
+    </div>
   </div>
+
+
+  <div class="showcase-carousel">
+    <div class="slide" ng-repeat="image in project.showcase" style="background-image: url('../images/{{ image.src }}')">
+      <div class="description" ng-if="image.description">
+        <div class="container">
+          <div class="col-md-4">
+            <p>{{ image.description }}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="one-col-callout ">
+    <div class="container">
+      <div class="col-md-8 col-md-offset-2 reveal">
+        <h1>Ready to chat?</h1>
+        <p>Got a project in mind? I’m always interested in new projects, send me a message.</p>
+        <button type="button" class="primary-btn">Get in touch</button>
+        <p class="body-font">Forms not your thing send me an <a href="#" class="bold lowercase">email</a></p>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="project-gallery related-projects">
+    <h2>Related Projects</h2>
+    <div class="row">
+      <a href="#/projects/{{project.handle}}" ng-repeat="project in relatedProjects | limitTo: 2">
+        <div  class="col-md-6 tile feature ">
+          <div class="img" style="background-image: url('images/{{ project.hero.src }}')"></div>
+          <div class="content">
+            <h2>{{ project.title }}</h2>
+            <p>{{ project.type }}</p>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+
+
+  <!-- <div ng-if="project.showcase" class="full-width-image">
+    <div ng-repeat="image in project.showcase" class="image" style="background-image: url('../images/{{ image.src }}')"></div>
+  </div> -->

@@ -25,7 +25,7 @@ angular
         });
 
   })
-  .config(function ($routeProvider) {
+  .config(function ($routeProvider, $locationProvider) {
     $routeProvider
       .when('/', {
         templateUrl: 'views/main.html',
@@ -60,4 +60,8 @@ angular
       .otherwise({
         redirectTo: '/'
       });
-  });
+  })
+  .config(['$locationProvider', function($locationProvider) {
+    $locationProvider.html5Mode(false);
+    $locationProvider.hashPrefix('');
+  }]);

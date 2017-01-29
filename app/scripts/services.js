@@ -12,9 +12,6 @@ angular.module('angularSiteApp.services', [])
 
    return projects;
 
-
-
-
   // return {
   //   all: function() {
   //     return deferred.promise;
