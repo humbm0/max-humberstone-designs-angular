@@ -107,9 +107,99 @@
       ]
     },
     {
+      "handle": "yukon",
+      "title": "Yukon",
+      "featured": true,
+      "type": "product",
+      "hero":
+        {
+          "src": "yukon/render3.png",
+          "alt": "Yukon hero image"
+        },
+      "textColour": "black",
+      "heading": "A new way to experience music…",
+      "subheading": "EEG headphones with machine learning technology to enhance the music listening experience.",
+      "client": "DCA Design International",
+      "challenge": "Redesign a product that people ahve become habituated to.",
+      "outcome": "Biometric headphones that use brain wave signals and motion sensing to select songs and create personalised playlists based on a users mood current mood or activity.",
+      "section1":
+      {
+        "title": "The Problem",
+        "heading": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris.",
+        "content": "Absenteeism and presenteeism (reduced performance and productivity due to ill health while at work) are major areas of concern to employers in the UK. Currently in the UK, the average office worker takes 6.5 days of absence. Taken cumulatively across the UK working population, this amounts to 190 million working days for absence and approximately £8.4 billion lost annually. Remarkably, the cost of presenteeism to UK employers is estimated at £15 billion per year, significantly more than absenteeism. Over a third of employers have highlighted stress-related absence to be on the rise. In the workplace, 41% of private sector employees state that they are experiencing stress because they are under excessive pressure at work. Mental health issues such as anxiety and depression are among the top 5 reasons employees are absent from work. The expected growth in technology related jobs is expected to rise by "
+      },
+      "image1":
+      {
+        "src": "yukon/user1.jpg",
+        "alt": "Current problem"
+      },
+      "section2":
+      {
+        "title": "The idea",
+        "heading": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris.",
+        "content": "To identify the main causes of workplace stress by interviewing a range of employees from a large technology company. "
+      },
+      "image2":
+      {
+        "src": "yukon/research2.jpg",
+        "alt": "Focus group"
+      },
+      "image3":
+      {
+        "src": "yukon/research.jpg",
+        "alt": "Idea development"
+      },
+      "section3":
+      {
+        "title": "The design",
+        "heading": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris.",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at. Vestibulum tincidunt quis neque vitae tempor. Praesent in nunc a urna venenatis placerat. Nullam fringilla tellus odio. Pellentesque at libero facilisis, blandit ex bibendum, pharetra purus. Sed quis mi a diam sollicitudin aliquet a vel velit. Integer eget eleifend quam. Aliquam sodales ligula dui, imperdiet vestibulum orci euismod ut."
+      },
+      "grid_images":[
+        {
+          "size": "sm",
+          "src": "ovambo/wireframes.jpg",
+          "alt": "",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at."
+        },
+        {
+          "size": "large",
+          "src": "ovambo/wireframes2.jpg",
+          "alt": "",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at."
+        },
+        {
+          "size": "sm",
+          "src": "squair/sketch3.jpg",
+          "alt": "",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at."
+        },
+        {
+          "size": "med",
+          "src": "squair/sketch1.jpg",
+          "alt": "",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at."
+        }
+      ],
+      "showcase":[
+          {
+            "src": "yukon/user_app.png",
+            "alt": ""
+          },
+          {
+            "src": "yukon/render3.png",
+            "alt": ""
+          },
+          {
+            "src": "yukon/render1.png",
+            "alt": ""
+          }
+      ]
+    },
+    {
       "handle": "squair",
       "title": "SQUAIR",
-      "featured": true,
+      "featured": false,
       "type": "product",
       "hero":
       {
@@ -429,7 +519,7 @@
           "handle": "etrack",
           "title": "E-track",
           "featured": false,
-          "type": "digital | product",
+          "type": "digital",
           "hero":
             {
               "src": "e-track/thumb.jpg",

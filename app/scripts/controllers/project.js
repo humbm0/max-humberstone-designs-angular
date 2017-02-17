@@ -29,13 +29,13 @@ angular.module('angularSiteApp')
       console.log($scope.relatedProjects);
     });
 
-    $timeout(function() {
-      $('.showcase-carousel').slick({
-        dots: true,
-        infinite: false,
-        autoplay: true,
-        autoplaySpeed: 6000
-      });
-    });
+    // $timeout(function() {
+    //   $('.showcase-carousel').slick({
+    //     dots: true,
+    //     infinite: false,
+    //     autoplay: true,
+    //     autoplaySpeed: 6000
+    //   });
+    // });
 
   });

@@ -17,7 +17,8 @@ angular
     'ngSanitize',
     'ngTouch',
     'angularSiteApp.services',
-    'wu.masonry'
+    'wu.masonry',
+    'slick'
   ])
   .run(function ($rootScope) {
                 $rootScope.$on('$locationChangeSuccess', function (event) {
