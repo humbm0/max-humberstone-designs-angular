@@ -58,7 +58,7 @@
       <div class="row">
         <div class="col-md-8">
           <h4>{{ project.section1.title}}</h4>
-          <h2>{{ project.section2.heading }}</h2>
+          <h2>{{ project.section1.heading }}</h2>
           <p>{{ project.section1.content }}</p>
         </div>
       </div>
@@ -106,19 +106,8 @@
     </div>
   </div>
 
-  <!-- <div class="masonary-grid">
-    <div class="container">
-      <div class="grid">
-        <div class="grid-item {{ image.size }}" ng-repeat="image in project.grid_images">
-          <div class="image {{ image.size }}">
-            <img src="../img/{{ image.src }}" alt="{{ image.alt }}" />
-          </div>
-          <p class="description">{{ image.description }}</p>
-        </div>
-      </div>
-    </div>
-  </div> -->
-  <div class="masonry-grid">
+
+  <div class="masonry-grid" ng-if="project.grid_images">
     <div class="container">
       <div masonry load-images="false">
         <div class="masonry-brick {{ image.size }}" ng-repeat="image in project.grid_images">
@@ -132,31 +121,30 @@
   </div>
 
 
+  <div class="two-col-img " ng-if="project.image4 && project.image5">
+    <div class="row">
+      <div class="col-sm-6 tile">
+        <img src="../images/{{ project.image4.src }}" alt="{{ project.image4.alt }}" />
+      </div>
+      <div class="col-sm-6 tile">
+        <img src="../images/{{ project.image5.src }}" alt="{{ project.image5.alt }}" />
+      </div>
+    </div>
+  </div>
+
+
   <div ng-if="project.section4" class="two-col-title-text">
     <div class="container">
       <div class="row">
-        <div class="col-md-3 col-md-offset-1">
-          <h3>{{ project.section4.title }}</h3>
-        </div>
-        <div class="col-md-7">
+        <div class="col-md-8">
+          <h4 ng-if="project.section4.title">{{ project.section4.title}}</h4>
+          <h2>{{ project.section4.heading }}</h2>
           <p>{{ project.section4.content }}</p>
         </div>
       </div>
     </div>
   </div>
 
-
-  <!-- <div class="showcase-carousel">
-    <div class="slide" ng-repeat="image in project.showcase" style="background-image: url('../images/{{ image.src }}')">
-      <div class="description" ng-if="image.description">
-        <div class="container">
-          <div class="col-md-4">
-            <p>{{ image.description }}</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div> -->
 
   <slick dots=true autoplay=true autoplay-speed=6000 class="showcase-carousel">
     <div class="slide" ng-repeat="image in project.showcase" style="background-image: url('../images/{{ image.src }}')">

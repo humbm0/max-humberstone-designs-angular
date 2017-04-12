@@ -1,1065 +1,1065 @@
 {
-  "projects": [
-    {
-      "handle": "ovambo",
-      "title": "OVAMBO",
-      "featured": true,
-      "type": "product",
-      "hero":
-        {
-          "src": "ovambo/thumb.png",
-          "alt": "OVAMBO hero image"
-        },
-      "textColour": "black",
-      "heading": "Defining mental wellbeing for the future workplace.",
-      "subheading": "Redesign of an oxygen concentrator for people who require ambulatory oxygen therapy.",
-      "client": "Severn Trent Water",
-      "challenge": "Encourage oxygen therapy patients to exercise and main an active lifestyle.",
-      "outcome": "A small, lightweight oxgen concenrator that monitors users oxygen saturation and regulates flow rate accordingly maintain a healthy bloody oxygen level.",
-      "section1":
+   "projects":[
       {
-        "title": "The Problem",
-        "heading": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris.",
-        "content": "Absenteeism and presenteeism (reduced performance and productivity due to ill health while at work) are major areas of concern to employers in the UK. Currently in the UK, the average office worker takes 6.5 days of absence. Taken cumulatively across the UK working population, this amounts to 190 million working days for absence and approximately £8.4 billion lost annually. Remarkably, the cost of presenteeism to UK employers is estimated at £15 billion per year, significantly more than absenteeism. Over a third of employers have highlighted stress-related absence to be on the rise. In the workplace, 41% of private sector employees state that they are experiencing stress because they are under excessive pressure at work. Mental health issues such as anxiety and depression are among the top 5 reasons employees are absent from work. The expected growth in technology related jobs is expected to rise by "
-      },
-      "image1":
-      {
-        "src": "ovambo/user1.jpg",
-        "alt": "Current problem"
-      },
-      "section2":
-      {
-        "title": "The idea",
-        "heading": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris.",
-        "content": "To identify the main causes of workplace stress by interviewing a range of employees from a large technology company. "
-      },
-      "image2":
-      {
-        "src": "ovambo/research.jpg",
-        "alt": "EEG experience prototype"
-      },
-      "image3":
-      {
-        "src": "ovambo/research3.jpg",
-        "alt": "EEG experience prototype"
-      },
-      "section3":
-      {
-        "title": "The design",
-        "heading": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris.",
-        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at. Vestibulum tincidunt quis neque vitae tempor. Praesent in nunc a urna venenatis placerat. Nullam fringilla tellus odio. Pellentesque at libero facilisis, blandit ex bibendum, pharetra purus. Sed quis mi a diam sollicitudin aliquet a vel velit. Integer eget eleifend quam. Aliquam sodales ligula dui, imperdiet vestibulum orci euismod ut."
-      },
-      "grid_images":[
-        {
-          "size": "sm",
-          "src": "ovambo/wireframes.jpg",
-          "alt": "",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at."
-        },
-        {
-          "size": "large",
-          "src": "ovambo/wireframes2.jpg",
-          "alt": "",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at."
-        },
-        {
-          "size": "sm",
-          "src": "squair/sketch3.jpg",
-          "alt": "",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at."
-        },
-        {
-          "size": "med",
-          "src": "squair/sketch1.jpg",
-          "alt": "",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at."
-        }
-      ],
-      "showcase":[
-          {
-            "src": "ovambo/user2.png",
-            "alt": ""
-          },
-          {
-            "src": "ovambo/neckband.png",
-            "alt": ""
-          },
-          {
-            "src": "ovambo/app2.jpg",
-            "alt": ""
-          },
-          {
-            "src": "ovambo/app3.jpg",
-            "alt": ""
-          },
-          {
-            "src": "ovambo/app4.jpg",
-            "alt": ""
-          },
-          {
-            "src": "ovambo/app6.jpg",
-            "alt": ""
-          },
-          {
-            "src": "ovambo/app5.jpg",
-            "alt": ""
-          }
-      ]
-    },
-    {
-      "handle": "squair",
-      "title": "SQUAIR",
-      "featured": true,
-      "type": "product",
-      "hero":
-      {
-        "src": "squair/thumb.jpg",
-        "alt": "squair hero image"
-      },
-      "textColour": "dark",
-      "heading": "A new and improved experience to ambulatory oxygen therapy.",
-      "subheading": "Redesign of an oxygen concentrator for people who require ambulatory oxygen therapy.",
-      "client": "University Major Design Project",
-      "challenge": "Encourage oxygen therapy patients to exercise and main an active lifestyle.",
-      "outcome": "A small, lightweight oxgen concenrator that monitors users oxygen saturation and regulates flow rate accordingly maintain a healthy bloody oxygen level.",
-      "section1":
-      {
-        "title": "The Problem",
-        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at. Vestibulum tincidunt quis neque vitae tempor. Praesent in nunc a urna venenatis placerat. Nullam fringilla tellus odio. Pellentesque at libero facilisis, blandit ex bibendum, pharetra purus. Sed quis mi a diam sollicitudin aliquet a vel velit. Integer eget eleifend quam. Aliquam sodales ligula dui, imperdiet vestibulum orci euismod ut."
-      },
-      "image1":
-      {
-        "src": "ovambo/user1.jpg",
-        "alt": "Current problem"
-      },
-      "section2":
-      {
-        "title": "The Approach",
-        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at. Vestibulum tincidunt quis neque vitae tempor. Praesent in nunc a urna venenatis placerat. Nullam fringilla tellus odio. Pellentesque at libero facilisis, blandit ex bibendum, pharetra purus. Sed quis mi a diam sollicitudin aliquet a vel velit. Integer eget eleifend quam. Aliquam sodales ligula dui, imperdiet vestibulum orci euismod ut."
-      },
-      "image2":
-      {
-        "src": "squair/interview.jpg",
-        "alt": "Interview with users"
-      },
-      "image3":
-      {
-        "src": "squair/interview2.jpg",
-        "alt": "Interview with users"
-      },
-      "section3":
-      {
-        "title": "Section title",
-        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at. Vestibulum tincidunt quis neque vitae tempor. Praesent in nunc a urna venenatis placerat. Nullam fringilla tellus odio. Pellentesque at libero facilisis, blandit ex bibendum, pharetra purus. Sed quis mi a diam sollicitudin aliquet a vel velit. Integer eget eleifend quam. Aliquam sodales ligula dui, imperdiet vestibulum orci euismod ut."
-      },
-      "grid_images":[
+         "handle":"ovambo",
+         "title":"OVAMBO",
+         "featured":true,
+         "type":"product",
+         "hero":{
+            "src":"ovambo/thumb.png",
+            "alt":"OVAMBO hero image"
+         },
+         "textColour":"black",
+         "heading":"Defining mental wellbeing for the future workplace.",
+         "subheading":"Redesign of an oxygen concentrator for people who require ambulatory oxygen therapy.",
+         "client":"Severn Trent Water",
+         "challenge":"Encourage oxygen therapy patients to exercise and main an active lifestyle.",
+         "outcome":"A small, lightweight oxgen concenrator that monitors users oxygen saturation and regulates flow rate accordingly maintain a healthy bloody oxygen level.",
+         "section1":{
+            "title":"The Problem",
+            "heading":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris.",
+            "content":"Absenteeism and presenteeism (reduced performance and productivity due to ill health while at work) are major areas of concern to employers in the UK. Currently in the UK, the average office worker takes 6.5 days of absence. Taken cumulatively across the UK working population, this amounts to 190 million working days for absence and approximately £8.4 billion lost annually. Remarkably, the cost of presenteeism to UK employers is estimated at £15 billion per year, significantly more than absenteeism. Over a third of employers have highlighted stress-related absence to be on the rise. In the workplace, 41% of private sector employees state that they are experiencing stress because they are under excessive pressure at work. Mental health issues such as anxiety and depression are among the top 5 reasons employees are absent from work. The expected growth in technology related jobs is expected to rise by "
+         },
+         "image1":{
+            "src":"ovambo/user1.jpg",
+            "alt":"Current problem"
+         },
+         "section2":{
+            "title":"The idea",
+            "heading":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris.",
+            "content":"To identify the main causes of workplace stress by interviewing a range of employees from a large technology company. "
+         },
+         "image2":{
+            "src":"ovambo/research.jpg",
+            "alt":"EEG experience prototype"
+         },
+         "image3":{
+            "src":"ovambo/research3.jpg",
+            "alt":"EEG experience prototype"
+         },
+         "section3":{
+            "title":"The design",
+            "heading":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris.",
+            "content":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at. Vestibulum tincidunt quis neque vitae tempor. Praesent in nunc a urna venenatis placerat. Nullam fringilla tellus odio. Pellentesque at libero facilisis, blandit ex bibendum, pharetra purus. Sed quis mi a diam sollicitudin aliquet a vel velit. Integer eget eleifend quam. Aliquam sodales ligula dui, imperdiet vestibulum orci euismod ut."
+         },
+         "grid_images":[
             {
-              "size": "small",
-              "src": "squair/sketch1.jpg",
-              "alt": "",
-              "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at."
+               "size":"sm",
+               "src":"ovambo/wireframes.jpg",
+               "alt":"",
+               "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at."
             },
             {
-              "size": "large",
-              "src": "squair/sketch2.jpg",
-              "alt": "",
-              "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at."
+               "size":"large",
+               "src":"ovambo/wireframes2.jpg",
+               "alt":"",
+               "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at."
             },
             {
-              "size": "small",
-              "src": "squair/sketch3.jpg",
-              "alt": "",
-              "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at."
+               "size":"sm",
+               "src":"squair/sketch3.jpg",
+               "alt":"",
+               "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at."
             },
             {
-              "size": "medium",
-              "src": "squair/sketch1.jpg",
-              "alt": "",
-              "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at."
+               "size":"med",
+               "src":"squair/sketch1.jpg",
+               "alt":"",
+               "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at."
             }
-      ],
-      "showcase":[
-          {
-            "src": "squair/cover.jpg",
-            "alt": ""
-          },
-          {
-            "src": "squair/cover2.jpg",
-            "alt": ""
-          },
-          {
-            "src": "squair/led_display.jpg",
-            "alt": ""
-          },
-          {
-            "src": "squair/batteries_stack.jpg",
-            "alt": ""
-          },
-          {
-            "src": "squair/batteries_charging.jpg",
-            "alt": ""
-          },
-          {
-            "src": "squair/warning.jpg",
-            "alt": ""
-          },
-          {
-            "src": "squair/wearable.jpg",
-            "alt": ""
-          },
-          {
-            "src": "squair/wearable2.jpg",
-            "alt": ""
-          }
-      ]
-    },
-    {
-      "handle": "snow",
-      "title": "Snow",
-      "featured": false,
-      "type": "product",
-      "hero":
-        {
-          "src": "snow/thumb.jpg",
-          "alt": "Snow hero image"
-        },
-        "textColour": "black",
-        "heading": "Defining mental wellbeing for the future workplace.",
-        "subheading": "Redesign of an oxygen concentrator for people who require ambulatory oxygen therapy.",
-        "client": "Severn Trent Water",
-        "challenge": "Encourage oxygen therapy patients to exercise and main an active lifestyle.",
-        "outcome": "A small, lightweight oxgen concenrator that monitors users oxygen saturation and regulates flow rate accordingly maintain a healthy bloody oxygen level.",
-        "section1":
-        {
-          "title": "The Problem",
-          "heading": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris.",
-          "content": "Absenteeism and presenteeism (reduced performance and productivity due to ill health while at work) are major areas of concern to employers in the UK. Currently in the UK, the average office worker takes 6.5 days of absence. Taken cumulatively across the UK working population, this amounts to 190 million working days for absence and approximately £8.4 billion lost annually. Remarkably, the cost of presenteeism to UK employers is estimated at £15 billion per year, significantly more than absenteeism. Over a third of employers have highlighted stress-related absence to be on the rise. In the workplace, 41% of private sector employees state that they are experiencing stress because they are under excessive pressure at work. Mental health issues such as anxiety and depression are among the top 5 reasons employees are absent from work. The expected growth in technology related jobs is expected to rise by "
-        },
-        "image1":
-        {
-          "src": "ovambo/user1.jpg",
-          "alt": "Current problem"
-        },
-        "section2":
-        {
-          "title": "The idea",
-          "heading": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris.",
-          "content": "To identify the main causes of workplace stress by interviewing a range of employees from a large technology company. "
-        },
-        "image2":
-        {
-          "src": "ovambo/research.jpg",
-          "alt": "EEG experience prototype"
-        },
-        "image3":
-        {
-          "src": "ovambo/research3.jpg",
-          "alt": "EEG experience prototype"
-        },
-        "section3":
-        {
-          "title": "The design",
-          "heading": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris.",
-          "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at. Vestibulum tincidunt quis neque vitae tempor. Praesent in nunc a urna venenatis placerat. Nullam fringilla tellus odio. Pellentesque at libero facilisis, blandit ex bibendum, pharetra purus. Sed quis mi a diam sollicitudin aliquet a vel velit. Integer eget eleifend quam. Aliquam sodales ligula dui, imperdiet vestibulum orci euismod ut."
-        },
-        "grid_images":[
-          {
-            "size": "sm",
-            "src": "ovambo/wireframes.jpg",
-            "alt": "",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at."
-          },
-          {
-            "size": "large",
-            "src": "ovambo/wireframes2.jpg",
-            "alt": "",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at."
-          },
-          {
-            "size": "sm",
-            "src": "squair/sketch3.jpg",
-            "alt": "",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at."
-          },
-          {
-            "size": "med",
-            "src": "squair/sketch1.jpg",
-            "alt": "",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at."
-          }
-        ],
-        "showcase":[
+         ],
+         "showcase":[
             {
-              "src": "ovambo/user2.png",
-              "alt": ""
+               "src":"ovambo/user2.png",
+               "alt":""
             },
             {
-              "src": "ovambo/neckband.png",
-              "alt": ""
+               "src":"ovambo/neckband.png",
+               "alt":""
             },
             {
-              "src": "ovambo/app2.jpg",
-              "alt": ""
+               "src":"ovambo/app2.jpg",
+               "alt":""
             },
             {
-              "src": "ovambo/app3.jpg",
-              "alt": ""
+               "src":"ovambo/app3.jpg",
+               "alt":""
             },
             {
-              "src": "ovambo/app4.jpg",
-              "alt": ""
+               "src":"ovambo/app4.jpg",
+               "alt":""
             },
             {
-              "src": "ovambo/app6.jpg",
-              "alt": ""
+               "src":"ovambo/app6.jpg",
+               "alt":""
             },
             {
-              "src": "ovambo/app5.jpg",
-              "alt": ""
+               "src":"ovambo/app5.jpg",
+               "alt":""
             }
-        ]
+         ]
       },
       {
-        "handle": "severn-trent",
-        "title": "Severn Trent Water",
-        "featured": false,
-        "type": "digital",
-        "hero":
-          {
-            "src": "severn-trent/thumb.jpg",
-            "alt": "severn trent hero image"
-          },
-          "textColour": "black",
-          "heading": "Defining mental wellbeing for the future workplace.",
-          "subheading": "Redesign of an oxygen concentrator for people who require ambulatory oxygen therapy.",
-          "client": "Severn Trent Water",
-          "challenge": "Encourage oxygen therapy patients to exercise and main an active lifestyle.",
-          "outcome": "A small, lightweight oxgen concenrator that monitors users oxygen saturation and regulates flow rate accordingly maintain a healthy bloody oxygen level.",
-          "section1":
-          {
-            "title": "The Problem",
-            "heading": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris.",
-            "content": "Absenteeism and presenteeism (reduced performance and productivity due to ill health while at work) are major areas of concern to employers in the UK. Currently in the UK, the average office worker takes 6.5 days of absence. Taken cumulatively across the UK working population, this amounts to 190 million working days for absence and approximately £8.4 billion lost annually. Remarkably, the cost of presenteeism to UK employers is estimated at £15 billion per year, significantly more than absenteeism. Over a third of employers have highlighted stress-related absence to be on the rise. In the workplace, 41% of private sector employees state that they are experiencing stress because they are under excessive pressure at work. Mental health issues such as anxiety and depression are among the top 5 reasons employees are absent from work. The expected growth in technology related jobs is expected to rise by "
-          },
-          "image1":
-          {
-            "src": "ovambo/user1.jpg",
-            "alt": "Current problem"
-          },
-          "section2":
-          {
-            "title": "The idea",
-            "heading": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris.",
-            "content": "To identify the main causes of workplace stress by interviewing a range of employees from a large technology company. "
-          },
-          "image2":
-          {
-            "src": "ovambo/research.jpg",
-            "alt": "EEG experience prototype"
-          },
-          "image3":
-          {
-            "src": "ovambo/research3.jpg",
-            "alt": "EEG experience prototype"
-          },
-          "section3":
-          {
-            "title": "The design",
-            "heading": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris.",
-            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at. Vestibulum tincidunt quis neque vitae tempor. Praesent in nunc a urna venenatis placerat. Nullam fringilla tellus odio. Pellentesque at libero facilisis, blandit ex bibendum, pharetra purus. Sed quis mi a diam sollicitudin aliquet a vel velit. Integer eget eleifend quam. Aliquam sodales ligula dui, imperdiet vestibulum orci euismod ut."
-          },
-          "grid_images":[
+         "handle":"yukon",
+         "title":"Yukon",
+         "featured":true,
+         "type":"product",
+         "hero":{
+            "src":"yukon/render3.png",
+            "alt":"Yukon hero image"
+         },
+         "textColour":"black",
+         "heading":"What if the music we listen to was more personal to us and current moment?",
+         "subheading":"EEG headphones with machine learning technology to enhance the music listening experience.",
+         "client":"DCA Design International",
+         "challenge":"Redesign a product that people ahve become habituated to.",
+         "outcome":"Biometric headphones that use brain wave signals and motion sensing to select songs and create personalised playlists based on a users mood current mood or activity.",
+         "section1":{
+            "title":"The Problem",
+            "heading":"With the adoption of cloud music libraries and digital radio accessibility to music has never been easier but has this constant stimuli of pop culture songs caused people to be come habituated to music and loose appreciation?",
+            "content":"As the distribution and accessibility of music has become easier, users have become overloaded with content and struggle to find music they like for different situations. Users reporting a bias towards chart music and finding new music can be difficult. To try and solve the problem of content overload services have implemented personal/suggested playlists to match songs to the users preferences. However the logic used to match these songs is very basic - selecting songs by the same artist, same genre, or songs other users have bought. Users reported that “I would never listen to something like that!”. "
+         },
+         "image1":{
+            "src":"yukon/user1.jpg",
+            "alt":"Current problem"
+         },
+         "section2":{
+            "title":"The idea",
+            "heading":"How might we make the music we listen too more personal to us and the moment we are living in?",
+            "content":"Initial ideation exploring new music experiences using the insights to drive concept selection and refinement. Ideas ranged form cloud based vinyl players to AI speakers. Ideas were then played back to focus group for concept selection and refinement. The concept taken forward was a pair of biometric headphones to select songs based on a users mood current mood or activity. One issue brought up was - “what if your current mood is bad?”. Other feedback was their needed to further development into the social aspect of music."
+         },
+         "image2":{
+            "src":"yukon/research2.jpg",
+            "alt":"Focus group"
+         },
+         "image3":{
+            "src":"yukon/research.jpg",
+            "alt":"Idea development"
+         },
+         "section3":{
+            "title":"The design",
+            "heading":"Development of form, interaction and refinement of EEG technology used. Brainwaves are produced by synchronised electrical pulses from masses of neutrons communicating with each other. Our brainwaves change according to what we’re doing and feeling.",
+            "content":"When slower brainwaves are dominant we can feel tired, slow, sluggish, or dreamy. The higher frequencies are dominant when we feel wired, or hyper-alert. The headphones measure brain signals much like a heart rate monitor senses your heartbeat. Finely calibrated sensors detect and measure the activity of your brain. Along side the design of the headphones app wireframes were generated to establish initial user flow and then progressed to visual designs."
+         },
+         "image4":{
+            "src":"yukon/sketches.jpeg",
+            "alt":"Idea development"
+         },
+         "image5":{
+            "src":"yukon/wireframes.jpeg",
+            "alt":"Idea development"
+         },
+         "section4":{
+           "title":"The solution",
+            "heading":"Yukon is a the next generation of music listening. The Yukon headphones incorporate EEG technology, to continuously monitor the user’s brain waves.",
+            "content":"These brain waves when combined with motion sensing allow Yukon to understand the user’s current mood and activity. Yukon then selects songs to fit the current scenario. Users can choose to change their mood through personalised playlists and use boosts to further stimulate their desired mood. Unlike existing personalised playlists Yukon learns exactly which types of songs are most suited to the user for a particular task. By monitoring the user’s brain waves it understands how users to react to different song selections in different scenarios and uses this data to influence its next song selection. Yukon also encourages sharing, and social interactions through sync listening allowing users to broadcast their mood playlist so friends can listening together and mix their individual moods into one playlist."
+         },
+         "showcase":[
             {
-              "size": "sm",
-              "src": "ovambo/wireframes.jpg",
-              "alt": "",
-              "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at."
+               "src":"yukon/user_app.png",
+               "alt":""
             },
             {
-              "size": "large",
-              "src": "ovambo/wireframes2.jpg",
-              "alt": "",
-              "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at."
+               "src":"yukon/render3.png",
+               "alt":""
             },
             {
-              "size": "sm",
-              "src": "squair/sketch3.jpg",
-              "alt": "",
-              "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at."
-            },
-            {
-              "size": "med",
-              "src": "squair/sketch1.jpg",
-              "alt": "",
-              "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at."
+               "src":"yukon/render1.png",
+               "alt":""
             }
-          ],
-          "showcase":[
-              {
-                "src": "ovambo/user2.png",
-                "alt": ""
-              },
-              {
-                "src": "ovambo/neckband.png",
-                "alt": ""
-              },
-              {
-                "src": "ovambo/app2.jpg",
-                "alt": ""
-              },
-              {
-                "src": "ovambo/app3.jpg",
-                "alt": ""
-              },
-              {
-                "src": "ovambo/app4.jpg",
-                "alt": ""
-              },
-              {
-                "src": "ovambo/app6.jpg",
-                "alt": ""
-              },
-              {
-                "src": "ovambo/app5.jpg",
-                "alt": ""
-              }
-          ]
-        },
-        {
-          "handle": "etrack",
-          "title": "E-track",
-          "featured": false,
-          "type": "digital | product",
-          "hero":
+         ]
+      },
+      {
+         "handle":"squair",
+         "title":"SQUAIR",
+         "featured":false,
+         "type":"product",
+         "hero":{
+            "src":"squair/thumb.jpg",
+            "alt":"squair hero image"
+         },
+         "textColour":"dark",
+         "heading":"A new and improved experience to ambulatory oxygen therapy.",
+         "subheading":"Redesign of an oxygen concentrator for people who require ambulatory oxygen therapy.",
+         "client":"University Major Design Project",
+         "challenge":"Encourage oxygen therapy patients to exercise and main an active lifestyle.",
+         "outcome":"A small, lightweight oxgen concenrator that monitors users oxygen saturation and regulates flow rate accordingly maintain a healthy bloody oxygen level.",
+         "section1":{
+            "title":"The Problem",
+            "content":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at. Vestibulum tincidunt quis neque vitae tempor. Praesent in nunc a urna venenatis placerat. Nullam fringilla tellus odio. Pellentesque at libero facilisis, blandit ex bibendum, pharetra purus. Sed quis mi a diam sollicitudin aliquet a vel velit. Integer eget eleifend quam. Aliquam sodales ligula dui, imperdiet vestibulum orci euismod ut."
+         },
+         "image1":{
+            "src":"ovambo/user1.jpg",
+            "alt":"Current problem"
+         },
+         "section2":{
+            "title":"The Approach",
+            "content":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at. Vestibulum tincidunt quis neque vitae tempor. Praesent in nunc a urna venenatis placerat. Nullam fringilla tellus odio. Pellentesque at libero facilisis, blandit ex bibendum, pharetra purus. Sed quis mi a diam sollicitudin aliquet a vel velit. Integer eget eleifend quam. Aliquam sodales ligula dui, imperdiet vestibulum orci euismod ut."
+         },
+         "image2":{
+            "src":"squair/interview.jpg",
+            "alt":"Interview with users"
+         },
+         "image3":{
+            "src":"squair/interview2.jpg",
+            "alt":"Interview with users"
+         },
+         "section3":{
+            "title":"Section title",
+            "content":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at. Vestibulum tincidunt quis neque vitae tempor. Praesent in nunc a urna venenatis placerat. Nullam fringilla tellus odio. Pellentesque at libero facilisis, blandit ex bibendum, pharetra purus. Sed quis mi a diam sollicitudin aliquet a vel velit. Integer eget eleifend quam. Aliquam sodales ligula dui, imperdiet vestibulum orci euismod ut."
+         },
+         "grid_images":[
             {
-              "src": "e-track/thumb.jpg",
-              "alt": "severn trent hero image"
-            },
-            "textColour": "black",
-            "heading": "Defining mental wellbeing for the future workplace.",
-            "subheading": "Redesign of an oxygen concentrator for people who require ambulatory oxygen therapy.",
-            "client": "Severn Trent Water",
-            "challenge": "Encourage oxygen therapy patients to exercise and main an active lifestyle.",
-            "outcome": "A small, lightweight oxgen concenrator that monitors users oxygen saturation and regulates flow rate accordingly maintain a healthy bloody oxygen level.",
-            "section1":
-            {
-              "title": "The Problem",
-              "heading": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris.",
-              "content": "Absenteeism and presenteeism (reduced performance and productivity due to ill health while at work) are major areas of concern to employers in the UK. Currently in the UK, the average office worker takes 6.5 days of absence. Taken cumulatively across the UK working population, this amounts to 190 million working days for absence and approximately £8.4 billion lost annually. Remarkably, the cost of presenteeism to UK employers is estimated at £15 billion per year, significantly more than absenteeism. Over a third of employers have highlighted stress-related absence to be on the rise. In the workplace, 41% of private sector employees state that they are experiencing stress because they are under excessive pressure at work. Mental health issues such as anxiety and depression are among the top 5 reasons employees are absent from work. The expected growth in technology related jobs is expected to rise by "
-            },
-            "image1":
-            {
-              "src": "ovambo/user1.jpg",
-              "alt": "Current problem"
-            },
-            "section2":
-            {
-              "title": "The idea",
-              "heading": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris.",
-              "content": "To identify the main causes of workplace stress by interviewing a range of employees from a large technology company. "
-            },
-            "image2":
-            {
-              "src": "ovambo/research.jpg",
-              "alt": "EEG experience prototype"
-            },
-            "image3":
-            {
-              "src": "ovambo/research3.jpg",
-              "alt": "EEG experience prototype"
-            },
-            "section3":
-            {
-              "title": "The design",
-              "heading": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris.",
-              "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at. Vestibulum tincidunt quis neque vitae tempor. Praesent in nunc a urna venenatis placerat. Nullam fringilla tellus odio. Pellentesque at libero facilisis, blandit ex bibendum, pharetra purus. Sed quis mi a diam sollicitudin aliquet a vel velit. Integer eget eleifend quam. Aliquam sodales ligula dui, imperdiet vestibulum orci euismod ut."
-            },
-            "grid_images":[
-              {
-                "size": "sm",
-                "src": "ovambo/wireframes.jpg",
-                "alt": "",
-                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at."
-              },
-              {
-                "size": "large",
-                "src": "ovambo/wireframes2.jpg",
-                "alt": "",
-                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at."
-              },
-              {
-                "size": "sm",
-                "src": "squair/sketch3.jpg",
-                "alt": "",
-                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at."
-              },
-              {
-                "size": "med",
-                "src": "squair/sketch1.jpg",
-                "alt": "",
-                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at."
-              }
-            ],
-            "showcase":[
-                {
-                  "src": "ovambo/user2.png",
-                  "alt": ""
-                },
-                {
-                  "src": "ovambo/neckband.png",
-                  "alt": ""
-                },
-                {
-                  "src": "ovambo/app2.jpg",
-                  "alt": ""
-                },
-                {
-                  "src": "ovambo/app3.jpg",
-                  "alt": ""
-                },
-                {
-                  "src": "ovambo/app4.jpg",
-                  "alt": ""
-                },
-                {
-                  "src": "ovambo/app6.jpg",
-                  "alt": ""
-                },
-                {
-                  "src": "ovambo/app5.jpg",
-                  "alt": ""
-                }
-            ]
-          },
-          {
-            "handle": "humberstones-jewellers",
-            "title": "Humberstones Jewellers",
-            "featured": false,
-            "type": "digital",
-            "hero":
-              {
-                "src": "humberstones/thumb.jpg",
-                "alt": "humberstones hero image"
-              },
-              "textColour": "black",
-              "heading": "Defining mental wellbeing for the future workplace.",
-              "subheading": "Redesign of an oxygen concentrator for people who require ambulatory oxygen therapy.",
-              "client": "Severn Trent Water",
-              "challenge": "Encourage oxygen therapy patients to exercise and main an active lifestyle.",
-              "outcome": "A small, lightweight oxgen concenrator that monitors users oxygen saturation and regulates flow rate accordingly maintain a healthy bloody oxygen level.",
-              "section1":
-              {
-                "title": "The Problem",
-                "heading": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris.",
-                "content": "Absenteeism and presenteeism (reduced performance and productivity due to ill health while at work) are major areas of concern to employers in the UK. Currently in the UK, the average office worker takes 6.5 days of absence. Taken cumulatively across the UK working population, this amounts to 190 million working days for absence and approximately £8.4 billion lost annually. Remarkably, the cost of presenteeism to UK employers is estimated at £15 billion per year, significantly more than absenteeism. Over a third of employers have highlighted stress-related absence to be on the rise. In the workplace, 41% of private sector employees state that they are experiencing stress because they are under excessive pressure at work. Mental health issues such as anxiety and depression are among the top 5 reasons employees are absent from work. The expected growth in technology related jobs is expected to rise by "
-              },
-              "image1":
-              {
-                "src": "ovambo/user1.jpg",
-                "alt": "Current problem"
-              },
-              "section2":
-              {
-                "title": "The idea",
-                "heading": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris.",
-                "content": "To identify the main causes of workplace stress by interviewing a range of employees from a large technology company. "
-              },
-              "image2":
-              {
-                "src": "ovambo/research.jpg",
-                "alt": "EEG experience prototype"
-              },
-              "image3":
-              {
-                "src": "ovambo/research3.jpg",
-                "alt": "EEG experience prototype"
-              },
-              "section3":
-              {
-                "title": "The design",
-                "heading": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris.",
-                "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at. Vestibulum tincidunt quis neque vitae tempor. Praesent in nunc a urna venenatis placerat. Nullam fringilla tellus odio. Pellentesque at libero facilisis, blandit ex bibendum, pharetra purus. Sed quis mi a diam sollicitudin aliquet a vel velit. Integer eget eleifend quam. Aliquam sodales ligula dui, imperdiet vestibulum orci euismod ut."
-              },
-              "grid_images":[
-                {
-                  "size": "sm",
-                  "src": "ovambo/wireframes.jpg",
-                  "alt": "",
-                  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at."
-                },
-                {
-                  "size": "large",
-                  "src": "ovambo/wireframes2.jpg",
-                  "alt": "",
-                  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at."
-                },
-                {
-                  "size": "sm",
-                  "src": "squair/sketch3.jpg",
-                  "alt": "",
-                  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at."
-                },
-                {
-                  "size": "med",
-                  "src": "squair/sketch1.jpg",
-                  "alt": "",
-                  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at."
-                }
-              ],
-              "showcase":[
-                  {
-                    "src": "ovambo/user2.png",
-                    "alt": ""
-                  },
-                  {
-                    "src": "ovambo/neckband.png",
-                    "alt": ""
-                  },
-                  {
-                    "src": "ovambo/app2.jpg",
-                    "alt": ""
-                  },
-                  {
-                    "src": "ovambo/app3.jpg",
-                    "alt": ""
-                  },
-                  {
-                    "src": "ovambo/app4.jpg",
-                    "alt": ""
-                  },
-                  {
-                    "src": "ovambo/app6.jpg",
-                    "alt": ""
-                  },
-                  {
-                    "src": "ovambo/app5.jpg",
-                    "alt": ""
-                  }
-              ]
+               "size":"small",
+               "src":"squair/sketch1.jpg",
+               "alt":"",
+               "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at."
             },
             {
-              "handle": "yak",
-              "title": "Yak",
-              "featured": false,
-              "type": "product",
-              "hero":
-                {
-                  "src": "yak/thumb.jpg",
-                  "alt": "yak hero image"
-                },
-                "textColour": "black",
-                "heading": "Defining mental wellbeing for the future workplace.",
-                "subheading": "Redesign of an oxygen concentrator for people who require ambulatory oxygen therapy.",
-                "client": "Severn Trent Water",
-                "challenge": "Encourage oxygen therapy patients to exercise and main an active lifestyle.",
-                "outcome": "A small, lightweight oxgen concenrator that monitors users oxygen saturation and regulates flow rate accordingly maintain a healthy bloody oxygen level.",
-                "section1":
-                {
-                  "title": "The Problem",
-                  "heading": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris.",
-                  "content": "Absenteeism and presenteeism (reduced performance and productivity due to ill health while at work) are major areas of concern to employers in the UK. Currently in the UK, the average office worker takes 6.5 days of absence. Taken cumulatively across the UK working population, this amounts to 190 million working days for absence and approximately £8.4 billion lost annually. Remarkably, the cost of presenteeism to UK employers is estimated at £15 billion per year, significantly more than absenteeism. Over a third of employers have highlighted stress-related absence to be on the rise. In the workplace, 41% of private sector employees state that they are experiencing stress because they are under excessive pressure at work. Mental health issues such as anxiety and depression are among the top 5 reasons employees are absent from work. The expected growth in technology related jobs is expected to rise by "
-                },
-                "image1":
-                {
-                  "src": "ovambo/user1.jpg",
-                  "alt": "Current problem"
-                },
-                "section2":
-                {
-                  "title": "The idea",
-                  "heading": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris.",
-                  "content": "To identify the main causes of workplace stress by interviewing a range of employees from a large technology company. "
-                },
-                "image2":
-                {
-                  "src": "ovambo/research.jpg",
-                  "alt": "EEG experience prototype"
-                },
-                "image3":
-                {
-                  "src": "ovambo/research3.jpg",
-                  "alt": "EEG experience prototype"
-                },
-                "section3":
-                {
-                  "title": "The design",
-                  "heading": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris.",
-                  "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at. Vestibulum tincidunt quis neque vitae tempor. Praesent in nunc a urna venenatis placerat. Nullam fringilla tellus odio. Pellentesque at libero facilisis, blandit ex bibendum, pharetra purus. Sed quis mi a diam sollicitudin aliquet a vel velit. Integer eget eleifend quam. Aliquam sodales ligula dui, imperdiet vestibulum orci euismod ut."
-                },
-                "grid_images":[
-                  {
-                    "size": "sm",
-                    "src": "ovambo/wireframes.jpg",
-                    "alt": "",
-                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at."
-                  },
-                  {
-                    "size": "large",
-                    "src": "ovambo/wireframes2.jpg",
-                    "alt": "",
-                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at."
-                  },
-                  {
-                    "size": "sm",
-                    "src": "squair/sketch3.jpg",
-                    "alt": "",
-                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at."
-                  },
-                  {
-                    "size": "med",
-                    "src": "squair/sketch1.jpg",
-                    "alt": "",
-                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at."
-                  }
-                ],
-                "showcase":[
-                    {
-                      "src": "ovambo/user2.png",
-                      "alt": ""
-                    },
-                    {
-                      "src": "ovambo/neckband.png",
-                      "alt": ""
-                    },
-                    {
-                      "src": "ovambo/app2.jpg",
-                      "alt": ""
-                    },
-                    {
-                      "src": "ovambo/app3.jpg",
-                      "alt": ""
-                    },
-                    {
-                      "src": "ovambo/app4.jpg",
-                      "alt": ""
-                    },
-                    {
-                      "src": "ovambo/app6.jpg",
-                      "alt": ""
-                    },
-                    {
-                      "src": "ovambo/app5.jpg",
-                      "alt": ""
-                    }
-                ]
-              },
-          {
-            "handle": "feals",
-            "title": "Feals",
-            "featured": false,
-            "type": "digital",
-            "hero":
-              {
-                "src": "feals/thumb.jpg",
-                "alt": "feals hero image"
-              },
-              "textColour": "black",
-              "heading": "Defining mental wellbeing for the future workplace.",
-              "subheading": "Redesign of an oxygen concentrator for people who require ambulatory oxygen therapy.",
-              "client": "Severn Trent Water",
-              "challenge": "Encourage oxygen therapy patients to exercise and main an active lifestyle.",
-              "outcome": "A small, lightweight oxgen concenrator that monitors users oxygen saturation and regulates flow rate accordingly maintain a healthy bloody oxygen level.",
-              "section1":
-              {
-                "title": "The Problem",
-                "heading": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris.",
-                "content": "Absenteeism and presenteeism (reduced performance and productivity due to ill health while at work) are major areas of concern to employers in the UK. Currently in the UK, the average office worker takes 6.5 days of absence. Taken cumulatively across the UK working population, this amounts to 190 million working days for absence and approximately £8.4 billion lost annually. Remarkably, the cost of presenteeism to UK employers is estimated at £15 billion per year, significantly more than absenteeism. Over a third of employers have highlighted stress-related absence to be on the rise. In the workplace, 41% of private sector employees state that they are experiencing stress because they are under excessive pressure at work. Mental health issues such as anxiety and depression are among the top 5 reasons employees are absent from work. The expected growth in technology related jobs is expected to rise by "
-              },
-              "image1":
-              {
-                "src": "ovambo/user1.jpg",
-                "alt": "Current problem"
-              },
-              "section2":
-              {
-                "title": "The idea",
-                "heading": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris.",
-                "content": "To identify the main causes of workplace stress by interviewing a range of employees from a large technology company. "
-              },
-              "image2":
-              {
-                "src": "ovambo/research.jpg",
-                "alt": "EEG experience prototype"
-              },
-              "image3":
-              {
-                "src": "ovambo/research3.jpg",
-                "alt": "EEG experience prototype"
-              },
-              "section3":
-              {
-                "title": "The design",
-                "heading": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris.",
-                "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at. Vestibulum tincidunt quis neque vitae tempor. Praesent in nunc a urna venenatis placerat. Nullam fringilla tellus odio. Pellentesque at libero facilisis, blandit ex bibendum, pharetra purus. Sed quis mi a diam sollicitudin aliquet a vel velit. Integer eget eleifend quam. Aliquam sodales ligula dui, imperdiet vestibulum orci euismod ut."
-              },
-              "grid_images":[
-                {
-                  "size": "sm",
-                  "src": "ovambo/wireframes.jpg",
-                  "alt": "",
-                  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at."
-                },
-                {
-                  "size": "large",
-                  "src": "ovambo/wireframes2.jpg",
-                  "alt": "",
-                  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at."
-                },
-                {
-                  "size": "sm",
-                  "src": "squair/sketch3.jpg",
-                  "alt": "",
-                  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at."
-                },
-                {
-                  "size": "med",
-                  "src": "squair/sketch1.jpg",
-                  "alt": "",
-                  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at."
-                }
-              ],
-              "showcase":[
-                  {
-                    "src": "ovambo/user2.png",
-                    "alt": ""
-                  },
-                  {
-                    "src": "ovambo/neckband.png",
-                    "alt": ""
-                  },
-                  {
-                    "src": "ovambo/app2.jpg",
-                    "alt": ""
-                  },
-                  {
-                    "src": "ovambo/app3.jpg",
-                    "alt": ""
-                  },
-                  {
-                    "src": "ovambo/app4.jpg",
-                    "alt": ""
-                  },
-                  {
-                    "src": "ovambo/app6.jpg",
-                    "alt": ""
-                  },
-                  {
-                    "src": "ovambo/app5.jpg",
-                    "alt": ""
-                  }
-              ]
+               "size":"large",
+               "src":"squair/sketch2.jpg",
+               "alt":"",
+               "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at."
             },
-          {
-            "handle": "lds-degree-show",
-            "title": "LDS Degree Show",
-            "featured": false,
-            "type": "digital",
-            "hero":
-              {
-                "src": "lds-degree-show/thumb.jpg",
-                "alt": "LDS Degree Show hero image"
-              },
-              "textColour": "black",
-              "heading": "Defining mental wellbeing for the future workplace.",
-              "subheading": "Redesign of an oxygen concentrator for people who require ambulatory oxygen therapy.",
-              "client": "Severn Trent Water",
-              "challenge": "Encourage oxygen therapy patients to exercise and main an active lifestyle.",
-              "outcome": "A small, lightweight oxgen concenrator that monitors users oxygen saturation and regulates flow rate accordingly maintain a healthy bloody oxygen level.",
-              "section1":
-              {
-                "title": "The Problem",
-                "heading": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris.",
-                "content": "Absenteeism and presenteeism (reduced performance and productivity due to ill health while at work) are major areas of concern to employers in the UK. Currently in the UK, the average office worker takes 6.5 days of absence. Taken cumulatively across the UK working population, this amounts to 190 million working days for absence and approximately £8.4 billion lost annually. Remarkably, the cost of presenteeism to UK employers is estimated at £15 billion per year, significantly more than absenteeism. Over a third of employers have highlighted stress-related absence to be on the rise. In the workplace, 41% of private sector employees state that they are experiencing stress because they are under excessive pressure at work. Mental health issues such as anxiety and depression are among the top 5 reasons employees are absent from work. The expected growth in technology related jobs is expected to rise by "
-              },
-              "image1":
-              {
-                "src": "ovambo/user1.jpg",
-                "alt": "Current problem"
-              },
-              "section2":
-              {
-                "title": "The idea",
-                "heading": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris.",
-                "content": "To identify the main causes of workplace stress by interviewing a range of employees from a large technology company. "
-              },
-              "image2":
-              {
-                "src": "ovambo/research.jpg",
-                "alt": "EEG experience prototype"
-              },
-              "image3":
-              {
-                "src": "ovambo/research3.jpg",
-                "alt": "EEG experience prototype"
-              },
-              "section3":
-              {
-                "title": "The design",
-                "heading": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris.",
-                "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at. Vestibulum tincidunt quis neque vitae tempor. Praesent in nunc a urna venenatis placerat. Nullam fringilla tellus odio. Pellentesque at libero facilisis, blandit ex bibendum, pharetra purus. Sed quis mi a diam sollicitudin aliquet a vel velit. Integer eget eleifend quam. Aliquam sodales ligula dui, imperdiet vestibulum orci euismod ut."
-              },
-              "grid_images":[
-                {
-                  "size": "sm",
-                  "src": "ovambo/wireframes.jpg",
-                  "alt": "",
-                  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at."
-                },
-                {
-                  "size": "large",
-                  "src": "ovambo/wireframes2.jpg",
-                  "alt": "",
-                  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at."
-                },
-                {
-                  "size": "sm",
-                  "src": "squair/sketch3.jpg",
-                  "alt": "",
-                  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at."
-                },
-                {
-                  "size": "med",
-                  "src": "squair/sketch1.jpg",
-                  "alt": "",
-                  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at."
-                }
-              ],
-              "showcase":[
-                  {
-                    "src": "ovambo/user2.png",
-                    "alt": ""
-                  },
-                  {
-                    "src": "ovambo/neckband.png",
-                    "alt": ""
-                  },
-                  {
-                    "src": "ovambo/app2.jpg",
-                    "alt": ""
-                  },
-                  {
-                    "src": "ovambo/app3.jpg",
-                    "alt": ""
-                  },
-                  {
-                    "src": "ovambo/app4.jpg",
-                    "alt": ""
-                  },
-                  {
-                    "src": "ovambo/app6.jpg",
-                    "alt": ""
-                  },
-                  {
-                    "src": "ovambo/app5.jpg",
-                    "alt": ""
-                  }
-              ]
+            {
+               "size":"small",
+               "src":"squair/sketch3.jpg",
+               "alt":"",
+               "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at."
             },
-          {
-            "handle": "severn-trent-priority",
-            "title": "Severn Trent Priority Services",
-            "featured": false,
-            "type": "digital",
-            "hero":
-              {
-                "src": "severn-trent-priority/thumb.jpg",
-                "alt": "severn trent hero image"
-              },
-              "textColour": "black",
-              "heading": "Defining mental wellbeing for the future workplace.",
-              "subheading": "Redesign of an oxygen concentrator for people who require ambulatory oxygen therapy.",
-              "client": "Severn Trent Water",
-              "challenge": "Encourage oxygen therapy patients to exercise and main an active lifestyle.",
-              "outcome": "A small, lightweight oxgen concenrator that monitors users oxygen saturation and regulates flow rate accordingly maintain a healthy bloody oxygen level.",
-              "section1":
-              {
-                "title": "The Problem",
-                "heading": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris.",
-                "content": "Absenteeism and presenteeism (reduced performance and productivity due to ill health while at work) are major areas of concern to employers in the UK. Currently in the UK, the average office worker takes 6.5 days of absence. Taken cumulatively across the UK working population, this amounts to 190 million working days for absence and approximately £8.4 billion lost annually. Remarkably, the cost of presenteeism to UK employers is estimated at £15 billion per year, significantly more than absenteeism. Over a third of employers have highlighted stress-related absence to be on the rise. In the workplace, 41% of private sector employees state that they are experiencing stress because they are under excessive pressure at work. Mental health issues such as anxiety and depression are among the top 5 reasons employees are absent from work. The expected growth in technology related jobs is expected to rise by "
-              },
-              "image1":
-              {
-                "src": "ovambo/user1.jpg",
-                "alt": "Current problem"
-              },
-              "section2":
-              {
-                "title": "The idea",
-                "heading": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris.",
-                "content": "To identify the main causes of workplace stress by interviewing a range of employees from a large technology company. "
-              },
-              "image2":
-              {
-                "src": "ovambo/research.jpg",
-                "alt": "EEG experience prototype"
-              },
-              "image3":
-              {
-                "src": "ovambo/research3.jpg",
-                "alt": "EEG experience prototype"
-              },
-              "section3":
-              {
-                "title": "The design",
-                "heading": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris.",
-                "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at. Vestibulum tincidunt quis neque vitae tempor. Praesent in nunc a urna venenatis placerat. Nullam fringilla tellus odio. Pellentesque at libero facilisis, blandit ex bibendum, pharetra purus. Sed quis mi a diam sollicitudin aliquet a vel velit. Integer eget eleifend quam. Aliquam sodales ligula dui, imperdiet vestibulum orci euismod ut."
-              },
-              "grid_images":[
-                {
-                  "size": "sm",
-                  "src": "ovambo/wireframes.jpg",
-                  "alt": "",
-                  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at."
-                },
-                {
-                  "size": "large",
-                  "src": "ovambo/wireframes2.jpg",
-                  "alt": "",
-                  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at."
-                },
-                {
-                  "size": "sm",
-                  "src": "squair/sketch3.jpg",
-                  "alt": "",
-                  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at."
-                },
-                {
-                  "size": "med",
-                  "src": "squair/sketch1.jpg",
-                  "alt": "",
-                  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at."
-                }
-              ],
-              "showcase":[
-                  {
-                    "src": "ovambo/user2.png",
-                    "alt": ""
-                  },
-                  {
-                    "src": "ovambo/neckband.png",
-                    "alt": ""
-                  },
-                  {
-                    "src": "ovambo/app2.jpg",
-                    "alt": ""
-                  },
-                  {
-                    "src": "ovambo/app3.jpg",
-                    "alt": ""
-                  },
-                  {
-                    "src": "ovambo/app4.jpg",
-                    "alt": ""
-                  },
-                  {
-                    "src": "ovambo/app6.jpg",
-                    "alt": ""
-                  },
-                  {
-                    "src": "ovambo/app5.jpg",
-                    "alt": ""
-                  }
-              ]
+            {
+               "size":"medium",
+               "src":"squair/sketch1.jpg",
+               "alt":"",
+               "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at."
             }
-  ]
+         ],
+         "showcase":[
+            {
+               "src":"squair/cover.jpg",
+               "alt":""
+            },
+            {
+               "src":"squair/cover2.jpg",
+               "alt":""
+            },
+            {
+               "src":"squair/led_display.jpg",
+               "alt":""
+            },
+            {
+               "src":"squair/batteries_stack.jpg",
+               "alt":""
+            },
+            {
+               "src":"squair/batteries_charging.jpg",
+               "alt":""
+            },
+            {
+               "src":"squair/warning.jpg",
+               "alt":""
+            },
+            {
+               "src":"squair/wearable.jpg",
+               "alt":""
+            },
+            {
+               "src":"squair/wearable2.jpg",
+               "alt":""
+            }
+         ]
+      },
+      {
+         "handle":"snow",
+         "title":"Snow",
+         "featured":false,
+         "type":"product",
+         "hero":{
+            "src":"snow/thumb.jpg",
+            "alt":"Snow hero image"
+         },
+         "textColour":"black",
+         "heading":"Defining mental wellbeing for the future workplace.",
+         "subheading":"Redesign of an oxygen concentrator for people who require ambulatory oxygen therapy.",
+         "client":"Severn Trent Water",
+         "challenge":"Encourage oxygen therapy patients to exercise and main an active lifestyle.",
+         "outcome":"A small, lightweight oxgen concenrator that monitors users oxygen saturation and regulates flow rate accordingly maintain a healthy bloody oxygen level.",
+         "section1":{
+            "title":"The Problem",
+            "heading":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris.",
+            "content":"Absenteeism and presenteeism (reduced performance and productivity due to ill health while at work) are major areas of concern to employers in the UK. Currently in the UK, the average office worker takes 6.5 days of absence. Taken cumulatively across the UK working population, this amounts to 190 million working days for absence and approximately £8.4 billion lost annually. Remarkably, the cost of presenteeism to UK employers is estimated at £15 billion per year, significantly more than absenteeism. Over a third of employers have highlighted stress-related absence to be on the rise. In the workplace, 41% of private sector employees state that they are experiencing stress because they are under excessive pressure at work. Mental health issues such as anxiety and depression are among the top 5 reasons employees are absent from work. The expected growth in technology related jobs is expected to rise by "
+         },
+         "image1":{
+            "src":"ovambo/user1.jpg",
+            "alt":"Current problem"
+         },
+         "section2":{
+            "title":"The idea",
+            "heading":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris.",
+            "content":"To identify the main causes of workplace stress by interviewing a range of employees from a large technology company. "
+         },
+         "image2":{
+            "src":"ovambo/research.jpg",
+            "alt":"EEG experience prototype"
+         },
+         "image3":{
+            "src":"ovambo/research3.jpg",
+            "alt":"EEG experience prototype"
+         },
+         "section3":{
+            "title":"The design",
+            "heading":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris.",
+            "content":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at. Vestibulum tincidunt quis neque vitae tempor. Praesent in nunc a urna venenatis placerat. Nullam fringilla tellus odio. Pellentesque at libero facilisis, blandit ex bibendum, pharetra purus. Sed quis mi a diam sollicitudin aliquet a vel velit. Integer eget eleifend quam. Aliquam sodales ligula dui, imperdiet vestibulum orci euismod ut."
+         },
+         "grid_images":[
+            {
+               "size":"sm",
+               "src":"ovambo/wireframes.jpg",
+               "alt":"",
+               "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at."
+            },
+            {
+               "size":"large",
+               "src":"ovambo/wireframes2.jpg",
+               "alt":"",
+               "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at."
+            },
+            {
+               "size":"sm",
+               "src":"squair/sketch3.jpg",
+               "alt":"",
+               "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at."
+            },
+            {
+               "size":"med",
+               "src":"squair/sketch1.jpg",
+               "alt":"",
+               "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at."
+            }
+         ],
+         "showcase":[
+            {
+               "src":"ovambo/user2.png",
+               "alt":""
+            },
+            {
+               "src":"ovambo/neckband.png",
+               "alt":""
+            },
+            {
+               "src":"ovambo/app2.jpg",
+               "alt":""
+            },
+            {
+               "src":"ovambo/app3.jpg",
+               "alt":""
+            },
+            {
+               "src":"ovambo/app4.jpg",
+               "alt":""
+            },
+            {
+               "src":"ovambo/app6.jpg",
+               "alt":""
+            },
+            {
+               "src":"ovambo/app5.jpg",
+               "alt":""
+            }
+         ]
+      },
+      {
+         "handle":"severn-trent",
+         "title":"Severn Trent Water",
+         "featured":false,
+         "type":"digital",
+         "hero":{
+            "src":"severn-trent/thumb.jpg",
+            "alt":"severn trent hero image"
+         },
+         "textColour":"black",
+         "heading":"Defining mental wellbeing for the future workplace.",
+         "subheading":"Redesign of an oxygen concentrator for people who require ambulatory oxygen therapy.",
+         "client":"Severn Trent Water",
+         "challenge":"Encourage oxygen therapy patients to exercise and main an active lifestyle.",
+         "outcome":"A small, lightweight oxgen concenrator that monitors users oxygen saturation and regulates flow rate accordingly maintain a healthy bloody oxygen level.",
+         "section1":{
+            "title":"The Problem",
+            "heading":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris.",
+            "content":"Absenteeism and presenteeism (reduced performance and productivity due to ill health while at work) are major areas of concern to employers in the UK. Currently in the UK, the average office worker takes 6.5 days of absence. Taken cumulatively across the UK working population, this amounts to 190 million working days for absence and approximately £8.4 billion lost annually. Remarkably, the cost of presenteeism to UK employers is estimated at £15 billion per year, significantly more than absenteeism. Over a third of employers have highlighted stress-related absence to be on the rise. In the workplace, 41% of private sector employees state that they are experiencing stress because they are under excessive pressure at work. Mental health issues such as anxiety and depression are among the top 5 reasons employees are absent from work. The expected growth in technology related jobs is expected to rise by "
+         },
+         "image1":{
+            "src":"ovambo/user1.jpg",
+            "alt":"Current problem"
+         },
+         "section2":{
+            "title":"The idea",
+            "heading":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris.",
+            "content":"To identify the main causes of workplace stress by interviewing a range of employees from a large technology company. "
+         },
+         "image2":{
+            "src":"ovambo/research.jpg",
+            "alt":"EEG experience prototype"
+         },
+         "image3":{
+            "src":"ovambo/research3.jpg",
+            "alt":"EEG experience prototype"
+         },
+         "section3":{
+            "title":"The design",
+            "heading":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris.",
+            "content":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at. Vestibulum tincidunt quis neque vitae tempor. Praesent in nunc a urna venenatis placerat. Nullam fringilla tellus odio. Pellentesque at libero facilisis, blandit ex bibendum, pharetra purus. Sed quis mi a diam sollicitudin aliquet a vel velit. Integer eget eleifend quam. Aliquam sodales ligula dui, imperdiet vestibulum orci euismod ut."
+         },
+         "grid_images":[
+            {
+               "size":"sm",
+               "src":"ovambo/wireframes.jpg",
+               "alt":"",
+               "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at."
+            },
+            {
+               "size":"large",
+               "src":"ovambo/wireframes2.jpg",
+               "alt":"",
+               "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at."
+            },
+            {
+               "size":"sm",
+               "src":"squair/sketch3.jpg",
+               "alt":"",
+               "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at."
+            },
+            {
+               "size":"med",
+               "src":"squair/sketch1.jpg",
+               "alt":"",
+               "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at."
+            }
+         ],
+         "showcase":[
+            {
+               "src":"ovambo/user2.png",
+               "alt":""
+            },
+            {
+               "src":"ovambo/neckband.png",
+               "alt":""
+            },
+            {
+               "src":"ovambo/app2.jpg",
+               "alt":""
+            },
+            {
+               "src":"ovambo/app3.jpg",
+               "alt":""
+            },
+            {
+               "src":"ovambo/app4.jpg",
+               "alt":""
+            },
+            {
+               "src":"ovambo/app6.jpg",
+               "alt":""
+            },
+            {
+               "src":"ovambo/app5.jpg",
+               "alt":""
+            }
+         ]
+      },
+      {
+         "handle":"etrack",
+         "title":"E-track",
+         "featured":false,
+         "type":"digital",
+         "hero":{
+            "src":"e-track/thumb.jpg",
+            "alt":"severn trent hero image"
+         },
+         "textColour":"black",
+         "heading":"Defining mental wellbeing for the future workplace.",
+         "subheading":"Redesign of an oxygen concentrator for people who require ambulatory oxygen therapy.",
+         "client":"Severn Trent Water",
+         "challenge":"Encourage oxygen therapy patients to exercise and main an active lifestyle.",
+         "outcome":"A small, lightweight oxgen concenrator that monitors users oxygen saturation and regulates flow rate accordingly maintain a healthy bloody oxygen level.",
+         "section1":{
+            "title":"The Problem",
+            "heading":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris.",
+            "content":"Absenteeism and presenteeism (reduced performance and productivity due to ill health while at work) are major areas of concern to employers in the UK. Currently in the UK, the average office worker takes 6.5 days of absence. Taken cumulatively across the UK working population, this amounts to 190 million working days for absence and approximately £8.4 billion lost annually. Remarkably, the cost of presenteeism to UK employers is estimated at £15 billion per year, significantly more than absenteeism. Over a third of employers have highlighted stress-related absence to be on the rise. In the workplace, 41% of private sector employees state that they are experiencing stress because they are under excessive pressure at work. Mental health issues such as anxiety and depression are among the top 5 reasons employees are absent from work. The expected growth in technology related jobs is expected to rise by "
+         },
+         "image1":{
+            "src":"ovambo/user1.jpg",
+            "alt":"Current problem"
+         },
+         "section2":{
+            "title":"The idea",
+            "heading":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris.",
+            "content":"To identify the main causes of workplace stress by interviewing a range of employees from a large technology company. "
+         },
+         "image2":{
+            "src":"ovambo/research.jpg",
+            "alt":"EEG experience prototype"
+         },
+         "image3":{
+            "src":"ovambo/research3.jpg",
+            "alt":"EEG experience prototype"
+         },
+         "section3":{
+            "title":"The design",
+            "heading":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris.",
+            "content":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at. Vestibulum tincidunt quis neque vitae tempor. Praesent in nunc a urna venenatis placerat. Nullam fringilla tellus odio. Pellentesque at libero facilisis, blandit ex bibendum, pharetra purus. Sed quis mi a diam sollicitudin aliquet a vel velit. Integer eget eleifend quam. Aliquam sodales ligula dui, imperdiet vestibulum orci euismod ut."
+         },
+         "grid_images":[
+            {
+               "size":"sm",
+               "src":"ovambo/wireframes.jpg",
+               "alt":"",
+               "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at."
+            },
+            {
+               "size":"large",
+               "src":"ovambo/wireframes2.jpg",
+               "alt":"",
+               "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at."
+            },
+            {
+               "size":"sm",
+               "src":"squair/sketch3.jpg",
+               "alt":"",
+               "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at."
+            },
+            {
+               "size":"med",
+               "src":"squair/sketch1.jpg",
+               "alt":"",
+               "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at."
+            }
+         ],
+         "showcase":[
+            {
+               "src":"ovambo/user2.png",
+               "alt":""
+            },
+            {
+               "src":"ovambo/neckband.png",
+               "alt":""
+            },
+            {
+               "src":"ovambo/app2.jpg",
+               "alt":""
+            },
+            {
+               "src":"ovambo/app3.jpg",
+               "alt":""
+            },
+            {
+               "src":"ovambo/app4.jpg",
+               "alt":""
+            },
+            {
+               "src":"ovambo/app6.jpg",
+               "alt":""
+            },
+            {
+               "src":"ovambo/app5.jpg",
+               "alt":""
+            }
+         ]
+      },
+      {
+         "handle":"humberstones-jewellers",
+         "title":"Humberstones Jewellers",
+         "featured":false,
+         "type":"digital",
+         "hero":{
+            "src":"humberstones/thumb.jpg",
+            "alt":"humberstones hero image"
+         },
+         "textColour":"black",
+         "heading":"Defining mental wellbeing for the future workplace.",
+         "subheading":"Redesign of an oxygen concentrator for people who require ambulatory oxygen therapy.",
+         "client":"Severn Trent Water",
+         "challenge":"Encourage oxygen therapy patients to exercise and main an active lifestyle.",
+         "outcome":"A small, lightweight oxgen concenrator that monitors users oxygen saturation and regulates flow rate accordingly maintain a healthy bloody oxygen level.",
+         "section1":{
+            "title":"The Problem",
+            "heading":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris.",
+            "content":"Absenteeism and presenteeism (reduced performance and productivity due to ill health while at work) are major areas of concern to employers in the UK. Currently in the UK, the average office worker takes 6.5 days of absence. Taken cumulatively across the UK working population, this amounts to 190 million working days for absence and approximately £8.4 billion lost annually. Remarkably, the cost of presenteeism to UK employers is estimated at £15 billion per year, significantly more than absenteeism. Over a third of employers have highlighted stress-related absence to be on the rise. In the workplace, 41% of private sector employees state that they are experiencing stress because they are under excessive pressure at work. Mental health issues such as anxiety and depression are among the top 5 reasons employees are absent from work. The expected growth in technology related jobs is expected to rise by "
+         },
+         "image1":{
+            "src":"ovambo/user1.jpg",
+            "alt":"Current problem"
+         },
+         "section2":{
+            "title":"The idea",
+            "heading":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris.",
+            "content":"To identify the main causes of workplace stress by interviewing a range of employees from a large technology company. "
+         },
+         "image2":{
+            "src":"ovambo/research.jpg",
+            "alt":"EEG experience prototype"
+         },
+         "image3":{
+            "src":"ovambo/research3.jpg",
+            "alt":"EEG experience prototype"
+         },
+         "section3":{
+            "title":"The design",
+            "heading":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris.",
+            "content":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at. Vestibulum tincidunt quis neque vitae tempor. Praesent in nunc a urna venenatis placerat. Nullam fringilla tellus odio. Pellentesque at libero facilisis, blandit ex bibendum, pharetra purus. Sed quis mi a diam sollicitudin aliquet a vel velit. Integer eget eleifend quam. Aliquam sodales ligula dui, imperdiet vestibulum orci euismod ut."
+         },
+         "grid_images":[
+            {
+               "size":"sm",
+               "src":"ovambo/wireframes.jpg",
+               "alt":"",
+               "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at."
+            },
+            {
+               "size":"large",
+               "src":"ovambo/wireframes2.jpg",
+               "alt":"",
+               "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at."
+            },
+            {
+               "size":"sm",
+               "src":"squair/sketch3.jpg",
+               "alt":"",
+               "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at."
+            },
+            {
+               "size":"med",
+               "src":"squair/sketch1.jpg",
+               "alt":"",
+               "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at."
+            }
+         ],
+         "showcase":[
+            {
+               "src":"ovambo/user2.png",
+               "alt":""
+            },
+            {
+               "src":"ovambo/neckband.png",
+               "alt":""
+            },
+            {
+               "src":"ovambo/app2.jpg",
+               "alt":""
+            },
+            {
+               "src":"ovambo/app3.jpg",
+               "alt":""
+            },
+            {
+               "src":"ovambo/app4.jpg",
+               "alt":""
+            },
+            {
+               "src":"ovambo/app6.jpg",
+               "alt":""
+            },
+            {
+               "src":"ovambo/app5.jpg",
+               "alt":""
+            }
+         ]
+      },
+      {
+         "handle":"yak",
+         "title":"Yak",
+         "featured":false,
+         "type":"product",
+         "hero":{
+            "src":"yak/thumb.jpg",
+            "alt":"yak hero image"
+         },
+         "textColour":"black",
+         "heading":"Defining mental wellbeing for the future workplace.",
+         "subheading":"Redesign of an oxygen concentrator for people who require ambulatory oxygen therapy.",
+         "client":"Severn Trent Water",
+         "challenge":"Encourage oxygen therapy patients to exercise and main an active lifestyle.",
+         "outcome":"A small, lightweight oxgen concenrator that monitors users oxygen saturation and regulates flow rate accordingly maintain a healthy bloody oxygen level.",
+         "section1":{
+            "title":"The Problem",
+            "heading":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris.",
+            "content":"Absenteeism and presenteeism (reduced performance and productivity due to ill health while at work) are major areas of concern to employers in the UK. Currently in the UK, the average office worker takes 6.5 days of absence. Taken cumulatively across the UK working population, this amounts to 190 million working days for absence and approximately £8.4 billion lost annually. Remarkably, the cost of presenteeism to UK employers is estimated at £15 billion per year, significantly more than absenteeism. Over a third of employers have highlighted stress-related absence to be on the rise. In the workplace, 41% of private sector employees state that they are experiencing stress because they are under excessive pressure at work. Mental health issues such as anxiety and depression are among the top 5 reasons employees are absent from work. The expected growth in technology related jobs is expected to rise by "
+         },
+         "image1":{
+            "src":"ovambo/user1.jpg",
+            "alt":"Current problem"
+         },
+         "section2":{
+            "title":"The idea",
+            "heading":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris.",
+            "content":"To identify the main causes of workplace stress by interviewing a range of employees from a large technology company. "
+         },
+         "image2":{
+            "src":"ovambo/research.jpg",
+            "alt":"EEG experience prototype"
+         },
+         "image3":{
+            "src":"ovambo/research3.jpg",
+            "alt":"EEG experience prototype"
+         },
+         "section3":{
+            "title":"The design",
+            "heading":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris.",
+            "content":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at. Vestibulum tincidunt quis neque vitae tempor. Praesent in nunc a urna venenatis placerat. Nullam fringilla tellus odio. Pellentesque at libero facilisis, blandit ex bibendum, pharetra purus. Sed quis mi a diam sollicitudin aliquet a vel velit. Integer eget eleifend quam. Aliquam sodales ligula dui, imperdiet vestibulum orci euismod ut."
+         },
+         "grid_images":[
+            {
+               "size":"sm",
+               "src":"ovambo/wireframes.jpg",
+               "alt":"",
+               "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at."
+            },
+            {
+               "size":"large",
+               "src":"ovambo/wireframes2.jpg",
+               "alt":"",
+               "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at."
+            },
+            {
+               "size":"sm",
+               "src":"squair/sketch3.jpg",
+               "alt":"",
+               "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at."
+            },
+            {
+               "size":"med",
+               "src":"squair/sketch1.jpg",
+               "alt":"",
+               "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at."
+            }
+         ],
+         "showcase":[
+            {
+               "src":"ovambo/user2.png",
+               "alt":""
+            },
+            {
+               "src":"ovambo/neckband.png",
+               "alt":""
+            },
+            {
+               "src":"ovambo/app2.jpg",
+               "alt":""
+            },
+            {
+               "src":"ovambo/app3.jpg",
+               "alt":""
+            },
+            {
+               "src":"ovambo/app4.jpg",
+               "alt":""
+            },
+            {
+               "src":"ovambo/app6.jpg",
+               "alt":""
+            },
+            {
+               "src":"ovambo/app5.jpg",
+               "alt":""
+            }
+         ]
+      },
+      {
+         "handle":"feals",
+         "title":"Feals",
+         "featured":false,
+         "type":"digital",
+         "hero":{
+            "src":"feals/thumb.jpg",
+            "alt":"feals hero image"
+         },
+         "textColour":"black",
+         "heading":"Defining mental wellbeing for the future workplace.",
+         "subheading":"Redesign of an oxygen concentrator for people who require ambulatory oxygen therapy.",
+         "client":"Severn Trent Water",
+         "challenge":"Encourage oxygen therapy patients to exercise and main an active lifestyle.",
+         "outcome":"A small, lightweight oxgen concenrator that monitors users oxygen saturation and regulates flow rate accordingly maintain a healthy bloody oxygen level.",
+         "section1":{
+            "title":"The Problem",
+            "heading":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris.",
+            "content":"Absenteeism and presenteeism (reduced performance and productivity due to ill health while at work) are major areas of concern to employers in the UK. Currently in the UK, the average office worker takes 6.5 days of absence. Taken cumulatively across the UK working population, this amounts to 190 million working days for absence and approximately £8.4 billion lost annually. Remarkably, the cost of presenteeism to UK employers is estimated at £15 billion per year, significantly more than absenteeism. Over a third of employers have highlighted stress-related absence to be on the rise. In the workplace, 41% of private sector employees state that they are experiencing stress because they are under excessive pressure at work. Mental health issues such as anxiety and depression are among the top 5 reasons employees are absent from work. The expected growth in technology related jobs is expected to rise by "
+         },
+         "image1":{
+            "src":"ovambo/user1.jpg",
+            "alt":"Current problem"
+         },
+         "section2":{
+            "title":"The idea",
+            "heading":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris.",
+            "content":"To identify the main causes of workplace stress by interviewing a range of employees from a large technology company. "
+         },
+         "image2":{
+            "src":"ovambo/research.jpg",
+            "alt":"EEG experience prototype"
+         },
+         "image3":{
+            "src":"ovambo/research3.jpg",
+            "alt":"EEG experience prototype"
+         },
+         "section3":{
+            "title":"The design",
+            "heading":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris.",
+            "content":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at. Vestibulum tincidunt quis neque vitae tempor. Praesent in nunc a urna venenatis placerat. Nullam fringilla tellus odio. Pellentesque at libero facilisis, blandit ex bibendum, pharetra purus. Sed quis mi a diam sollicitudin aliquet a vel velit. Integer eget eleifend quam. Aliquam sodales ligula dui, imperdiet vestibulum orci euismod ut."
+         },
+         "grid_images":[
+            {
+               "size":"sm",
+               "src":"ovambo/wireframes.jpg",
+               "alt":"",
+               "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at."
+            },
+            {
+               "size":"large",
+               "src":"ovambo/wireframes2.jpg",
+               "alt":"",
+               "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at."
+            },
+            {
+               "size":"sm",
+               "src":"squair/sketch3.jpg",
+               "alt":"",
+               "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at."
+            },
+            {
+               "size":"med",
+               "src":"squair/sketch1.jpg",
+               "alt":"",
+               "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at."
+            }
+         ],
+         "showcase":[
+            {
+               "src":"ovambo/user2.png",
+               "alt":""
+            },
+            {
+               "src":"ovambo/neckband.png",
+               "alt":""
+            },
+            {
+               "src":"ovambo/app2.jpg",
+               "alt":""
+            },
+            {
+               "src":"ovambo/app3.jpg",
+               "alt":""
+            },
+            {
+               "src":"ovambo/app4.jpg",
+               "alt":""
+            },
+            {
+               "src":"ovambo/app6.jpg",
+               "alt":""
+            },
+            {
+               "src":"ovambo/app5.jpg",
+               "alt":""
+            }
+         ]
+      },
+      {
+         "handle":"lds-degree-show",
+         "title":"LDS Degree Show",
+         "featured":false,
+         "type":"digital",
+         "hero":{
+            "src":"lds-degree-show/thumb.jpg",
+            "alt":"LDS Degree Show hero image"
+         },
+         "textColour":"black",
+         "heading":"Defining mental wellbeing for the future workplace.",
+         "subheading":"Redesign of an oxygen concentrator for people who require ambulatory oxygen therapy.",
+         "client":"Severn Trent Water",
+         "challenge":"Encourage oxygen therapy patients to exercise and main an active lifestyle.",
+         "outcome":"A small, lightweight oxgen concenrator that monitors users oxygen saturation and regulates flow rate accordingly maintain a healthy bloody oxygen level.",
+         "section1":{
+            "title":"The Problem",
+            "heading":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris.",
+            "content":"Absenteeism and presenteeism (reduced performance and productivity due to ill health while at work) are major areas of concern to employers in the UK. Currently in the UK, the average office worker takes 6.5 days of absence. Taken cumulatively across the UK working population, this amounts to 190 million working days for absence and approximately £8.4 billion lost annually. Remarkably, the cost of presenteeism to UK employers is estimated at £15 billion per year, significantly more than absenteeism. Over a third of employers have highlighted stress-related absence to be on the rise. In the workplace, 41% of private sector employees state that they are experiencing stress because they are under excessive pressure at work. Mental health issues such as anxiety and depression are among the top 5 reasons employees are absent from work. The expected growth in technology related jobs is expected to rise by "
+         },
+         "image1":{
+            "src":"ovambo/user1.jpg",
+            "alt":"Current problem"
+         },
+         "section2":{
+            "title":"The idea",
+            "heading":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris.",
+            "content":"To identify the main causes of workplace stress by interviewing a range of employees from a large technology company. "
+         },
+         "image2":{
+            "src":"ovambo/research.jpg",
+            "alt":"EEG experience prototype"
+         },
+         "image3":{
+            "src":"ovambo/research3.jpg",
+            "alt":"EEG experience prototype"
+         },
+         "section3":{
+            "title":"The design",
+            "heading":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris.",
+            "content":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at. Vestibulum tincidunt quis neque vitae tempor. Praesent in nunc a urna venenatis placerat. Nullam fringilla tellus odio. Pellentesque at libero facilisis, blandit ex bibendum, pharetra purus. Sed quis mi a diam sollicitudin aliquet a vel velit. Integer eget eleifend quam. Aliquam sodales ligula dui, imperdiet vestibulum orci euismod ut."
+         },
+         "grid_images":[
+            {
+               "size":"sm",
+               "src":"ovambo/wireframes.jpg",
+               "alt":"",
+               "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at."
+            },
+            {
+               "size":"large",
+               "src":"ovambo/wireframes2.jpg",
+               "alt":"",
+               "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at."
+            },
+            {
+               "size":"sm",
+               "src":"squair/sketch3.jpg",
+               "alt":"",
+               "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at."
+            },
+            {
+               "size":"med",
+               "src":"squair/sketch1.jpg",
+               "alt":"",
+               "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at."
+            }
+         ],
+         "showcase":[
+            {
+               "src":"ovambo/user2.png",
+               "alt":""
+            },
+            {
+               "src":"ovambo/neckband.png",
+               "alt":""
+            },
+            {
+               "src":"ovambo/app2.jpg",
+               "alt":""
+            },
+            {
+               "src":"ovambo/app3.jpg",
+               "alt":""
+            },
+            {
+               "src":"ovambo/app4.jpg",
+               "alt":""
+            },
+            {
+               "src":"ovambo/app6.jpg",
+               "alt":""
+            },
+            {
+               "src":"ovambo/app5.jpg",
+               "alt":""
+            }
+         ]
+      },
+      {
+         "handle":"severn-trent-priority",
+         "title":"Severn Trent Priority Services",
+         "featured":false,
+         "type":"digital",
+         "hero":{
+            "src":"severn-trent-priority/thumb.jpg",
+            "alt":"severn trent hero image"
+         },
+         "textColour":"black",
+         "heading":"Defining mental wellbeing for the future workplace.",
+         "subheading":"Redesign of an oxygen concentrator for people who require ambulatory oxygen therapy.",
+         "client":"Severn Trent Water",
+         "challenge":"Encourage oxygen therapy patients to exercise and main an active lifestyle.",
+         "outcome":"A small, lightweight oxgen concenrator that monitors users oxygen saturation and regulates flow rate accordingly maintain a healthy bloody oxygen level.",
+         "section1":{
+            "title":"The Problem",
+            "heading":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris.",
+            "content":"Absenteeism and presenteeism (reduced performance and productivity due to ill health while at work) are major areas of concern to employers in the UK. Currently in the UK, the average office worker takes 6.5 days of absence. Taken cumulatively across the UK working population, this amounts to 190 million working days for absence and approximately £8.4 billion lost annually. Remarkably, the cost of presenteeism to UK employers is estimated at £15 billion per year, significantly more than absenteeism. Over a third of employers have highlighted stress-related absence to be on the rise. In the workplace, 41% of private sector employees state that they are experiencing stress because they are under excessive pressure at work. Mental health issues such as anxiety and depression are among the top 5 reasons employees are absent from work. The expected growth in technology related jobs is expected to rise by "
+         },
+         "image1":{
+            "src":"ovambo/user1.jpg",
+            "alt":"Current problem"
+         },
+         "section2":{
+            "title":"The idea",
+            "heading":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris.",
+            "content":"To identify the main causes of workplace stress by interviewing a range of employees from a large technology company. "
+         },
+         "image2":{
+            "src":"ovambo/research.jpg",
+            "alt":"EEG experience prototype"
+         },
+         "image3":{
+            "src":"ovambo/research3.jpg",
+            "alt":"EEG experience prototype"
+         },
+         "section3":{
+            "title":"The design",
+            "heading":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris.",
+            "content":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at. Vestibulum tincidunt quis neque vitae tempor. Praesent in nunc a urna venenatis placerat. Nullam fringilla tellus odio. Pellentesque at libero facilisis, blandit ex bibendum, pharetra purus. Sed quis mi a diam sollicitudin aliquet a vel velit. Integer eget eleifend quam. Aliquam sodales ligula dui, imperdiet vestibulum orci euismod ut."
+         },
+         "grid_images":[
+            {
+               "size":"sm",
+               "src":"ovambo/wireframes.jpg",
+               "alt":"",
+               "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at."
+            },
+            {
+               "size":"large",
+               "src":"ovambo/wireframes2.jpg",
+               "alt":"",
+               "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at."
+            },
+            {
+               "size":"sm",
+               "src":"squair/sketch3.jpg",
+               "alt":"",
+               "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at."
+            },
+            {
+               "size":"med",
+               "src":"squair/sketch1.jpg",
+               "alt":"",
+               "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at."
+            }
+         ],
+         "showcase":[
+            {
+               "src":"ovambo/user2.png",
+               "alt":""
+            },
+            {
+               "src":"ovambo/neckband.png",
+               "alt":""
+            },
+            {
+               "src":"ovambo/app2.jpg",
+               "alt":""
+            },
+            {
+               "src":"ovambo/app3.jpg",
+               "alt":""
+            },
+            {
+               "src":"ovambo/app4.jpg",
+               "alt":""
+            },
+            {
+               "src":"ovambo/app6.jpg",
+               "alt":""
+            },
+            {
+               "src":"ovambo/app5.jpg",
+               "alt":""
+            }
+         ]
+      }
+   ]
 }

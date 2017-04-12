@@ -12,6 +12,7 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/boots
 @import "_header";
 @import "_capabilities";
 @import "_work";
+@import "_contact";
 
 body{
   font-family: $font-family;
@@ -102,6 +103,15 @@ img{
 }
 .connect-customers{
   background-image: url(../images/connect-customers.jpg);
+}
+.margin-bottom-none{
+  margin-bottom: 0;
+}
+.slick-next{
+  right: 5% !important;
+}
+.slick-prev{
+  left: 5% !important;
 }
 
 
