@@ -18,7 +18,8 @@ angular
     'ngTouch',
     'angularSiteApp.services',
     'wu.masonry',
-    'slick'
+    'slick',
+    'fox.scrollReveal'
   ])
   .run(function ($rootScope) {
                 $rootScope.$on('$locationChangeSuccess', function (event) {

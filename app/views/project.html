@@ -29,11 +29,11 @@
 
 <div class="page-content">
 
-  <div class="full-width-image">
+  <div class="full-width-image" data-sr="enter bottom over 1s and move 300px">
     <div class="image half-height" style="background-image: url('../images/{{ project.hero.src }}')"></div>
   </div>
 
-  <div class="container mobile-three-row">
+  <div class="container mobile-three-row" data-sr="enter bottom over 1s and move 300px">
     <div class="row">
       <div class="three-col-row">
         <div class="col-md-4">
@@ -53,7 +53,7 @@
     </div>
   </div>
 
-  <div ng-if="project.section1" class="two-col-title-text">
+  <div ng-if="project.section1" class="two-col-title-text" data-sr="enter bottom over 1s and move 300px">
     <div class="container">
       <div class="row">
         <div class="col-md-8">
@@ -66,12 +66,12 @@
   </div>
 
 
-  <div class="full-width-image">
+  <div class="full-width-image" data-sr="enter bottom over 1s and move 300px">
     <div class="image half-height" style="background-image: url('../images/{{ project.image1.src }}')"></div>
   </div>
 
 
-  <div ng-if="project.section2" class="two-col-title-text">
+  <div ng-if="project.section2" class="two-col-title-text" data-sr="enter bottom over 1s and move 300px">
     <div class="container">
       <div class="row">
         <div class="col-md-8">
@@ -83,7 +83,7 @@
     </div>
   </div>
 
-  <div class="two-col-img">
+  <div class="two-col-img" data-sr="enter bottom over 1s and move 300px">
     <div class="row">
       <div class="col-sm-6 tile">
         <img src="../images/{{ project.image2.src }}" alt="{{ project.image2.alt }}" />
@@ -94,7 +94,7 @@
     </div>
   </div>
 
-  <div ng-if="project.section3" class="two-col-title-text">
+  <div ng-if="project.section3" class="two-col-title-text" data-sr="enter bottom over 1s and move 300px">
     <div class="container">
       <div class="row">
         <div class="col-md-8">
@@ -107,7 +107,7 @@
   </div>
 
 
-  <div class="masonry-grid" ng-if="project.grid_images">
+  <div class="masonry-grid" ng-if="project.grid_images" data-sr="enter bottom over 1s and move 300px">
     <div class="container">
       <div masonry load-images="false">
         <div class="masonry-brick {{ image.size }}" ng-repeat="image in project.grid_images">
@@ -121,7 +121,7 @@
   </div>
 
 
-  <div class="two-col-img " ng-if="project.image4 && project.image5">
+  <div class="two-col-img " ng-if="project.image4 && project.image5" data-sr="enter bottom over 1s and move 300px">
     <div class="row">
       <div class="col-sm-6 tile">
         <img src="../images/{{ project.image4.src }}" alt="{{ project.image4.alt }}" />
@@ -133,7 +133,7 @@
   </div>
 
 
-  <div ng-if="project.section4" class="two-col-title-text">
+  <div ng-if="project.section4" class="two-col-title-text" data-sr="enter bottom over 1s and move 300px">
     <div class="container">
       <div class="row">
         <div class="col-md-8">
@@ -146,7 +146,7 @@
   </div>
 
 
-  <slick dots=true autoplay=true autoplay-speed=6000 class="showcase-carousel">
+  <slick dots=true autoplay=true autoplay-speed=6000 class="showcase-carousel" data-sr="enter bottom over 1s and move 300px">
     <div class="slide" ng-repeat="image in project.showcase" style="background-image: url('../images/{{ image.src }}')">
       <div class="description" ng-if="image.description">
         <div class="container">
@@ -159,7 +159,7 @@
   </slick>
 
 
-  <div class="one-col-callout ">
+  <div class="one-col-callout " data-sr="enter bottom over 1s and move 300px">
     <div class="container">
       <div class="col-md-8 col-md-offset-2 reveal">
         <h1>Ready to chat?</h1>
@@ -171,7 +171,7 @@
   </div>
 
 
-  <div class="project-gallery related-projects">
+  <div class="project-gallery related-projects" data-sr="enter bottom over 1s and move 300px">
     <h2>Related Projects</h2>
     <div class="row">
       <a href="#/projects/{{project.project.handle}}" ng-repeat="project in relatedProjects | orderBy:'order' | limitTo: 2">

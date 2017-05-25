@@ -14,7 +14,7 @@ angular.module('angularSiteApp')
 
     Projects.all().then(function(data){
       $scope.projects = data.data.projects
-      $scope.quantity = 6;
+      $scope.quantity = 5;
     });
 
   });
