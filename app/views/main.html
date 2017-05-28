@@ -20,7 +20,7 @@
 </div>
 
 
-<div class="three-grid-showcase" data-sr="enter bottom over 1s and move 300px ">
+<div class="three-grid-showcase light-grey-bg" data-sr="enter bottom over 1s and move 300px ">
   <div class="container-fluid">
     <div class="row">
       <div class="col-md-6 text">
@@ -95,13 +95,19 @@
       <div ng-if="project.featured" class="col-md-6 tile feature ">
         <div class="img" style="background-image: url('images/{{ project.hero.src }}')"></div>
         <div class="content">
-          <h2>{{ project.title }}</h2>
+          <div class="text">
+            <h4>{{ project.type }}</h4>
+            <h2>{{ project.title }}</h2>
+          </div>
         </div>
       </div>
       <div ng-if="!project.featured" class="col-md-4 tile ">
         <div class="img" style="background-image: url('images/{{ project.hero.src }}')"></div>
         <div class="content">
-          <h2>{{ project.title }}</h2>
+          <div class="text">
+            <h4>{{ project.type }}</h4>
+            <h2>{{ project.title }}</h2>
+          </div>
         </div>
       </div>
     </a>

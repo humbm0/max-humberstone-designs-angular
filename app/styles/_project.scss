@@ -9,11 +9,17 @@
     font-size: 18px;
     opacity: 0.3;
   }
+  h1{
+    margin-bottom: 20px;
+  }
   h1,h4,p,a{
     color: $text-color;
   }
   .three-col-row{
     margin: 160px 0;
+    h4{
+      opacity: .3;
+    }
     p{
       font-size: 14px;
       opacity: 1;
@@ -152,7 +158,6 @@
     h1{
       font-size: 42px;
       line-height: 60px;
-      margin-bottom: 20px;
     }
     p{
       font-size: 16px;

@@ -16,7 +16,7 @@ angular.module('angularSiteApp')
     $scope.sendMessage = function( input ) {
       $http({
           method: 'POST',
-          url: '../scripts/processForm.php',
+          url: '/contact-form.php',
           data: input,
           headers: { 'Content-Type': 'application/x-www-form-urlencoded' }
       })

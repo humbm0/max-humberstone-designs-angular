@@ -19,7 +19,7 @@ angular
     'angularSiteApp.services',
     'wu.masonry',
     'slick',
-    'fox.scrollReveal'
+    'fox.scrollReveal',
   ])
   .run(function ($rootScope) {
                 $rootScope.$on('$locationChangeSuccess', function (event) {
