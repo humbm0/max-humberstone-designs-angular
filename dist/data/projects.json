@@ -4,6 +4,7 @@
          "handle":"yukon",
          "title":"Yukon",
          "featured":true,
+         "grid_size": "",
          "type":"Product | App",
          "hero":{
             "src":"yukon/render3.png",
@@ -74,6 +75,7 @@
         "handle":"squair",
         "title":"Squair",
         "featured":true,
+        "grid_size": "lg",
         "type":"Product | App",
         "hero":{
            "src":"squair/user.png",
@@ -87,24 +89,28 @@
         "outcome":"A small, lightweight oxgen concenrator that monitors users oxygen saturation and regulates flow rate accordingly maintain a healthy bloody oxygen level.",
         "section1":{
            "title":"The Problem",
-           "heading":"With the adoption of cloud music libraries and digital radio accessibility to music has never been easier but has this constant stimuli of pop culture songs caused people to be come habituated to music and loose appreciation?",
-           "content":"As the distribution and accessibility of music has become easier, users have become overloaded with content and struggle to find music they like for different situations. Users reporting a bias towards chart music and finding new music can be difficult. To try and solve the problem of content overload services have implemented personal/suggested playlists to match songs to the users preferences. However the logic used to match these songs is very basic - selecting songs by the same artist, same genre, or songs other users have bought. Users reported that “I would never listen to something like that!”. "
+           "heading":"Increasing ageing population is one of the pivotal factors for health and social care. According to the UN estimates, geriatric population is set to reach from over 800 million in 2012 to more than 2 billion by 2050.",
+           "content":"Geriatric population is at more risk of acquiring various respiratory disorders such as asthma, pulmonary hypertension, COPD, and fibrosis. It is estimated that up to 10% of adults of at least 40 years of age worldwide suffer from COPD. One of the biggest issue with ambulatory oxygen therapy is misuse, with many patients under or over using their oxygen. This is because users rely on personal feeling to judge whether or not oxygen is needed. Interviews with oxygen therapy patients also uncovered the problems with existing products on the market as well as pain points of living with supplement oxygen."
         },
         "image1":{
-           "src":"yukon/user1.jpg",
-           "alt":"Current problem"
+          "fullWidth": false,
+           "src":"squair/interview3.jpg",
+           "alt":"User interviews",
+           "firstImage":"squair/interview.jpg",
+           "secondImage":"squair/interview2.jpg"
         },
         "section2":{
            "title":"The idea",
-           "heading":"How might we make the music we listen too more personal to us and the moment we are living in?",
-           "content":"Initial ideation exploring new music experiences using the insights to drive concept selection and refinement. Ideas ranged form cloud based vinyl players to AI speakers. Ideas were then played back to focus group for concept selection and refinement. The concept taken forward was a pair of biometric headphones to select songs based on a users mood current mood or activity. One issue brought up was - “what if your current mood is bad?”. Other feedback was their needed to further development into the social aspect of music."
+           "heading":"How might we devlop a system that can monitor user oxygen saturation and notify when oxyegn is needed and automate the flow rate to prevent misuse and ensure a healthy blood oxygen level?",
+           "content":"The concenpt was to use pulse oximetry technology to monitor user oxygen saturation however common usage of this technology envolved finger based products and would not be suitable for 24/7 monitoring. A concept of a modualr battery was also explored that would enable users to customise their battery life and weight."
         },
         "image2":{
-           "src":"squair/interview.jpg",
+          "sketch": true,
+           "src":"squair/sketches.jpg",
            "alt":"Focus group"
         },
         "image3":{
-           "src":"squair/interview2.jpg",
+           "src":"squair/sketches2.jpg",
            "alt":"Idea development"
         },
         "section3":{
@@ -113,11 +119,11 @@
            "content":"When slower brainwaves are dominant we can feel tired, slow, sluggish, or dreamy. The higher frequencies are dominant when we feel wired, or hyper-alert. The headphones measure brain signals much like a heart rate monitor senses your heartbeat. Finely calibrated sensors detect and measure the activity of your brain. Along side the design of the headphones app wireframes were generated to establish initial user flow and then progressed to visual designs."
         },
         "image4":{
-           "src":"yukon/sketches.jpeg",
+           "src":"squair/parts.jpg",
            "alt":"Idea development"
         },
         "image5":{
-           "src":"yukon/wireframes.jpeg",
+           "src":"squair/electronics.jpg",
            "alt":"Idea development"
         },
         "section4":{

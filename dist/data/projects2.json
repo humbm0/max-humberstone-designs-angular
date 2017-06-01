@@ -57,34 +57,50 @@
         },
         "showcase":[
            {
+             "description-title":"",
+             "description-text":"",
               "src":"sqauir/product-shot.jpg",
               "alt":""
            },
            {
+             "description-title":"",
+             "description-text":"",
               "src":"sqauir/product-shot2.jpg",
               "alt":""
            },
            {
+             "description-title":"",
+             "description-text":"",
               "src":"sqauir/product-shot3.png",
               "alt":""
            },
            {
+             "description-title":"",
+             "description-text":"",
               "src":"sqauir/product-shot4.jpg",
               "alt":""
            },
            {
+             "description-title":"",
+             "description-text":"",
               "src":"sqauir/product-shot5.jpg",
               "alt":""
            },
            {
+             "description-title":"",
+             "description-text":"",
               "src":"sqauir/bag.png",
               "alt":""
            },
            {
+             "description-title":"",
+             "description-text":"",
               "src":"sqauir/wearable.png",
               "alt":""
            },
            {
+             "description-title":"",
+             "description-text":"",
               "src":"sqauir/wearable2.png",
               "alt":""
            }

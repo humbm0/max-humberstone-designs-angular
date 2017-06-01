@@ -66,8 +66,19 @@
   </div>
 
 
-  <div class="full-width-image" data-sr="enter bottom over 1s and move 300px">
+  <div class="full-width-image" ng-if="project.image1.fullWidth" data-sr="enter bottom over 1s and move 300px">
     <div class="image half-height" style="background-image: url('../images/{{ project.image1.src }}')"></div>
+  </div>
+
+  <div class="two-col-img" ng-if="!project.image1.fullWidth" data-sr="enter bottom over 1s and move 300px">
+    <div class="row">
+      <div class="col-sm-6 tile">
+        <img src="../images/{{ project.image1.firstImage }}" alt="{{ project.image1.alt }}" />
+      </div>
+      <div class="col-sm-6 tile">
+        <img src="../images/{{ project.image1.secondImage }}" alt="{{ project.image1.alt }}" />
+      </div>
+    </div>
   </div>
 
 
@@ -83,13 +94,26 @@
     </div>
   </div>
 
-  <div class="two-col-img" data-sr="enter bottom over 1s and move 300px">
+  <div class="two-col-img" ng-if="!project.image2.sketch" data-sr="enter bottom over 1s and move 300px">
     <div class="row">
       <div class="col-sm-6 tile">
         <img src="../images/{{ project.image2.src }}" alt="{{ project.image2.alt }}" />
       </div>
       <div class="col-sm-6 tile">
         <img src="../images/{{ project.image3.src }}" alt="{{ project.image3.alt }}" />
+      </div>
+    </div>
+  </div>
+
+  <div class="two-col-img" ng-if="project.image2.sketch" data-sr="enter bottom over 1s and move 300px">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6 tile">
+          <img src="../images/{{ project.image2.src }}" alt="{{ project.image2.alt }}" />
+        </div>
+        <div class="col-sm-6 tile">
+          <img src="../images/{{ project.image3.src }}" alt="{{ project.image3.alt }}" />
+        </div>
       </div>
     </div>
   </div>
@@ -146,7 +170,21 @@
   </div>
 
 
-  <slick dots=true autoplay=true autoplay-speed=6000 class="showcase-carousel" data-sr="enter bottom over 1s and move 300px">
+
+  <div class="full-width-image" data-sr="enter bottom over 1s and move 300px" ng-repeat="image in project.showcase">
+    <!-- <div class="container">
+      <div class="row">
+        <div class="col-md-8">
+          <h2>{{ image.description-title }}</h2>
+          <p>{{ image.description-text }}</p>
+        </div>
+      </div>
+    </div> -->
+    <div class="image " style="background-image: url('../images/{{ image.src }}')"></div>
+  </div>
+
+
+  <!-- <slick dots=true autoplay=true autoplay-speed=6000 class="showcase-carousel" data-sr="enter bottom over 1s and move 300px">
     <div class="slide" ng-repeat="image in project.showcase" style="background-image: url('../images/{{ image.src }}')">
       <div class="description" ng-if="image.description">
         <div class="container">
@@ -156,7 +194,7 @@
         </div>
       </div>
     </div>
-  </slick>
+  </slick> -->
 
 
   <div class="one-col-callout " data-sr="enter bottom over 1s and move 300px">
