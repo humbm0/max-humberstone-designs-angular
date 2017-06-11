@@ -101,8 +101,8 @@
         },
         "section2":{
            "title":"The idea",
-           "heading":"How might we devlop a system that can monitor user oxygen saturation and notify when oxyegn is needed and automate the flow rate to prevent misuse and ensure a healthy blood oxygen level?",
-           "content":"The concenpt was to use pulse oximetry technology to monitor user oxygen saturation however common usage of this technology envolved finger based products and would not be suitable for 24/7 monitoring. A concept of a modualr battery was also explored that would enable users to customise their battery life and weight."
+           "heading":"How might we develop a system that can monitor user oxygen saturation and notify when oxygen is needed and automate the flow rate to prevent misuse and ensure a healthy blood oxygen level?",
+           "content":"The concept was to use pulse oximetry technology to monitor user oxygen saturation however common usage of this technology involved finger based products and would not be suitable for 24/7 monitoring. A concept of a modular battery was also explored that would enable users to customise their battery life and weight."
         },
         "image2":{
           "sketch": true,
@@ -115,8 +115,8 @@
         },
         "section3":{
            "title":"The design",
-           "heading":"Development of form, interaction and refinement of EEG technology used. Brainwaves are produced by synchronised electrical pulses from masses of neutrons communicating with each other. Our brainwaves change according to what we’re doing and feeling.",
-           "content":"When slower brainwaves are dominant we can feel tired, slow, sluggish, or dreamy. The higher frequencies are dominant when we feel wired, or hyper-alert. The headphones measure brain signals much like a heart rate monitor senses your heartbeat. Finely calibrated sensors detect and measure the activity of your brain. Along side the design of the headphones app wireframes were generated to establish initial user flow and then progressed to visual designs."
+           "heading":"A minimalist design that aims to communicate a social and stigma-free aesthetic with the use of gentle colours and a compact form factor.",
+           "content":"The aim from the start of the project was to develop a product that aimed to break down the barriers between oxygen therapy patients and the general public. The design also had to cater for both male and female users. The form factor was also heavily influenced by the requirement to produce a product that was as small and compact as possible. Therefore, the casing of the product closely followed the shape of the internal component assembly to reduce materials, size and weight."
         },
         "image4":{
            "src":"squair/parts.jpg",
@@ -128,8 +128,8 @@
         },
         "section4":{
           "title":"The solution",
-           "heading":"Yukon is a the next generation of music listening. The Yukon headphones incorporate EEG technology, to continuously monitor the user’s brain waves.",
-           "content":"These brain waves when combined with motion sensing allow Yukon to understand the user’s current mood and activity. Yukon then selects songs to fit the current scenario. Users can choose to change their mood through personalised playlists and use boosts to further stimulate their desired mood. Unlike existing personalised playlists Yukon learns exactly which types of songs are most suited to the user for a particular task. By monitoring the user’s brain waves it understands how users to react to different song selections in different scenarios and uses this data to influence its next song selection. Yukon also encourages sharing, and social interactions through sync listening allowing users to broadcast their mood playlist so friends can listening together and mix their individual moods into one playlist."
+           "heading":"Encouraging active lifestyles, preventing misuse and improving self-monitoring through connected devices for ambulatory oxygen therapy patients.",
+           "content":"SQUAIR is a portable oxygen concentrator that produces the equivalent of up to 3 LPM (litres per minute) via a pulse dose system, in a lightweight package (2kg) with accompanying wearable and app to notify low oxygen saturation, automatically adjust flow rate and support self monitoring."
         },
         "showcase":[
            {
@@ -137,6 +137,8 @@
               "alt":""
            },
            {
+             "captionTitle": "Aesthetics",
+             "captionText": "With the use of gentle colours the aesthetic is one that aims to communicate a social and stigma-free design, erasing borders between users and the general public.",
               "src":"squair/product-shot2.jpg",
               "alt":""
            },
@@ -145,6 +147,8 @@
               "alt":""
            },
            {
+             "captionTitle": "Modular Battery System",
+             "captionText": "A modular battery design allows users to decide what capacity power bank they need for different scenarios by adding the desired number of add-on modules. The concentrator also comes with a practical backpack that incorporates a modular, removable pouch for extra items to be carried.",
               "src":"squair/product-shot4.jpg",
               "alt":""
            },
@@ -153,15 +157,33 @@
               "alt":""
            },
            {
-              "src":"squair/bag.png",
+             "captionTitle": "Pressure Swing Adsorption",
+             "captionText": "The concentrator operates on the principle of ‘rapid pressure swing adsorption by taking in air from its surroundings and removing the nitrogen via filters and zeolite sieve beds. It then delivers the purified oxygen in pulse doses via a nasal cannula or mask.",
+              "src":"squair/exploaded.png",
               "alt":""
            },
            {
-              "src":"squair/wearable.png",
-              "alt":""
-           },
-           {
+             "captionTitle": "Wearable",
+             "captionText": "The accompanying wearable uses reflectance pulse oximetry to continuously monitor user oxygen saturation. Users are then notified when oxygen is needed and the flow rate is automatically adjusted to ensure a healthy oxygen saturation.",
               "src":"squair/wearable2.png",
+              "alt":""
+           },
+           {
+             "captionTitle": "Interchangeable Straps",
+             "captionText": "Users can customise the look and feel of their bracelet with interchangeable straps. This allows the bracelet to seamlessly and discreetly fit into different scenarios and individual styles.",
+              "src":"squair/wearable.jpg",
+              "alt":""
+           },
+           {
+             "captionTitle": "App",
+             "captionText": "The app helps users improve self-monitoring by using the data collected from the wearable and concentrator to detect trends and triggers of exacerbations. Users can visualise personal health data in easy to understand graphs to recognise trends. Data collected is also used to notify users of local air quality and weather that might influence their triggers. Communication between patient and doctor is improved by allowing users to tag moments of unfamiliar symptoms via the app and share health data with their doctor, similar to a health journal. Users can track medication to ensure correct dosages and also further influence triggers based on when and how often medication is taken.",
+              "src":"squair/app.png",
+              "alt":""
+           },
+           {
+             "captionTitle": "Carry Backpack",
+             "captionText": "The accompanying backpack is designed to support normal daily living by providing a modular removable pouch to carry personal items as well as concentrator accessories. A dedicated cannula outlet to prevent catching tubing and provide a more discrete way of use.",
+              "src":"squair/bag.png",
               "alt":""
            }
         ]
@@ -374,33 +396,53 @@
             "alt":"severn trent hero image"
          },
          "textColour":"black",
-         "heading":"Defining mental wellbeing for the future workplace.",
-         "subheading":"Redesign of an oxygen concentrator for people who require ambulatory oxygen therapy.",
+         "heading":"A new refined web presence to streamline common tasks and engage with customers through digital channels.",
+         "subheading":"Web transformation project for Severn Trent Water customer site",
          "client":"Severn Trent Water",
-         "challenge":"Encourage oxygen therapy patients to exercise and main an active lifestyle.",
-         "outcome":"A small, lightweight oxgen concenrator that monitors users oxygen saturation and regulates flow rate accordingly maintain a healthy bloody oxygen level.",
+         "challenge":"To redesign existing water site with responsive and content manage capabilities.",
+         "outcome":"A responsive website built on Adobe AEM that aims to reduce visual noise and streamline common tasks.",
+         "glance":"During my placement as a User Experience Designer at IBM Interactive. Severn Trent set the task of redesigning their Water customer site. In October 2016 the new site was lunched using the Adobe AEM platform and was focused on streamlining common tasks and easier navigation of content. My main role focused on User Experience and Visual design but my skills in Front-End Development were utilised to aid in the build of interaction specific components.",
          "section1":{
             "title":"The Problem",
-            "heading":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris.",
-            "content":"Absenteeism and presenteeism (reduced performance and productivity due to ill health while at work) are major areas of concern to employers in the UK. Currently in the UK, the average office worker takes 6.5 days of absence. Taken cumulatively across the UK working population, this amounts to 190 million working days for absence and approximately £8.4 billion lost annually. Remarkably, the cost of presenteeism to UK employers is estimated at £15 billion per year, significantly more than absenteeism. Over a third of employers have highlighted stress-related absence to be on the rise. In the workplace, 41% of private sector employees state that they are experiencing stress because they are under excessive pressure at work. Mental health issues such as anxiety and depression are among the top 5 reasons employees are absent from work. The expected growth in technology related jobs is expected to rise by "
+            "heading":"Lack of engagement with Severn Trent’s new online channels. A non responsive website with large amounts of content resulted in users contacting help services via phone.",
+            "content":"The overall aim for Severn trent was to reduce calls by developing a simpler, more streamlined web presence that enabled customers to quickly complete common tasks and find answers to common questions."
          },
          "image1":{
-            "src":"ovambo/user1.jpg",
-            "alt":"Current problem"
+            "src":"severn-trent/workshop1.jpg",
+            "alt":"Design Workshop"
          },
          "section2":{
-            "title":"The idea",
-            "heading":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris.",
-            "content":"To identify the main causes of workplace stress by interviewing a range of employees from a large technology company. "
+            "title":"Discovery Phase",
+            "heading":"The research process included design thinking workshops, competitor analysis, and analytical report analysis.",
+            "content":""
          },
          "image2":{
-            "src":"ovambo/research.jpg",
-            "alt":"EEG experience prototype"
+            "src":"severn-trent/workshop1.jpg",
+            "alt":"Design Workshop"
          },
          "image3":{
-            "src":"ovambo/research3.jpg",
-            "alt":"EEG experience prototype"
+            "src":"severn-trent/workshop2.jpg",
+            "alt":"Design Workshop"
          },
+         "process":[
+           {
+              "title": "IBM Design Thinking Workshops ",
+              "heading": "",
+              "content": "These work shops helped create personas and identify user needs. Topics covered included journey Mapping, as-is journey mapping, needs statements, idea cards and storyboarding.",
+              "image": "severn-trent/workshop3.jpg"
+
+           },
+           {
+              "title": "Analytical Report Analysis",
+              "heading": "",
+              "content": "Business Management Consultancy reports by Good Growth gave insights into Severn Trent's web and phone traffic with useful information on their KPI's. This was effective in establishing the sites hierarchy and behavioural clusters which led to making informed based design solutions."
+           },
+           {
+              "title": "Competitor Analysis",
+              "heading": "",
+              "content": "Observations on utility sites informed me of design best practice in AI and UI. Research was also conducted on airline companies and financial services instructing our form handling and processes."
+           }
+         ],
          "section3":{
             "title":"The design",
             "heading":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris.",
