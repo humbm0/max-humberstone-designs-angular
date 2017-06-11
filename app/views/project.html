@@ -53,6 +53,17 @@
     </div>
   </div>
 
+  <div class="one-col-text" ng-if="project.glance" data-sr="enter bottom over 1s and move 300px">
+    <div class="container ">
+      <div class="row">
+        <div class="col-md-12">
+          <h4>At a glance</h4>
+          <p>{{ project.glance }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <div ng-if="project.section1" class="two-col-title-text" data-sr="enter bottom over 1s and move 300px">
     <div class="container">
       <div class="row">
@@ -118,11 +129,28 @@
     </div>
   </div>
 
+  <div class="process">
+    <div ng-if="project.process" class="two-col-title-text" data-sr="enter bottom over 1s and move 300px">
+      <div class="container">
+        <div class="row" ng-repeat="process in project.process">
+          <div class="col-md-4">
+            <h4 ng-if="process.title">{{ process.title }}</h4>
+            <h2 ng-if="process.heading">{{ process.heading }}</h2>
+            <p ng-if="process.content">{{ process.content }}</p>
+          </div>
+          <div class="col-md-7 pull-right">
+            <img src="../images/{{ process.image }}" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <div ng-if="project.section3" class="two-col-title-text" data-sr="enter bottom over 1s and move 300px">
     <div class="container">
       <div class="row">
         <div class="col-md-8">
-          <h4>{{ project.section3.title}}</h4>
+          <h4>{{ project.section3.title }}</h4>
           <h2>{{ project.section3.heading }}</h2>
           <p>{{ project.section3.content }}</p>
         </div>
@@ -172,14 +200,16 @@
 
 
   <div class="full-width-image" data-sr="enter bottom over 1s and move 300px" ng-repeat="image in project.showcase">
-    <!-- <div class="container">
-      <div class="row">
-        <div class="col-md-8">
-          <h2>{{ image.description-title }}</h2>
-          <p>{{ image.description-text }}</p>
+    <div class="image-caption" ng-if="image.captionTitle">
+      <div class="container ">
+        <div class="row">
+          <div class="col-md-8">
+            <h4>{{ image.captionTitle }}</h4>
+            <p>{{ image.captionText }}</p>
+          </div>
         </div>
       </div>
-    </div> -->
+    </div>
     <div class="image " style="background-image: url('../images/{{ image.src }}')"></div>
   </div>
 
