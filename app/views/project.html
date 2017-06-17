@@ -54,7 +54,7 @@
   </div>
 
   <div class="one-col-text" ng-if="project.glance" data-sr="enter bottom over 1s and move 300px">
-    <div class="container ">
+    <div class="container border">
       <div class="row">
         <div class="col-md-12">
           <h4>At a glance</h4>
@@ -77,20 +77,24 @@
   </div>
 
 
-  <div class="full-width-image" ng-if="project.image1.fullWidth" data-sr="enter bottom over 1s and move 300px">
+
+  <div class="full-width-image" ng-if="!project.image1.twoCol && project.image1" data-sr="enter bottom over 1s and move 300px">
     <div class="image half-height" style="background-image: url('../images/{{ project.image1.src }}')"></div>
   </div>
 
-  <div class="two-col-img" ng-if="!project.image1.fullWidth" data-sr="enter bottom over 1s and move 300px">
+
+
+  <div class="two-col-img" ng-if="project.image1.twoCol && project.image1" data-sr="enter bottom over 1s and move 300px">
     <div class="row">
       <div class="col-sm-6 tile">
-        <img src="../images/{{ project.image1.firstImage }}" alt="{{ project.image1.alt }}" />
+        <img src="../images/{{ project.image1.src }}" alt="{{ project.image1.alt }}" />
       </div>
       <div class="col-sm-6 tile">
-        <img src="../images/{{ project.image1.secondImage }}" alt="{{ project.image1.alt }}" />
+        <img src="../images/{{ project.image1.src2 }}" alt="{{ project.image1.alt }}" />
       </div>
     </div>
   </div>
+
 
 
   <div ng-if="project.section2" class="two-col-title-text" data-sr="enter bottom over 1s and move 300px">
@@ -105,46 +109,80 @@
     </div>
   </div>
 
-  <div class="two-col-img" ng-if="!project.image2.sketch" data-sr="enter bottom over 1s and move 300px">
+
+
+  <div class="two-col-img" ng-if="!project.image2.twoCol && project.image2" data-sr="enter bottom over 1s and move 300px">
+    <div class="row">
+      <div class="col-sm-12 tile">
+        <img src="../images/{{ project.image2.src }}" alt="{{ project.image2.alt }}" />
+      </div>
+    </div>
+  </div>
+
+  <div class="two-col-img" ng-if="project.image2.twoCol && project.image2" data-sr="enter bottom over 1s and move 300px">
     <div class="row">
       <div class="col-sm-6 tile">
         <img src="../images/{{ project.image2.src }}" alt="{{ project.image2.alt }}" />
       </div>
       <div class="col-sm-6 tile">
-        <img src="../images/{{ project.image3.src }}" alt="{{ project.image3.alt }}" />
+        <img src="../images/{{ project.image2.src2 }}" alt="{{ project.image2.alt }}" />
       </div>
     </div>
   </div>
 
-  <div class="two-col-img" ng-if="project.image2.sketch" data-sr="enter bottom over 1s and move 300px">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-6 tile">
-          <img src="../images/{{ project.image2.src }}" alt="{{ project.image2.alt }}" />
-        </div>
-        <div class="col-sm-6 tile">
-          <img src="../images/{{ project.image3.src }}" alt="{{ project.image3.alt }}" />
-        </div>
-      </div>
-    </div>
-  </div>
+
 
   <div class="process">
-    <div ng-if="project.process" class="two-col-title-text" data-sr="enter bottom over 1s and move 300px">
+    <div ng-if="project.process" class="one-col-text" data-sr="enter bottom over 1s and move 300px">
       <div class="container">
         <div class="row" ng-repeat="process in project.process">
-          <div class="col-md-4">
-            <h4 ng-if="process.title">{{ process.title }}</h4>
-            <h2 ng-if="process.heading">{{ process.heading }}</h2>
-            <p ng-if="process.content">{{ process.content }}</p>
+          <div class="container border content">
+            <div class="row">
+              <div class="col-md-12">
+                <h4 ng-if="process.title">{{ process.title }}</h4>
+                <h2 ng-if="process.heading">{{ process.heading }}</h2>
+                <p ng-if="process.content">{{ process.content }}</p>
+              </div>
+            </div>
           </div>
-          <div class="col-md-7 pull-right">
-            <img src="../images/{{ process.image }}" alt="" />
+          <div class="container">
+            <div class="col-md-12">
+              <img src="../images/{{ process.image }}" alt="" />
+            </div>
           </div>
         </div>
       </div>
     </div>
   </div>
+
+
+
+
+  <div class="persona">
+    <div class="container">
+      <div class="row">
+        <table>
+          <tr>
+            <th></th>
+            <th>Age Group</th>
+            <th>Motivation and benefits of product usage</th>
+            <th>Need and context of use</th>
+            <th>Digital Literacy</th>
+          </tr>
+          <tr>
+            <th><img src="" alt=""></th>
+            <th>Age Group</th>
+            <th>Motivation and benefits of product usage</th>
+            <th>Need and context of use</th>
+            <th>Digital Literacy</th>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+
+
+
 
   <div ng-if="project.section3" class="two-col-title-text" data-sr="enter bottom over 1s and move 300px">
     <div class="container">
@@ -157,6 +195,7 @@
       </div>
     </div>
   </div>
+
 
 
   <div class="masonry-grid" ng-if="project.grid_images" data-sr="enter bottom over 1s and move 300px">
@@ -173,16 +212,26 @@
   </div>
 
 
-  <div class="two-col-img " ng-if="project.image4 && project.image5" data-sr="enter bottom over 1s and move 300px">
+
+  <div class="two-col-img " ng-if="!project.image4.twoCol && project.image4" data-sr="enter bottom over 1s and move 300px">
+    <div class="row">
+      <div class="col-sm-12 tile">
+        <img src="../images/{{ project.image4.src2 }}" alt="{{ project.image4.alt }}" />
+      </div>
+    </div>
+  </div>
+
+  <div class="two-col-img " ng-if="project.image4.twoCol && project.image4" data-sr="enter bottom over 1s and move 300px">
     <div class="row">
       <div class="col-sm-6 tile">
         <img src="../images/{{ project.image4.src }}" alt="{{ project.image4.alt }}" />
       </div>
       <div class="col-sm-6 tile">
-        <img src="../images/{{ project.image5.src }}" alt="{{ project.image5.alt }}" />
+        <img src="../images/{{ project.image4.src2 }}" alt="{{ project.image5.alt }}" />
       </div>
     </div>
   </div>
+
 
 
   <div ng-if="project.section4" class="two-col-title-text" data-sr="enter bottom over 1s and move 300px">
@@ -210,7 +259,19 @@
         </div>
       </div>
     </div>
-    <div class="image " style="background-image: url('../images/{{ image.src }}')"></div>
+    <div class="image " style="background-image: url('../images/{{ image.src }}')" ng-if="!image.twoCol"></div>
+    <div class="image-two-col" ng-if="image.twoCol">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-6 col">
+            <div class="image " style="background-image: url('../images/{{ image.src }}')"></div>
+          </div>
+          <div class="col-md-6 col">
+            <div class="image " style="background-image: url('../images/{{ image.src2 }}')"></div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 
 
@@ -232,8 +293,10 @@
       <div class="col-md-8 col-md-offset-2 reveal">
         <h1>Ready to chat?</h1>
         <p>Got a project in mind? I’m always interested in new projects, send me a message.</p>
-        <button type="button" class="primary-btn">Get in touch</button>
-        <p class="body-font">Forms not your thing send me an <a href="#" class="bold lowercase">email</a></p>
+        <a href="mailto:maxhumberstonedesigns@gmail.com" target="_top">
+          <button type="button" class="primary-btn">Get in touch</button>
+        </a>
+        <!-- <p class="body-font">Forms not your thing send me an <a href="#" class="bold lowercase">email</a></p> -->
       </div>
     </div>
   </div>

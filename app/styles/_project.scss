@@ -115,6 +115,9 @@
   .half-height{
     height: 70vh;
   }
+  .image-two-col .col{
+    padding: 0;
+  }
 }
 @media (max-width: $tablet-size){
   .full-width-image{
@@ -158,9 +161,12 @@
 
 .one-col-text{
   margin-top: 60px;
-  .container{
+  .container.border{
     border-left: 2px solid #EAEAEA;
     padding-left: 30px;
+  }
+  .content{
+    margin: 50px 0;
   }
 }
 
