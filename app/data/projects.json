@@ -391,8 +391,8 @@
          },
          "image4":{
            "twoCol":true,
-            "src":"yukon/sketches.jpeg",
-            "src2":"yukon/wireframes.jpeg",
+            "src":"yukon/",
+            "src2":"yukon/",
             "alt":"Idea development"
          },
          "section4":{

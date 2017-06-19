@@ -96,6 +96,32 @@
   </div>
 
 
+  <div class="process">
+    <div ng-if="project.process" class="one-col-text">
+      <div class="container">
+        <div class="row" ng-repeat="process in project.process" data-sr="enter bottom over 1s and move 300px">
+          <div class="container border content">
+            <div class="row">
+              <div class="col-md-12">
+                <h4 ng-if="process.title">{{ process.title }}</h4>
+                <h2 ng-if="process.heading">{{ process.heading }}</h2>
+                <p ng-if="process.content">{{ process.content }}</p>
+              </div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="col-md-12">
+              <img ng-if="!process.mobileImage" src="../images/{{ process.image }}" alt="" />
+              <img class="hidden-sm hidden-xs" ng-if="process.mobileImage" src="../images/{{ process.image }}" alt="" />
+              <img class="hidden-md hidden-lg" ng-if="process.mobileImage" src="../images/{{ process.mobileImage }}" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
 
   <div ng-if="project.section2" class="two-col-title-text" data-sr="enter bottom over 1s and move 300px">
     <div class="container">
@@ -126,33 +152,6 @@
       </div>
       <div class="col-sm-6 tile">
         <img src="../images/{{ project.image2.src2 }}" alt="{{ project.image2.alt }}" />
-      </div>
-    </div>
-  </div>
-
-
-
-  <div class="process">
-    <div ng-if="project.process" class="one-col-text">
-      <div class="container">
-        <div class="row" ng-repeat="process in project.process" data-sr="enter bottom over 1s and move 300px">
-          <div class="container border content">
-            <div class="row">
-              <div class="col-md-12">
-                <h4 ng-if="process.title">{{ process.title }}</h4>
-                <h2 ng-if="process.heading">{{ process.heading }}</h2>
-                <p ng-if="process.content">{{ process.content }}</p>
-              </div>
-            </div>
-          </div>
-          <div class="container">
-            <div class="col-md-12">
-              <img ng-if="!process.mobileImage" src="../images/{{ process.image }}" alt="" />
-              <img class="hidden-sm hidden-xs" ng-if="process.mobileImage" src="../images/{{ process.image }}" alt="" />
-              <img class="hidden-md hidden-lg" ng-if="process.mobileImage" src="../images/{{ process.mobileImage }}" alt="" />
-            </div>
-          </div>
-        </div>
       </div>
     </div>
   </div>
