@@ -19,13 +19,12 @@ angular
     'angularSiteApp.services',
     'wu.masonry',
     'slick',
-    'fox.scrollReveal',
+    'fox.scrollReveal'
   ])
   .run(function ($rootScope) {
-                $rootScope.$on('$locationChangeSuccess', function (event) {
+        $rootScope.$on('$locationChangeSuccess', function (event) {
             jQuery("html, body").delay(700).animate({ scrollTop: 0 }, 80);
         });
-
   })
   .config(function ($routeProvider, $locationProvider) {
     $routeProvider
@@ -39,7 +38,7 @@ angular
         controller: 'AboutCtrl',
         controllerAs: 'about'
       })
-      .when('/projects/:projectId', {
+      .when('/work/:projectId', {
         templateUrl: 'views/project.html',
         controller: 'ProjectCtrl',
         controllerAs: 'project'
@@ -49,11 +48,11 @@ angular
         controller: 'CapabilitiesCtrl',
         controllerAs: 'capabilities'
       })
-      .when('/contact', {
-        templateUrl: 'views/contact.html',
-        controller: 'ContactCtrl',
-        controllerAs: 'contact'
-      })
+      // .when('/contact', {
+      //   templateUrl: 'views/contact.html',
+      //   controller: 'ContactCtrl',
+      //   controllerAs: 'contact'
+      // })
       .when('/work', {
         templateUrl: 'views/work.html',
         controller: 'WorkCtrl',

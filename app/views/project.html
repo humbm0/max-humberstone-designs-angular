@@ -133,9 +133,9 @@
 
 
   <div class="process">
-    <div ng-if="project.process" class="one-col-text" data-sr="enter bottom over 1s and move 300px">
+    <div ng-if="project.process" class="one-col-text">
       <div class="container">
-        <div class="row" ng-repeat="process in project.process">
+        <div class="row" ng-repeat="process in project.process" data-sr="enter bottom over 1s and move 300px">
           <div class="container border content">
             <div class="row">
               <div class="col-md-12">
@@ -147,40 +147,15 @@
           </div>
           <div class="container">
             <div class="col-md-12">
-              <img src="../images/{{ process.image }}" alt="" />
+              <img ng-if="!process.mobileImage" src="../images/{{ process.image }}" alt="" />
+              <img class="hidden-sm hidden-xs" ng-if="process.mobileImage" src="../images/{{ process.image }}" alt="" />
+              <img class="hidden-md hidden-lg" ng-if="process.mobileImage" src="../images/{{ process.mobileImage }}" alt="" />
             </div>
           </div>
         </div>
       </div>
     </div>
   </div>
-
-
-
-
-  <div class="persona">
-    <div class="container">
-      <div class="row">
-        <table>
-          <tr>
-            <th></th>
-            <th>Age Group</th>
-            <th>Motivation and benefits of product usage</th>
-            <th>Need and context of use</th>
-            <th>Digital Literacy</th>
-          </tr>
-          <tr>
-            <th><img src="" alt=""></th>
-            <th>Age Group</th>
-            <th>Motivation and benefits of product usage</th>
-            <th>Need and context of use</th>
-            <th>Digital Literacy</th>
-          </tr>
-        </table>
-      </div>
-    </div>
-  </div>
-
 
 
 
@@ -216,7 +191,7 @@
   <div class="two-col-img " ng-if="!project.image4.twoCol && project.image4" data-sr="enter bottom over 1s and move 300px">
     <div class="row">
       <div class="col-sm-12 tile">
-        <img src="../images/{{ project.image4.src2 }}" alt="{{ project.image4.alt }}" />
+        <img src="../images/{{ project.image4.src }}" alt="{{ project.image4.alt }}" />
       </div>
     </div>
   </div>
@@ -248,7 +223,7 @@
 
 
 
-  <div class="full-width-image" data-sr="enter bottom over 1s and move 300px" ng-repeat="image in project.showcase">
+  <div class="full-width-image" data-sr="enter bottom over 1s and move 200px" ng-repeat="image in project.showcase">
     <div class="image-caption" ng-if="image.captionTitle">
       <div class="container ">
         <div class="row">
@@ -259,7 +234,7 @@
         </div>
       </div>
     </div>
-    <div class="image " style="background-image: url('../images/{{ image.src }}')" ng-if="!image.twoCol"></div>
+    <div class="image " style="background-image: url('../images/{{ image.src }}')" ng-if="!image.twoCol && !image.desktop && !image.tabletMobile && !image.mobile2 && !image.mobile3"></div>
     <div class="image-two-col" ng-if="image.twoCol">
       <div class="container-fluid">
         <div class="row">
@@ -268,6 +243,54 @@
           </div>
           <div class="col-md-6 col">
             <div class="image " style="background-image: url('../images/{{ image.src2 }}')"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="image-screen" ng-if="image.desktop">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <img src="../images/{{ image.src }}" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="image-screen" ng-if="image.tabletMobile">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col">
+            <img src="../images/{{ image.src }}" alt="">
+          </div>
+          <div class="col-md-4 col">
+            <img src="../images/{{ image.src2 }}" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="image-screen" ng-if="image.mobile2">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 col col-md-offset-2">
+            <img src="../images/{{ image.src }}" alt="">
+          </div>
+          <div class="col-md-4 col">
+            <img src="../images/{{ image.src2 }}" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="image-screen" ng-if="image.mobile3">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 col">
+            <img src="../images/{{ image.src }}" alt="">
+          </div>
+          <div class="col-md-4 col">
+            <img src="../images/{{ image.src2 }}" alt="">
+          </div>
+          <div class="col-md-4 col">
+            <img src="../images/{{ image.src3 }}" alt="">
           </div>
         </div>
       </div>
@@ -288,7 +311,7 @@
   </slick> -->
 
 
-  <div class="one-col-callout " data-sr="enter bottom over 1s and move 300px">
+  <div class="one-col-callout " data-sr="enter bottom over 1s and move 300px" id="contact">
     <div class="container">
       <div class="col-md-8 col-md-offset-2 reveal">
         <h1>Ready to chat?</h1>
@@ -305,7 +328,7 @@
   <div class="project-gallery related-projects" data-sr="enter bottom over 1s and move 300px">
     <h2>Related Projects</h2>
     <div class="row">
-      <a href="#/projects/{{project.project.handle}}" ng-repeat="project in relatedProjects | orderBy:'order' | limitTo: 2">
+      <a href="#/work/{{project.project.handle}}" ng-repeat="project in relatedProjects | orderBy:'order' | limitTo: 2">
         <div  class="col-md-6 tile feature ">
           <div class="img" style="background-image: url('images/{{ project.project.hero.src }}')"></div>
           <div class="content">

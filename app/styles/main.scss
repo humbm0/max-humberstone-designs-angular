@@ -14,6 +14,7 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/boots
 @import "_capabilities";
 @import "_work";
 @import "_contact";
+@import "_tables.scss";
 
 body{
   font-family: $font-family;
@@ -82,6 +83,13 @@ a{
     color: $primary-color;
     cursor: pointer;
   }
+}
+::selection {
+    background: #2646FF;
+    color: #FFF;
+}
+a, a:hover, a:active, a:visited, a:focus {
+    text-decoration:none;
 }
 img{
     height: auto;

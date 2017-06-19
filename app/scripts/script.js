@@ -45,6 +45,11 @@ $( document ).ready(function() {
       }
     });
 
-    
+    $('.nav a').click(function(){
+      $('header ul li').removeClass('show');
+      setTimeout(hideNav, 500);
+    });
+
+
 
 });

@@ -63,7 +63,7 @@
 
 <div class="project-gallery" data-sr="enter bottom over 1s and move 300px ">
   <div class="row">
-    <a href="#/projects/{{project.handle}}" ng-repeat="project in projects | limitTo:quantity">
+    <a href="#/work/{{project.handle}}" ng-repeat="project in projects | limitTo:quantity">
       <div ng-if="project.featured" class="col-md-6 tile feature ">
         <div class="img" style="background-image: url('images/{{ project.hero.src }}')"></div>
         <div class="content">
@@ -90,7 +90,7 @@
 </div>
 
 
-<div class="one-col-callout light-grey-bg" >
+<div class="one-col-callout light-grey-bg" id="contact">
   <div class="container" data-sr="enter bottom over 1s and move 300px">
     <div class="col-md-8 col-md-offset-2 reveal">
       <h1>Get in touch</h1>
@@ -102,3 +102,12 @@
     </div>
   </div>
 </div>
+
+<script type="text/javascript">
+$('.nav .contact').click(function() {
+  console.log("clicked");
+  $('html, body').animate({
+    scrollTop: $("#contact").offset().top + 'px'
+  }, 'slow');
+});
+</script>

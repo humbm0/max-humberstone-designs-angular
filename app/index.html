@@ -36,17 +36,17 @@
         </div>
         <div class="nav">
           <ul>
-            <li><a href="#/" class="active">Home</a></li>
+            <li ng-controller="NavCtrl"><a href="#/" ng-class="{active: $location.path() == '/'}">Home</a></li>
             <!-- <li><a href="#/capabilities">Capabilities</a></li> -->
-            <li><a href="#/work">Work</a></li>
+            <li ng-controller="NavCtrl"><a href="#/work" ng-class="{active: $location.path() == '/work'}">Work</a></li>
             <!-- <li><a href="#/about">About</a></li> -->
-            <li><a href="#/contact">Contact</a></li>
+            <li><a class="contact">Contact</a></li>
           </ul>
         </div>
       </div>
     </header>
 
-    <div ng-view=""  class="page" data-sr-container='{ "reset":false, "mobile":true, "vFactor": 0.5 }'></div>
+    <div ng-view=""  class="page" data-sr-container='{ "reset":false, "mobile":true, "vFactor": 0.35 }'></div>
 
 
     <footer>
@@ -136,6 +136,7 @@
     <script src="scripts/controllers/capabilities.js"></script>
     <script src="scripts/controllers/contact.js"></script>
     <script src="scripts/controllers/work.js"></script>
+    <script src="scripts/controllers/nav.js"></script>
     <!-- endbuild -->
 
 </body>

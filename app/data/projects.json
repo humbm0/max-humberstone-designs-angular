@@ -5,7 +5,7 @@
          "title":"Squair",
          "featured":true,
          "grid_size":"lg",
-         "type":"Product | App",
+         "type":"Product | Digital",
          "hero":{
             "src":"squair/user.png",
             "alt":"Squair hero image"
@@ -33,12 +33,9 @@
             "content":"The concept was to use pulse oximetry technology to monitor user oxygen saturation however common usage of this technology involved finger based products and would not be suitable for 24/7 monitoring. A concept of a modular battery was also explored that would enable users to customise their battery life and weight."
          },
          "image2":{
-            "sketch":true,
+            "twoCol":true,
             "src":"squair/sketches.jpg",
-            "alt":"Focus group"
-         },
-         "image3":{
-            "src":"squair/sketches2.jpg",
+            "src2":"squair/sketches2.jpg",
             "alt":"Idea development"
          },
          "section3":{
@@ -47,21 +44,19 @@
             "content":"The aim from the start of the project was to develop a product that aimed to break down the barriers between oxygen therapy patients and the general public. The design also had to cater for both male and female users. The form factor was also heavily influenced by the requirement to produce a product that was as small and compact as possible. Therefore, the casing of the product closely followed the shape of the internal component assembly to reduce materials, size and weight."
          },
          "image4":{
+           "twoCol":true,
             "src":"squair/parts.jpg",
-            "alt":"Idea development"
-         },
-         "image5":{
-            "src":"squair/electronics.jpg",
+            "src2":"squair/electronics.jpg",
             "alt":"Idea development"
          },
          "section4":{
             "title":"The solution",
             "heading":"Encouraging active lifestyles, preventing misuse and improving self-monitoring through connected devices for ambulatory oxygen therapy patients.",
-            "content":"SQUAIR is a portable oxygen concentrator that produces the equivalent of up to 3 LPM (litres per minute) via a pulse dose system, in a lightweight package (2kg) with accompanying wearable and app to notify low oxygen saturation, automatically adjust flow rate and support self monitoring."
+            "content":"SQUAIR is a portable oxygen concentrator that produces the equivalent of up to 3 LPM (litres per minute) via a pulse dose system, in a lightweight package (2kg) with accompanying wearable and app to notify low oxygen saturation, automatically adjust flow rate and support self monitoring through health and usage tracking."
          },
          "showcase":[
             {
-               "src":"squair/product-shot.jpg",
+               "src":"squair/product-shot.png",
                "alt":""
             },
             {
@@ -104,8 +99,27 @@
             },
             {
                "captionTitle":"App",
-               "captionText":"The app helps users improve self-monitoring by using the data collected from the wearable and concentrator to detect trends and triggers of exacerbations. Users can visualise personal health data in easy to understand graphs to recognise trends. Data collected is also used to notify users of local air quality and weather that might influence their triggers. Communication between patient and doctor is improved by allowing users to tag moments of unfamiliar symptoms via the app and share health data with their doctor, similar to a health journal. Users can track medication to ensure correct dosages and also further influence triggers based on when and how often medication is taken.",
-               "src":"squair/app.png",
+               "captionText":"The app helps users improve self-monitoring by using the data collected from the wearable and concentrator to detect trends and triggers of exacerbations. Data collected is also used to notify users of local air quality and weather that might influence their triggers.",
+               "mobile2":true,
+               "src":"squair/dashboard.png",
+               "src2":"squair/dashboard2.png",
+               "alt":""
+            },
+            {
+               "captionTitle":"Health Stats",
+               "captionText":"Users can visualise personal health data in easy to understand graphs to recognise trends and identify momenst of symptoms.  Communication between patient and doctor is improved by allowing users to tag moments of unfamiliar symptoms via the app and share health data with their doctor, similar to a health journal.",
+               "mobile2":true,
+               "src":"squair/health.png",
+               "src2":"squair/add_note.png",
+               "alt":""
+            },
+            {
+               "captionTitle":"Medication Tracking",
+               "captionText":"Users can track medication to ensure correct dosages of medicine are taken at the appropriate time. The app will also notify users of prescription pick up.",
+               "mobile3":true,
+               "src":"squair/medication.png",
+               "src2":"squair/add_medication2.png",
+               "src3":"squair/add_medication3.png",
                "alt":""
             },
             {
@@ -117,185 +131,10 @@
          ]
       },
       {
-         "handle":"yukon",
-         "title":"Yukon",
-         "featured":true,
-         "grid_size":"",
-         "type":"Product | App",
-         "hero":{
-            "src":"yukon/render3.png",
-            "alt":"Yukon hero image"
-         },
-         "textColour":"black",
-         "heading":"What if the music we listen to was more personal to us and the current moment?",
-         "subheading":"EEG headphones with machine learning technology to enhance the music listening experience.",
-         "client":"DCA Design International",
-         "challenge":"Redesign a product that people ahve become habituated to.",
-         "outcome":"Biometric headphones that use brain wave signals and motion sensing to select songs and create personalised playlists based on a users mood current mood or activity.",
-         "section1":{
-            "title":"The Problem",
-            "heading":"With the adoption of cloud music libraries and digital radio accessibility to music has never been easier but has this constant stimuli of pop culture songs caused people to be come habituated to music and loose appreciation?",
-            "content":"As the distribution and accessibility of music has become easier, users have become overloaded with content and struggle to find music they like for different situations. Users reporting a bias towards chart music and finding new music can be difficult. To try and solve the problem of content overload services have implemented personal/suggested playlists to match songs to the users preferences. However the logic used to match these songs is very basic - selecting songs by the same artist, same genre, or songs other users have bought. Users reported that “I would never listen to something like that!”. "
-         },
-         "image1":{
-            "twoCol":false,
-            "src":"yukon/user1.jpg",
-            "src2":"",
-            "alt":"Problem"
-         },
-         "section2":{
-            "title":"The idea",
-            "heading":"How might we make the music we listen too more personal to us and the moment we are living in?",
-            "content":"Initial ideation exploring new music experiences using the insights to drive concept selection and refinement. Ideas ranged form cloud based vinyl players to artificial intelligence speakers. Ideas were then played back to focus group for concept selection and refinement. The concept taken forward was a pair of biometric headphones to select songs based on a users mood current mood or activity. One issue brought up was - “what if your current mood is bad?”. Other feedback was their needed to further development into the social aspect of music."
-         },
-         "image2":{
-           "twoCol":true,
-            "src":"yukon/research2.jpg",
-            "src2":"yukon/research.jpg",
-            "alt":"Focus group"
-         },
-         "section3":{
-            "title":"The design",
-            "heading":"Development of form, interaction and refinement of EEG technology used. Brainwaves are produced by synchronised electrical pulses from masses of neutrons communicating with each other. Our brainwaves change according to what we’re doing and feeling.",
-            "content":"When slower brainwaves are dominant we can feel tired, slow, sluggish, or dreamy. The higher frequencies are dominant when we feel wired, or hyper-alert. The headphones measure brain signals much like a heart rate monitor senses your heartbeat. Finely calibrated sensors detect and measure the activity of your brain. Along side the design of the headphones app wireframes were generated to establish initial user flow and then progressed to visual designs."
-         },
-         "image4":{
-           "twoCol":true,
-            "src":"yukon/sketches.jpeg",
-            "src2":"yukon/wireframes.jpeg",
-            "alt":"Idea development"
-         },
-         "section4":{
-            "title":"The solution",
-            "heading":"Yukon is a the next generation of music listening. The Yukon headphones incorporate EEG technology, to continuously monitor the user’s brain waves.",
-            "content":"These brain waves when combined with motion sensing allow Yukon to understand the user’s current mood and activity. Yukon then selects songs to fit the current scenario. Users can choose to change their mood through personalised playlists and use boosts to further stimulate their desired mood. Unlike existing personalised playlists Yukon learns exactly which types of songs are most suited to the user for a particular task. By monitoring the user’s brain waves it understands how users to react to different song selections in different scenarios and uses this data to influence its next song selection. Yukon also encourages sharing, and social interactions through sync listening allowing users to broadcast their mood playlist so friends can listening together and mix their individual moods into one playlist."
-         },
-         "showcase":[
-            {
-               "src":"yukon/user_app.png",
-               "alt":""
-            },
-            {
-               "src":"yukon/render3.png",
-               "alt":""
-            },
-            {
-               "twoCol":true,
-               "src":"yukon/touch_control.png",
-               "src2":"yukon/touch_control2.png",
-               "alt":""
-            },
-            {
-               "src":"yukon/render1.png",
-               "alt":""
-            },
-            {
-               "src":"yukon/app5.png",
-               "alt":""
-            }
-         ]
-      },
-      {
-         "handle":"ovambo",
-         "title":"Ovambo",
-         "featured":false,
-         "type":"Product | App",
-         "hero":{
-            "src":"ovambo/thumb.png",
-            "alt":"OVAMBO hero image"
-         },
-         "textColour":"black",
-         "heading":"Redefining mental wellbeing for the future workplace.",
-         "subheading":"Connected EEG earphones that monitor employee mental wellbeing to encourage better work habits ",
-         "client":"University Project",
-         "challenge":"Use design to empower people to better prevent, detect, treat and possibly reverse lifestyle-related health conditions.",
-         "outcome":"A connected workplace system that aims to better structure tasks and management decisions based on specific workplace culture and employee strengths.",
-         "section1":{
-            "title":"The Problem",
-            "heading":"Over a third of employers have highlighted stress-related absence to be on the rise. In the workplace, 41% of private sector employees state that they are experiencing stress because they are under excessive pressure at work. ",
-            "content":"Absenteeism and presenteeism (reduced performance and productivity due to ill health while at work) are major areas of concern to employers in the UK. Currently in the UK, the average office worker takes 6.5 days of absence. Taken cumulatively across the UK working population, this amounts to working days for absence and approximately lost annually. Remarkably, the cost of presenteeism to UK employers is estimated at £15 billion per year, significantly more than absenteeism."
-         },
-         "image1":{
-            "src":"ovambo/user1.jpg",
-            "alt":"Current problem"
-         },
-         "section2":{
-            "title":"The idea",
-            "heading":"How might we relieve workplace stress and encourage better work habits by helping employees manage workload based on individual preferences and improve focus.",
-            "content":"Insights gathered from a series of focus groups and user interviews revealed that the main issues employees face that resulted in workplace stress were, their ability to manage workload, unrealistic workloads and a lack of autonomy. The aim was to provide employees with personalised information and tools to make better, informed decisions regarding work tasks and allowing employers to provide employees with greater autonomy with confidence in work effectiveness."
-         },
-         "image2":{
-            "src":"ovambo/research.jpg",
-            "alt":"EEG experience prototype"
-         },
-         "image3":{
-            "src":"ovambo/research3.jpg",
-            "alt":"EEG experience prototype"
-         },
-         "section3":{
-            "title":"The design",
-            "heading":"Introduction of EEG technology to monitor employee stress and focus levels. By learning how employees works best we can provide them with personalised insights and tips for more efficient working.",
-            "content":"Series of different concepts and form factors in which EEG technology could be used. The decision to use earphones was based on a small, compact product that would be used for multiple workplace tasks, enabling it to seamlessly integrate into employee workplace habits."
-         },
-         "section4":{
-            "title":"The solution",
-            "heading":"Noise cancelation, bluetooth earphones with embedded biometric sensors that track brain waves through EEG and provide real-time feedback about focus, stress, relaxation and task interest.",
-            "content":"OVAMBO will guide users to make better choices about their work habits allowing them to focus, reduce stress and be more mindful. OVAMBO also serves a task management tool for enterprises to better structure work tasks and develop new ‘ways of working’ that are personalised to their employees, ensuring a healthy, happy and successful workplace. OVAMBO learns the more the user interacts with it and suggests personalised tips, exercises and daily habits to enable a more balanced mind."
-         },
-         "showcase":[
-            {
-               "src":"ovambo/dark-image.png",
-               "alt":""
-            },
-            {
-               "src":"ovambo/back-light.png",
-               "alt":""
-            },
-            {
-               "src":"ovambo/light-detail.png",
-               "alt":""
-            },
-            {
-               "src":"ovambo/neck-band.png",
-               "alt":""
-            },
-            {
-               "captionTitle":"Task Management",
-               "captionText":"Recommends tasks based on current mental state, personal calendars and team priority.",
-               "src":"ovambo/app3.jpg",
-               "alt":""
-            },
-            {
-               "captionTitle":"Retain Focus",
-               "captionText":"During work sessions the app tracks user focus and other brain activity. If users begin to loose focus the app will help them return to calm state via audial feedback.",
-               "src":"ovambo/app6.jpg",
-               "alt":""
-            },
-            {
-               "captionTitle":"Track Mental Wellbeing",
-               "captionText":"Users can review their sessions and see their focus, stress, relaxation and interest for different tasks. OVAMBO analyses this data to provide personalised tips for a more balanced mind.",
-               "src":"ovambo/app2.jpg",
-               "alt":""
-            },
-            {
-               "captionTitle":"Encourage Better Working Habits",
-               "captionText":"To prevent burn out or work overload. OVAMBO notifies users to take breaks after prolonged negative mental activity or periods of work.",
-               "src":"ovambo/app4.jpg",
-               "alt":""
-            },
-            {
-               "captionTitle":"Management Dashboard",
-               "captionText":"OVAMBO is a next generation task management tool. Using machine learning technology it structures projects based on individual work habits, preferences and task nature. OVAMBO presents contextually relevant and personalised predictions to mangers based on their teams secure and privatised data. This allows managers to make informed decisions based on his team’s needs. This data is also used by enterprises to develop new ways of working that are personalised to how their employees work best.",
-               "src":"ovambo/app5.jpg",
-               "alt":""
-            }
-         ]
-      },
-      {
          "handle":"severn-trent",
          "title":"Severn Trent Water",
-         "featured":false,
-         "type":"Web",
+         "featured":true,
+         "type":"Digital",
          "hero":{
             "src":"severn-trent/thumb.jpg",
             "alt":"severn trent hero image"
@@ -329,82 +168,393 @@
                "image":"severn-trent/workshop3.jpg"
             },
             {
-               "title":"Analytical Report Analysis",
+               "title":"Hierarchical Task Analysis",
                "heading":"",
-               "content":"Business Management Consultancy reports by Good Growth gave insights into Severn Trent's web and phone traffic with useful information on their KPI's. This was effective in establishing the sites hierarchy and behavioural clusters which led to making informed based design solutions.",
-               "image":"severn-trent/"
+               "content":"A review and task analysis of thw existing was used in conjunction with business management consultancy reports by Good Growth to establishing the sites hierarchy and behavioural clusters which led to making informed based design solutions.",
+               "image":"severn-trent/task-analysis.jpg"
             },
             {
                "title":"Competitor Analysis",
                "heading":"",
                "content":"Observations on utility sites informed me of design best practice in AI and UI. Research was also conducted on airline companies and financial services instructing our form handling and processes.",
-               "image":"severn-trent/"
+               "image":"severn-trent/competitor.jpg"
             },
             {
                "title":"Persona Creation",
                "heading":"",
                "content":"3 personas were created from data collected from the research phase, each with varying wants and needs.",
-               "image":"severn-trent/"
+               "image":"severn-trent/personas-desktop.png",
+               "mobileImage": "severn-trent/personas-mobile.png"
             }
          ],
          "section3":{
             "title":"The design",
-            "heading":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris.",
-            "content":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at. Vestibulum tincidunt quis neque vitae tempor. Praesent in nunc a urna venenatis placerat. Nullam fringilla tellus odio. Pellentesque at libero facilisis, blandit ex bibendum, pharetra purus. Sed quis mi a diam sollicitudin aliquet a vel velit. Integer eget eleifend quam. Aliquam sodales ligula dui, imperdiet vestibulum orci euismod ut."
+            "heading":"A mobile first design ensured an enjoyable user experience accross all devices. Focus on a modular design to work with the Adobe AEM platform.",
+            "content":"Adobe's content managment platform, AEM was used to build the new site. Therefore, initial designs focused on standard components that would be used accross the site. These componenst were then tested with a variety of content to ensure our designs would meet the needs of Severn Trent's existing and future content migration. The design were then devloped further into higher fidelity designs and design documentation."
          },
-         "grid_images":[
-            {
-               "size":"sm",
-               "src":"ovambo/wireframes.jpg",
-               "alt":"",
-               "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at."
-            },
-            {
-               "size":"large",
-               "src":"ovambo/wireframes2.jpg",
-               "alt":"",
-               "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at."
-            },
-            {
-               "size":"sm",
-               "src":"squair/sketch3.jpg",
-               "alt":"",
-               "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at."
-            },
-            {
-               "size":"med",
-               "src":"squair/sketch1.jpg",
-               "alt":"",
-               "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at."
-            }
-         ],
+         "image4":{
+           "twoCol":true,
+            "src":"severn-trent/wireframes.png",
+            "src2":"severn-trent/wireframes2.png",
+            "alt":"Idea development"
+         },
+         "section4":{
+            "title":"The delivery",
+            "heading":"Use of an Agile workflow to improve team communication and effectiveness.",
+            "content":"An agile workflow was used to assess the direction of a project throughout the delivery phase. This enabled on and off-shore teams to collaborate and communicate more effectively to ensure deadlines were met. The end result was simplified, responsive site that shortened time taken to complete the most common tasks and made navigating large amounts of content easier whilst improving Severn Trent's content edititing capabilties through the Adobe AEM platform. "
+         },
          "showcase":[
             {
-               "src":"ovambo/user2.png",
+              "desktop":true,
+               "src":"severn-trent/home-desktop.png",
                "alt":""
             },
             {
-               "src":"ovambo/neckband.png",
+              "tabletMobile": true,
+               "src":"severn-trent/home-tablet.png",
+               "src2":"severn-trent/home-mobile.png",
                "alt":""
             },
             {
-               "src":"ovambo/app2.jpg",
+              "desktop":true,
+               "src":"severn-trent/rap.png",
                "alt":""
             },
             {
-               "src":"ovambo/app3.jpg",
+              "desktop":true,
+               "src":"severn-trent/in-my-street.png",
                "alt":""
             },
             {
+              "desktop":true,
+               "src":"severn-trent/in-my-street2.png",
+               "alt":""
+            },
+            {
+              "desktop":true,
+               "src":"severn-trent/in-my-street3.png",
+               "alt":""
+            },
+            {
+              "desktop":true,
+               "src":"severn-trent/help.png",
+               "alt":""
+            },
+            {
+              "desktop":true,
+               "src":"severn-trent/help2.png",
+               "alt":""
+            },
+            {
+              "desktop":true,
+               "src":"severn-trent/help3.png",
+               "alt":""
+            },
+            {
+              "desktop":true,
+               "src":"severn-trent/help4.png",
+               "alt":""
+            },
+            {
+              "desktop":true,
+               "src":"severn-trent/help5.png",
+               "alt":""
+            }
+         ]
+      },
+      {
+         "handle":"yukon",
+         "title":"Yukon",
+         "featured":false,
+         "grid_size":"",
+         "type":"Product | Digital",
+         "hero":{
+            "src":"yukon/render3.png",
+            "alt":"Yukon hero image"
+         },
+         "textColour":"black",
+         "heading":"What if the music we listen to was more personal to us and the current moment?",
+         "subheading":"EEG headphones with machine learning technology to enhance the music listening experience.",
+         "client":"DCA Design International",
+         "challenge":"Redesign a product that people ahve become habituated to.",
+         "outcome":"Biometric headphones that use brain wave signals and motion sensing to select songs and create personalised playlists based on a users mood current mood or activity.",
+         "glance":"A one week project with a live brief set by DCA Design to redesign a product that people ahve become habituated to. I explored the possibilty of a new music listening experince using EEG technology.",
+         "section1":{
+            "title":"The Problem",
+            "heading":"With the adoption of cloud music libraries and digital radio accessibility to music has never been easier but has this constant stimuli of pop culture songs caused people to be come habituated to music and loose appreciation?",
+            "content":"As the distribution and accessibility of music has become easier, users have become overloaded with content and struggle to find music they like for different situations. Users reporting a bias towards chart music and finding new music can be difficult. To try and solve the problem of content overload services have implemented personal/suggested playlists to match songs to the users preferences. However the logic used to match these songs is very basic - selecting songs by the same artist, same genre, or songs other users have bought. Users reported that “I would never listen to something like that!”. "
+         },
+         "image1":{
+            "twoCol":false,
+            "src":"yukon/user1.jpg",
+            "src2":"",
+            "alt":"Problem"
+         },
+         "section2":{
+            "title":"The idea",
+            "heading":"How might we make the music we listen too more personal to us and the moment we are living in?",
+            "content":"Initial ideation exploring new music experiences using the insights to drive concept selection and refinement. Ideas ranged form cloud based vinyl players to artificial intelligence speakers. Ideas were then played back to focus group for concept selection and refinement. The concept taken forward was a pair of biometric headphones to select songs based on a users mood current mood or activity. One issue brought up was - “what if your current mood is bad?”. Other feedback was their needed to further development into the social aspect of music."
+         },
+         "image2":{
+           "twoCol":true,
+            "src":"yukon/research2.jpg",
+            "src2":"yukon/research.jpg",
+            "alt":"Focus group"
+         },
+         "section3":{
+            "title":"The design",
+            "heading":"Development of form, interaction and refinement of EEG technology used. Brainwaves are produced by synchronised electrical pulses from masses of neutrons communicating with each other. Our brainwaves change according to what we’re doing and feeling.",
+            "content":"When slower brainwaves are dominant we can feel tired, slow, sluggish, or dreamy. The higher frequencies are dominant when we feel wired, or hyper-alert. The headphones measure brain signals much like a heart rate monitor senses your heartbeat. Finely calibrated sensors detect and measure the activity of your brain. Along side the design of the headphones app wireframes were generated to establish initial user flow and then progressed to visual designs."
+         },
+         "image4":{
+            "src":"yukon/sketches.png",
+            "alt":"Idea development"
+         },
+         "section4":{
+            "title":"The solution",
+            "heading":"Yukon is a the next generation of music listening. The Yukon headphones incorporate EEG technology, to continuously monitor the user’s brain waves.",
+            "content":"These brain waves when combined with motion sensing allow Yukon to understand the user’s current mood and activity. Yukon then selects songs to fit the current scenario. Users can choose to change their mood through personalised playlists and use boosts to further stimulate their desired mood. Unlike existing personalised playlists Yukon learns exactly which types of songs are most suited to the user for a particular task. By monitoring the user’s brain waves it understands how users to react to different song selections in different scenarios and uses this data to influence its next song selection. Yukon also encourages sharing, and social interactions through sync listening allowing users to broadcast their mood playlist so friends can listening together and mix their individual moods into one playlist."
+         },
+         "showcase":[
+            {
+               "src":"yukon/user_app.png",
+               "alt":""
+            },
+            {
+               "src":"yukon/render3.png",
+               "alt":""
+            },
+            {
+               "twoCol":true,
+               "src":"yukon/touch_control.png",
+               "src2":"yukon/touch_control2.png",
+               "alt":""
+            },
+            {
+               "src":"yukon/render1.png",
+               "alt":""
+            },
+            {
+              "mobile3": true,
+               "src":"yukon/playing.png",
+               "src2":"yukon/stats.png",
+               "src3":"yukon/use_boost.png",
+               "alt":""
+            },
+            {
+              "mobile2": true,
+               "src":"yukon/suggested.png",
+               "src2":"yukon/search.png",
+               "alt":""
+            }
+         ]
+      },
+      {
+         "handle":"ovambo",
+         "title":"Ovambo",
+         "featured":false,
+         "type":"Product | Digital",
+         "hero":{
+            "src":"ovambo/thumb.png",
+            "alt":"OVAMBO hero image"
+         },
+         "textColour":"black",
+         "heading":"Redefining mental wellbeing for the future workplace.",
+         "subheading":"Connected EEG earphones that monitor employee mental wellbeing to encourage better work habits ",
+         "client":"University Project",
+         "challenge":"Use design to empower people to better prevent, detect, treat and possibly reverse lifestyle-related health conditions.",
+         "outcome":"A connected workplace system that aims to better structure tasks and management decisions based on specific workplace culture and employee strengths.",
+         "section1":{
+            "title":"The Problem",
+            "heading":"Over a third of employers have highlighted stress-related absence to be on the rise. In the workplace, 41% of private sector employees state that they are experiencing stress because they are under excessive pressure at work. ",
+            "content":"Absenteeism and presenteeism (reduced performance and productivity due to ill health while at work) are major areas of concern to employers in the UK. Currently in the UK, the average office worker takes 6.5 days of absence. Taken cumulatively across the UK working population, this amounts to working days for absence and approximately lost annually. Remarkably, the cost of presenteeism to UK employers is estimated at £15 billion per year, significantly more than absenteeism."
+         },
+         "image1":{
+            "src":"ovambo/user1.jpg",
+            "alt":"Current problem"
+         },
+         "section2":{
+            "title":"The idea",
+            "heading":"How might we relieve workplace stress and encourage better work habits by helping employees manage workload based on individual preferences and improve focus.",
+            "content":"Insights gathered from a series of focus groups and user interviews revealed that the main issues employees face that resulted in workplace stress were, their ability to manage workload, unrealistic workloads and a lack of autonomy. The aim was to provide employees with personalised information and tools to make better, informed decisions regarding work tasks and allowing employers to provide employees with greater autonomy with confidence in work effectiveness."
+         },
+         "image2":{
+           "twoCol":true,
+            "src":"ovambo/research.png",
+            "src2":"ovambo/research2.jpg",
+            "alt":"EEG experience prototype"
+         },
+         "section3":{
+            "title":"The design",
+            "heading":"Introduction of EEG technology to monitor employee stress and focus levels. By learning how employees works best we can provide them with personalised insights and tips for more efficient working.",
+            "content":"Series of different concepts and form factors in which EEG technology could be used. The decision to use earphones was based on a small, compact product that would be used for multiple workplace tasks, enabling it to seamlessly integrate into employee workplace habits."
+         },
+         "image4":{
+           "twoCol":true,
+            "src":"yukon/sketches.jpeg",
+            "src2":"yukon/wireframes.jpeg",
+            "alt":"Idea development"
+         },
+         "section4":{
+            "title":"The solution",
+            "heading":"Noise cancelation, bluetooth earphones with embedded biometric sensors that track brain waves through EEG and provide real-time feedback about focus, stress, relaxation and task interest.",
+            "content":"OVAMBO will guide users to make better choices about their work habits allowing them to focus, reduce stress and be more mindful. OVAMBO also serves a task management tool for enterprises to better structure work tasks and develop new ‘ways of working’ that are personalised to their employees, ensuring a healthy, happy and successful workplace. OVAMBO learns the more the user interacts with it and suggests personalised tips, exercises and daily habits to enable a more balanced mind."
+         },
+         "showcase":[
+            {
+               "src":"ovambo/dark-image.png",
+               "alt":""
+            },
+            {
+               "src":"ovambo/back-light.png",
+               "alt":""
+            },
+            {
+               "src":"ovambo/light-detail.png",
+               "alt":""
+            },
+            {
+               "src":"ovambo/neck-band.png",
+               "alt":""
+            },
+            {
+               "captionTitle":"Task Management",
+               "captionText":"Recommends tasks based on current mental state, personal calendars and team priority.",
+               "mobile2":true,
+               "src":"ovambo/task.png",
+               "src2":"ovambo/.png",
+               "alt":""
+            },
+            {
+              "captionTitle":"Retain Focus",
+              "captionText":"During work sessions the app tracks user focus and other brain activity. If users begin to loose focus the app will help them return to calm state via audial feedback.",
+               "mobile3":true,
+               "src":"ovambo/task2.png",
+               "src2":"ovambo/task3.png",
+               "src3":"ovambo/task4.png",
+               "alt":""
+            },
+            {
+               "mobile2":true,
+               "src":"ovambo/task5.png",
+               "src2":"ovambo/task7.png",
+               "alt":""
+            },
+            {
+               "captionTitle":"Track Mental Wellbeing",
+               "captionText":"Users can review their sessions and see their focus, stress, relaxation and interest for different tasks. OVAMBO analyses this data to provide personalised tips for a more balanced mind.",
+               "mobile2":true,
+               "src":"ovambo/my_mind.png",
+               "src2":"ovambo/my_mind2.png",
+               "alt":""
+            },
+            {
+              "mobile2":true,
+              "src":"ovambo/my_mind3.png",
+              "src2":"ovambo/my_mind4.png",
+              "alt":""
+            },
+            {
+               "captionTitle":"Encourage Better Working Habits",
+               "captionText":"To prevent burn out or work overload. OVAMBO notifies users to take breaks after prolonged negative mental activity or periods of work.",
                "src":"ovambo/app4.jpg",
                "alt":""
             },
             {
-               "src":"ovambo/app6.jpg",
+               "captionTitle":"Mindfulness Training",
+               "captionText":"Browse a selection of minfulness training exercises and games designed to improve focus or relaxation. Single or multiplayer games to challenge collegues. The platform is open source to allow for third party games or exercises to be added. Intergration with VR headsets and 3D audio produces an emersive experience allowing employees to block out distractions.",
+               "mobile3":true,
+               "src":"ovambo/mindfulness.png",
+               "src2":"ovambo/mindfulness2.png",
+               "src3":"ovambo/mindfulness2.2.png",
                "alt":""
             },
             {
-               "src":"ovambo/app5.jpg",
+               "mobile3":true,
+               "src":"ovambo/mindfulness2hide.png",
+               "src2":"ovambo/mindfulnessVR.png",
+               "src3":"ovambo/mindfulness3.png",
+               "alt":""
+            },
+            {
+               "captionTitle":"Management Dashboard",
+               "captionText":"OVAMBO is a next generation task management tool. Using machine learning technology it structures projects based on individual work habits, preferences and task nature. OVAMBO presents contextually relevant and personalised predictions to mangers based on their teams secure and privatised data. This allows managers to make informed decisions based on his team’s needs. This data is also used by enterprises to develop new ways of working that are personalised to how their employees work best.",
+               "desktop": true,
+               "src":"ovambo/admin.png",
+               "alt":""
+            },
+            {
+               "desktop": true,
+               "src":"ovambo/admin2.png",
+               "alt":""
+            },
+            {
+               "desktop": true,
+               "src":"ovambo/admin3.png",
+               "alt":""
+            }
+         ]
+      },
+      {
+         "handle":"etrack",
+         "title":"E-track",
+         "featured":false,
+         "type":"Product | Digital",
+         "hero":{
+            "src":"e-track/thumb.jpg",
+            "alt":"severn trent hero image"
+         },
+         "textColour":"black",
+         "heading":"Providing airline passengers with peace of mind through real time luggage tracking.",
+         "subheading":"A luggage tracker that utilises iBecon technology to provide status of luggage from check-in to arrival.",
+         "client":"Personal Project - Focused Client, British Airways",
+         "challenge":"Provide passengers with ",
+         "outcome":"A small, personal tracker for luggage items that connects to iBeacon check points through airports to provide real time status updates.",
+         "section1":{
+            "title":"The Problem",
+            "heading":"There are approximately 21.8 million mishandled bags per year which equates to 6.96 mishandled bags per 1000 passengers.",
+            "content":"The main reason for mishandled bags is they are delayed arriving to connection airports and then have a very high chance of being boarded onto the incorrect flight. Existing trackers available to consumers provide the customer with a gps location after landing but this allows a large amount of time for the bag to be misplaced or travel a further distance."
+         },
+         "image1":{
+            "src":"e-track/problem.jpg",
+            "alt":"Current problem"
+         },
+         "section2":{
+            "title":"The idea",
+            "heading":"Design a solution to provide a user with more information when their bag is mishandled and speed up the process of returning it.",
+            "content":"There is nothing to identify a bag if its tag has come off, and is sent to a secondary search location where it is held and attempts are made to identify its owner. This can be a long process. The focus for the design was to ensure the end solution met three key themes. Integrate into the flying experience for a seamless user interaction. Reliability and reasurance for users. Empower the user to feel they have greater control when baggage issues arrise."
+         },
+         "image2":{
+            "src":"e-track/sketches.jpg",
+            "alt":"EEG experience prototype"
+         },
+         "showcase":[
+            {
+               "src":"e-track/main.png",
+               "alt":""
+            },
+            {
+               "src":"e-track/top.png",
+               "alt":""
+            },
+            {
+               "src":"e-track/side.png",
+               "alt":""
+            },
+            {
+               "src":"e-track/scenario.gif",
+               "alt":""
+            },
+            {
+               "src":"e-track/exploaded.png",
+               "alt":""
+            },
+            {
+              "captionTitle":"Accompanying App",
+              "captionText":"e-Track keeps in touch with you via the British Airways app. A conceptual redesign was done so that a user can quickly navigate between bag tracking and boarding pass.",
+              "mobile2": true,
+               "src":"e-track/boarding_pass.png",
+               "src2":"e-track/track_bag.png",
                "alt":""
             }
          ]
@@ -419,639 +569,72 @@
             "alt":"Snow hero image"
          },
          "textColour":"black",
-         "heading":"Custom fit snow googles with augmented reality HUD display.",
-         "subheading":"Reverse engineered snow googles using Creo Parametric and Keyshot with AR and custom fit integration.",
+         "heading":"Custom fit snow googles for improved comfort and weather protection.",
+         "subheading":"Reverse engineered snow googles using Creo Parametric and Keyshot with 3D scanning custom fit integration.",
          "client":"University Project",
-         "challenge":"Organic form modelling and redesign to exploit advanced 3D techniques.",
-         "outcome":"Surface model of snow googles with 3D scanned, custom fit padding and augmented reality integration.",
+         "challenge":"Organic form modelling and redesign to exploit advanced 3D modelling techniques.",
+         "outcome":"Surface model of snow googles with 3D scanned, custom fit padding integration.",
          "section1":{
             "title":"The Problem",
-            "heading":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris.",
-            "content":"Absenteeism and presenteeism (reduced performance and productivity due to ill health while at work) are major areas of concern to employers in the UK. Currently in the UK, the average office worker takes 6.5 days of absence. Taken cumulatively across the UK working population, this amounts to 190 million working days for absence and approximately £8.4 billion lost annually. Remarkably, the cost of presenteeism to UK employers is estimated at £15 billion per year, significantly more than absenteeism. Over a third of employers have highlighted stress-related absence to be on the rise. In the workplace, 41% of private sector employees state that they are experiencing stress because they are under excessive pressure at work. Mental health issues such as anxiety and depression are among the top 5 reasons employees are absent from work. The expected growth in technology related jobs is expected to rise by "
+            "heading":"Reverse engineer a consumer product that contains complex 3D geometry with an element of redesign.",
+            "content":"Aim to create a model containing complex 3d surface geometry. Selection of an existing consumer product that contains complex 3D geometry and then modeled to produce as accurate a representation of the original geometry as possible. model must also include an element of redesign to a part of the external surface geometry. The chosen resign was to include the use of 3D scanning technology to produce a custom fit foam padding."
          },
          "showcase":[
+           {
+              "src":"snow/scanning.jpg",
+              "alt":""
+           },
             {
-               "src":"ovambo/user2.png",
+               "src":"snow/front.png",
                "alt":""
             },
             {
-               "src":"ovambo/neckband.png",
+               "src":"snow/side.png",
                "alt":""
             },
             {
-               "src":"ovambo/app2.jpg",
-               "alt":""
-            },
-            {
-               "src":"ovambo/app3.jpg",
-               "alt":""
-            },
-            {
-               "src":"ovambo/app4.jpg",
-               "alt":""
-            },
-            {
-               "src":"ovambo/app6.jpg",
-               "alt":""
-            },
-            {
-               "src":"ovambo/app5.jpg",
+               "src":"snow/angle.png",
                "alt":""
             }
          ]
       },
       {
-         "handle":"etrack",
-         "title":"E-track",
-         "featured":false,
-         "type":"Product | App",
-         "hero":{
-            "src":"e-track/thumb.jpg",
-            "alt":"severn trent hero image"
-         },
-         "textColour":"black",
-         "heading":"Defining mental wellbeing for the future workplace.",
-         "subheading":"Redesign of an oxygen concentrator for people who require ambulatory oxygen therapy.",
-         "client":"Severn Trent Water",
-         "challenge":"Encourage oxygen therapy patients to exercise and main an active lifestyle.",
-         "outcome":"A small, lightweight oxgen concenrator that monitors users oxygen saturation and regulates flow rate accordingly maintain a healthy bloody oxygen level.",
+        "handle":"humberstones-jewellers",
+        "title":"Humberstones Jewellers",
+        "featured":false,
+        "type":"Web",
+        "hero":{
+           "src":"humberstones/thumb.jpg",
+           "alt":"humberstones hero image"
+        },
+        "textColour":"black",
+         "heading":"A digital transformation for a traditional jewellery business.",
+         "subheading":"Website redesign, adoption of social channels and restructure of business model to compete in a digital era.",
+         "client":"University Project",
+         "challenge":"Organic form modelling and redesign to exploit advanced 3D modelling techniques.",
+         "outcome":"Surface model of snow googles with 3D scanned, custom fit padding integration.",
+         "glance":"During Humberstones digital transformation I was brought in as a user experince and visual designer. My role involed determining the most suitable CMS and e-commerce platform for the business, establish site hierarchy and defined the visual language to be passed onto a development team who is currently building the site.",
          "section1":{
             "title":"The Problem",
-            "heading":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris.",
-            "content":"Absenteeism and presenteeism (reduced performance and productivity due to ill health while at work) are major areas of concern to employers in the UK. Currently in the UK, the average office worker takes 6.5 days of absence. Taken cumulatively across the UK working population, this amounts to 190 million working days for absence and approximately £8.4 billion lost annually. Remarkably, the cost of presenteeism to UK employers is estimated at £15 billion per year, significantly more than absenteeism. Over a third of employers have highlighted stress-related absence to be on the rise. In the workplace, 41% of private sector employees state that they are experiencing stress because they are under excessive pressure at work. Mental health issues such as anxiety and depression are among the top 5 reasons employees are absent from work. The expected growth in technology related jobs is expected to rise by "
+            "heading":"In this digital era consumers have come to expect online ordering from even the smallest businesses. Even customers who don’t wish to buy online still expect to find product information on a business’ website",
+            "content":"Humberstones Jewellers have been selling traditional watches and jewellery with brands such as Rolex, Audemars Piguet and Tag Heuer for over 50 years. However, eventhough they did have an online store this was not generating the revenue they wer expecting. The site failed to provide a simple, easy to use site that resembled the experince and heritage of a long lasting family business."
          },
-         "image1":{
-            "src":"ovambo/user1.jpg",
-            "alt":"Current problem"
-         },
-         "section2":{
-            "title":"The idea",
-            "heading":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris.",
-            "content":"To identify the main causes of workplace stress by interviewing a range of employees from a large technology company. "
-         },
-         "image2":{
-            "src":"ovambo/research.jpg",
-            "alt":"EEG experience prototype"
-         },
-         "image3":{
-            "src":"ovambo/research3.jpg",
-            "alt":"EEG experience prototype"
-         },
-         "section3":{
-            "title":"The design",
-            "heading":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris.",
-            "content":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at. Vestibulum tincidunt quis neque vitae tempor. Praesent in nunc a urna venenatis placerat. Nullam fringilla tellus odio. Pellentesque at libero facilisis, blandit ex bibendum, pharetra purus. Sed quis mi a diam sollicitudin aliquet a vel velit. Integer eget eleifend quam. Aliquam sodales ligula dui, imperdiet vestibulum orci euismod ut."
-         },
-         "grid_images":[
-            {
-               "size":"sm",
-               "src":"ovambo/wireframes.jpg",
-               "alt":"",
-               "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at."
-            },
-            {
-               "size":"large",
-               "src":"ovambo/wireframes2.jpg",
-               "alt":"",
-               "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at."
-            },
-            {
-               "size":"sm",
-               "src":"squair/sketch3.jpg",
-               "alt":"",
-               "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at."
-            },
-            {
-               "size":"med",
-               "src":"squair/sketch1.jpg",
-               "alt":"",
-               "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at."
-            }
-         ],
          "showcase":[
-            {
-               "src":"ovambo/user2.png",
-               "alt":""
-            },
-            {
-               "src":"ovambo/neckband.png",
-               "alt":""
-            },
-            {
-               "src":"ovambo/app2.jpg",
-               "alt":""
-            },
-            {
-               "src":"ovambo/app3.jpg",
-               "alt":""
-            },
-            {
-               "src":"ovambo/app4.jpg",
-               "alt":""
-            },
-            {
-               "src":"ovambo/app6.jpg",
-               "alt":""
-            },
-            {
-               "src":"ovambo/app5.jpg",
-               "alt":""
-            }
-         ]
-      },
-      {
-         "handle":"humberstones-jewellers",
-         "title":"Humberstones Jewellers",
-         "featured":false,
-         "type":"Web",
-         "hero":{
-            "src":"humberstones/thumb.jpg",
-            "alt":"humberstones hero image"
-         },
-         "textColour":"black",
-         "heading":"Defining mental wellbeing for the future workplace.",
-         "subheading":"Redesign of an oxygen concentrator for people who require ambulatory oxygen therapy.",
-         "client":"Severn Trent Water",
-         "challenge":"Encourage oxygen therapy patients to exercise and main an active lifestyle.",
-         "outcome":"A small, lightweight oxgen concenrator that monitors users oxygen saturation and regulates flow rate accordingly maintain a healthy bloody oxygen level.",
-         "section1":{
-            "title":"The Problem",
-            "heading":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris.",
-            "content":"Absenteeism and presenteeism (reduced performance and productivity due to ill health while at work) are major areas of concern to employers in the UK. Currently in the UK, the average office worker takes 6.5 days of absence. Taken cumulatively across the UK working population, this amounts to 190 million working days for absence and approximately £8.4 billion lost annually. Remarkably, the cost of presenteeism to UK employers is estimated at £15 billion per year, significantly more than absenteeism. Over a third of employers have highlighted stress-related absence to be on the rise. In the workplace, 41% of private sector employees state that they are experiencing stress because they are under excessive pressure at work. Mental health issues such as anxiety and depression are among the top 5 reasons employees are absent from work. The expected growth in technology related jobs is expected to rise by "
-         },
-         "image1":{
-            "src":"ovambo/user1.jpg",
-            "alt":"Current problem"
-         },
-         "section2":{
-            "title":"The idea",
-            "heading":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris.",
-            "content":"To identify the main causes of workplace stress by interviewing a range of employees from a large technology company. "
-         },
-         "image2":{
-            "src":"ovambo/research.jpg",
-            "alt":"EEG experience prototype"
-         },
-         "image3":{
-            "src":"ovambo/research3.jpg",
-            "alt":"EEG experience prototype"
-         },
-         "section3":{
-            "title":"The design",
-            "heading":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris.",
-            "content":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at. Vestibulum tincidunt quis neque vitae tempor. Praesent in nunc a urna venenatis placerat. Nullam fringilla tellus odio. Pellentesque at libero facilisis, blandit ex bibendum, pharetra purus. Sed quis mi a diam sollicitudin aliquet a vel velit. Integer eget eleifend quam. Aliquam sodales ligula dui, imperdiet vestibulum orci euismod ut."
-         },
-         "grid_images":[
-            {
-               "size":"sm",
-               "src":"ovambo/wireframes.jpg",
-               "alt":"",
-               "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at."
-            },
-            {
-               "size":"large",
-               "src":"ovambo/wireframes2.jpg",
-               "alt":"",
-               "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at."
-            },
-            {
-               "size":"sm",
-               "src":"squair/sketch3.jpg",
-               "alt":"",
-               "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at."
-            },
-            {
-               "size":"med",
-               "src":"squair/sketch1.jpg",
-               "alt":"",
-               "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at."
-            }
-         ],
-         "showcase":[
-            {
-               "src":"ovambo/user2.png",
-               "alt":""
-            },
-            {
-               "src":"ovambo/neckband.png",
-               "alt":""
-            },
-            {
-               "src":"ovambo/app2.jpg",
-               "alt":""
-            },
-            {
-               "src":"ovambo/app3.jpg",
-               "alt":""
-            },
-            {
-               "src":"ovambo/app4.jpg",
-               "alt":""
-            },
-            {
-               "src":"ovambo/app6.jpg",
-               "alt":""
-            },
-            {
-               "src":"ovambo/app5.jpg",
-               "alt":""
-            }
-         ]
-      },
-      {
-         "handle":"yak",
-         "title":"Yak",
-         "featured":false,
-         "type":"Product | App",
-         "hero":{
-            "src":"yak/thumb.jpg",
-            "alt":"yak hero image"
-         },
-         "textColour":"black",
-         "heading":"Defining mental wellbeing for the future workplace.",
-         "subheading":"Redesign of an oxygen concentrator for people who require ambulatory oxygen therapy.",
-         "client":"Severn Trent Water",
-         "challenge":"Encourage oxygen therapy patients to exercise and main an active lifestyle.",
-         "outcome":"A small, lightweight oxgen concenrator that monitors users oxygen saturation and regulates flow rate accordingly maintain a healthy bloody oxygen level.",
-         "section1":{
-            "title":"The Problem",
-            "heading":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris.",
-            "content":"Absenteeism and presenteeism (reduced performance and productivity due to ill health while at work) are major areas of concern to employers in the UK. Currently in the UK, the average office worker takes 6.5 days of absence. Taken cumulatively across the UK working population, this amounts to 190 million working days for absence and approximately £8.4 billion lost annually. Remarkably, the cost of presenteeism to UK employers is estimated at £15 billion per year, significantly more than absenteeism. Over a third of employers have highlighted stress-related absence to be on the rise. In the workplace, 41% of private sector employees state that they are experiencing stress because they are under excessive pressure at work. Mental health issues such as anxiety and depression are among the top 5 reasons employees are absent from work. The expected growth in technology related jobs is expected to rise by "
-         },
-         "image1":{
-            "src":"ovambo/user1.jpg",
-            "alt":"Current problem"
-         },
-         "section2":{
-            "title":"The idea",
-            "heading":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris.",
-            "content":"To identify the main causes of workplace stress by interviewing a range of employees from a large technology company. "
-         },
-         "image2":{
-            "src":"ovambo/research.jpg",
-            "alt":"EEG experience prototype"
-         },
-         "image3":{
-            "src":"ovambo/research3.jpg",
-            "alt":"EEG experience prototype"
-         },
-         "section3":{
-            "title":"The design",
-            "heading":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris.",
-            "content":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at. Vestibulum tincidunt quis neque vitae tempor. Praesent in nunc a urna venenatis placerat. Nullam fringilla tellus odio. Pellentesque at libero facilisis, blandit ex bibendum, pharetra purus. Sed quis mi a diam sollicitudin aliquet a vel velit. Integer eget eleifend quam. Aliquam sodales ligula dui, imperdiet vestibulum orci euismod ut."
-         },
-         "grid_images":[
-            {
-               "size":"sm",
-               "src":"ovambo/wireframes.jpg",
-               "alt":"",
-               "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at."
-            },
-            {
-               "size":"large",
-               "src":"ovambo/wireframes2.jpg",
-               "alt":"",
-               "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at."
-            },
-            {
-               "size":"sm",
-               "src":"squair/sketch3.jpg",
-               "alt":"",
-               "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at."
-            },
-            {
-               "size":"med",
-               "src":"squair/sketch1.jpg",
-               "alt":"",
-               "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at."
-            }
-         ],
-         "showcase":[
-            {
-               "src":"ovambo/user2.png",
-               "alt":""
-            },
-            {
-               "src":"ovambo/neckband.png",
-               "alt":""
-            },
-            {
-               "src":"ovambo/app2.jpg",
-               "alt":""
-            },
-            {
-               "src":"ovambo/app3.jpg",
-               "alt":""
-            },
-            {
-               "src":"ovambo/app4.jpg",
-               "alt":""
-            },
-            {
-               "src":"ovambo/app6.jpg",
-               "alt":""
-            },
-            {
-               "src":"ovambo/app5.jpg",
-               "alt":""
-            }
-         ]
-      },
-      {
-         "handle":"feals",
-         "title":"Feals",
-         "featured":false,
-         "type":"App",
-         "hero":{
-            "src":"feals/thumb.jpg",
-            "alt":"feals hero image"
-         },
-         "textColour":"black",
-         "heading":"Defining mental wellbeing for the future workplace.",
-         "subheading":"Redesign of an oxygen concentrator for people who require ambulatory oxygen therapy.",
-         "client":"Severn Trent Water",
-         "challenge":"Encourage oxygen therapy patients to exercise and main an active lifestyle.",
-         "outcome":"A small, lightweight oxgen concenrator that monitors users oxygen saturation and regulates flow rate accordingly maintain a healthy bloody oxygen level.",
-         "section1":{
-            "title":"The Problem",
-            "heading":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris.",
-            "content":"Absenteeism and presenteeism (reduced performance and productivity due to ill health while at work) are major areas of concern to employers in the UK. Currently in the UK, the average office worker takes 6.5 days of absence. Taken cumulatively across the UK working population, this amounts to 190 million working days for absence and approximately £8.4 billion lost annually. Remarkably, the cost of presenteeism to UK employers is estimated at £15 billion per year, significantly more than absenteeism. Over a third of employers have highlighted stress-related absence to be on the rise. In the workplace, 41% of private sector employees state that they are experiencing stress because they are under excessive pressure at work. Mental health issues such as anxiety and depression are among the top 5 reasons employees are absent from work. The expected growth in technology related jobs is expected to rise by "
-         },
-         "image1":{
-            "src":"ovambo/user1.jpg",
-            "alt":"Current problem"
-         },
-         "section2":{
-            "title":"The idea",
-            "heading":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris.",
-            "content":"To identify the main causes of workplace stress by interviewing a range of employees from a large technology company. "
-         },
-         "image2":{
-            "src":"ovambo/research.jpg",
-            "alt":"EEG experience prototype"
-         },
-         "image3":{
-            "src":"ovambo/research3.jpg",
-            "alt":"EEG experience prototype"
-         },
-         "section3":{
-            "title":"The design",
-            "heading":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris.",
-            "content":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at. Vestibulum tincidunt quis neque vitae tempor. Praesent in nunc a urna venenatis placerat. Nullam fringilla tellus odio. Pellentesque at libero facilisis, blandit ex bibendum, pharetra purus. Sed quis mi a diam sollicitudin aliquet a vel velit. Integer eget eleifend quam. Aliquam sodales ligula dui, imperdiet vestibulum orci euismod ut."
-         },
-         "grid_images":[
-            {
-               "size":"sm",
-               "src":"ovambo/wireframes.jpg",
-               "alt":"",
-               "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at."
-            },
-            {
-               "size":"large",
-               "src":"ovambo/wireframes2.jpg",
-               "alt":"",
-               "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at."
-            },
-            {
-               "size":"sm",
-               "src":"squair/sketch3.jpg",
-               "alt":"",
-               "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at."
-            },
-            {
-               "size":"med",
-               "src":"squair/sketch1.jpg",
-               "alt":"",
-               "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at."
-            }
-         ],
-         "showcase":[
-            {
-               "src":"ovambo/user2.png",
-               "alt":""
-            },
-            {
-               "src":"ovambo/neckband.png",
-               "alt":""
-            },
-            {
-               "src":"ovambo/app2.jpg",
-               "alt":""
-            },
-            {
-               "src":"ovambo/app3.jpg",
-               "alt":""
-            },
-            {
-               "src":"ovambo/app4.jpg",
-               "alt":""
-            },
-            {
-               "src":"ovambo/app6.jpg",
-               "alt":""
-            },
-            {
-               "src":"ovambo/app5.jpg",
-               "alt":""
-            }
-         ]
-      },
-      {
-         "handle":"lds-degree-show",
-         "title":"LDS Degree Show",
-         "featured":false,
-         "type":"App",
-         "hero":{
-            "src":"lds-degree-show/thumb.jpg",
-            "alt":"LDS Degree Show hero image"
-         },
-         "textColour":"black",
-         "heading":"Defining mental wellbeing for the future workplace.",
-         "subheading":"Redesign of an oxygen concentrator for people who require ambulatory oxygen therapy.",
-         "client":"Severn Trent Water",
-         "challenge":"Encourage oxygen therapy patients to exercise and main an active lifestyle.",
-         "outcome":"A small, lightweight oxgen concenrator that monitors users oxygen saturation and regulates flow rate accordingly maintain a healthy bloody oxygen level.",
-         "section1":{
-            "title":"The Problem",
-            "heading":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris.",
-            "content":"Absenteeism and presenteeism (reduced performance and productivity due to ill health while at work) are major areas of concern to employers in the UK. Currently in the UK, the average office worker takes 6.5 days of absence. Taken cumulatively across the UK working population, this amounts to 190 million working days for absence and approximately £8.4 billion lost annually. Remarkably, the cost of presenteeism to UK employers is estimated at £15 billion per year, significantly more than absenteeism. Over a third of employers have highlighted stress-related absence to be on the rise. In the workplace, 41% of private sector employees state that they are experiencing stress because they are under excessive pressure at work. Mental health issues such as anxiety and depression are among the top 5 reasons employees are absent from work. The expected growth in technology related jobs is expected to rise by "
-         },
-         "image1":{
-            "src":"ovambo/user1.jpg",
-            "alt":"Current problem"
-         },
-         "section2":{
-            "title":"The idea",
-            "heading":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris.",
-            "content":"To identify the main causes of workplace stress by interviewing a range of employees from a large technology company. "
-         },
-         "image2":{
-            "src":"ovambo/research.jpg",
-            "alt":"EEG experience prototype"
-         },
-         "image3":{
-            "src":"ovambo/research3.jpg",
-            "alt":"EEG experience prototype"
-         },
-         "section3":{
-            "title":"The design",
-            "heading":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris.",
-            "content":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at. Vestibulum tincidunt quis neque vitae tempor. Praesent in nunc a urna venenatis placerat. Nullam fringilla tellus odio. Pellentesque at libero facilisis, blandit ex bibendum, pharetra purus. Sed quis mi a diam sollicitudin aliquet a vel velit. Integer eget eleifend quam. Aliquam sodales ligula dui, imperdiet vestibulum orci euismod ut."
-         },
-         "grid_images":[
-            {
-               "size":"sm",
-               "src":"ovambo/wireframes.jpg",
-               "alt":"",
-               "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at."
-            },
-            {
-               "size":"large",
-               "src":"ovambo/wireframes2.jpg",
-               "alt":"",
-               "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at."
-            },
-            {
-               "size":"sm",
-               "src":"squair/sketch3.jpg",
-               "alt":"",
-               "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at."
-            },
-            {
-               "size":"med",
-               "src":"squair/sketch1.jpg",
-               "alt":"",
-               "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at."
-            }
-         ],
-         "showcase":[
-            {
-               "src":"ovambo/user2.png",
-               "alt":""
-            },
-            {
-               "src":"ovambo/neckband.png",
-               "alt":""
-            },
-            {
-               "src":"ovambo/app2.jpg",
-               "alt":""
-            },
-            {
-               "src":"ovambo/app3.jpg",
-               "alt":""
-            },
-            {
-               "src":"ovambo/app4.jpg",
-               "alt":""
-            },
-            {
-               "src":"ovambo/app6.jpg",
-               "alt":""
-            },
-            {
-               "src":"ovambo/app5.jpg",
-               "alt":""
-            }
-         ]
-      },
-      {
-         "handle":"severn-trent-priority",
-         "title":"Severn Trent Priority Services",
-         "featured":false,
-         "type":"Web",
-         "hero":{
-            "src":"severn-trent-priority/thumb.jpg",
-            "alt":"severn trent hero image"
-         },
-         "textColour":"black",
-         "heading":"Defining mental wellbeing for the future workplace.",
-         "subheading":"Redesign of an oxygen concentrator for people who require ambulatory oxygen therapy.",
-         "client":"Severn Trent Water",
-         "challenge":"Encourage oxygen therapy patients to exercise and main an active lifestyle.",
-         "outcome":"A small, lightweight oxgen concenrator that monitors users oxygen saturation and regulates flow rate accordingly maintain a healthy bloody oxygen level.",
-         "section1":{
-            "title":"The Problem",
-            "heading":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris.",
-            "content":"Absenteeism and presenteeism (reduced performance and productivity due to ill health while at work) are major areas of concern to employers in the UK. Currently in the UK, the average office worker takes 6.5 days of absence. Taken cumulatively across the UK working population, this amounts to 190 million working days for absence and approximately £8.4 billion lost annually. Remarkably, the cost of presenteeism to UK employers is estimated at £15 billion per year, significantly more than absenteeism. Over a third of employers have highlighted stress-related absence to be on the rise. In the workplace, 41% of private sector employees state that they are experiencing stress because they are under excessive pressure at work. Mental health issues such as anxiety and depression are among the top 5 reasons employees are absent from work. The expected growth in technology related jobs is expected to rise by "
-         },
-         "image1":{
-            "src":"ovambo/user1.jpg",
-            "alt":"Current problem"
-         },
-         "section2":{
-            "title":"The idea",
-            "heading":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris.",
-            "content":"To identify the main causes of workplace stress by interviewing a range of employees from a large technology company. "
-         },
-         "image2":{
-            "src":"ovambo/research.jpg",
-            "alt":"EEG experience prototype"
-         },
-         "image3":{
-            "src":"ovambo/research3.jpg",
-            "alt":"EEG experience prototype"
-         },
-         "section3":{
-            "title":"The design",
-            "heading":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris.",
-            "content":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at. Vestibulum tincidunt quis neque vitae tempor. Praesent in nunc a urna venenatis placerat. Nullam fringilla tellus odio. Pellentesque at libero facilisis, blandit ex bibendum, pharetra purus. Sed quis mi a diam sollicitudin aliquet a vel velit. Integer eget eleifend quam. Aliquam sodales ligula dui, imperdiet vestibulum orci euismod ut."
-         },
-         "grid_images":[
-            {
-               "size":"sm",
-               "src":"ovambo/wireframes.jpg",
-               "alt":"",
-               "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at."
-            },
-            {
-               "size":"large",
-               "src":"ovambo/wireframes2.jpg",
-               "alt":"",
-               "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at."
-            },
-            {
-               "size":"sm",
-               "src":"squair/sketch3.jpg",
-               "alt":"",
-               "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at."
-            },
-            {
-               "size":"med",
-               "src":"squair/sketch1.jpg",
-               "alt":"",
-               "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non orci vulputate, rhoncus est at, dignissim mi. Aliquam id eros non magna lobortis finibus ut vitae mauris. Nunc ornare odio odio, non dictum odio ullamcorper at."
-            }
-         ],
-         "showcase":[
-            {
-               "src":"ovambo/user2.png",
-               "alt":""
-            },
-            {
-               "src":"ovambo/neckband.png",
-               "alt":""
-            },
-            {
-               "src":"ovambo/app2.jpg",
-               "alt":""
-            },
-            {
-               "src":"ovambo/app3.jpg",
-               "alt":""
-            },
-            {
-               "src":"ovambo/app4.jpg",
-               "alt":""
-            },
-            {
-               "src":"ovambo/app6.jpg",
-               "alt":""
-            },
-            {
-               "src":"ovambo/app5.jpg",
-               "alt":""
-            }
+           {
+             "desktop":true,
+              "src":"humberstones/home.png",
+              "alt":""
+           },
+           {
+             "desktop":true,
+              "src":"humberstones/nav-menu.png",
+              "alt":""
+           },
+           {
+             "desktop":true,
+              "src":"humberstones/product-detail.png",
+              "alt":""
+           }
          ]
       }
    ]
