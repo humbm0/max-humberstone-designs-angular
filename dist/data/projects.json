@@ -27,15 +27,41 @@
             "src2":"squair/interview2.jpg",
             "alt":"User Interviews"
          },
+         "process":[
+            {
+               "title":"User Interviews",
+               "heading":"",
+               "content":"Interviews with oxygen therapy users to learn the issues that they face with current concentrators. During the interviews I was able to analyse the participants existing concentrator. I  attempted to complete a series of common tasks to experince the issues myself and gain empathy with the users. Besides ergonomic and handling issues, the most important insight was, the way in which users would decide on when to use their oxygen or not. This was based on how the users was feeling reaulting in under or over use of supplemnt oxygen.",
+               "image":"squair/research2.jpg"
+            },
+            {
+               "title":"User Need Statements",
+               "heading":"",
+               "content":"The data gatehred from both secondary and primary research was analysed and organised into three key themes. Portability, Social Stigma and Misuse. A selection of user need statements were created to provide a clear direction when designing and provide a way to measure the how well designs are meeting the requirements.",
+               "image":"squair/user_needs.jpg"
+            },
+            {
+               "title":"Blue Sky and Initial Ideas",
+               "heading":"",
+               "content":"A broad range of ideas were generated exploring different opportunities and technologies.",
+               "image":"squair/ideas.jpg",
+               "image2":"squair/ideas2.jpg",
+               "twoCol":true
+            },
+            {
+               "title":"Feasabilty Diagrams",
+               "heading":"",
+               "content":"Feasabilty diagrams were created to synthesise the ideas generated for concept ",
+               "image":"squair/feasability.jpg"
+            }
+         ],
          "section2":{
             "title":"The idea",
             "heading":"How might we develop a system that can monitor user oxygen saturation and notify when oxygen is needed and automate the flow rate to prevent misuse and ensure a healthy blood oxygen level?",
             "content":"The concept was to use pulse oximetry technology to monitor user oxygen saturation however common usage of this technology involved finger based products and would not be suitable for 24/7 monitoring. A concept of a modular battery was also explored that would enable users to customise their battery life and weight."
          },
          "image2":{
-            "twoCol":true,
             "src":"squair/sketches.jpg",
-            "src2":"squair/sketches2.jpg",
             "alt":"Idea development"
          },
          "section3":{

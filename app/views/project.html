@@ -110,10 +110,16 @@
             </div>
           </div>
           <div class="container">
-            <div class="col-md-12">
+            <div class="col-md-12" ng-if="!process.twoCol">
               <img ng-if="!process.mobileImage" src="../images/{{ process.image }}" alt="" />
               <img class="hidden-sm hidden-xs" ng-if="process.mobileImage" src="../images/{{ process.image }}" alt="" />
               <img class="hidden-md hidden-lg" ng-if="process.mobileImage" src="../images/{{ process.mobileImage }}" alt="" />
+            </div>
+            <div class="col-md-6" ng-if="process.twoCol">
+              <img src="../images/{{ process.image }}" alt="" />
+            </div>
+            <div class="col-md-6" ng-if="process.twoCol">
+              <img src="../images/{{ process.image2 }}" alt="" />
             </div>
           </div>
         </div>
@@ -324,15 +330,18 @@
   </div>
 
 
+
   <div class="project-gallery related-projects" data-sr="enter bottom over 1s and move 300px">
     <h2>Related Projects</h2>
     <div class="row">
       <a href="#/work/{{project.project.handle}}" ng-repeat="project in relatedProjects | orderBy:'order' | limitTo: 2">
-        <div  class="col-md-6 tile feature ">
+        <div class="col-md-6 tile feature ">
           <div class="img" style="background-image: url('images/{{ project.project.hero.src }}')"></div>
           <div class="content">
-            <h2>{{ project.project.title }}</h2>
-            <p>{{ project.project.type }}</p>
+            <div class="text">
+              <h4>{{ project.project.type }}</h4>
+              <h2>{{ project.project.title }}</h2>
+            </div>
           </div>
         </div>
       </a>
