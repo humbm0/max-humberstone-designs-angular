@@ -406,7 +406,7 @@
          },
          "image2":{
            "twoCol":true,
-            "src":"ovambo/research.png",
+            "src":"ovambo/research.jpg",
             "src2":"ovambo/research2.jpg",
             "alt":"EEG experience prototype"
          },
@@ -416,8 +416,7 @@
             "content":"Series of different concepts and form factors in which EEG technology could be used. The decision to use earphones was based on a small, compact product that would be used for multiple workplace tasks, enabling it to seamlessly integrate into employee workplace habits."
          },
          "image4":{
-           "twoCol":true,
-            "src":"yukon/",
+            "src":"ovambo/sketches.jpg",
             "src2":"yukon/",
             "alt":"Idea development"
          },
