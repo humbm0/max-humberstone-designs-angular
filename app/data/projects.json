@@ -31,13 +31,13 @@
             {
                "title":"User Interviews",
                "heading":"",
-               "content":"Interviews with oxygen therapy users to learn the issues that they face with current concentrators. During the interviews I was able to analyse the participants existing concentrator. I  attempted to complete a series of common tasks to experince the issues myself and gain empathy with the users. Besides ergonomic and handling issues, the most important insight was, the way in which users would decide on when to use their oxygen or not. This was based on how the users was feeling reaulting in under or over use of supplemnt oxygen.",
+               "content":"Interviews with oxygen therapy users to learn the issues that they face with current concentrators. During the interviews I was able to analyse the participants existing concentrator. I attempted to complete a series of common tasks to experience the problems myself and gain empathy with the users. Besides ergonomic and handling issues, the most important insight was, the way in which users would decide on when to use their oxygen or not. Users relied purely on how they felt in the current moment. However, this could often result in under or over use of supplement oxygen.",
                "image":"squair/research2.jpg"
             },
             {
                "title":"User Need Statements",
                "heading":"",
-               "content":"The data gatehred from both secondary and primary research was analysed and organised into three key themes. Portability, Social Stigma and Misuse. A selection of user need statements were created to provide a clear direction when designing and provide a way to measure the how well designs are meeting the requirements.",
+               "content":"The data gathered from both secondary and primary research was analysed and organised into three key themes. Portability, Social Stigma and Misuse. A selection of user need statements were created to provide a clear direction when designing and provide a way to measure the how well designs are meeting the requirements.",
                "image":"squair/user_needs.jpg"
             },
             {
@@ -69,13 +69,24 @@
             "heading":"A minimalist design that aims to communicate a social and stigma-free aesthetic with the use of gentle colours and a compact form factor.",
             "content":"The aim from the start of the project was to develop a product that aimed to break down the barriers between oxygen therapy patients and the general public. The design also had to cater for both male and female users. The form factor was also heavily influenced by the requirement to produce a product that was as small and compact as possible. Therefore, the casing of the product closely followed the shape of the internal component assembly to reduce materials, size and weight."
          },
-         "image4":{
+         "image3":{
            "twoCol":true,
             "src":"squair/parts.jpg",
             "src2":"squair/electronics.jpg",
             "alt":"Idea development"
          },
          "section4":{
+            "title":"Evaluate",
+            "heading":"A combination of functional and aesthetics prototypes to simulate a realistic user experience of the proposed design.",
+            "content":"Use of 3D printing and other modelling methods were used to create a semi-functional and aesthetic prototype, a weighted prototype, carry backpack and app prototype to evaluate the key design features with users and develop the solution further."
+         },
+         "image4":{
+           "twoCol":true,
+            "src":"squair/test.jpg",
+            "src2":"squair/test2.jpg",
+            "alt":"Idea development"
+         },
+         "section5":{
             "title":"The solution",
             "heading":"Encouraging active lifestyles, preventing misuse and improving self-monitoring through connected devices for ambulatory oxygen therapy patients.",
             "content":"SQUAIR is a portable oxygen concentrator that produces the equivalent of up to 3 LPM (litres per minute) via a pulse dose system, in a lightweight package (2kg) with accompanying wearable and app to notify low oxygen saturation, automatically adjust flow rate and support self monitoring through health and usage tracking."

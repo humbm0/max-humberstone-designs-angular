@@ -44,7 +44,7 @@
     font-size: 18px;
   }
   h1,h4,h5,p{
-    color: #212121;
+    color: $text-color;
   }
 }
 
@@ -77,6 +77,9 @@
       position: relative;
       top: 0;
       transform: none;
+      h1,h4,h5,p{
+        color: $text-color;
+      }
     }
     .right-align{
       text-align: left;
@@ -143,7 +146,7 @@ p.body-font{
   .images{
     overflow: hidden;
     .image{
-      height: 420px;
+      height: 470px;
     }
   }
 }
