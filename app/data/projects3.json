@@ -1,0 +1,926 @@
+{
+   "projects":[
+      {
+         "handle":"squair",
+         "title":"Squair",
+         "featured":true,
+         "grid_size":"lg",
+         "type":"Product | Digital",
+         "hero":{
+            "src":"squair/user.png",
+            "alt":"Squair hero image"
+         },
+         "textColour":"black",
+         "heading":"Encouraging active lifestyles and preventing misuse for oxygen therapy patients.",
+         "subheading":"Design of a small, lightweight portable oxygen delivery system with biometric sensing capabilities.",
+         "client":"University Major Design Project",
+         "challenge":"Provide users with confidence to maintain active lifestyles without under or over using their oxygen.",
+         "outcome":"A small, lightweight oxygen concentrator that monitors users oxygen saturation and regulates flow rate accordingly maintain a healthy bloody oxygen level.",
+         "content":[
+            {
+               "sectionTitle":{
+                  "title":"The Problem",
+                  "heading":"Increasing ageing population is one of the pivotal factors for health and social care. According to the UN estimates, geriatric population is set to reach from over 800 million in 2012 to more than 2 billion by 2050.",
+                  "content":"Geriatric population is at more risk of acquiring various respiratory disorders such as asthma, pulmonary hypertension, COPD, and fibrosis. It is estimated that up to 10% of adults of at least 40 years of age worldwide suffer from COPD. One of the biggest issue with ambulatory oxygen therapy is misuse, with many patients under or over using their oxygen. This is because users rely on personal feeling to judge whether or not oxygen is needed. Interviews with oxygen therapy patients also uncovered the problems with existing products on the market as well as pain points of living with supplement oxygen."
+               }
+            },
+            {
+               "fullWidthImage":{
+                  "twoCol":true,
+                  "src":"squair/interview.jpg",
+                  "src2":"squair/interview2.jpg",
+                  "alt":"User Interviews"
+               }
+            },
+            {
+               "sectionTitle":{
+                  "title":"Discovery Phase",
+                  "heading":"Combination of primary and secondary research techniques to understand current market, uncover user problems and establish design goals.",
+                  "content":""
+               }
+            },
+            {
+               "sectionContent":{
+                  "heading":"User Interviews",
+                  "content":"Interviews with oxygen therapy users to learn the issues that they face with current concentrators. During the interviews I was able to analyse the participants existing concentrator. I attempted to complete a series of common tasks to experience the problems myself and gain empathy with the users. Besides ergonomic and handling issues, the most important insight was, the way in which users would decide on when to use their oxygen or not. Users relied purely on how they felt in the current moment. However, this could often result in under or over use of supplement oxygen.",
+                  "image":{
+                     "twoCol":false,
+                     "src":"squair/research2.jpg",
+                     "alt":"Idea development"
+                  }
+               }
+            },
+            {
+               "sectionContent":{
+                  "heading":"User Need Statements",
+                  "content":"The data gathered from both secondary and primary research was analysed and organised into three key themes. Portability, Social Stigma and Misuse. A selection of user need statements were created to provide a clear direction when designing and provide a way to measure the how well designs are meeting the requirements.",
+                  "image":{
+                     "twoCol":false,
+                     "src":"squair/user_needs.jpg",
+                     "alt":"User Needs"
+                  },
+                  "mobileImage":{
+                    "src":""
+                  }
+               }
+            },
+            {
+               "sectionContent":{
+                  "heading":"Blue Sky and Initial Ideas",
+                  "content":"A broad range of ideas were generated exploring different opportunities and technologies.",
+                  "image":{
+                     "twoCol":true,
+                     "src":"squair/ideas.jpg",
+                     "src2":"squair/ideas2.jpg",
+                     "alt":"Idea development"
+                  },
+                  "mobileImage":{
+                    "src":""
+                  }
+               }
+            },
+            {
+               "sectionContent":{
+                  "heading":"Feasabilty Diagrams",
+                  "content":"Feasabilty diagrams were created to synthesise the ideas generated for concept selection. This ensures the concepts taken forward for development meet the important problems identified are technologically and economically viable.",
+                  "image":{
+                     "twoCol":false,
+                     "mobileImage": false,
+                     "src":"squair/feasability.jpg",
+                     "mobileSrc":"",
+                     "alt":"Idea development"
+                  },
+                  "mobileImage":{
+                    "src":""
+                  }
+               }
+            },
+            {
+               "sectionTitle":{
+                  "title":"The Idea",
+                  "heading":"How might we develop a system that can monitor user oxygen saturation and notify when oxygen is needed and automate the flow rate to prevent misuse and ensure a healthy blood oxygen level?",
+                  "content":"The concept was to use pulse oximetry technology to monitor user oxygen saturation however common usage of this technology involved finger based products and would not be suitable for 24/7 monitoring. A concept of a modular battery was also explored that would enable users to customise their battery life and weight."
+               }
+            },
+            {
+               "fullWidthImage":{
+                  "twoCol":false,
+                  "src":"squair/sketches.jpg",
+                  "src2":"",
+                  "alt":"Idea development"
+               }
+            },
+            {
+               "sectionTitle":{
+                  "title":"The Design",
+                  "heading":"A minimalist design that aims to communicate a social and stigma-free aesthetic with the use of gentle colours and a compact form factor.",
+                  "content":"The aim from the start of the project was to develop a product that aimed to break down the barriers between oxygen therapy patients and the general public. The design also had to cater for both male and female users. The form factor was also heavily influenced by the requirement to produce a product that was as small and compact as possible. Therefore, the casing of the product closely followed the shape of the internal component assembly to reduce materials, size and weight."
+               }
+            },
+            {
+               "fullWidthImage":{
+                  "twoCol":true,
+                  "src":"squair/parts.jpg",
+                  "src2":"squair/electronics.jpg",
+                  "alt":"Idea development"
+               }
+            },
+            {
+               "sectionTitle":{
+                  "title":"Evaluate",
+                  "heading":"A combination of functional and aesthetics prototypes to simulate a realistic user experience of the proposed design.",
+                  "content":"Use of 3D printing and other modelling methods were used to create a semi-functional and aesthetic prototype, a weighted prototype, carry backpack and app prototype to evaluate the key design features with users and develop the solution further."
+               }
+            },
+            {
+               "fullWidthImage":{
+                  "twoCol":true,
+                  "src":"squair/test.jpg",
+                  "src2":"squair/test2.jpg",
+                  "alt":"Idea development"
+               }
+            },
+            {
+               "sectionTitle":{
+                  "title":"The Solution",
+                  "heading":"Encouraging active lifestyles, preventing misuse and improving self-monitoring through connected devices for ambulatory oxygen therapy patients.",
+                  "content":"SQUAIR is a portable oxygen concentrator that produces the equivalent of up to 3 LPM (litres per minute) via a pulse dose system, in a lightweight package (2kg) with accompanying wearable and app to notify low oxygen saturation, automatically adjust flow rate and support self monitoring through health and usage tracking."
+               }
+            }
+          ],
+         "showcase":[
+            {
+               "src":"squair/product-shot.jpg",
+               "alt":""
+            },
+            {
+               "captionTitle":"Aesthetics",
+               "captionText":"With the use of gentle colours the aesthetic is one that aims to communicate a social and stigma-free design, erasing borders between users and the general public.",
+               "src":"squair/product-shot2.jpg",
+               "alt":""
+            },
+            {
+               "src":"squair/product-shot3.png",
+               "alt":""
+            },
+            {
+               "captionTitle":"Modular Battery System",
+               "captionText":"A modular battery design allows users to decide what capacity power bank they need for different scenarios by adding the desired number of add-on modules. The concentrator also comes with a practical backpack that incorporates a modular, removable pouch for extra items to be carried.",
+               "src":"squair/product-shot4.jpg",
+               "alt":""
+            },
+            {
+               "src":"squair/product-shot5.jpg",
+               "alt":""
+            },
+            {
+               "captionTitle":"Pressure Swing Adsorption",
+               "captionText":"The concentrator operates on the principle of ‘rapid pressure swing adsorption by taking in air from its surroundings and removing the nitrogen via filters and zeolite sieve beds. It then delivers the purified oxygen in pulse doses via a nasal cannula or mask.",
+               "src":"squair/exploaded.jpg",
+               "alt":""
+            },
+            {
+               "captionTitle":"Wearable",
+               "captionText":"The accompanying wearable uses reflectance pulse oximetry to continuously monitor user oxygen saturation. Users are then notified when oxygen is needed and the flow rate is automatically adjusted to ensure a healthy oxygen saturation.",
+               "src":"squair/wearable2.png",
+               "alt":""
+            },
+            {
+               "captionTitle":"Interchangeable Straps",
+               "captionText":"Users can customise the look and feel of their bracelet with interchangeable straps. This allows the bracelet to seamlessly and discreetly fit into different scenarios and individual styles.",
+               "src":"squair/wearable.jpg",
+               "alt":""
+            },
+            {
+               "captionTitle":"App",
+               "captionText":"The app helps users improve self-monitoring by using the data collected from the wearable and concentrator to detect trends and triggers of exacerbations. Data collected is also used to notify users of local air quality and weather that might influence their triggers.",
+               "mobile2":true,
+               "src":"squair/dashboard.png",
+               "src2":"squair/dashboard2.png",
+               "alt":""
+            },
+            {
+               "captionTitle":"Health Stats",
+               "captionText":"Users can visualise personal health data in easy to understand graphs to recognise trends and identify momenst of symptoms.  Communication between patient and doctor is improved by allowing users to tag moments of unfamiliar symptoms via the app and share health data with their doctor, similar to a health journal.",
+               "mobile2":true,
+               "src":"squair/health.png",
+               "src2":"squair/add_note.png",
+               "alt":""
+            },
+            {
+               "captionTitle":"Medication Tracking",
+               "captionText":"Users can track medication to ensure correct dosages of medicine are taken at the appropriate time. The app will also notify users of prescription pick up.",
+               "mobile3":true,
+               "src":"squair/medication.png",
+               "src2":"squair/add_medication2.png",
+               "src3":"squair/add_medication3.png",
+               "alt":""
+            },
+            {
+               "captionTitle":"Carry Backpack",
+               "captionText":"The accompanying backpack is designed to support normal daily living by providing a modular removable pouch to carry personal items as well as concentrator accessories. A dedicated cannula outlet to prevent catching tubing and provide a more discrete way of use.",
+               "src":"squair/bag.png",
+               "alt":""
+            }
+         ]
+      },
+      {
+         "handle":"severn-trent",
+         "title":"Severn Trent Water",
+         "featured":true,
+         "type":"Digital",
+         "hero":{
+            "src":"severn-trent/thumb.jpg",
+            "alt":"severn trent hero image"
+         },
+         "textColour":"black",
+         "heading":"A new refined web presence to streamline common tasks and engage with customers through digital channels.",
+         "subheading":"Web transformation project for Severn Trent Water customer site",
+         "client":"Severn Trent Water",
+         "challenge":"To redesign Severn Trent's existing water site with responsive and content management capabilities.",
+         "outcome":"A responsive website built on Adobe AEM that aims to reduce visual noise and streamline common tasks.",
+         "glance":"During my placement as a User Experience Designer at IBM Interactive. Severn Trent set the task of redesigning their Water customer site. In October 2016 the new site was lunched using the Adobe AEM platform and was focused on streamlining common tasks and easier navigation of content. My main role focused on User Experience and Visual design but my skills in Front-End Development were utilised to aid in the build of interaction specific components.",
+         "content":[
+            {
+               "sectionTitle":{
+                  "title":"The Problem",
+                  "heading":"Lack of engagement with Severn Trent’s new online channels. A non responsive website with large amounts of content resulted in users contacting help services via phone.",
+                  "content":"The overall aim for Severn trent was to reduce calls by developing a simpler, more streamlined web presence that enabled customers to quickly complete common tasks and find answers to common questions."
+               }
+            },
+            {
+               "fullWidthImage":{
+                  "twoCol":false,
+                  "src":"severn-trent/workshop1.jpg",
+                  "alt":"Idea development"
+               }
+            },
+            {
+               "sectionTitle":{
+                  "title":"Discovery Phase",
+                  "heading":"The research process included design thinking workshops, competitor analysis, and analytical report analysis.",
+                  "content":""
+               }
+            },
+            {
+               "sectionContent":{
+                  "heading":"Design Thinking Workshops",
+                  "content":"These work shops helped create personas and identify user needs. Topics covered included journey Mapping, as-is journey mapping, needs statements, idea cards and storyboarding.",
+                  "image":{
+                     "twoCol":false,
+                     "src":"severn-trent/workshop1.jpg",
+                     "alt":"Idea development"
+                  }
+               }
+            },
+            {
+               "sectionContent":{
+                  "heading":"Hierarchical Task Analysis",
+                  "content":"A review and task analysis of thw existing was used in conjunction with business management consultancy reports by Good Growth to establishing the sites hierarchy and behavioural clusters which led to making informed based design solutions.",
+                  "image":{
+                     "twoCol":false,
+                     "src":"severn-trent/task-analysis.jpg",
+                     "alt":"Idea development"
+                  },
+                  "mobileImage":{
+                    "src":"severn-trent/personas-mobile.png"
+                  }
+               }
+            },
+            {
+               "sectionContent":{
+                  "heading":"Competitor Analysis",
+                  "content":"Observations on utility sites informed me of design best practice in AI and UI. Research was also conducted on airline companies and financial services instructing our form handling and processes.",
+                  "image":{
+                     "twoCol":false,
+                     "src":"severn-trent/competitor.jpg",
+                     "alt":"Idea development"
+                  },
+                  "mobileImage":{
+                    "src":"severn-trent/personas-mobile.png"
+                  }
+               }
+            },
+            {
+               "sectionContent":{
+                  "heading":"Persona Creation",
+                  "content":"3 personas were created from data collected from the research phase, each with varying wants and needs.",
+                  "image":{
+                     "twoCol":false,
+                     "mobileImage": true,
+                     "src":"severn-trent/personas-desktop.png",
+                     "mobileSrc":"severn-trent/personas-mobile.png",
+                     "alt":"Idea development"
+                  },
+                  "mobileImage":{
+                    "src":"severn-trent/personas-mobile.png"
+                  }
+               }
+            },
+            {
+               "sectionTitle":{
+                  "title":"The Design",
+                  "heading":"A mobile first design ensured an enjoyable user experience accross all devices. Focus on a modular design to work with the Adobe AEM platform.",
+                  "content":"Adobe's content managment platform, AEM was used to build the new site. Therefore, initial designs focused on standard components that would be used accross the site. These componenst were then tested with a variety of content to ensure our designs would meet the needs of Severn Trent's existing and future content migration. The design were then devloped further into higher fidelity designs and design documentation."
+               }
+            },
+            {
+               "fullWidthImage":{
+                  "twoCol":true,
+                  "src":"severn-trent/wireframes.png",
+                  "src2":"severn-trent/wireframes2.png",
+                  "alt":"Idea development"
+               }
+            },
+            {
+               "sectionTitle":{
+                  "title":"Core Focus",
+                  "heading":"Development of designs to reflect a more user friendly approach by identifying core areas which can adopt a less formal feel yet maintain their functional purpose."
+               }
+            },
+            {
+               "sectionContent":{
+                  "heading":"Relevant reveal",
+                  "content":"Content is loaded in a hierarchical manor, showing the user what is relevant to them and load content in response to their input. In its simplest form this may be a show and hide content but will ensure the user is only seeing what they need and in the order they need to see it.",
+                  "image":{
+                     "twoCol":false,
+                     "mobileImage": false,
+                     "src":"severn-trent/relevant-reveal.gif",
+                     "mobileSrc":"",
+                     "alt":"Idea development"
+                  },
+                  "mobileImage":{
+                    "src":""
+                  }
+               }
+            },
+            {
+               "sectionContent":{
+                  "heading":"Less Formal Forms",
+                  "content":"Forms adopt a more dynamic style. Maintaining simplicity, elements were added to create visual interest and more importantly to guide the user as a key purpose. Responding to user input makes our forms less formal.",
+                  "image":{
+                     "twoCol":false,
+                     "mobileImage": false,
+                     "src":"severn-trent/form-input.gif",
+                     "mobileSrc":"",
+                     "alt":"Idea development"
+                  },
+                  "mobileImage":{
+                    "src":""
+                  }
+               }
+            },
+            {
+               "sectionContent":{
+                  "heading":"Conversational context",
+                  "content":"We have looked at the areas where we can address our customer with a more friendly and less generic tone. Our language will adapt accordingly, showing a meaningful understanding of what the user is feeling at that moment time.",
+                  "image":{
+                     "twoCol":false,
+                     "mobileImage": false,
+                     "src":"severn-trent/conversation.png",
+                     "mobileSrc":"",
+                     "alt":"Idea development"
+                  },
+                  "mobileImage":{
+                    "src":""
+                  }
+               }
+            },
+            {
+               "sectionContent":{
+                  "heading":"Mutual understanding",
+                  "content":"We wanted to help to make the grey areas black when it comes to subjective views on how bad a problem might be. We started to look at how we could assist in closing the gap by providing an interpretation of what the levels of severity mean.",
+                  "image":{
+                     "twoCol":false,
+                     "mobileImage": false,
+                     "src":"severn-trent/rap2.png",
+                     "mobileSrc":"",
+                     "alt":"Idea development"
+                  },
+                  "mobileImage":{
+                    "src":""
+                  }
+               }
+            },
+            {
+               "sectionContent":{
+                  "heading":"Less Laborious",
+                  "content":"Forms to adopt a more dynamic style. Maintaining simplicity, by adding elements to create visual interest and more importantly to guide the user as a key purpose. Visual tags enable the user to quickly interact with the report and animations make the process feel less laborious.",
+                  "image":{
+                     "twoCol":false,
+                     "mobileImage": false,
+                     "src":"severn-trent/report-a-problem.gif",
+                     "mobileSrc":"",
+                     "alt":"Idea development"
+                  },
+                  "mobileImage":{
+                    "src":""
+                  }
+               }
+            }
+         ],
+         "showcase":[
+            {
+               "captionTitle":"Home Page",
+               "captionText":"The goal was to establish a site hierarchy to reduce the amount of visual noise presented to users whilst still allowing access to a large amount of content. Based on user analytics the four most common tasks were selected and displayed in a simple and inviting way. The use of a dynamic hero call to action allowed Severn Trent to change the content presented to users for different scenarios.",
+               "desktop":true,
+               "src":"severn-trent/home-desktop.png",
+               "alt":""
+            },
+            {
+               "tabletMobile":true,
+               "src":"severn-trent/home-tablet.png",
+               "src2":"severn-trent/home-mobile.png",
+               "alt":""
+            },
+            {
+               "captionTitle":"Report a Problem",
+               "captionText":"Aim to ",
+               "desktop":true,
+               "src":"severn-trent/rap.png",
+               "alt":""
+            },
+            {
+               "desktop":true,
+               "src":"severn-trent/in-my-street.png",
+               "alt":""
+            },
+            {
+               "desktop":true,
+               "src":"severn-trent/in-my-street2.png",
+               "alt":""
+            },
+            {
+               "desktop":true,
+               "src":"severn-trent/in-my-street3.png",
+               "alt":""
+            },
+            {
+               "desktop":true,
+               "src":"severn-trent/help.png",
+               "alt":""
+            },
+            {
+               "desktop":true,
+               "src":"severn-trent/help2.png",
+               "alt":""
+            },
+            {
+               "desktop":true,
+               "src":"severn-trent/help3.png",
+               "alt":""
+            },
+            {
+               "desktop":true,
+               "src":"severn-trent/help4.png",
+               "alt":""
+            },
+            {
+               "desktop":true,
+               "src":"severn-trent/help5.png",
+               "alt":""
+            }
+         ]
+      },
+      {
+         "handle":"yukon",
+         "title":"Yukon",
+         "featured":false,
+         "grid_size":"",
+         "type":"Product | Digital",
+         "hero":{
+            "src":"yukon/render3.png",
+            "alt":"Yukon hero image"
+         },
+         "textColour":"black",
+         "heading":"What if the music we listen to was more personal to us and the current moment?",
+         "subheading":"EEG headphones with machine learning technology to enhance the music listening experience.",
+         "client":"DCA Design International",
+         "challenge":"Redesign a product that people ahve become habituated to.",
+         "outcome":"Biometric headphones that use brain wave signals and motion sensing to select songs and create personalised playlists based on a users mood current mood or activity.",
+         "glance":"A one week project with a live brief set by DCA Design to redesign a product that people ahve become habituated to. I explored the possibilty of a new music listening experince using EEG technology.",
+         "content":[
+            {
+               "sectionTitle":{
+                  "title":"The Problem",
+                  "heading":"With the adoption of cloud music libraries and digital radio accessibility to music has never been easier but has this constant stimuli of pop culture songs caused people to be come habituated to music and loose appreciation?",
+                  "content":"As the distribution and accessibility of music has become easier, users have become overloaded with content and struggle to find music they like for different situations. Users reporting a bias towards chart music and finding new music can be difficult. To try and solve the problem of content overload services have implemented personal/suggested playlists to match songs to the users preferences. However the logic used to match these songs is very basic - selecting songs by the same artist, same genre, or songs other users have bought. Users reported that “I would never listen to something like that!”."
+               }
+            },
+            {
+               "fullWidthImage":{
+                  "twoCol":false,
+                  "src":"yukon/user1.jpg",
+                  "src2":"",
+                  "alt":"Problem"
+               }
+            },
+            {
+               "sectionTitle":{
+                  "title":"The Idea",
+                  "heading":"How might we make the music we listen too more personal to us and the moment we are living in?",
+                  "content":"Initial ideation exploring new music experiences using the insights to drive concept selection and refinement. Ideas ranged form cloud based vinyl players to artificial intelligence speakers. Ideas were then played back to focus group for concept selection and refinement. The concept taken forward was a pair of biometric headphones to select songs based on a users mood current mood or activity. One issue brought up was - “what if your current mood is bad?”. Other feedback was their needed to further development into the social aspect of music."
+               }
+            },
+            {
+               "fullWidthImage":{
+                  "twoCol":true,
+                  "src":"yukon/research2.jpg",
+                  "src2":"yukon/research.jpg",
+                  "alt":"Research"
+               }
+            },
+            {
+               "sectionTitle":{
+                  "title":"The Design",
+                  "heading":"Development of form, interaction and refinement of EEG technology used. Brainwaves are produced by synchronised electrical pulses from masses of neutrons communicating with each other. Our brainwaves change according to what we’re doing and feeling.",
+                  "content":"The concept was to use pulse oximetry technology to monitor user oxygen saturation however common usage of this technology involved finger based products and would not be suitable for 24/7 monitoring. A concept of a modular battery was also explored that would enable users to customise their battery life and weight."
+               }
+            },
+            {
+               "fullWidthImage":{
+                  "twoCol":false,
+                  "src":"yukon/sketches.png",
+                  "src2":"",
+                  "alt":"Idea development"
+               }
+            },
+            {
+               "sectionTitle":{
+                  "title":"The Solution",
+                  "heading":"Yukon is a the next generation of music listening. The Yukon headphones incorporate EEG technology, to continuously monitor the user’s brain waves.",
+                  "content":"These brain waves when combined with motion sensing allow Yukon to understand the user’s current mood and activity. Yukon then selects songs to fit the current scenario. Users can choose to change their mood through personalised playlists and use boosts to further stimulate their desired mood. Unlike existing personalised playlists Yukon learns exactly which types of songs are most suited to the user for a particular task. By monitoring the user’s brain waves it understands how users to react to different song selections in different scenarios and uses this data to influence its next song selection. Yukon also encourages sharing, and social interactions through sync listening allowing users to broadcast their mood playlist so friends can listening together and mix their individual moods into one playlist."
+               }
+            }
+          ],
+         "showcase":[
+            {
+               "src":"yukon/user_app.png",
+               "alt":""
+            },
+            {
+               "src":"yukon/render3.png",
+               "alt":""
+            },
+            {
+               "twoCol":true,
+               "src":"yukon/touch_control.png",
+               "src2":"yukon/touch_control2.png",
+               "alt":""
+            },
+            {
+               "src":"yukon/render1.png",
+               "alt":""
+            },
+            {
+               "mobile3":true,
+               "src":"yukon/playing.png",
+               "src2":"yukon/stats.png",
+               "src3":"yukon/use_boost.png",
+               "alt":""
+            },
+            {
+               "mobile2":true,
+               "src":"yukon/suggested.png",
+               "src2":"yukon/search.png",
+               "alt":""
+            }
+         ]
+      },
+      {
+         "handle":"ovambo",
+         "title":"Ovambo",
+         "featured":false,
+         "type":"Product | Digital",
+         "hero":{
+            "src":"ovambo/thumb.png",
+            "alt":"OVAMBO hero image"
+         },
+         "textColour":"black",
+         "heading":"Redefining mental wellbeing for the future workplace.",
+         "subheading":"Connected EEG earphones that monitor employee mental wellbeing to encourage better work habits ",
+         "client":"University Project",
+         "challenge":"Use design to empower people to better prevent, detect, treat and possibly reverse lifestyle-related health conditions.",
+         "outcome":"A connected workplace system that aims to better structure tasks and management decisions based on specific workplace culture and employee strengths.",
+         "content":[
+            {
+               "sectionTitle":{
+                  "title":"The Problem",
+                  "heading":"Over a third of employers have highlighted stress-related absence to be on the rise. In the workplace, 41% of private sector employees state that they are experiencing stress because they are under excessive pressure at work.",
+                  "content":"Absenteeism and presenteeism (reduced performance and productivity due to ill health while at work) are major areas of concern to employers in the UK. Currently in the UK, the average office worker takes 6.5 days of absence. Taken cumulatively across the UK working population, this amounts to working days for absence and approximately lost annually. Remarkably, the cost of presenteeism to UK employers is estimated at £15 billion per year, significantly more than absenteeism."
+               }
+            },
+            {
+               "fullWidthImage":{
+                  "twoCol":false,
+                  "src":"ovambo/user1.jpg",
+                  "src2":"",
+                  "alt":"Problem"
+               }
+            },
+            {
+               "sectionTitle":{
+                  "title":"The Idea",
+                  "heading":"How might we relieve workplace stress and encourage better work habits by helping employees manage workload based on individual preferences and improve focus.",
+                  "content":"Insights gathered from a series of focus groups and user interviews revealed that the main issues employees face that resulted in workplace stress were, their ability to manage workload, unrealistic workloads and a lack of autonomy. The aim was to provide employees with personalised information and tools to make better, informed decisions regarding work tasks and allowing employers to provide employees with greater autonomy with confidence in work effectiveness."
+               }
+            },
+            {
+               "fullWidthImage":{
+                  "twoCol":true,
+                  "src":"ovambo/research.jpg",
+                  "src2":"ovambo/research2.jpg",
+                  "alt":"EEG Experience Prototype Research"
+               }
+            },
+            {
+               "sectionTitle":{
+                  "title":"The Design",
+                  "heading":"Introduction of EEG technology to monitor employee stress and focus levels. By learning how employees works best we can provide them with personalised insights and tips for more efficient working.",
+                  "content":"Series of different concepts and form factors in which EEG technology could be used. The decision to use earphones was based on a small, compact product that would be used for multiple workplace tasks, enabling it to seamlessly integrate into employee workplace habits."
+               }
+            },
+            {
+               "fullWidthImage":{
+                  "twoCol":false,
+                  "src":"ovambo/sketches.jpg",
+                  "src2":"",
+                  "alt":"Idea development"
+               }
+            },
+            {
+               "sectionTitle":{
+                  "title":"The Solution",
+                  "heading":"Noise cancelation, bluetooth earphones with embedded biometric sensors that track brain waves through EEG and provide real-time feedback about focus, stress, relaxation and task interest.",
+                  "content":"OVAMBO will guide users to make better choices about their work habits allowing them to focus, reduce stress and be more mindful. OVAMBO also serves a task management tool for enterprises to better structure work tasks and develop new ‘ways of working’ that are personalised to their employees, ensuring a healthy, happy and successful workplace. OVAMBO learns the more the user interacts with it and suggests personalised tips, exercises and daily habits to enable a more balanced mind."
+               }
+            }
+          ],
+         "showcase":[
+            {
+               "src":"ovambo/dark-image.png",
+               "alt":""
+            },
+            {
+               "src":"ovambo/back-light.png",
+               "alt":""
+            },
+            {
+               "src":"ovambo/light-detail.png",
+               "alt":""
+            },
+            {
+               "src":"ovambo/neck-band.png",
+               "alt":""
+            },
+            {
+               "captionTitle":"Task Management",
+               "captionText":"Recommends tasks based on current mental state, personal calendars and team priority.",
+               "mobile2":true,
+               "src":"ovambo/task.png",
+               "src2":"ovambo/.png",
+               "alt":""
+            },
+            {
+               "captionTitle":"Retain Focus",
+               "captionText":"During work sessions the app tracks user focus and other brain activity. If users begin to loose focus the app will help them return to calm state via audial feedback.",
+               "mobile3":true,
+               "src":"ovambo/task2.png",
+               "src2":"ovambo/task3.png",
+               "src3":"ovambo/task4.png",
+               "alt":""
+            },
+            {
+               "mobile2":true,
+               "src":"ovambo/task5.png",
+               "src2":"ovambo/task7.png",
+               "alt":""
+            },
+            {
+               "captionTitle":"Track Mental Wellbeing",
+               "captionText":"Users can review their sessions and see their focus, stress, relaxation and interest for different tasks. OVAMBO analyses this data to provide personalised tips for a more balanced mind.",
+               "mobile2":true,
+               "src":"ovambo/my_mind.png",
+               "src2":"ovambo/my_mind2.png",
+               "alt":""
+            },
+            {
+               "mobile2":true,
+               "src":"ovambo/my_mind3.png",
+               "src2":"ovambo/my_mind4.png",
+               "alt":""
+            },
+            {
+               "captionTitle":"Encourage Better Working Habits",
+               "captionText":"To prevent burn out or work overload. OVAMBO notifies users to take breaks after prolonged negative mental activity or periods of work.",
+               "src":"ovambo/app4.jpg",
+               "alt":""
+            },
+            {
+               "captionTitle":"Mindfulness Training",
+               "captionText":"Browse a selection of minfulness training exercises and games designed to improve focus or relaxation. Single or multiplayer games to challenge collegues. The platform is open source to allow for third party games or exercises to be added. Intergration with VR headsets and 3D audio produces an emersive experience allowing employees to block out distractions.",
+               "mobile3":true,
+               "src":"ovambo/mindfulness.png",
+               "src2":"ovambo/mindfulness2.png",
+               "src3":"ovambo/mindfulness2.2.png",
+               "alt":""
+            },
+            {
+               "mobile3":true,
+               "src":"ovambo/mindfulness2hide.png",
+               "src2":"ovambo/mindfulnessVR.png",
+               "src3":"ovambo/mindfulness3.png",
+               "alt":""
+            },
+            {
+               "captionTitle":"Management Dashboard",
+               "captionText":"OVAMBO is a next generation task management tool. Using machine learning technology it structures projects based on individual work habits, preferences and task nature. OVAMBO presents contextually relevant and personalised predictions to mangers based on their teams secure and privatised data. This allows managers to make informed decisions based on his team’s needs. This data is also used by enterprises to develop new ways of working that are personalised to how their employees work best.",
+               "desktop":true,
+               "src":"ovambo/admin.png",
+               "alt":""
+            },
+            {
+               "desktop":true,
+               "src":"ovambo/admin2.png",
+               "alt":""
+            },
+            {
+               "desktop":true,
+               "src":"ovambo/admin3.png",
+               "alt":""
+            }
+         ]
+      },
+      {
+         "handle":"etrack",
+         "title":"E-track",
+         "featured":false,
+         "type":"Product | Digital",
+         "hero":{
+            "src":"e-track/thumb.jpg",
+            "alt":"severn trent hero image"
+         },
+         "textColour":"black",
+         "heading":"Providing airline passengers with peace of mind through real time luggage tracking.",
+         "subheading":"A luggage tracker that utilises iBecon technology to provide status of luggage from check-in to arrival.",
+         "client":"Personal Project - Focused Client, British Airways",
+         "challenge":"Provide passengers with ",
+         "outcome":"A small, personal tracker for luggage items that connects to iBeacon check points through airports to provide real time status updates.",
+         "content":[
+            {
+               "sectionTitle":{
+                  "title":"The Problem",
+                  "heading":"There are approximately 21.8 million mishandled bags per year which equates to 6.96 mishandled bags per 1000 passengers.",
+                  "content":"The main reason for mishandled bags is they are delayed arriving to connection airports and then have a very high chance of being boarded onto the incorrect flight. Existing trackers available to consumers provide the customer with a gps location after landing but this allows a large amount of time for the bag to be misplaced or travel a further distance."
+               }
+            },
+            {
+               "fullWidthImage":{
+                  "twoCol":false,
+                  "src":"e-track/problem.jpg",
+                  "src2":"",
+                  "alt":"Problem"
+               }
+            },
+            {
+               "sectionTitle":{
+                  "title":"The Idea",
+                  "heading":"Design a solution to provide a user with more information when their bag is mishandled and speed up the process of returning it.",
+                  "content":"There is nothing to identify a bag if its tag has come off, and is sent to a secondary search location where it is held and attempts are made to identify its owner. This can be a long process. The focus for the design was to ensure the end solution met three key themes. Integrate into the flying experience for a seamless user interaction. Reliability and reasurance for users. Empower the user to feel they have greater control when baggage issues arrise."
+               }
+            },
+            {
+               "fullWidthImage":{
+                  "twoCol":false,
+                  "src":"e-track/sketches2.jpg",
+                  "src2":"",
+                  "alt":"Idea Development"
+               }
+            },
+            {
+               "sectionTitle":{
+                  "title":"The Solution",
+                  "heading":"Use of iBeacon technology to provide continuous feedback to the users where their luggage is via a smart phone. This is information is also sent to flight crew so they can proactively deal with mishandled bags prior to the user boarding the plane.",
+                  "content":"Along with iBeacon technology for close proximity tracking the e-BagTracker uses GSM/GPRS quad band for excellent network compatability to send position to users smartphone globally in the event of mishandling. Intergration of gyroscopes, accelerometers and magnetometers are used to detect take-off and landing for flight mode (TSA FAA compliant)."
+               }
+            }
+          ],
+         "showcase":[
+            {
+               "src":"e-track/main.png",
+               "alt":""
+            },
+            {
+               "src":"e-track/top.png",
+               "alt":""
+            },
+            {
+               "src":"e-track/side.png",
+               "alt":""
+            },
+            {
+               "src":"e-track/scenario.gif",
+               "alt":""
+            },
+            {
+               "src":"e-track/exploaded.png",
+               "alt":""
+            },
+            {
+               "captionTitle":"Accompanying App",
+               "captionText":"e-Track keeps in touch with you via the British Airways app. A conceptual redesign was done so that a user can quickly navigate between bag tracking and boarding pass.",
+               "mobile2":true,
+               "src":"e-track/boarding_pass.png",
+               "src2":"e-track/track_bag.png",
+               "alt":""
+            }
+         ]
+      },
+      {
+         "handle":"snow",
+         "title":"Snow",
+         "featured":false,
+         "type":"product",
+         "hero":{
+            "src":"snow/front.png",
+            "alt":"Snow hero image"
+         },
+         "textColour":"black",
+         "heading":"Custom fit snow googles for improved comfort and weather protection.",
+         "subheading":"Reverse engineered snow googles using Creo Parametric and Keyshot with 3D scanning custom fit integration.",
+         "client":"University Project",
+         "challenge":"Organic form modelling and redesign to exploit advanced 3D modelling techniques.",
+         "outcome":"Surface model of snow googles with 3D scanned, custom fit padding integration.",
+         "content":[
+            {
+               "sectionTitle":{
+                  "title":"The Problem",
+                  "heading":"Reverse engineer a consumer product that contains complex 3D geometry with an element of redesign.",
+                  "content":"Aim to create a model containing complex 3d surface geometry. Selection of an existing consumer product that contains complex 3D geometry and then modeled to produce as accurate a representation of the original geometry as possible. model must also include an element of redesign to a part of the external surface geometry. The chosen resign was to include the use of 3D scanning technology to produce a custom fit foam padding."
+               }
+            }
+          ],
+         "showcase":[
+            {
+               "src":"snow/scanning.jpg",
+               "alt":""
+            },
+            {
+               "src":"snow/front.png",
+               "alt":""
+            },
+            {
+               "src":"snow/side.png",
+               "alt":""
+            },
+            {
+               "src":"snow/angle.png",
+               "alt":""
+            }
+         ]
+      },
+      {
+         "handle":"humberstones-jewellers",
+         "title":"Humberstones Jewellers",
+         "featured":false,
+         "type":"Web",
+         "hero":{
+            "src":"humberstones/thumb.jpg",
+            "alt":"humberstones hero image"
+         },
+         "textColour":"black",
+         "heading":"A digital transformation for a traditional jewellery business.",
+         "subheading":"Website redesign, adoption of social channels and restructure of business model to compete in a digital era.",
+         "client":"University Project",
+         "challenge":"Organic form modelling and redesign to exploit advanced 3D modelling techniques.",
+         "outcome":"Surface model of snow googles with 3D scanned, custom fit padding integration.",
+         "glance":"During Humberstones digital transformation I was brought in as a user experince and visual designer. My role involed determining the most suitable CMS and e-commerce platform for the business, establish site hierarchy and defined the visual language to be passed onto a development team who is currently building the site.",
+         "content":[
+            {
+               "sectionTitle":{
+                  "title":"The Problem",
+                  "heading":"In this digital era consumers have come to expect online ordering from even the smallest businesses. Even customers who don’t wish to buy online still expect to find product information on a company's website.",
+                  "content":"Humberstones Jewellers have been selling traditional watches and jewellery with brands such as Rolex, Audemars Piguet and Tag Heuer for over 50 years. However, eventhough they did have an online store this was not generating the revenue they wer expecting. The site failed to provide a simple, easy to use site that resembled the experince and heritage of a long lasting family business."
+               }
+            }
+          ],
+         "showcase":[
+            {
+               "desktop":true,
+               "src":"humberstones/home.png",
+               "alt":""
+            },
+            {
+               "desktop":true,
+               "src":"humberstones/nav-menu.png",
+               "alt":""
+            },
+            {
+               "desktop":true,
+               "src":"humberstones/product-detail.png",
+               "alt":""
+            }
+         ]
+      }
+   ]
+}

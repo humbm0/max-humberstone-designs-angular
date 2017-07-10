@@ -39,7 +39,7 @@ angular
         controllerAs: 'about'
       })
       .when('/work/:projectId', {
-        templateUrl: 'views/project.html',
+        templateUrl: 'views/project2.html',
         controller: 'ProjectCtrl',
         controllerAs: 'project'
       })

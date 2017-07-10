@@ -1,0 +1,241 @@
+<div class="full-width-header parallax {{ project.textColour }}">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-10">
+        <h1>{{ project.heading }}</h1>
+        <p>{{ project.subheading }}</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="three-col-row">
+        <div class="col-md-4">
+          <h4>Client</h4>
+          <p>{{ project.client }}</p>
+          <a ng-if="project.link" href="#">Visit site</a>
+        </div>
+        <div class="col-md-4">
+          <h4>Challenge</h4>
+          <p>{{ project.challenge }}</p>
+        </div>
+        <div class="col-md-4">
+          <h4>Outcome</h4>
+          <p>{{ project.outcome }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="page-content">
+
+  <div class="full-width-image">
+    <div class="image half-height" style="background-image: url('../images/{{ project.hero.src }}')"></div>
+  </div>
+
+  <div class="container mobile-three-row" data-sr="enter bottom over 1s and move 300px">
+    <div class="row">
+      <div class="three-col-row">
+        <div class="col-md-4">
+          <h4>Client</h4>
+          <p>{{ project.client }}</p>
+          <a ng-if="project.link" href="#">Visit site</a>
+        </div>
+        <div class="col-md-4">
+          <h4>Challenge</h4>
+          <p>{{ project.challenge }}</p>
+        </div>
+        <div class="col-md-4">
+          <h4>Outcome</h4>
+          <p>{{ project.outcome }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="content">
+    <div class="section" ng-repeat="content in project.content" data-sr="enter bottom over 1s and move 300px">
+      <div class="container" ng-if="content.sectionTitle">
+        <div class="row">
+          <div class="section-title two-col-title-text">
+            <div class="col-md-8">
+              <h4>{{ content.sectionTitle.title }}</h4>
+              <h2>{{ content.sectionTitle.heading }}</h2>
+              <p>{{ content.sectionTitle.content }}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container" ng-if="content.sectionContent">
+        <div class="row">
+          <div class="section-content border content">
+            <div class="col-md-3">
+              <h4 ng-if="content.sectionContent.title">{{ content.sectionContent.title }}</h4>
+              <h2 ng-if="content.sectionContent.heading">{{ content.sectionContent.heading }}</h2>
+            </div>
+            <div class="col-md-8 col-md-offset-1">
+              <p ng-if="content.sectionContent.content">{{ content.sectionContent.content }}</p>
+              <div class="content-image" ng-if="content.sectionContent.image ">
+                <div class="col-md-12">
+                  <img ng-if="!content.sectionContent.image.mobileImage && !content.sectionContent.image.twoCol" src="../images/{{ content.sectionContent.image.src }}" alt="" />
+                  <img class="hidden-sm hidden-xs" ng-if="content.sectionContent.image.mobileImage" src="../images/{{ content.sectionContent.image.src }}" alt="" />
+                  <img class="hidden-md hidden-lg" ng-if="content.sectionContent.image.mobileImage" src="../images/{{ content.sectionContent.image.mobileSrc }}" alt="" />
+                </div>
+                <div class="col-md-6" ng-if="content.sectionContent.image.twoCol">
+                  <img src="../images/{{ content.sectionContent.image.src }}" alt="" />
+                </div>
+                <div class="col-md-6" ng-if="content.sectionContent.image.twoCol">
+                  <img src="../images/{{ content.sectionContent.image.src2 }}" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid full-width-image" ng-if="content.fullWidthImage">
+        <div class="row">
+          <div class="two-col-img" ng-if="content.fullWidthImage.twoCol" data-sr="enter bottom over 1s and move 300px">
+            <div class="col-sm-6 tile">
+              <div class="image half-height" style="background-image: url('../images/{{ content.fullWidthImage.src }}')"></div>
+            </div>
+            <div class="col-sm-6 tile">
+              <div class="image half-height" style="background-image: url('../images/{{ content.fullWidthImage.src2 }}')"></div>
+            </div>
+          </div>
+          <div class="col-sm-12 tile" ng-if="!content.fullWidthImage.twoCol">
+            <div class="image half-height" style="background-image: url('../images/{{ content.fullWidthImage.src }}')"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <div class="full-width-image" data-sr="enter bottom over 1s and move 200px" ng-repeat="image in project.showcase">
+    <div class="image-caption" ng-if="image.captionTitle">
+      <div class="container ">
+        <div class="row">
+          <div class="col-md-8">
+            <h4>{{ image.captionTitle }}</h4>
+            <p>{{ image.captionText }}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="image " style="background-image: url('../images/{{ image.src }}')" ng-if="!image.twoCol && !image.desktop && !image.tabletMobile && !image.mobile2 && !image.mobile3"></div>
+    <div class="image-two-col" ng-if="image.twoCol">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-6 col">
+            <div class="image " style="background-image: url('../images/{{ image.src }}')"></div>
+          </div>
+          <div class="col-md-6 col">
+            <div class="image " style="background-image: url('../images/{{ image.src2 }}')"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="image-screen" ng-if="image.desktop">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <img src="../images/{{ image.src }}" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="image-screen" ng-if="image.tabletMobile">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col">
+            <img src="../images/{{ image.src }}" alt="">
+          </div>
+          <div class="col-sm-4 col">
+            <img src="../images/{{ image.src2 }}" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="image-screen" ng-if="image.mobile2">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-4 col col-md-offset-2">
+            <img src="../images/{{ image.src }}" alt="">
+          </div>
+          <div class="col-sm-4 col">
+            <img src="../images/{{ image.src2 }}" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="image-screen" ng-if="image.mobile3">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-4 col">
+            <img src="../images/{{ image.src }}" alt="">
+          </div>
+          <div class="col-sm-4 col">
+            <img src="../images/{{ image.src2 }}" alt="">
+          </div>
+          <div class="col-sm-4 col">
+            <img src="../images/{{ image.src3 }}" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- <slick dots=true autoplay=true autoplay-speed=6000 class="showcase-carousel" data-sr="enter bottom over 1s and move 300px">
+    <div class="slide" ng-repeat="image in project.showcase" style="background-image: url('../images/{{ image.src }}')">
+      <div class="description" ng-if="image.description">
+        <div class="container">
+          <div class="col-md-4">
+            <p>{{ image.description }}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </slick> -->
+
+
+  <div class="one-col-callout " data-sr="enter bottom over 1s and move 300px" id="contact">
+    <div class="container">
+      <div class="col-md-8 col-md-offset-2 reveal">
+        <h1>Ready to chat?</h1>
+        <p>Got a project in mind? I’m always interested in new projects, send me a message.</p>
+        <a href="mailto:maxhumberstonedesigns@gmail.com" target="_top">
+          <button type="button" class="primary-btn">Get in touch</button>
+        </a>
+        <!-- <p class="body-font">Forms not your thing send me an <a href="#" class="bold lowercase">email</a></p> -->
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="project-gallery related-projects" data-sr="enter bottom over 1s and move 300px">
+    <h2>Related Projects</h2>
+    <div class="row">
+      <a href="#/work/{{project.project.handle}}" ng-repeat="project in relatedProjects | orderBy:'order' | limitTo: 2">
+        <div class="col-md-6 tile feature ">
+          <div class="img" style="background-image: url('images/{{ project.project.hero.src }}')"></div>
+          <div class="content">
+            <div class="text">
+              <h4>{{ project.project.type }}</h4>
+              <h2>{{ project.project.title }}</h2>
+            </div>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+
+
+  <!-- <div ng-if="project.showcase" class="full-width-image">
+    <div ng-repeat="image in project.showcase" class="image" style="background-image: url('../images/{{ image.src }}')"></div>
+  </div> -->

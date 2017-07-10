@@ -51,7 +51,7 @@
             {
                "title":"Feasabilty Diagrams",
                "heading":"",
-               "content":"Feasabilty diagrams were created to synthesise the ideas generated for concept ",
+               "content":"Feasabilty diagrams were created to synthesise the ideas generated for concept selection. This ensures the concepts taken forward for development meet the important problems identified are technologically and economically viable.",
                "image":"squair/feasability.jpg"
             }
          ],
@@ -229,19 +229,21 @@
             "heading":"A mobile first design ensured an enjoyable user experience accross all devices. Focus on a modular design to work with the Adobe AEM platform.",
             "content":"Adobe's content managment platform, AEM was used to build the new site. Therefore, initial designs focused on standard components that would be used accross the site. These componenst were then tested with a variety of content to ensure our designs would meet the needs of Severn Trent's existing and future content migration. The design were then devloped further into higher fidelity designs and design documentation."
          },
-         "image4":{
+         "image3":{
            "twoCol":true,
             "src":"severn-trent/wireframes.png",
             "src2":"severn-trent/wireframes2.png",
             "alt":"Idea development"
          },
          "section4":{
-            "title":"The delivery",
-            "heading":"Use of an Agile workflow to improve team communication and effectiveness.",
+            "title":"Core Focus",
+            "heading":"Development of designs to reflect a more user friendly approach by identifying core areas which can adopt a less formal feel yet maintain their functional purpose.",
             "content":"An agile workflow was used to assess the direction of a project throughout the delivery phase. This enabled on and off-shore teams to collaborate and communicate more effectively to ensure deadlines were met. The end result was simplified, responsive site that shortened time taken to complete the most common tasks and made navigating large amounts of content easier whilst improving Severn Trent's content edititing capabilties through the Adobe AEM platform. "
          },
          "showcase":[
             {
+              "captionTitle":"Home Page",
+              "captionText":"The goal was to establish a site hierarchy to reduce the amount of visual noise presented to users whilst still allowing access to a large amount of content. Based on user analytics the four most common tasks were selected and displayed in a simple and inviting way. The use of a dynamic hero call to action allowed Severn Trent to change the content presented to users for different scenarios.",
               "desktop":true,
                "src":"severn-trent/home-desktop.png",
                "alt":""
@@ -253,6 +255,8 @@
                "alt":""
             },
             {
+              "captionTitle":"Report a Problem",
+              "captionText":"Aim to ",
               "desktop":true,
                "src":"severn-trent/rap.png",
                "alt":""
@@ -562,7 +566,7 @@
          },
          "image2":{
             "src":"e-track/sketches.jpg",
-            "alt":"EEG experience prototype"
+            "alt":"Idea Exploration"
          },
          "showcase":[
             {

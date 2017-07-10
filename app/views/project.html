@@ -96,6 +96,19 @@
   </div>
 
 
+  <div ng-if="project.section2" class="two-col-title-text" data-sr="enter bottom over 1s and move 300px">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8">
+          <h4>{{ project.section2.title}}</h4>
+          <h2>{{ project.section2.heading }}</h2>
+          <p>{{ project.section2.content }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
   <div class="process">
     <div ng-if="project.process" class="one-col-text">
       <div class="container">
@@ -127,19 +140,55 @@
     </div>
   </div>
 
-
-
-  <div ng-if="project.section2" class="two-col-title-text" data-sr="enter bottom over 1s and move 300px">
-    <div class="container">
+  <div class="content">
+    <div class="section" ng-repeat="project.content">
       <div class="row">
-        <div class="col-md-8">
-          <h4>{{ project.section2.title}}</h4>
-          <h2>{{ project.section2.heading }}</h2>
-          <p>{{ project.section2.content }}</p>
+        div
+        <div class="section-title two-col-title-text" ng-if="project.sectionTitle">
+          <div class="col-md-8">
+            <h4>{{ project.section2.title}}</h4>
+            <h2>{{ project.section2.heading }}</h2>
+            <p>{{ project.section2.content }}</p>
+          </div>
+        </div>
+        <div class="section-content border content" ng-if="project.sectionContent">
+          <div class="col-md-12">
+            <h4 ng-if="process.title">{{ process.title }}</h4>
+            <h2 ng-if="process.heading">{{ process.heading }}</h2>
+            <p ng-if="process.content">{{ process.content }}</p>
+            <div class="content-image" ng-if="project.sectionContent.image">
+              <div class="col-md-12" ng-if="!project.sectionContent.image.twoCol">
+                <img ng-if="!process.mobileImage" src="../images/{{ process.image }}" alt="" />
+                <img class="hidden-sm hidden-xs" ng-if="process.mobileImage" src="../images/{{ process.image }}" alt="" />
+                <img class="hidden-md hidden-lg" ng-if="process.mobileImage" src="../images/{{ process.mobileImage }}" alt="" />
+              </div>
+              <div class="col-md-6" ng-if="project.sectionContent.image.twoCol">
+                <img src="../images/{{ process.image }}" alt="" />
+              </div>
+              <div class="col-md-6" ng-if="project.sectionContent.image.twoCol">
+                <img src="../images/{{ process.image2 }}" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid" ng-if="fullWidth">
+        <div class="row">
+          <div class="two-col-img" ng-if="project.image1.twoCol && project.image1" data-sr="enter bottom over 1s and move 300px">
+            <div class="row">
+              <div class="col-sm-6 tile">
+                <img src="../images/{{ project.image1.src }}" alt="{{ project.image1.alt }}" />
+              </div>
+              <div class="col-sm-6 tile">
+                <img src="../images/{{ project.image1.src2 }}" alt="{{ project.image1.alt }}" />
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
   </div>
+
 
 
 

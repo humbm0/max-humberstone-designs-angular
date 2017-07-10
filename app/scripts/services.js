@@ -7,7 +7,7 @@ angular.module('angularSiteApp.services', [])
   var projects = {};
 
    projects.all = function () {
-    return  $http.get('../data/projects.json');
+    return  $http.get('../data/projects3.json');
    };
 
    return projects;
