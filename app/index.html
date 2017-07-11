@@ -41,7 +41,7 @@
             <!-- <li><a href="#/capabilities">Capabilities</a></li> -->
             <li ng-controller="NavCtrl"><a href="#/work" ng-class="{active: $location.path() == '/work'}">Work</a></li>
             <!-- <li><a href="#/about">About</a></li> -->
-            <li><a href="images/max_humberstonecv.pdf" download="max_humberstone_cv17">CV</a></li>
+            <li ng-controller="NavCtrl"><a href="#/about" ng-class="{active: $location.path() == '/about'}">About</a></li>
             <li><a class="contact">Contact</a></li>
           </ul>
         </div>
@@ -76,7 +76,7 @@
         <div class="container">
           <div class="row">
             <div class="copywright col-xs-12">
-              <p>©2016, Max Humberstone Design. All Rights Reserved</p>
+              <p>©2017, Max Humberstone Design. All Rights Reserved</p>
             </div>
           </div>
         </div>
