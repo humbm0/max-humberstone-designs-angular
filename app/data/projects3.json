@@ -409,7 +409,7 @@
                   "image":{
                      "twoCol":false,
                      "mobileImage": false,
-                     "src":"severn-trent/report-a-problem.gif",
+                     "src":"severn-trent/report_a_problem.gif",
                      "mobileSrc":"",
                      "alt":"Idea development"
                   },
@@ -630,7 +630,7 @@
                   "twoCol":true,
                   "src":"ovambo/research.jpg",
                   "src2":"ovambo/research2.jpg",
-                  "alt":"EEG Experience Prototype Research"
+                  "alt":"User research"
                }
             },
             {
@@ -649,9 +649,57 @@
                }
             },
             {
+               "sectionContent":{
+                  "heading":"Establish Task Flows",
+                  "content":"Breakdown of the three key user journeys to understand the requirements of each task. The three key journeys included, focused work sessions, brainwave mapping, brain training games and view health data.",
+                  "image":{
+                     "twoCol":false,
+                     "mobileImage": false,
+                     "src":"ovambo/task_flows.png",
+                     "mobileSrc":"",
+                     "alt":"Idea development"
+                  },
+                  "mobileImage":{
+                    "src":""
+                  }
+               }
+            },
+            {
+               "sectionContent":{
+                  "heading":"Wireframes",
+                  "content":"With the proper planning and established user journeys, I was able to confidently move into creating wireframes for the app. Decision to develop medium fedility designs was taken to allow testing of presenting complex data, such as brainwave metrics, back to users.",
+                  "image":{
+                     "twoCol":false,
+                     "mobileImage": false,
+                     "src":"ovambo/wireframes.png",
+                     "mobileSrc":"",
+                     "alt":"Idea development"
+                  },
+                  "mobileImage":{
+                    "src":""
+                  }
+               }
+            },
+            {
+               "sectionContent":{
+                  "heading":"Experience Prototyping and Usability Testing",
+                  "content":"A NeuroSky EEG headband was used to test the experience of immersive neurofeedback through 3D audio, binaural beats and noise cancellation. One insight that came from this was that music did help users become calm but then became a distraction once users had entered a mindful state. Use of Low and high fidelity prototypes were used to test application usability.",
+                  "image":{
+                     "twoCol":false,
+                     "mobileImage": false,
+                     "src":"ovambo/testing.png",
+                     "mobileSrc":"",
+                     "alt":"Idea development"
+                  },
+                  "mobileImage":{
+                    "src":""
+                  }
+               }
+            },
+            {
                "sectionTitle":{
                   "title":"The Solution",
-                  "heading":"Noise cancelation, bluetooth earphones with embedded biometric sensors that track brain waves through EEG and provide real-time feedback about focus, stress, relaxation and task interest.",
+                  "heading":"Noise cancelation, bluetooth earphones with embedded biometric sensors that track brainwaves via EEG and provide real-time feedback about focus, stress, relaxation and task interest through accompanying app.",
                   "content":"OVAMBO will guide users to make better choices about their work habits allowing them to focus, reduce stress and be more mindful. OVAMBO also serves a task management tool for enterprises to better structure work tasks and develop new ‘ways of working’ that are personalised to their employees, ensuring a healthy, happy and successful workplace. OVAMBO learns the more the user interacts with it and suggests personalised tips, exercises and daily habits to enable a more balanced mind."
                }
             }
@@ -674,16 +722,16 @@
                "alt":""
             },
             {
-               "captionTitle":"Task Management",
-               "captionText":"Recommends tasks based on current mental state, personal calendars and team priority.",
+               "captionTitle":"Focus Session - Task Management",
+               "captionText":"Recommends tasks based on current mental state, personal calendars and team priority. Users select task to start a focused session.",
                "mobile2":true,
                "src":"ovambo/task.png",
                "src2":"ovambo/.png",
                "alt":""
             },
             {
-               "captionTitle":"Retain Focus",
-               "captionText":"During work sessions the app tracks user focus and other brain activity. If users begin to loose focus the app will help them return to calm state via audial feedback.",
+               "captionTitle":"Focus Session - Retain Focus",
+               "captionText":"App scans current work conditions to automatically add tags to session. During work sessions the app tracks user focus and other brain activity. If users begin to loose focus the app will help them return to calm state via audial feedback.",
                "mobile3":true,
                "src":"ovambo/task2.png",
                "src2":"ovambo/task3.png",
@@ -691,9 +739,12 @@
                "alt":""
             },
             {
-               "mobile2":true,
+              "captionTitle":"Focus Session - Feedback",
+              "captionText":"Tips are presented to users if minfulness state is lost. To avoid overwork Ovambo will remind users to take breaks and suggest break activities. Feedback is presented at the end of each session so users can see where they performed best.",
+               "mobile3":true,
                "src":"ovambo/task5.png",
-               "src2":"ovambo/task7.png",
+               "src2":"ovambo/task6.png",
+               "src3":"ovambo/task7.png",
                "alt":""
             },
             {
@@ -708,12 +759,6 @@
                "mobile2":true,
                "src":"ovambo/my_mind3.png",
                "src2":"ovambo/my_mind4.png",
-               "alt":""
-            },
-            {
-               "captionTitle":"Encourage Better Working Habits",
-               "captionText":"To prevent burn out or work overload. OVAMBO notifies users to take breaks after prolonged negative mental activity or periods of work.",
-               "src":"ovambo/app4.jpg",
                "alt":""
             },
             {
