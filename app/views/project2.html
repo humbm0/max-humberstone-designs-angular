@@ -57,6 +57,16 @@
 
   <div class="content">
     <div class="section" ng-repeat="content in project.content" data-sr="enter bottom over 1s and move 300px">
+      <div class="image-caption" ng-if="content.caption">
+        <div class="container ">
+          <div class="row">
+            <div class="col-md-12">
+              <h4>{{ content.caption.title }}</h4>
+              <p>{{ content.caption.content }}</p>
+            </div>
+          </div>
+        </div>
+      </div>
       <div class="container" ng-if="content.sectionTitle">
         <div class="row">
           <div class="section-title two-col-title-text">

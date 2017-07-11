@@ -241,6 +241,12 @@
          "outcome":"A responsive website built on Adobe AEM that aims to reduce visual noise and streamline common tasks.",
          "glance":"During my placement as a User Experience Designer at IBM Interactive. Severn Trent set the task of redesigning their Water customer site. In October 2016 the new site was lunched using the Adobe AEM platform and was focused on streamlining common tasks and easier navigation of content. My main role focused on User Experience and Visual design but my skills in Front-End Development were utilised to aid in the build of interaction specific components.",
          "content":[
+           {
+              "caption":{
+                 "title":"At a Glance",
+                 "content":"During my placement as a User Experience Designer at IBM Interactive. Severn Trent set the task of redesigning their Water customer site. In October 2016 the new site was lunched using the Adobe AEM platform and was focused on streamlining common tasks and easier navigation of content. My main role focused on User Experience and Visual design but my skills in Front-End Development were utilised to aid in the build of interaction specific components."
+              }
+           },
             {
                "sectionTitle":{
                   "title":"The Problem",
