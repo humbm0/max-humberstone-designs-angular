@@ -81,11 +81,13 @@
       <div class="container" ng-if="content.sectionContent">
         <div class="row">
           <div class="section-content border content">
-            <div class="col-md-3">
+            <!-- <div class="col-md-3">
               <h4 ng-if="content.sectionContent.title">{{ content.sectionContent.title }}</h4>
               <h2 ng-if="content.sectionContent.heading">{{ content.sectionContent.heading }}</h2>
-            </div>
-            <div class="col-md-8 col-md-offset-1">
+            </div> -->
+            <div class="col-md-10 col-md-offset-1">
+              <h4 ng-if="content.sectionContent.title">{{ content.sectionContent.title }}</h4>
+              <h2 ng-if="content.sectionContent.heading">{{ content.sectionContent.heading }}</h2>
               <p ng-if="content.sectionContent.content">{{ content.sectionContent.content }}</p>
               <div class="content-image" ng-if="content.sectionContent.image ">
                 <div class="col-md-12">

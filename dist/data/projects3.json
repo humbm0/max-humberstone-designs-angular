@@ -239,7 +239,6 @@
          "client":"Severn Trent Water",
          "challenge":"To redesign Severn Trent's existing water site with responsive and content management capabilities.",
          "outcome":"A responsive website built on Adobe AEM that aims to reduce visual noise and streamline common tasks.",
-         "glance":"During my placement as a User Experience Designer at IBM Interactive. Severn Trent set the task of redesigning their Water customer site. In October 2016 the new site was lunched using the Adobe AEM platform and was focused on streamlining common tasks and easier navigation of content. My main role focused on User Experience and Visual design but my skills in Front-End Development were utilised to aid in the build of interaction specific components.",
          "content":[
            {
               "caption":{
@@ -411,7 +410,7 @@
             {
                "sectionContent":{
                   "heading":"Less Laborious",
-                  "content":"Forms to adopt a more dynamic style. Maintaining simplicity, by adding elements to create visual interest and more importantly to guide the user as a key purpose. Visual tags enable the user to quickly interact with the report and animations make the process feel less laborious.",
+                  "content":"Forms to adopt a more dynamic style. Maintaining simplicity, by adding elements to create visual interest and more importantly to guide the user as a key purpose. Visual tags enable the user to quickly interact with the report and animations make the process feel less laborious. (HTML Prototype using Greenstock JS for animation developed by myself for testing and client review)",
                   "image":{
                      "twoCol":false,
                      "mobileImage": false,
@@ -484,6 +483,152 @@
             {
                "desktop":true,
                "src":"severn-trent/help5.png",
+               "alt":""
+            }
+         ]
+      },
+      {
+         "handle":"feals",
+         "title":"Feals",
+         "featured":false,
+         "grid_size":"",
+         "type":"Digital",
+         "hero":{
+            "src":"feals/hero.jpg",
+            "alt":"Feals hero image"
+         },
+         "textColour":"black",
+         "heading":"Personalised help when it is needed most for mental sufferers.",
+         "subheading":"Smart phone application that learns user triggers to proactively provide personalised help at times of need.",
+         "client":"Global Design Jam 2016 - (Winner)",
+         "challenge":"Design a service that is innovative, user centred and have a social impact.",
+         "outcome":"A Smart phone application that uses machine learning to proactively provides people with mental health problems distraction to prevent them from a downward spiral and encourage positive thinking.",
+         "content":[
+           {
+              "caption":{
+                 "title":"At a Glance",
+                 "content":"This project was developed as part of the Global Design Jam 2016. As a team of 6 we were given 48 hours to design a product service based on a given brief. The brief given was the sound of a water drop. From here, as individuals, we had 5 minutes to ideate and then pitch to peers and decide on the direction the team would head. Based on similar ideas around helping people with disabilities we decided to concentrate on mental health as a disability and how might we provide a service to help young people with mental health issues. The idea received fantastic feedback from the judges and was awarded first prize."
+              }
+           },
+            {
+               "sectionTitle":{
+                  "title":"The Problem",
+                  "heading":"It is estimated that 1 in 4 people in England will experience a mental health problem in any given year.",
+                  "content":"From the ineterviews and discussions with users we were able to establish the key problem insights. The cause of users going into a “downward spiral” are triggers that users will experince. This then causes them to focus on negative thoughts and close off to other people. There is a serious lack in existing help such as meeting groups and are very irregular. If a user requires professional help from the NHS or other health organisations, this can take a long period of time and and result in a downward spiral for the person concerned. Talking with people who also suffer with mental health can be useful but in a controlled enviroment. Web forums allow users to talk about about negative thoughts and make the situation worse."
+               }
+            },
+            {
+               "fullWidthImage":{
+                  "twoCol":false,
+                  "src":"feals/problem.png",
+                  "src2":"",
+                  "alt":"Problem"
+               }
+            },
+            {
+               "sectionTitle":{
+                  "title":"The Idea",
+                  "heading":"How might we proactively prevent a user from entering a “downward spiral“ by providing an immediate distraction upon a user’s trigger.",
+                  "content":"We began by speaking with people who had suffered with mental illness to gain empathy and understanding of the real problems they had. We also gained a sponsoured user who we kept in touch with throughout the two days playing back our ideas and concepts to her to enure we were meeting the user needs and solving the problems we set out to. We learned that the once users entered a downward spiral it became very difficult to regain balance. We started to explore what were the causes of downward spirals and how might we distrupt them from happening."
+               }
+            },
+            {
+               "fullWidthImage":{
+                  "twoCol":true,
+                  "src":"feals/interviews.png",
+                  "src2":"feals/group-work.jpg",
+                  "alt":"Research"
+               }
+            },
+            {
+               "sectionTitle":{
+                  "heading":"The focus was to: Provide an immediate distraction when triggers occur, allow users to recieve immediate help when they need it and build a support network of other mental health sufferers but prevent unhealthy discussions that occur on web forums."
+               }
+            },
+            {
+               "sectionContent":{
+                  "heading":"Machine Learning",
+                  "content":"We wanted to help to make the grey areas black when it comes to subjective views on how bad a problem might be. We started to look at how we could assist in closing the gap by providing an interpretation of what the levels of severity mean.",
+                  "image":{
+                     "twoCol":false,
+                     "mobileImage": false,
+                     "src":"feals/speech_analysis.png",
+                     "mobileSrc":"",
+                     "alt":"Idea development"
+                  },
+                  "mobileImage":{
+                    "src":""
+                  }
+               }
+            },
+            {
+               "sectionTitle":{
+                  "title":"The Design",
+                  "heading":"Our goal was to develop a support system that provided clear and easy to understand help at a time of stress and anxiousness.",
+                  "content":"With the proper planning, we were able to confidently move into creating wireframes for the app. We took the decision to focus more on the functionality and structure of the app, opting for low-fidelity wireframes with very little detail. Theses wireframes were then played back with users to explain the concept and initial task flows."
+               }
+            },
+            {
+               "fullWidthImage":{
+                  "twoCol":false,
+                  "src":"feals/wireframes.png",
+                  "src2":"",
+                  "alt":"wireframing"
+               }
+            },
+            {
+               "sectionTitle":{
+                  "title":"The Solution",
+                  "heading":"Feals is a smart phone application that uses machine learning to identify triggers and proactively provide people with mental health problems distraction to prevent them from a downward spiral and encourage positive thinking.",
+                  "content":"Learns the types of triggers and predicts future triggers based on journal entries. Learns what types of activitives work best to distract you based on journal entries. Find friends to help you during triggers based on theropies and interests. Emergency contact number in the event of an incident."
+               }
+            }
+          ],
+         "showcase":[
+            {
+               "mobile2":true,
+               "src":"feals/home.png",
+               "src2":"feals/nav.png",
+               "alt":""
+            },
+            {
+               "mobile3":true,
+               "src":"feals/select_friends.png",
+               "src2":"feals/choose_task.png",
+               "src3":"feals/choose_task2.png",
+               "alt":""
+            },
+            {
+               "mobile2":true,
+               "src":"feals/activity.png",
+               "src2":"feals/activity2.png",
+               "alt":""
+            },
+            {
+               "mobile3":true,
+               "src":"feals/feeling.png",
+               "src2":"feals/feeling2.png",
+               "src3":"feals/symptoms.png",
+               "alt":""
+            },
+            {
+               "mobile2":true,
+               "src":"feals/feeling_text.png",
+               "src2":"feals/symptoms_text.png",
+               "alt":""
+            },
+            {
+               "mobile3":true,
+               "src":"feals/journal.png",
+               "src2":"feals/journal_entry.png",
+               "src3":"feals/journal_entry_text.png",
+               "alt":""
+            },
+            {
+               "mobile3":true,
+               "src":"feals/help.png",
+               "src2":"feals/help2.png",
+               "src3":"feals/help3.png",
                "alt":""
             }
          ]

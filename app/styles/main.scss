@@ -4,6 +4,7 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/boots
 // endbower
 
 @import 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700';
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700,900');
 // @import 'https://fonts.googleapis.com/css?family=Old+Standard+TT:400,400i,700';
 
 @import "_variables";
@@ -21,21 +22,22 @@ body{
   color: $text-color;
   font-weight: 400;
   font-size: 14px;
-  letter-spacing: 0.11em;
+  letter-spacing: 0.1em;
   line-height: 29px;
 }
 h1,h2,h3,h4{
   margin: 0;
 }
 h1{
-  font-weight: 200;
+  font-weight: 900;
   font-size: 48px;
   line-height: 70px;
 }
 h2{
-  font-weight: 200;
+  font-weight: 900;
   font-size: 32px;
   line-height: 42px;
+  margin-bottom: 10px;
 }
 h3{
   font-weight: 200;
@@ -47,6 +49,7 @@ h4{
   line-height: 33px;
   text-transform: uppercase;
   font-size: 14px;
+  color: #999;
 }
 
 @media (max-width: $mobile-size) {
