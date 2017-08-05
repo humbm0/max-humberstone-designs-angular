@@ -57,12 +57,12 @@
 
   <div class="content">
     <div class="section" ng-repeat="content in project.content" data-sr="enter bottom over 1s and move 300px">
-      <div class="image-caption" ng-if="content.caption">
+      <div class="callout" ng-if="content.caption">
         <div class="container ">
           <div class="row">
-            <div class="col-md-12">
-              <h4>{{ content.caption.title }}</h4>
-              <p>{{ content.caption.content }}</p>
+            <div class="col-md-10 col-md-offset-1">
+              <h2>{{ content.caption.title }}</h2>
+              <p>"{{ content.caption.content }}"</p>
             </div>
           </div>
         </div>
@@ -88,8 +88,21 @@
             <div class="col-md-10 col-md-offset-1">
               <h4 ng-if="content.sectionContent.title">{{ content.sectionContent.title }}</h4>
               <h2 ng-if="content.sectionContent.heading">{{ content.sectionContent.heading }}</h2>
-              <p ng-if="content.sectionContent.content">{{ content.sectionContent.content }}</p>
-              <div class="content-image" ng-if="content.sectionContent.image ">
+              <p ng-if="content.para" ng-repeat="content in content.sectionContent.content">{{ content.para }}</p>
+              <div class="content-image" ng-if="content.sectionContent.image && !content.sectionContent.image.screen">
+                <div class="col-md-12">
+                  <img ng-if="!content.sectionContent.image.mobileImage && !content.sectionContent.image.twoCol" src="../images/{{ content.sectionContent.image.src }}" alt="" />
+                  <img class="hidden-sm hidden-xs" ng-if="content.sectionContent.image.mobileImage" src="../images/{{ content.sectionContent.image.src }}" alt="" />
+                  <img class="hidden-md hidden-lg" ng-if="content.sectionContent.image.mobileImage" src="../images/{{ content.sectionContent.image.mobileSrc }}" alt="" />
+                </div>
+                <div class="col-md-6" ng-if="content.sectionContent.image.twoCol">
+                  <img src="../images/{{ content.sectionContent.image.src }}" alt="" />
+                </div>
+                <div class="col-md-6" ng-if="content.sectionContent.image.twoCol">
+                  <img src="../images/{{ content.sectionContent.image.src2 }}" alt="" />
+                </div>
+              </div>
+              <div class="content-image-screen" ng-if="content.sectionContent.image.screen">
                 <div class="col-md-12">
                   <img ng-if="!content.sectionContent.image.mobileImage && !content.sectionContent.image.twoCol" src="../images/{{ content.sectionContent.image.src }}" alt="" />
                   <img class="hidden-sm hidden-xs" ng-if="content.sectionContent.image.mobileImage" src="../images/{{ content.sectionContent.image.src }}" alt="" />

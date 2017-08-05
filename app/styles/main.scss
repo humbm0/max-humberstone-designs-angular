@@ -3,8 +3,8 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/boots
 @import "bootstrap-sass-official/assets/stylesheets/_bootstrap.scss";
 // endbower
 
-@import 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700';
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700,900');
+// @import 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700';
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,900,900i');
 // @import 'https://fonts.googleapis.com/css?family=Old+Standard+TT:400,400i,700';
 
 @import "_variables";
@@ -50,6 +50,9 @@ h4{
   text-transform: uppercase;
   font-size: 14px;
   color: #999;
+}
+p{
+  color: #4a4a4a;
 }
 
 @media (max-width: $mobile-size) {
@@ -102,7 +105,14 @@ img{
   font-weight: 700;
 }
 .black{
-  font-weight: 600;
+  font-weight: 900;
+  opacity: 1 !important;
+}
+.acent{
+  border-bottom: 3px solid $primary-color
+}
+.acent-lg{
+  border-bottom: 7px solid $primary-color
 }
 .primary-btn{
   background: $text-color;
