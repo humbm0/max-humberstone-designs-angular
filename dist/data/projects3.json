@@ -20,8 +20,42 @@
             {
                "sectionTitle":{
                   "title":"The Problem",
-                  "heading":"Increasing ageing population is one of the pivotal factors for health and social care. According to the UN estimates, geriatric population is set to reach from over 800 million in 2012 to more than 2 billion by 2050.",
-                  "content":"Geriatric population is at more risk of acquiring various respiratory disorders such as asthma, pulmonary hypertension, COPD, and fibrosis. It is estimated that up to 10% of adults of at least 40 years of age worldwide suffer from COPD. One of the biggest issue with ambulatory oxygen therapy is misuse, with many patients under or over using their oxygen. This is because users rely on personal feeling to judge whether or not oxygen is needed. Interviews with oxygen therapy patients also uncovered the problems with existing products on the market as well as pain points of living with supplement oxygen."
+                  "heading":"Increasing ageing population is one of the pivotal factors for health and social care. Geriatric population is at more risk of acquiring various respiratory disorders such as asthma, pulmonary hypertension, COPD, and fibrosis."
+               }
+            },
+            {
+               "sectionContent":{
+                  "heading":"3 million people die each year from COPD, an estimated 6% of all deaths worldwide.",
+                  "content":[
+                    {
+                      "para":"Chronic respiratory diseases are chronic diseases of the airways and other structures of the lung. Some of the most common are: asthma, chronic obstructive pulmonary disease, occupational lung diseases and pulmonary hypertension."
+                    },
+                    {
+                      "para":"Chronic Obstructive Pulmonary Disease (COPD) is not one single disease but an umbrella term used to describe chronic lung diseases that cause limitations in lung airflow. The more familiar terms 'chronic bronchitis' and 'emphysema' are no longer used, but are now included within the COPD diagnosis."
+                    },
+                    {
+                      "para":"The most common symptoms of COPD are breathlessness, or a 'need for air', excessive sputum production, and a chronic cough. However, COPD is not just simply a smoker's cough, but a under-diagnosed, life threatening lung disease that may progressively lead to death."
+                    }
+                  ]
+               }
+            },
+            {
+               "sectionContent":{
+                  "heading":"Oxygen Therapy",
+                  "content":[
+                    {
+                      "para":"Some COPD sufferers will be prescribed supplement oxygen to reduce symptoms. Supplementary oxygen make patients feel less breathless, less tired and able to do more, particularly if their breathlessness is worse when moving around. Patients receive oxygen through one, or a combination, of:"
+                    },
+                    {
+                      "para":"Oxygen Concentrator - either portable or static for home use"
+                    },
+                    {
+                      "para":"Oxygen Cylinders – large or small that contain oxygen as a gas"
+                    },
+                    {
+                      "para":"Liquid Oxygen – this comes in a storage container. It is decanted and breathed in as a gas"
+                    }
+                  ]
                }
             },
             {
@@ -42,7 +76,14 @@
             {
                "sectionContent":{
                   "heading":"User Interviews",
-                  "content":"Interviews with oxygen therapy users to learn the issues that they face with current concentrators. During the interviews I was able to analyse the participants existing concentrator. I attempted to complete a series of common tasks to experience the problems myself and gain empathy with the users. Besides ergonomic and handling issues, the most important insight was, the way in which users would decide on when to use their oxygen or not. Users relied purely on how they felt in the current moment. However, this could often result in under or over use of supplement oxygen.",
+                  "content":[
+                    {
+                      "para":"Interviews with oxygen therapy users to learn the issues that they face with current concentrators. During the interviews I was able to analyse the participants existing concentrator. I attempted to complete a series of common tasks to experience the problems myself and gain empathy with the users."
+                    },
+                    {
+                      "para":"Besides ergonomic and handling issues, the most important insight was, the way in which users would decide on when to use their oxygen or not. Users relied purely on how they felt in the current moment. However, this could often result in under or over use of supplement oxygen."
+                    }
+                  ],
                   "image":{
                      "twoCol":false,
                      "src":"squair/research2.jpg",
@@ -53,7 +94,11 @@
             {
                "sectionContent":{
                   "heading":"User Need Statements",
-                  "content":"The data gathered from both secondary and primary research was analysed and organised into three key themes. Portability, Social Stigma and Misuse. A selection of user need statements were created to provide a clear direction when designing and provide a way to measure the how well designs are meeting the requirements.",
+                  "content":[
+                    {
+                      "para":"The data gathered from both secondary and primary research was analysed and organised into three key themes. Portability, Social Stigma and Misuse. A selection of user need statements were created to provide a clear direction when designing and provide a way to measure the how well designs are meeting the requirements."
+                    }
+                  ],
                   "image":{
                      "twoCol":false,
                      "src":"squair/user_needs.jpg",
@@ -67,7 +112,11 @@
             {
                "sectionContent":{
                   "heading":"Blue Sky and Initial Ideas",
-                  "content":"A broad range of ideas were generated exploring different opportunities and technologies.",
+                  "content":[
+                    {
+                      "para":"A broad range of ideas were generated exploring different opportunities and technologies."
+                    }
+                  ],
                   "image":{
                      "twoCol":true,
                      "src":"squair/ideas.jpg",
@@ -82,7 +131,11 @@
             {
                "sectionContent":{
                   "heading":"Feasabilty Diagrams",
-                  "content":"Feasabilty diagrams were created to synthesise the ideas generated for concept selection. This ensures the concepts taken forward for development meet the important problems identified are technologically and economically viable.",
+                  "content":[
+                    {
+                      "para":"Feasabilty diagrams were created to synthesise the ideas generated for concept selection. This ensures the concepts taken forward for development meet the important problems identified are technologically and economically viable."
+                    }
+                  ],
                   "image":{
                      "twoCol":false,
                      "mobileImage": false,
@@ -249,8 +302,20 @@
             {
                "sectionTitle":{
                   "title":"The Problem",
-                  "heading":"Lack of engagement with Severn Trent’s new online channels. A non responsive website with large amounts of content resulted in users contacting help services via phone.",
-                  "content":"The overall aim for Severn trent was to reduce calls by developing a simpler, more streamlined web presence that enabled customers to quickly complete common tasks and find answers to common questions."
+                  "heading":"Lack of engagement with Severn Trent’s new online channels. A non-responsive website with large amounts of content resulted in task drop outs and poor customer service reviews."
+               }
+            },
+            {
+               "sectionContent":{
+                  "heading":"Streamline and Simplify",
+                  "content":[
+                    {
+                      "para":"The initial brief was to reduce content and simplify common tasks. Severn Trent's original site had been self managed and resulted in content heavy site with limited hierarchy."
+                    },
+                    {
+                      "para":"Decisions are the first step of user interactions. Before users click on a link or image, they first need to decide that such an action is worthwhile. We understand that a user's choice to engage with a site or app is affected by more than just the amount of interface objects. colour, typography, visual hierarchy are among the dozens of elements that influence decisions."
+                    }
+                    ]
                }
             },
             {
@@ -269,8 +334,15 @@
             },
             {
                "sectionContent":{
-                  "heading":"Design Thinking Workshops",
-                  "content":"These work shops helped create personas and identify user needs. Topics covered included journey Mapping, as-is journey mapping, needs statements, idea cards and storyboarding.",
+                  "heading":"IBM Design Thinking Workshops",
+                  "content":[
+                    {
+                      "para":"Design Thinking Workshops were carried out with key stakeholders and utilised data collected from Severn Trent's customer feedback system."
+                    },
+                    {
+                      "para":"These workshops helped create personas and identify user needs. Key topics included journey Mapping, as-is journey mapping, needs statements, idea cards and storyboarding."
+                    }
+                  ],
                   "image":{
                      "twoCol":false,
                      "src":"severn-trent/workshop1.jpg",
@@ -281,7 +353,11 @@
             {
                "sectionContent":{
                   "heading":"Hierarchical Task Analysis",
-                  "content":"A review and task analysis of thw existing was used in conjunction with business management consultancy reports by Good Growth to establishing the sites hierarchy and behavioural clusters which led to making informed based design solutions.",
+                  "content":[
+                    {
+                      "para":"A review and task analysis of thw existing was used in conjunction with business management consultancy reports by Good Growth to establishing the sites hierarchy and behavioural clusters which led to making informed based design solutions."
+                    }
+                  ],
                   "image":{
                      "twoCol":false,
                      "src":"severn-trent/task-analysis.jpg",
@@ -295,7 +371,11 @@
             {
                "sectionContent":{
                   "heading":"Competitor Analysis",
-                  "content":"Observations on utility sites informed me of design best practice in AI and UI. Research was also conducted on airline companies and financial services instructing our form handling and processes.",
+                  "content":[
+                    {
+                      "para":"Observations on utility sites informed me of design best practice in AI and UI. Research was also conducted on airline companies and financial services instructing our form handling and processes."
+                    }
+                  ],
                   "image":{
                      "twoCol":false,
                      "src":"severn-trent/competitor.jpg",
@@ -309,7 +389,11 @@
             {
                "sectionContent":{
                   "heading":"Persona Creation",
-                  "content":"3 personas were created from data collected from the research phase, each with varying wants and needs.",
+                  "content":[
+                    {
+                      "para":"3 personas were created from data collected from the research phase, each with varying wants and needs."
+                    }
+                  ],
                   "image":{
                      "twoCol":false,
                      "mobileImage": true,
@@ -346,10 +430,15 @@
             {
                "sectionContent":{
                   "heading":"Relevant reveal",
-                  "content":"Content is loaded in a hierarchical manor, showing the user what is relevant to them and load content in response to their input. In its simplest form this may be a show and hide content but will ensure the user is only seeing what they need and in the order they need to see it.",
+                  "content":[
+                    {
+                      "para":"Content is loaded in a hierarchical manor, showing the user what is relevant to them and load content in response to their input. In its simplest form this may be a show and hide content but will ensure the user is only seeing what they need and in the order they need to see it."
+                    }
+                  ],
                   "image":{
                      "twoCol":false,
                      "mobileImage": false,
+                     "screen":true,
                      "src":"severn-trent/relevant-reveal.gif",
                      "mobileSrc":"",
                      "alt":"Idea development"
@@ -362,10 +451,15 @@
             {
                "sectionContent":{
                   "heading":"Less Formal Forms",
-                  "content":"Forms adopt a more dynamic style. Maintaining simplicity, elements were added to create visual interest and more importantly to guide the user as a key purpose. Responding to user input makes our forms less formal.",
+                  "content":[
+                    {
+                      "para":"Forms adopt a more dynamic style. Maintaining simplicity, elements were added to create visual interest and more importantly to guide the user as a key purpose. Responding to user input makes our forms less formal."
+                    }
+                  ],
                   "image":{
                      "twoCol":false,
                      "mobileImage": false,
+                     "screen":true,
                      "src":"severn-trent/form-input.gif",
                      "mobileSrc":"",
                      "alt":"Idea development"
@@ -378,7 +472,11 @@
             {
                "sectionContent":{
                   "heading":"Conversational context",
-                  "content":"We have looked at the areas where we can address our customer with a more friendly and less generic tone. Our language will adapt accordingly, showing a meaningful understanding of what the user is feeling at that moment time.",
+                  "content":[
+                    {
+                      "para":"We have looked at the areas where we can address our customer with a more friendly and less generic tone. Our language will adapt accordingly, showing a meaningful understanding of what the user is feeling at that moment time."
+                    }
+                  ],
                   "image":{
                      "twoCol":false,
                      "mobileImage": false,
@@ -394,10 +492,15 @@
             {
                "sectionContent":{
                   "heading":"Mutual understanding",
-                  "content":"We wanted to help to make the grey areas black when it comes to subjective views on how bad a problem might be. We started to look at how we could assist in closing the gap by providing an interpretation of what the levels of severity mean.",
+                  "content":[
+                    {
+                      "para":"We wanted to help to make the grey areas black when it comes to subjective views on how bad a problem might be. We started to look at how we could assist in closing the gap by providing an interpretation of what the levels of severity mean."
+                    }
+                  ],
                   "image":{
                      "twoCol":false,
                      "mobileImage": false,
+                     "screen":true,
                      "src":"severn-trent/rap2.png",
                      "mobileSrc":"",
                      "alt":"Idea development"
@@ -410,7 +513,11 @@
             {
                "sectionContent":{
                   "heading":"Less Laborious",
-                  "content":"Forms to adopt a more dynamic style. Maintaining simplicity, by adding elements to create visual interest and more importantly to guide the user as a key purpose. Visual tags enable the user to quickly interact with the report and animations make the process feel less laborious. (HTML Prototype using Greenstock JS for animation developed by myself for testing and client review)",
+                  "content":[
+                    {
+                      "para":"Forms to adopt a more dynamic style. Maintaining simplicity, by adding elements to create visual interest and more importantly to guide the user as a key purpose. Visual tags enable the user to quickly interact with the report and animations make the process feel less laborious. (HTML Prototype using Greenstock JS for animation developed by myself for testing and client review)."
+                    }
+                  ],
                   "image":{
                      "twoCol":false,
                      "mobileImage": false,
@@ -488,6 +595,259 @@
          ]
       },
       {
+         "handle":"feals",
+         "title":"Feals",
+         "featured":false,
+         "grid_size":"",
+         "type":"Digital",
+         "hero":{
+            "src":"feals/hero.jpg",
+            "alt":"Feals hero image"
+         },
+         "textColour":"black",
+         "heading":"Personalised help when it is needed most for mental sufferers.",
+         "subheading":"Smart phone application that learns user triggers to proactively provide personalised help at times of need.",
+         "client":"Global Design Jam 2016 - (Winner)",
+         "challenge":"Design a service that is innovative, user centred and have a social impact.",
+         "outcome":"A Smart phone application that uses machine learning to proactively provides people with mental health problems distraction to prevent them from a downward spiral and encourage positive thinking.",
+         "content":[
+           {
+              "caption":{
+                 "title":"At a Glance",
+                 "content":"This project was developed as part of the Global Design Jam 2016. As a team of 6 we were given 48 hours to design a product service based on a given brief. The brief given was the sound of a water drop. From here, as individuals, we had 5 minutes to ideate and then pitch to peers and decide on the direction the team would head. Based on similar ideas around helping people with disabilities we decided to concentrate on mental health as a disability and how might we provide a service to help young people with mental health issues. The idea received fantastic feedback from the judges and was awarded first prize. On the back of its success I continued to develop and refine the concept as a personal project."
+              }
+           },
+            {
+               "sectionTitle":{
+                  "title":"The Problem",
+                  "heading":"It is estimated that 1 in 4 people in England will experience a mental health problem in any given year."
+               }
+            },
+            {
+               "sectionContent":{
+                  "heading":"A lack of immediate or regular support",
+                  "content":[
+                    {
+                      "para":"From the ineterviews and discussions with users we were able to establish the key problem insights. The cause of users going into a “downward spiral” are triggers that users will experince. This then causes them to focus on negative thoughts and close off to other people."
+                    },
+                    {
+                      "para":"There is a serious lack in safe places for sufferers to seek help when they need it and current support groups or other help points are very irregular. If a user requires professional help from the NHS or other health organisations, this can take a long period of time and and result in a downward spiral for the person concerned. One way in which many users seek help is via online forums. However, eventhough talking with people who suffer with mental health can be useful but in a controlled enviroment. there have many cases where these online platforms have led to users talking about negative thoughts and make the situation or condition worse."
+                    }
+                  ]
+               }
+            },
+            {
+               "fullWidthImage":{
+                  "twoCol":false,
+                  "src":"feals/problem.png",
+                  "src2":"",
+                  "alt":"Problem"
+               }
+            },
+            {
+               "sectionTitle":{
+                  "title":"The Idea",
+                  "heading":"How might we proactively prevent a user from entering a “downward spiral“ by providing an immediate distraction upon a user’s trigger."
+               }
+            },
+            {
+               "sectionContent":{
+                  "heading":"Understanding what help users need",
+                  "content":[
+                    {
+                      "para":"We began by speaking with people who had suffered with mental illness to gain empathy and understanding of the real problems they had. We also gained a sponsoured user who we kept in touch with throughout the two days playing back our ideas and concepts to her to enure we were meeting the user needs and solving the problems we set out to."
+                    },
+                    {
+                      "para":"We learned that the once users entered a downward spiral it became very difficult to regain balance. We started to explore what were the causes of downward spirals and how might we help users in the event of a trigger. Speaking with users and support group workers we were able to define a series of steps which would help users regain a positive mindset and avoid a downward spiral."
+                    }
+                  ],
+                  "image":{
+                     "twoCol":false,
+                     "mobileImage": true,
+                     "src":"feals/steps.png",
+                     "mobileSrc":"feals/steps-mobile.png",
+                     "alt":"Steps to manage downward spiral"
+                  },
+                  "mobileImage":{
+                    "src":""
+                  }
+               }
+            },
+            {
+               "fullWidthImage":{
+                  "twoCol":true,
+                  "src":"feals/interviews.png",
+                  "src2":"feals/group-work.jpg",
+                  "alt":"Research"
+               }
+            },
+            {
+               "sectionTitle":{
+                  "title":"The Design",
+                  "heading":"Our goal was to develop a support system that provided clear and easy to understand help at a time of stress and anxiousness."
+               }
+            },
+            {
+               "sectionContent":{
+                  "heading":"Provide an immediate distraction when triggers occur",
+                  "content":[
+                    {
+                      "para":"The first touch point with users was to provide an immediate distraction in the event of a trigger. By proactively nudging users to complete a task this would prevent a negative thought from spiralling."
+                    },
+                    {
+                      "para":"We explored different types of activitives that would be suitable. The activities were based around tasks used in Cognitive behavioural therapy (CBT) courses and ranged from simple drawing and games to mindfulness meditation."
+                    }
+                  ],
+                  "image":{
+                     "twoCol":true,
+                     "mobileImage": false,
+                     "screen": true,
+                     "src":"feals/choose_task.png",
+                     "src2":"feals/activity.png",
+                     "mobileSrc":"",
+                     "alt":"distraction activities"
+                  },
+                  "mobileImage":{
+                    "src":""
+                  }
+               }
+            },
+            {
+               "sectionContent":{
+                  "heading":"Identify triggers to proactively intervene",
+                  "content":[
+                    {
+                      "para":"The goal was to proactively intervene before downward spirals begin. To do we looked into how we could use machine learning to understand a users triggers and then suggest the most suitable activity."
+                    },
+                    {
+                      "para":"To capture the data needed for the system to learn a users triggers we developed a digital journal. Once users complete the distraction task they are asked to describe the event and how it made them feel. We introduced common tags to allow faster completion of the form."
+                    }
+                  ],
+                  "image":{
+                     "twoCol":true,
+                     "mobileImage": false,
+                     "screen": true,
+                     "src":"feals/feeling_text.png",
+                     "src2":"feals/symptoms_text.png",
+                     "mobileSrc":"",
+                     "alt":"Journal"
+                  },
+                  "mobileImage":{
+                    "src":""
+                  }
+               }
+            },
+            {
+               "sectionContent":{
+                  "heading":"Deeper understanding of the current emotion",
+                  "content":[
+                    {
+                      "para":"Through testing we found that paticipanst often used the same descriptions when completing the forms thus not not allowing us to understand how bad the problem might be. Therefore we looked at how might we better capture the severity of the situation."
+                    },
+                    {
+                      "para":"IBM's Tone Analyzer has the ability to understand emotions and tones to predict whether people are happy, sad, confident, and more."
+                    }
+                  ],
+                  "image":{
+                     "twoCol":false,
+                     "mobileImage": false,
+                     "src":"feals/speech_analysis.png",
+                     "mobileSrc":"",
+                     "alt":"Idea development"
+                  },
+                  "mobileImage":{
+                    "src":""
+                  }
+               }
+            },
+            {
+               "sectionContent":{
+                  "heading":"Speech recognition",
+                  "content":[
+                    {
+                      "para":"We looked to implement this technology via speech recognition feature. In the case of that users are in public places where they would not be comfortable speaking allowed the text input is still available."
+                    }
+                  ],
+                  "image":{
+                     "twoCol":true,
+                     "mobileImage": false,
+                     "screen": true,
+                     "src":"feals/feeling.png",
+                     "src2":"feals/symptoms.png",
+                     "mobileSrc":"",
+                     "alt":"Idea development"
+                  },
+                  "mobileImage":{
+                    "src":""
+                  }
+               }
+            },
+            {
+               "fullWidthImage":{
+                  "twoCol":false,
+                  "src":"feals/wireframes.png",
+                  "src2":"",
+                  "alt":"wireframing"
+               }
+            },
+            {
+               "sectionTitle":{
+                  "title":"The Solution",
+                  "heading":"Feals is a smart phone application that uses machine learning to identify triggers and proactively provide people with mental health problems distraction to prevent them from a downward spiral and encourage positive thinking.",
+                  "content":"Learns the types of triggers and predicts future triggers based on journal entries. Learns what types of activitives work best to distract you based on journal entries. Find friends to help you during triggers based on theropies and interests. Emergency contact number in the event of an incident."
+               }
+            }
+          ],
+         "showcase":[
+            {
+               "mobile2":true,
+               "src":"feals/home.png",
+               "src2":"feals/nav.png",
+               "alt":""
+            },
+            {
+               "mobile3":true,
+               "src":"feals/select_friends.png",
+               "src2":"feals/choose_task.png",
+               "src3":"feals/choose_task2.png",
+               "alt":""
+            },
+            {
+               "mobile2":true,
+               "src":"feals/activity.png",
+               "src2":"feals/activity2.png",
+               "alt":""
+            },
+            {
+               "mobile3":true,
+               "src":"feals/feeling.png",
+               "src2":"feals/feeling2.png",
+               "src3":"feals/symptoms.png",
+               "alt":""
+            },
+            {
+               "mobile2":true,
+               "src":"feals/feeling_text.png",
+               "src2":"feals/symptoms_text.png",
+               "alt":""
+            },
+            {
+               "mobile3":true,
+               "src":"feals/journal.png",
+               "src2":"feals/journal_entry.png",
+               "src3":"feals/journal_entry_text.png",
+               "alt":""
+            },
+            {
+               "mobile3":true,
+               "src":"feals/help.png",
+               "src2":"feals/help2.png",
+               "src3":"feals/help3.png",
+               "alt":""
+            }
+         ]
+      },
+      {
          "handle":"yukon",
          "title":"Yukon",
          "featured":false,
@@ -508,8 +868,20 @@
             {
                "sectionTitle":{
                   "title":"The Problem",
-                  "heading":"With the adoption of cloud music libraries and digital radio accessibility to music has never been easier but has this constant stimuli of pop culture songs caused people to be come habituated to music and loose appreciation?",
-                  "content":"As the distribution and accessibility of music has become easier, users have become overloaded with content and struggle to find music they like for different situations. Users reporting a bias towards chart music and finding new music can be difficult. To try and solve the problem of content overload services have implemented personal/suggested playlists to match songs to the users preferences. However the logic used to match these songs is very basic - selecting songs by the same artist, same genre, or songs other users have bought. Users reported that “I would never listen to something like that!”."
+                  "heading":"With the adoption of cloud music libraries and digital radio accessibility to music has never been easier but has this constant stimuli of pop culture songs caused people to be come habituated to music and loose appreciation?"
+               }
+            },
+            {
+               "sectionContent":{
+                  "heading":"\"I've heard this so many times!\"",
+                  "content":[
+                    {
+                      "para":"As the distribution and accessibility of music has become easier, users have become overloaded with content and struggle to find music they like for different situations. Users reporting a bias towards chart music and finding new music can be difficult."
+                    },
+                    {
+                      "para":"To try and solve the problem of content overload services have implemented personal/suggested playlists to match songs to the users preferences. However the logic used to match these songs is very basic - selecting songs by the same artist, same genre, or songs other users have bought. Users reported that “I would never listen to something like that!”."
+                    }
+                  ]
                }
             },
             {
@@ -522,9 +894,21 @@
             },
             {
                "sectionTitle":{
-                  "title":"The Idea",
-                  "heading":"How might we make the music we listen too more personal to us and the moment we are living in?",
-                  "content":"Initial ideation exploring new music experiences using the insights to drive concept selection and refinement. Ideas ranged form cloud based vinyl players to artificial intelligence speakers. Ideas were then played back to focus group for concept selection and refinement. The concept taken forward was a pair of biometric headphones to select songs based on a users mood current mood or activity. One issue brought up was - “what if your current mood is bad?”. Other feedback was their needed to further development into the social aspect of music."
+                  "title":"The Focus",
+                  "heading":"How might we make the music we listen too more personal to us and the moment we are living in?"
+               }
+            },
+            {
+               "sectionContent":{
+                  "heading":"Exploration and ideation of new music listening experiences",
+                  "content":[
+                    {
+                      "para":"Initial ideation exploring new music experiences using the insights to drive concept selection and refinement. Ideas ranged form cloud based vinyl players to artificial intelligence speakers. Ideas were then played back to focus group for concept selection and refinement."
+                    },
+                    {
+                      "para":"The concept taken forward was a pair of biometric headphones to select songs based on a users mood current mood or activity. One issue brought up was - “what if your current mood is bad?”. Other feedback was their needed to further development into the social aspect of music."
+                    }
+                  ]
                }
             },
             {
@@ -536,10 +920,22 @@
                }
             },
             {
+               "sectionContent":{
+                  "heading":"How can we measure a users mood?",
+                  "content":[
+                    {
+                      "para":"Initial ideation exploring new music experiences using the insights to drive concept selection and refinement. Ideas ranged form cloud based vinyl players to artificial intelligence speakers. Ideas were then played back to focus group for concept selection and refinement."
+                    },
+                    {
+                      "para":"The concept taken forward was a pair of biometric headphones to select songs based on a users mood current mood or activity. One issue brought up was - “what if your current mood is bad?”. Other feedback was their needed to further development into the social aspect of music."
+                    }
+                  ]
+               }
+            },
+            {
                "sectionTitle":{
                   "title":"The Design",
-                  "heading":"Development of form, interaction and refinement of EEG technology used. Brainwaves are produced by synchronised electrical pulses from masses of neutrons communicating with each other. Our brainwaves change according to what we’re doing and feeling.",
-                  "content":"The concept was to use pulse oximetry technology to monitor user oxygen saturation however common usage of this technology involved finger based products and would not be suitable for 24/7 monitoring. A concept of a modular battery was also explored that would enable users to customise their battery life and weight."
+                  "heading":"Development of form, interaction and refinement of EEG technology used. Brainwaves are produced by synchronised electrical pulses from masses of neutrons communicating with each other. Our brainwaves change according to what we’re doing and feeling."
                }
             },
             {
@@ -606,13 +1002,45 @@
          "subheading":"Connected EEG earphones that monitor employee mental wellbeing to encourage better work habits ",
          "client":"University Project",
          "challenge":"Use design to empower people to better prevent, detect, treat and possibly reverse lifestyle-related health conditions.",
-         "outcome":"A connected workplace system that aims to better structure tasks and management decisions based on specific workplace culture and employee strengths.",
+         "outcome":"Noise cancelation, bluetooth earphones with embedded biometric sensors that track brainwaves via EEG and provide real-time feedback about focus, stress, relaxation and task interest through accompanying app.",
          "content":[
             {
                "sectionTitle":{
                   "title":"The Problem",
-                  "heading":"Over a third of employers have highlighted stress-related absence to be on the rise. In the workplace, 41% of private sector employees state that they are experiencing stress because they are under excessive pressure at work.",
-                  "content":"Absenteeism and presenteeism (reduced performance and productivity due to ill health while at work) are major areas of concern to employers in the UK. Currently in the UK, the average office worker takes 6.5 days of absence. Taken cumulatively across the UK working population, this amounts to working days for absence and approximately lost annually. Remarkably, the cost of presenteeism to UK employers is estimated at £15 billion per year, significantly more than absenteeism."
+                  "heading":"Over a third of employers have highlighted stress-related absence to be on the rise. In the workplace, 41% of private sector employees state that they are experiencing stress because they are under excessive pressure at work."
+               }
+            },
+            {
+               "sectionContent":{
+                  "heading":"Why should employers care about mental health?",
+                  "content":[
+                    {
+                      "para":"Absenteeism and presenteeism (reduced performance and productivity due to ill health while at work) are major areas of concern to employers in the UK. Currently in the UK, the average office worker takes 6.5 days of absence. Taken cumulatively across the UK working population, this amounts to working days for absence and approximately lost annually. Remarkably, the cost of presenteeism to UK employers is estimated at £15 billion per year, significantly more than absenteeism."
+                    },
+                    {
+                      "para":"It often seems too personal, too deep and too complex. You might feel very happy to tell a colleague about a physical injury you've sustained, but when it comes to your mental health, where do you start? If you can't talk about it, it may prove equally difficult to listen."
+                    },
+                    {
+                      "para":"Not listening could prove very costly - to the individual and to your business. The Centre for Mental Health charity estimate that employers should be able to cut the cost of mental health - in lost production and replacing staff - by about a third by improving their management of mental health at work."
+                    }
+                  ]
+               }
+            },
+            {
+               "sectionContent":{
+                  "heading":"How should employers deal with mental health?",
+                  "content":[
+                    {
+                      "para":"Use of secondary research showed three simple areas in which employers can promote positive mental health."
+                    }
+                  ],
+                  "image":{
+                     "twoCol":false,
+                     "mobileImage": true,
+                     "src":"ovambo/steps.png",
+                     "mobileSrc":"ovambo/steps-mobile.png",
+                     "alt":"Positive steps"
+                  }
                }
             },
             {
@@ -626,8 +1054,27 @@
             {
                "sectionTitle":{
                   "title":"The Idea",
-                  "heading":"How might we relieve workplace stress and encourage better work habits by helping employees manage workload based on individual preferences and improve focus.",
-                  "content":"Insights gathered from a series of focus groups and user interviews revealed that the main issues employees face that resulted in workplace stress were, their ability to manage workload, unrealistic workloads and a lack of autonomy. The aim was to provide employees with personalised information and tools to make better, informed decisions regarding work tasks and allowing employers to provide employees with greater autonomy with confidence in work effectiveness."
+                  "heading":"How might we relieve workplace stress and encourage better work habits by helping employees manage workload based on individual preferences and improve productivity."
+               }
+            },
+            {
+               "sectionContent":{
+                  "heading":"Interviews and focus groups",
+                  "content":[
+                    {
+                      "para":"A series of focus groups and interviews with employees at various types of companies were conducted to understand what the main reasons for stress and negative mental health."
+                    },
+                    {
+                      "para":"Insights gathered revealed that the main issues employees face that resulted in workplace stress were, their ability to manage workload, unrealistic workloads and a lack of autonomy. The aim was to provide employees with personalised information and tools to make better, informed decisions regarding work tasks and allowing employers to provide employees with greater autonomy with confidence in work effectiveness."
+                    }
+                  ],
+                  "image":{
+                     "twoCol":false,
+                     "mobileImage": true,
+                     "src":"ovambo/design-focus.png",
+                     "mobileSrc":"ovambo/design-focus-mobile.png",
+                     "alt":"Design Focus"
+                  }
                }
             },
             {
@@ -641,8 +1088,49 @@
             {
                "sectionTitle":{
                   "title":"The Design",
-                  "heading":"Introduction of EEG technology to monitor employee stress and focus levels. By learning how employees works best we can provide them with personalised insights and tips for more efficient working.",
-                  "content":"Series of different concepts and form factors in which EEG technology could be used. The decision to use earphones was based on a small, compact product that would be used for multiple workplace tasks, enabling it to seamlessly integrate into employee workplace habits."
+                  "heading":"Introduction of EEG technology to monitor employee stress and focus levels. By learning how employees works best we can provide them with personalised insights and tips for more efficient working."
+               }
+            },
+            {
+               "sectionContent":{
+                  "heading":"Electroencephalography (EEG)",
+                  "content":[
+                    {
+                      "para":"At the root of all our thoughts, emotions and behaviours is the communication between neurons within our brains. Brainwaves are produced by synchronised electrical pulses from masses of neurons communicating with each other."
+                    },
+                    {
+                      "para":"Brainwaves are detected using sensors. They are divided into bandwidths to describe their functions, but are best thought of as a continuous spectrum of consciousness; from slow, loud and functional - to fast, subtle, and complex."
+                    },
+                    {
+                      "para":"Our brainwaves change according to what we’re doing and feeling. When slower brainwaves are dominant we can feel tired, slow, sluggish, or dreamy. The higher frequencies are dominant when we feel wired, or hyper-alert."
+                    }
+                  ],
+                  "image":{
+                     "twoCol":false,
+                     "mobileImage": false,
+                     "src":"ovambo/brain-waves.gif",
+                     "mobileSrc":"",
+                     "alt":"Design Focus"
+                  }
+               }
+            },
+            {
+               "sectionContent":{
+                  "heading":"A discrete form factor that fits into work routine",
+                  "content":[
+                    {
+                      "para":"Most existing products are headbands which monitor brainwaves from the forehead. However, this many users reported a reluctanced to use these types of products due to the social-stigma of wearing them."
+                    },
+                    {
+                      "para":"Further investigation led me to find research conducted by Danilo Mandic at Imperial College London who has been through several iterations of an earbud-like EEG device - (http://ieeexplore.ieee.org/document/7217787/?tp=&arnumber=7217787)."
+                    },
+                    {
+                      "para":"The ear is a good place to pick up both vital signs and brain signals, which explains the growing interest in “hearables,” or ear-based wearable gadgets and Because earbuds are discreet and can be comfortably worn throughout the day or night."
+                    },
+                    {
+                      "para":"Form there a series of different concepts exploring form were created with a focus on futuristic and organic shapes."
+                    }
+                  ]
                }
             },
             {
@@ -656,7 +1144,14 @@
             {
                "sectionContent":{
                   "heading":"Establish Task Flows",
-                  "content":"Breakdown of the three key user journeys to understand the requirements of each task. The three key journeys included, focused work sessions, brainwave mapping, brain training games and view health data.",
+                  "content":[
+                    {
+                      "para":"The next stage was to think about the journey in which users would interact with the system to monitor, train and view brainwave stats."
+                    },
+                    {
+                      "para":"Breakdown of the three key user journeys to understand the requirements of each task. The three key journeys included, focused work sessions, brainwave mapping, brain training games and view health data."
+                    }
+                  ],
                   "image":{
                      "twoCol":false,
                      "mobileImage": false,
@@ -672,7 +1167,11 @@
             {
                "sectionContent":{
                   "heading":"Wireframes",
-                  "content":"With the proper planning and established user journeys, I was able to confidently move into creating wireframes for the app. Decision to develop medium fedility designs was taken to allow testing of presenting complex data, such as brainwave metrics, back to users.",
+                  "content":[
+                    {
+                      "para":"With the proper planning and established user journeys, I was able to confidently move into creating wireframes for the app. Decision to develop medium fedility designs was taken to allow testing of presenting complex data, such as brainwave metrics, back to users."
+                    }
+                  ],
                   "image":{
                      "twoCol":false,
                      "mobileImage": false,
@@ -688,7 +1187,11 @@
             {
                "sectionContent":{
                   "heading":"Experience Prototyping and Usability Testing",
-                  "content":"A NeuroSky EEG headband was used to test the experience of immersive neurofeedback through 3D audio, binaural beats and noise cancellation. One insight that came from this was that music did help users become calm but then became a distraction once users had entered a mindful state. Use of Low and high fidelity prototypes were used to test application usability.",
+                  "content":[
+                    {
+                      "para":"A NeuroSky EEG headband was used to test the experience of immersive neurofeedback through 3D audio, binaural beats and noise cancellation. One insight that came from this was that music did help users become calm but then became a distraction once users had entered a mindful state. Use of Low and high fidelity prototypes were used to test application usability."
+                    }
+                  ],
                   "image":{
                      "twoCol":false,
                      "mobileImage": false,
